@@ -1,0 +1,22 @@
+{
+  "name": "reservation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "startup.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elzawawy/HotelReservationSystem.git"
+  },
+  "author": "Amr El Zawawy, Mohamed Tarek, Amr Ramadan, Ismail El yamani, ramy khafagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elzawawy/HotelReservationSystem/issues"
+  },
+  "homepage": "https://github.com/Elzawawy/HotelReservationSystem#readme"
+}
