@@ -18,10 +18,13 @@ async function startup() {
   });
 
   //query to create the database which we will add the tables to
-  connection.query("CREATE DATABASE hotel_reservation", function(err, result) {
-    if (err) console.log("Database exists!");
-    else console.log("Database created!");
-  });
+  connection.query(
+    "CREATE DATABASE hotel_reservation CHARACTER SET utf8 COLLATE utf8_general_ci",
+    function(err, result) {
+      if (err) console.log("Database exists!");
+      else console.log("Database created!");
+    }
+  );
 }
 
 startup();
