@@ -22,6 +22,7 @@ CREATE TABLE hotel(
     broker_user varchar(255),
     owner_user varchar(255),
     suspended bit DEFAULT 0,
+    premium bit DEFAULT 0,
     FOREIGN KEY (broker_user) REFERENCES user(username),
     FOREIGN KEY (owner_user) REFERENCES user(username),
     CONSTRAINT PK_HOTEL PRIMARY KEY (hotel_number,hotel_branch)
@@ -33,7 +34,7 @@ CREATE TABLE room(
     hotel_number INT NOT NULL,
     state bit DEFAULT 0,
     room_type varchar(255) NOT NULL,
-    price float NOT NULL,
+    price MONEY NOT NULL,
     FOREIGN KEY (hotel_branch) REFERENCES hotel(hotel_branch),
     FOREIGN KEY (hotel_number) REFERENCES hotel(hotel_number),
     CONSTRAINT PK_ROOM PRIMARY KEY (room_number,hotel_branch,hotel_number)
