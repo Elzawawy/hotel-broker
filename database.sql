@@ -39,3 +39,6 @@ CREATE TABLE room(
     FOREIGN KEY (hotel_number) REFERENCES hotel(hotel_number)
 );
 
+CREATE TABLE rating(
+    
+);
