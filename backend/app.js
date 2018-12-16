@@ -11,7 +11,10 @@ app.use(
     extended: true
   })
 ); // For parsing URL encoded Data
-app.use(bodyParser.json()); // Pars to json object
+app.use(bodyParser.json()); // Parse to json object
+
+//Use to the EJS Templating Engine for dynamic enjection of data into views.
+app.use('view engine','ejs');
 
 // Website Routes
 
