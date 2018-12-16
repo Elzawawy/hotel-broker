@@ -9,8 +9,12 @@ CREATE TABLE user (
     ssn varchar(255) UNIQUE NOT NULL,
     birthdate date NOT NULL,
     address varchar(255) NOT NULL,
-    class bit DEFAULT 0,
-    black_listed bit DEFAULT 0,
+    classA boolean NOT NULL DEFAULT 0,
+    blacklisted boolean NOT NULL DEFAULT 0,
+    deleted boolean NOT NULL DEFAULT 0,
+    blacklisted_at TIMESTAMP NULL DEFAULT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     role ENUM('Broker','Owner','Customer') NOT NULL
 );
 
