@@ -1,7 +1,7 @@
 {
   "name": "hotelreservationsystem",
   "version": "1.0.0",
-  "description": "",
+  "description": "Database course Final Project. An implementation of a system for hotel reservation using web technologies.",
   "main": "startup.js",
   "directories": {
     "doc": "docs"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/Elzawawy/HotelReservationSystem.git"
   },
-  "author": "Amr El Zawawy, Mohamed Tarek, Amr Ramadan, Ismail El yamani, ramy khafagi",
+  "author": "Amr El Zawawy, Mohamed Tarek, Amr Ramadan, Ismail El yamani, Ramy khafagi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Elzawawy/HotelReservationSystem/issues"
