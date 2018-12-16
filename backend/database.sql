@@ -32,26 +32,26 @@ CREATE TABLE hotel (
     CONSTRAINT PK_HOTEL PRIMARY KEY (hotel_number,hotel_branch)
 );
 
-CREATE TABLE room(
+CREATE TABLE room (
     room_number INT NOT NULL,
     hotel_branch varchar(255) NOT NULL,
     hotel_number INT NOT NULL,
     isBooked boolean DEFAULT 0 NOT NULL,
     type varchar(255) NOT NULL,
-    price DECIMAL(4,2 NOT NULL,
+    price DECIMAL(4,2) NOT NULL,
     FOREIGN KEY (hotel_branch) REFERENCES hotel(hotel_branch),
     FOREIGN KEY (hotel_number) REFERENCES hotel(hotel_number),
     CONSTRAINT PK_ROOM PRIMARY KEY (room_number,hotel_branch,hotel_number)
 );
 
-CREATE TABLE rating(
-    rating float DEFAULT 0,
+CREATE TABLE ratesRelation(
+    rating float NOT NULL DEFAULT 0,
     hotel_number INT NOT NULL,
     hotel_branch varchar(255) NOT NULL,
     customer_user varchar(255) NOT NULL,
     FOREIGN KEY (hotel_branch) REFERENCES hotel(hotel_branch),
-    FOREIGN KEY (hotel_number) REFERENCES hotel(hotel_number)
-    CONSTRAINT PK_RATING PRIMARY KEY (hotel_number,hotel_branch),
+    FOREIGN KEY (hotel_number) REFERENCES hotel(hotel_number),
+    CONSTRAINT PK_RATING PRIMARY KEY (hotel_number,hotel_branch,customer_user),
     CHECK (rating BETWEEN 0 AND 5)
 );
 
