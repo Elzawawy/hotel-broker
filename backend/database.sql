@@ -48,26 +48,26 @@ CREATE TABLE ratesRelation(
     hotel_number INT NOT NULL,
     hotel_branch varchar(255) NOT NULL,
     customer_user varchar(255) NOT NULL,
-    FOREIGN KEY (hotel_branch) REFERENCES hotel(hotel_branch),
-    FOREIGN KEY (hotel_number) REFERENCES hotel(hotel_number),
-    CONSTRAINT PK_RATING PRIMARY KEY (hotel_number,hotel_branch,customer_user),
+    CONSTRAINT FK_RATES_USER FOREIGN KEY (customer_user) REFERENCES user(username),
+    CONSTRAINT FK_RATES_HOTEL FOREIGN KEY (hotel_number,hotel_branch) REFERENCES hotel(hotel_number,hotel_branch),
+    CONSTRAINT PK_RATES PRIMARY KEY (hotel_number,hotel_branch,customer_user),
     CHECK (rating BETWEEN 0 AND 5)
 );
 
 CREATE TABLE reservation(
     res_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    start_date date,
-    end_date date,
-    checked_in boolean DEFAULT 0,
-    checked_out boolean DEFAULT 0
+    start_date date NOT NULL,
+    end_date date NOT NULL,
+    check_in boolean NOT NULL DEFAULT 0,
+    check_out boolean NOT NULL DEFAULT 0
 );
 
-CREATE TABLE reservation_relation(
+CREATE TABLE requestsRelation(
     res_id INT NOT NULL PRIMARY KEY,
     customer_user varchar(255) NOT NULL,
     hotel_number INT NOT NULL,
     hotel_branch varchar(255) NOT NULL,
-    FOREIGN KEY (customer_user) REFERENCES user(username),
-    FOREIGN KEY (hotel_number) REFERENCES hotel(hotel_number),
-    FOREIGN KEY (hotel_branch) REFERENCES hotel(hotel_branch)
+    CONSTRAINT FK_REQUESTS_RES FOREIGN KEY (res_id) REFERENCES reservation(res_id),
+    CONSTRAINT FK_REQUESTS_USER FOREIGN KEY  (customer_user) REFERENCES user(username),
+    CONSTRAINT FK_REQUESTS_HOTEL FOREIGN KEY (hotel_number,hotel_branch) REFERENCES hotel(hotel_number,hotel_branch)
 );
