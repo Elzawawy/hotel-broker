@@ -25,8 +25,8 @@ CREATE TABLE hotel(
     image LONGBLOLB NOT NULL,
     broker_user varchar(255),
     owner_user varchar(255),
-    suspended bit DEFAULT 0,
-    premium bit DEFAULT 0,
+    suspended boolean DEFAULT 0,
+    premium boolean DEFAULT 0,
     FOREIGN KEY (broker_user) REFERENCES user(username),
     FOREIGN KEY (owner_user) REFERENCES user(username),
     CONSTRAINT PK_HOTEL PRIMARY KEY (hotel_number,hotel_branch)
@@ -59,8 +59,8 @@ CREATE TABLE reservation(
     res_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     start_date date,
     end_date date,
-    check_in bit DEFAULT 0,
-    check_out bit DEFAULT 0
+    check_in boolean DEFAULT 0,
+    check_out boolean DEFAULT 0
 );
 
 CREATE TABLE reservation_relation(
