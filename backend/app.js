@@ -14,7 +14,7 @@ app.use(
 app.use(bodyParser.json()); // Parse to json object
 
 //Use to the EJS Templating Engine for dynamic enjection of data into views.
-app.use('view engine','ejs');
+//app.use('view engine','ejs');
 
 // Website Routes
 
