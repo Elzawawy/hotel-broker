@@ -39,8 +39,7 @@ CREATE TABLE room (
     isBooked boolean DEFAULT 0 NOT NULL,
     type varchar(255) NOT NULL,
     price DECIMAL(4,2) NOT NULL,
-    FOREIGN KEY (hotel_branch) REFERENCES hotel(hotel_branch),
-    FOREIGN KEY (hotel_number) REFERENCES hotel(hotel_number),
+    CONSTRAINT FK_ROOM_HOTEL FOREIGN KEY (hotel_number,hotel_branch) REFERENCES hotel(hotel_number,hotel_branch),
     CONSTRAINT PK_ROOM PRIMARY KEY (room_number,hotel_branch,hotel_number)
 );
 
