@@ -1,17 +1,13 @@
 // we import the connection and call the function to create the connection and leave it open
 const conn = require("../connect")();
 const tablesCreation = require("./queries/TableCreationQueries");
+const dbCreation = require("./queries/DatabaseCreationQuery");
 
 exports.databaseCreate = function(params) {
-  // our db name is "hotel_reservation"
-  conn.query(
-    "CREATE DATABASE IF NOT EXISTS " +
-      params +
-      " CHARACTER SET utf8 COLLATE utf8_general_ci",
-    function(err, result) {
-      CheckForError(err, result, params + " Database");
-    }
-  );
+  // our db name is "hotel_reservation", but we can modify it by sending another name
+  conn.query(dbCreation.HotelReservationDB(params), function(err, result) {
+    CheckForError(err, result, params + " Database");
+  });
 
   conn.changeUser({ database: params }, function(err) {
     if (err)
@@ -37,39 +33,31 @@ exports.createHotelTable = function() {
 };
 
 exports.createRoomTable = function() {
-  // query to create hoteltable
+  // query to create Rooms
   conn.query(tablesCreation.RoomTable, function(err, result) {
     CheckForError(err, result, "Room Table");
   });
 };
 
 exports.createRatesRelationTable = function() {
-  // query to create Reservation
+  // query to create RatesRelation
   conn.query(tablesCreation.RatesRelationTable, function(err, result) {
     CheckForError(err, result, "Rate Relation Table");
   });
 };
 
-exports.createRequestRelationTable = function() {
-  // query to create request relation
-  conn.query(
-    `CREATE TABLE requestsRelation(
-    res_id INT NOT NULL PRIMARY KEY,
-    customer_user varchar(255) NOT NULL,
-    hotel_number INT NOT NULL,
-    hotel_branch varchar(255) NOT NULL,
-    CONSTRAINT FK_REQUESTS_RES FOREIGN KEY (res_id) REFERENCES reservation(res_id),
-    CONSTRAINT FK_REQUESTS_USER FOREIGN KEY  (customer_user) REFERENCES user(username),
-    CONSTRAINT FK_REQUESTS_HOTEL FOREIGN KEY (hotel_number,hotel_branch) REFERENCES hotel(hotel_number,hotel_branch)
-);`,
-    function(err, result) {
-      if (err)
-        console.log(
-          "Request Relation table create or an issue so replace this statement with throw err"
-        );
-      else console.log("Request Relation Table created!");
-    }
-  );
+exports.createReservationTable = function() {
+  // query to create Reservations Table
+  conn.query(tablesCreation.ReservationTable, function(err, result) {
+    CheckForError(err, result, "Reservations Table");
+  });
+};
+
+exports.createRequestsRelationTable = function() {
+  // query to create Requests Relation Table
+  conn.query(tablesCreation.RequestsRelationTable, function(err, result) {
+    CheckForError(err, result, "Requests Relation Table");
+  });
 };
 
 function CheckForError(err, result, name) {
