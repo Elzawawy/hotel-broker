@@ -1,3 +1,8 @@
+//This file is to connect all database components together.
+//Component 1 : ErrorHelper 
+//Component 2 : Database Creation Queries.
+//Component 3 : Table Creation Queries.
+//Component 4 : Connection Object. 
 CheckForError = require("./Helpers/ErrorHelper");
 dbCreation = require("../mysqlQueries/DatabaseCreationQuery");
 tableCreation = require("../mysqlQueries/TableCreationQueries");
