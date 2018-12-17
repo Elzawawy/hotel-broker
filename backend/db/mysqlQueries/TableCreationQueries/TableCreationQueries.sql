@@ -26,6 +26,8 @@ CREATE TABLE hotel (
     owner_user varchar(255) NOT NULL,
     isSuspended boolean DEFAULT 0 NOT NULL,
     isPremium boolean DEFAULT 0 NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (broker_user) REFERENCES user(username),
     FOREIGN KEY (owner_user) REFERENCES user(username),
     CONSTRAINT PK_HOTEL PRIMARY KEY (hotel_number,hotel_branch)
@@ -38,6 +40,8 @@ CREATE TABLE room (
     isBooked boolean DEFAULT 0 NOT NULL,
     type varchar(255) NOT NULL,
     price DECIMAL(4,2) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     CONSTRAINT FK_ROOM_HOTEL FOREIGN KEY (hotel_number,hotel_branch) REFERENCES hotel(hotel_number,hotel_branch),
     CONSTRAINT PK_ROOM PRIMARY KEY (room_number,hotel_branch,hotel_number)
 );
@@ -47,6 +51,8 @@ CREATE TABLE ratesRelation(
     hotel_number INT NOT NULL,
     hotel_branch varchar(255) NOT NULL,
     customer_user varchar(255) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     CONSTRAINT FK_RATES_USER FOREIGN KEY (customer_user) REFERENCES user(username),
     CONSTRAINT FK_RATES_HOTEL FOREIGN KEY (hotel_number,hotel_branch) REFERENCES hotel(hotel_number,hotel_branch),
     CONSTRAINT PK_RATES PRIMARY KEY (hotel_number,hotel_branch,customer_user),
@@ -58,7 +64,9 @@ CREATE TABLE reservation(
     start_date date NOT NULL,
     end_date date NOT NULL,
     check_in boolean NOT NULL DEFAULT 0,
-    check_out boolean NOT NULL DEFAULT 0
+    check_out boolean NOT NULL DEFAULT 0,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 );
 
 CREATE TABLE requestsRelation(
@@ -66,6 +74,8 @@ CREATE TABLE requestsRelation(
     customer_user varchar(255) NOT NULL,
     hotel_number INT NOT NULL,
     hotel_branch varchar(255) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     CONSTRAINT FK_REQUESTS_RES FOREIGN KEY (res_id) REFERENCES reservation(res_id),
     CONSTRAINT FK_REQUESTS_USER FOREIGN KEY  (customer_user) REFERENCES user(username),
     CONSTRAINT FK_REQUESTS_HOTEL FOREIGN KEY (hotel_number,hotel_branch) REFERENCES hotel(hotel_number,hotel_branch)

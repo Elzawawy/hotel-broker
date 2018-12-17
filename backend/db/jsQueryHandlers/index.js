@@ -8,6 +8,7 @@ dbCreation = require("../mysqlQueries/DatabaseCreationQuery");
 tableCreation = require("../mysqlQueries/TableCreationQueries");
 conn = require("../connect")();
 
+//Export Database and Tables queries. 
 exports.databaseCreate = require("./DatabaseCreator");
 exports.createUserTable = require("./UserTable");
 exports.createHotelTable = require("./HotelTable");
@@ -16,6 +17,7 @@ exports.createRatesRelationTable = require("./RatesRelationTable");
 exports.createReservationTable = require("./ReservationTable");
 exports.createRequestsRelationTable = require("./requestRelationTable");
 
+//Export Another alternative for Database and Tables Creation through one fucntion call.
 exports.dbCompleteSetup = function(dbName) {
   exports.databaseCreate(dbName);
   exports.createUserTable();
