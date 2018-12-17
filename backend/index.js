@@ -5,7 +5,7 @@ const connect = require("./connect");
 const app = require("./app");
 
 // our database creation query
-const dbQueries = require("./queries");
+const dbQueries = require("./db");
 
 const hostname = "127.0.0.1";
 const port = process.env.port || 3000;
@@ -16,4 +16,5 @@ app.listen(port, hostname, function() {
   connect();
 
   dbQueries.databaseCreate("hotel_reservation");
+  dbQueries.createUserTable();
 });
