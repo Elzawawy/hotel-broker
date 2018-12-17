@@ -1,7 +1,7 @@
 // we import the connection and call the function to create the connection and leave it open
 const conn = require("../connect")();
-const tablesCreation = require("./queries/TableCreationQueries");
-const dbCreation = require("./queries/DatabaseCreationQuery");
+const tablesCreation = require("./mysqlQueries/TableCreationQueries");
+const dbCreation = require("./mysqlQueries/DatabaseCreationQuery");
 
 exports.databaseCreate = function(params) {
   // our db name is "hotel_reservation", but we can modify it by sending another name
