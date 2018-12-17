@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Register</h2>
+        <form method="post" action="./backend/app" name="register_form">
+
+            <div class="input-group">
+            <input type="text" name="name" placeholder="Name" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="username" placeholder="Username" required>
+            </div>
+
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-group">
+                <input type="date" name="birthdate" placeholder="Birth Date" required>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" name="address" placeholder="Address" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="ssn" placeholder="SSN" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="phone" placeholder="Phone Number" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="cvc" placeholder="CVC Code" required>
+                <input type="text" name="expiry_date" placeholder="Expiration Date">
+            </div>
+
+            <div class="input-group">
+                <input type="password" name="password1" placeholder="Password" required> 
+            </div>
+
+            <div class="input-group">
+                <input type="password" name="password2" placeholder="Confirm Password" required>
+            </div>
+
+            <div class="input-group">
+                <button type="submit" class="btn" name="reg_user">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
