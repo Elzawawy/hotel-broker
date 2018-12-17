@@ -17,4 +17,9 @@ app.listen(port, hostname, function() {
 
   dbQueries.databaseCreate("hotel_reservation");
   dbQueries.createUserTable();
+  dbQueries.createHotelTable();
+  dbQueries.createRoomTable();
+  dbQueries.createRatesRelationTable();
+  dbQueries.createReservationTable();
+  dbQueries.createRequestsRelationTable();
 });
