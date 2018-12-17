@@ -1,5 +1,5 @@
 // connection to mysql
-const connect = require("./connect");
+const connect = require("./db/connect");
 
 // our backend app
 const app = require("./app");
@@ -14,12 +14,5 @@ app.listen(port, hostname, function() {
   console.log("server is up and running");
 
   connect();
-
-  dbQueries.databaseCreate("hotel_reservation");
-  dbQueries.createUserTable();
-  dbQueries.createHotelTable();
-  dbQueries.createRoomTable();
-  dbQueries.createRatesRelationTable();
-  dbQueries.createReservationTable();
-  dbQueries.createRequestsRelationTable();
+  dbQueries.dbCompleteSetup("hotel_reservation");
 });
