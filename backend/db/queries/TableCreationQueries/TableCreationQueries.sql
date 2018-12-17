@@ -1,4 +1,3 @@
-CREATE DATABASE hotel_reservation;
 
 CREATE TABLE user (
     username varchar(255) NOT NULL PRIMARY KEY,
