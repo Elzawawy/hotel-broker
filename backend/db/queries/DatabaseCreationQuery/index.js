@@ -1,0 +1,1 @@
+exports.HotelReservationDB = require("./HotelReservationDatabase");
