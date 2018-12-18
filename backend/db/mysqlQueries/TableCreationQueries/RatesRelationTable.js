@@ -6,8 +6,8 @@ module.exports = `CREATE TABLE RatesRelation(
     isDeleted boolean DEFAULT 0 NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    CONSTRAINT FK_USER FOREIGN KEY (CustomerUser) REFERENCES User(Username),
-    CONSTRAINT FK_HOTEL FOREIGN KEY (HotelName,HotelBranch) REFERENCES Hotel(HotelName,HotelBranch),
+    CONSTRAINT FK_USER_RATES  FOREIGN KEY (CustomerUser) REFERENCES User(Username),
+    CONSTRAINT FK_HOTEL_RATES FOREIGN KEY (HotelName,HotelBranch) REFERENCES Hotel(Name,Branch),
     CONSTRAINT PK_RATES PRIMARY KEY (HotelName,HotelBranch,CustomerUser),
-    CHECK (rating BETWEEN 0 AND 5)
+    CHECK (Rating BETWEEN 0 AND 5)
 );`;
