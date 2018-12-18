@@ -1,4 +1,4 @@
-module.exports = `CREATE TABLE user (
+module.exports = `CREATE TABLE User (
     Username varchar(255) NOT NULL PRIMARY KEY,
     Email varchar(255) UNIQUE NOT NULL,
     Password varchar(255) NOT NULL,
