@@ -7,7 +7,7 @@ module.exports = `CREATE TABLE Hotel (
     OwnerUser varchar(255) NOT NULL,
     isSuspended boolean DEFAULT 0 NOT NULL,
     isPremium boolean DEFAULT 0 NOT NULL,
-    isDeleted boolean DEFUALT 0 NOT NULL,
+    isDeleted boolean DEFAULT 0 NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     CONSTRAINT FK_BROKER FOREIGN KEY (BrokerUser) REFERENCES User(Username),
