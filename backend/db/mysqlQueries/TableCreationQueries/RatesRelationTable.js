@@ -1,12 +1,13 @@
-module.exports = `CREATE TABLE ratesRelation(
-    rating float NOT NULL DEFAULT 0,
-    hotel_number INT NOT NULL,
-    hotel_branch varchar(255) NOT NULL,
-    customer_user varchar(255) NOT NULL,
+module.exports = `CREATE TABLE RatesRelation(
+    Rating float NOT NULL DEFAULT 0,
+    HotelName varchar(255) NOT NULL,
+    HotelBranch varchar(255) NOT NULL,
+    CustomerUser varchar(255) NOT NULL,
+    isDeleted boolean DEFAULT 0 NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    CONSTRAINT FK_RATES_USER FOREIGN KEY (customer_user) REFERENCES user(username),
-    CONSTRAINT FK_RATES_HOTEL FOREIGN KEY (hotel_number,hotel_branch) REFERENCES hotel(hotel_number,hotel_branch),
-    CONSTRAINT PK_RATES PRIMARY KEY (hotel_number,hotel_branch,customer_user),
+    CONSTRAINT FK_USER FOREIGN KEY (CustomerUser) REFERENCES User(Username),
+    CONSTRAINT FK_HOTEL FOREIGN KEY (HotelName,HotelBranch) REFERENCES Hotel(HotelName,HotelBranch),
+    CONSTRAINT PK_RATES PRIMARY KEY (HotelName,HotelBranch,CustomerUser),
     CHECK (rating BETWEEN 0 AND 5)
 );`;
