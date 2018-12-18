@@ -1,11 +1,12 @@
-module.exports = `CREATE TABLE requestsRelation(
-    res_id INT NOT NULL PRIMARY KEY,
-    customer_user varchar(255) NOT NULL,
-    hotel_number INT NOT NULL,
-    hotel_branch varchar(255) NOT NULL,
+module.exports = `CREATE TABLE RequestsRelation(
+    ResID INT NOT NULL PRIMARY KEY,
+    CustomerUser varchar(255) NOT NULL,
+    HotelName varchar(255) NOT NULL,
+    HotelBranch varchar(255) NOT NULL,
+    isDeleted boolean DEFAULT 0 NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    CONSTRAINT FK_REQUESTS_RES FOREIGN KEY (res_id) REFERENCES reservation(res_id),
-    CONSTRAINT FK_REQUESTS_USER FOREIGN KEY  (customer_user) REFERENCES user(username),
-    CONSTRAINT FK_REQUESTS_HOTEL FOREIGN KEY (hotel_number,hotel_branch) REFERENCES hotel(hotel_number,hotel_branch)
+    CONSTRAINT FK_RESERVATION FOREIGN KEY (ResID) REFERENCES Reservation(ID),
+    CONSTRAINT FK_USER  FOREIGN KEY (CustomerUser) REFERENCES User(Username),
+    CONSTRAINT FK_HOTEL FOREIGN KEY (HotelName,HotelBranch) REFERENCES Hotel(HotelName,HotelBranch)
 );`;
