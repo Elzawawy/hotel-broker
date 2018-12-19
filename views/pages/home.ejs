@@ -3,17 +3,18 @@
 </head>
 
 <body>
-    <div class="Paragraph" name="aboutUs">
-        <h1>We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important
-            aspect of the customer experience a little bit better</h1>
-        <h3>Make memories that stay forever</h3>
-    </div>
-    <div>
-        <a href="./login">
-            <input type="button" class="input-group" name="signIn">sign in</input>
-        </a>
-        <a href="./register">
-            <input type="button" class="input-group" name="signUP">sign up</input>
-        </a>
-    </div>
+    <% include ../partials/nav.ejs %>
+        <div class="Paragraph" name="aboutUs">
+            <h1>We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every
+                important aspect of the customer experience a little bit better</h1>
+            <h3>Make memories that stay forever</h3>
+        </div>
+        <div>
+            <a href="./login">
+                <input type="button" class="btn" name="signIn">sign in</input>
+            </a>
+            <a href="./register">
+                <input type="button" class="btn" name="signUP">sign up</input>
+            </a>
+        </div>
 </body>
