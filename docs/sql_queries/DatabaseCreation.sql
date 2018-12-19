@@ -10,7 +10,6 @@ CREATE TABLE User (
     Phone varchar(255) UNIQUE NOT NULL,
     Bdate date NOT NULL,
     Address varchar(255) NOT NULL,
-    Role ENUM('Broker','Owner','Customer') NOT NULL,
     isClassA boolean NOT NULL DEFAULT 0,
     isBlacklisted boolean NOT NULL DEFAULT 0,
     isDeleted boolean NOT NULL DEFAULT 0,
