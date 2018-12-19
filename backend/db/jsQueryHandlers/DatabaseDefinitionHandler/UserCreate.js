@@ -1,7 +1,7 @@
 //File Respoible for User Table Creation.
 module.exports = function() {
   //query to create user table
-  conn.query(tableCreation.UserTable, function(err, result) {
+  conn.query(databaseDefinitionQueries.userCreate, function(err, result) {
     CheckForError(err, result, "User Table");
   });
 };

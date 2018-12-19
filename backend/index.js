@@ -12,6 +12,6 @@ module.exports = function(app) {
     console.log("server is up and running");
 
     connect();
-    dbQueries.dbCompleteSetup("hotel_reservation");
+    dbQueries.databaseSetup("hotel_reservation");
   });
 };
