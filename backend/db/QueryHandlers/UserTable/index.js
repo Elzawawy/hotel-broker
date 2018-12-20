@@ -1,0 +1,1 @@
+userQueries = require("../../Queries/UserTable");
