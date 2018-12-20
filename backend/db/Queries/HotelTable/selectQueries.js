@@ -1,0 +1,1 @@
+exports.getAllHotels = `select * from Hotel`;
