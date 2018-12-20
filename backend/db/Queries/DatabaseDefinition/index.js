@@ -1,12 +1,9 @@
-exports.databaseCreate = require("./Database"); 
-exports.hotelCreate = require("./HotelTable"); 
+exports.databaseCreate = require("./Database");
+exports.hotelCreate = require("./HotelTable");
 exports.ratesCreate = require("./RatesRelationTable");
 exports.requestsCreate = require("./RequestRelationTable");
 exports.reservationCreate = require("./ReservationTable");
 exports.roomCreate = require("./RoomTable");
 exports.userCreate = require("./UserTable");
-const procdeures = require("./Procedures");
-exports.roleCheckProc = procdeures.checkRole;
-const triggers = require("./Triggers");
-exports.beforeInsertHotelTrig = triggers.RoleBeforeInsertTrigger;
-exports.beforeUpdateHotelTrig = triggers.RoleBeforeUpdateTrigger;
+exports.proceeds = require("./Procedures");
+exports.trigs = require("./Triggers");

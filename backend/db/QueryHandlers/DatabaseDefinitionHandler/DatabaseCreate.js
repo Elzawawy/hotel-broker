@@ -1,7 +1,11 @@
-//File Responsible for Database Creation. 
+//File Responsible for Database Creation.
+
 module.exports = function(params) {
   // our db name is "hotel_reservation", but we can modify it by sending another name
-  conn.query(databaseDefinitionQueries.databaseCreate(params), function(err, result) {
+  conn.query(databaseDefinitionQueries.databaseCreate(params), function(
+    err,
+    result
+  ) {
     CheckForError(err, result, params + " Database");
   });
 
