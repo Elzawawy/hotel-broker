@@ -1,4 +1,3 @@
 exports.userInsertQuery = require("./insertQueries");
 exports.userSelectQuery = require("./selectQueries");
-exports.userUpdateQuery = require("./updateQueires");
-
+exports.userUpdateQuery = require("./updateQueries");
