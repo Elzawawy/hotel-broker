@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <% include ./partials/nav.ejs %>
+    <div>
+      <h2>User Profile</h2>
+      <div>
+        <img class="profile_logo" src="../../docs/media/profile.png" />
+        <h3><% user.name %></h3>
+        <p><%user.username %></p>
+        <br />
+        <p><%user.email %></p>
+        <br />
+        <p><%user.birthdate %></p>
+        <br />
+        <p>Upgrade to owner??</p>
+        <a href="./edit_profile.ejs">
+            <input type="button" class="btn" name="edit_profile">Edit</input>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
