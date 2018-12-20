@@ -22,9 +22,9 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 // login page
-app.get("/", function(req, res) {
+/*app.get("/", function(req, res) {
   res.render("pages/login");
-});
+});*/
 
 backRoutes(app);
 backend(app);
