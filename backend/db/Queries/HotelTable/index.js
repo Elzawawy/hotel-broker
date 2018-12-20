@@ -1,0 +1,1 @@
+epxorts.HotelInsert = require("./insertQueries");
