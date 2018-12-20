@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-router.post("/",updateUserData);
+router.put("/",updateUserData);
 
 function updateUserData(req,res){
     data = req.body;

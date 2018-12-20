@@ -2,7 +2,8 @@
 2.register:{user.post -> submit}
 3.login:{user. ->login}
 4.profile:{user.put ->edit}
-5.browseHotels:{hotel.get , room.get(/hotelId) -> ydos 3al branch w ya3ml reservation 3ashan ygeeb el se3r,                               request.post(/hotel) ->lama ytak 3ala branch w ya3ml reservation} //hna na3ml pos lama bn7gz hotel wala la
+5.browseHotels:{hotel.get , room.get(/hotelId) -> ydos 3al branch w ya3ml reservation 3ashan ygeeb el se3r,
+  request.post(/hotel) ->lama ytak 3ala branch w ya3ml reservation} //hna na3ml pos lama bn7gz hotel wala la
 6.pastreservation:{request.get(/userId), request.put ->cancel}
 7.myhotel:{hotel.get(/userid), hotel.put ->premium & ->edit, hotel.post ->addNewHotel}
 8.reservationRequest:{request.get(/hotelid), reservation.post ->approve} //ehna hna bn post wala bna3mlo fo2 w hna ehh??
