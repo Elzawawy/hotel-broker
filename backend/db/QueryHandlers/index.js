@@ -16,4 +16,7 @@ exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.createRatesRelationTable();
   databaseDefinitionHandler.createReservationTable();
   databaseDefinitionHandler.createRequestsRelationTable();
+  databaseDefinitionHandler.createcheckRoleProc();
+  databaseDefinitionHandler.createBeforeInsertHotelTrig();
+  databaseDefinitionHandler.createBeforeUpdateHotelTrig();
 };

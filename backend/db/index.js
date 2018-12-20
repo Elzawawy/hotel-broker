@@ -9,4 +9,4 @@ exports.createRoomTable = queryHandlers.createRoomTable;
 exports.createRatesRelationTable = queryHandlers.createRatesRelationTable;
 exports.createReservationTable = queryHandlers.createReservationTable;
 exports.createRequestsRelationTable = queryHandlers.createRequestsRelationTable;
-exports.dbCompleteSetup = queryHandlers.dbCompleteSetup;
+exports.databaseSetup = queryHandlers.databaseSetup;
