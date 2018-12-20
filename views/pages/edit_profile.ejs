@@ -8,18 +8,28 @@
   <body>
     <% include ./partials/nav.ejs %>
     <div>
-      <h2>Edit Profile</h2>
-      <form method="post" action="./backend/routes/edit_user" name="edit_user">
+      <h2>Change Password</h2>
+      <form method="put" action="./backend/routes/edit_user" name="edit_user">
         <div class="input-group">
-          <input type="text" name="username" <%value="" />
+          <input
+            type="password"
+            name="password1"
+            placeholder="Password"
+            required
+          />
         </div>
 
         <div class="input-group">
-          <input type="password" name="password" placeholder="Password" />
+          <input
+            type="password"
+            name="password2"
+            placeholder="Confirm Password"
+            required
+          />
         </div>
 
         <div class="input-group">
-          <button type="submit" class="btn" name="login_user">Submit</button>
+          <button type="submit" class="btn" name="edit_user">Submit</button>
         </div>
       </form>
     </div>
