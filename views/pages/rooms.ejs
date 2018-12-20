@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Past Reservation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <% include ../partials/nav.ejs%>
+    <input type="text" placeholder="Search..">
+    <div>
+        <ul>
+            <% for(var i=0; i<rooms.length ; i++){%>
+            <li>
+                <% if(room[i].isbooked === 1){%>
+                <div>
+                    <h3>room[i]</h3>
+                </div>
+                <%}%>
+                <% else {%>
+                <div>
+                    <h3>room[i]</h3>
+                </div>
+                <%}%>
+            </li>
+            <%}%>
+        </ul>
+    </div>
+
+</body>
+
+</html>

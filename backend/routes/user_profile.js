@@ -1,15 +1,12 @@
-const router = require("express").Router;
+const router = require("express").Router();
 
+router.get("/", loadUserProfilePage);
 router.get("/:username", getUser);
-/*
- *
- *
- *
- */
-function getuser(req, res, next) {
-  //get the user that is logged in
-  // res.render('user_profile.ejs'); that is logged in
+
+function loadUserProfilePage(req, res) {
+  res.render("pages/user_profile");
 }
+function getUser(req, res, next) {}
 
 module.exports = function(app) {
   app.use("/user_profile", router);
