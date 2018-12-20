@@ -1,0 +1,1 @@
+exports.insertUser = `INSERT INTO User SET ?`;
