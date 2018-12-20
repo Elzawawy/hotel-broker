@@ -23,3 +23,4 @@ exports.databaseSetup = function(dbName) {
 };
 
 exports.hotelQueries = require("./HotelTable");
+exports.userQueries = require("./UserTable");
