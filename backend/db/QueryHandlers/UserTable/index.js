@@ -1,5 +1,3 @@
-userQueries = require("../../Queries/UserTable");
-const insertQueryHandler = require("./insertQueryHandler");
-const selectQueryHandler = require("./selectQueryHandler");
-const deleteQueryHandler = require("./deleteQueryHandler");
-
+exports.userInsert = require("./insertQueries");
+exports.userUpdate = require("./updateQueries");
+exports.userSelect = require("./selectQueries");
