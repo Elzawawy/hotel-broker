@@ -1,7 +1,11 @@
 const router = require('express').Router();
 
-router.get('/',loginUser);
+router.get('/',loadLoginPage);
+router.post('/',loginUser);
 
+function loadLoginPage(req,res){
+    res.render("login");
+}
   
 function loginUser(req, res, next)
 {

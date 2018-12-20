@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <% include ./ %>
-        
-        <div>
-            <ul>
-                <% for(var i=0; i< hotels.length ;i++){ %>
-                <li>
-                    <div>
-                        <h3>Branch</h3>
-                        <button type="submit" id="premium">Premium</button>
-                    </div>
-                </li>
-            </ul>
-        </div>
+<head>
+    <title>Browse_Hotels</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <% include ../partials/nav.ejs%>
+    <input type="text" placeholder="Search..">
+    <div>
+        <ul>
+            <% for(var i=0; i<hotels.length ; i++){%>
+            <li>
+                <div>
+                    <h3>hotels[i].branch_name</h3>
+                    <img src="data:image/jpeg;base64,<%- hotels[i].image%>"/>
+                </div>
+            </li>
+            <%}%>
+        </ul>
+    </div>
 
-    </body>
-
-    <script>
-
-    </script>
-
+</body>
 </html>

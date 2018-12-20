@@ -1,24 +1,15 @@
 const router = require('express').Router;
 
 router.get('/',getAllHotels);
-router.get('/:hotelName/:hotelBranch',getSelectedHotel);
-/*
-*
-*
-*
- */
-function getAllHotels(req,res,next)
+
+function getAllHotels(req,res)
 {
-    //Get Premium Hotles (SELECT WHERE QUERY)
-    //get Not Premium HOTELS
+    //hotels = Get Premium Hotles (SELECT WHERE QUERY)
+    //hotels.push(get Not Premium HOTELS)
     //and return two arrays and show the premium first
+    // res.render("browse_hotels",{hotels: hotels});
 }
 
-function getSelectedHotel(req,res,next)
-{
-    //SELECT HOTEL FROM DATABASE
-    // res.render('hotelview')
-}
 
 module.exports = function(app){
     app.use("/browseHotels", router);
