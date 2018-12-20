@@ -1,1 +1,1 @@
-exports.insertUser = `INSERT INTO User SET ?`;
+module.exports = `INSERT INTO User SET ?`;
