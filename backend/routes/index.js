@@ -2,7 +2,7 @@
 const query = require("../db/QueryHandlers");
 
 //getting router
-const router = require("express").Router();
+router = require("express").Router();
 
 // requiring routes
 const login = require("./login_route");
