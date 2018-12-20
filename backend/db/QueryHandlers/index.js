@@ -21,3 +21,5 @@ exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.trigs.BeforeInsertHotelTrig();
   databaseDefinitionHandler.trigs.BeforeUpdateHotelTrig();
 };
+
+exports.hotelQueries = require("./HotelTable");

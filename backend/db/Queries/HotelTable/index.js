@@ -1,3 +1,3 @@
-epxorts.HotelInsert = require("./insertQueries");
-pxorts.HotelInsert = require("./updateQueries");
-pxorts.HotelInsert = require("./selectQueries");
+exports.hotelInsert = require("./insertQueries");
+exports.hotelUpdate = require("./updateQueries");
+exports.hotelSelect = require("./selectQueries");
