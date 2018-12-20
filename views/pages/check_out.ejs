@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Checkouts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <% include ../partials/nav.ejs%>
+        <input type="text" placeholder="Search..">
+        <div>
+            <ul>
+                <% for(var i=0; i<checkouts.length ; i++){%>
+                    <li>
+                        <div>
+                            <h3>checkouts[i]</h3>
+                            <input type="button">approve
+                            <input>
+                        </div>
+                    </li>
+                    <%}%>
+            </ul>
+        </div>
+
+</body>
+
+</html>
