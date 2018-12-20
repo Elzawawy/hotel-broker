@@ -1,6 +1,9 @@
+const routes = require("./routes");
+
 module.exports = function(app) {
   // Website Routes
-
+  routes(app);
+  
   // 404
   // =============================================================================
   app.use(function(req, res, next) {
