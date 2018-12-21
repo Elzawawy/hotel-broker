@@ -34,3 +34,11 @@ exports.retrieveUserList = function(){
     });
 };
 
+//Returns a list of all classA users in system. Username and name of each user only returned in that case.
+exports.retrieveClassAList = function(){
+        conn.query(userQueries.selectUserQueries.retrieveClassAList, function (err, result, fields) {
+            if(err) return null;
+            else return result;
+        });
+};
+

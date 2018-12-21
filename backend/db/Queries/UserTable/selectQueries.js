@@ -9,3 +9,11 @@ exports.retrieveBlackList = "SELECT Username,Name FROM User WHERE isBlackListed 
 
 //String Query to retrieve a list of all users in system. 
 exports.retrieveUserList = "SELECT Username,Name FROM User";
+
+//String Query to retrieve a list of all classA users in system.
+exports.retrieveClassAList = "SELECT Username,Name FROM User \
+                              JOIN (SELECT CustomerUser, count(*) as c \
+                              FROM RequestsRelation  \
+                              GROUP BY CustomerUser \
+                              HAVING c > 5) as interTable \
+                              WHERE Username = CustomerUser";
