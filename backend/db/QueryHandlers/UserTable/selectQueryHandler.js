@@ -8,3 +8,14 @@ exports.retrieveUser = function (params) {
         else return result;
     });
 };
+
+//retrieveProfile() method should be called on Profile view request to get information.
+//params should be in the form ['username']
+//returns either Information of user indicating good news or NULl for Oops !
+exports.retrieveProfile = function(params) {
+    conn.query(userQueries.selectUserQueries.retrieveProfile, params,function(err,result,fields){
+        if(err) return null;
+        else return result;
+    });
+};
+
