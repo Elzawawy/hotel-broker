@@ -1,3 +1,4 @@
+//Create the Reservation Table which has a coneptual meaning of "Request to a Reservation" named "Resevation" for shorts. 
 module.exports = `CREATE TABLE Reservation(
     ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     StartDate date NOT NULL,
