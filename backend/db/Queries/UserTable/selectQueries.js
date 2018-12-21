@@ -6,3 +6,6 @@ exports.retrieveProfile = "SELECT * FROM User WHERE Username = ?";
 
 //String Query to retrieve the list of BlackListed ( for 1 week )Users in system. 
 exports.retrieveBlackList = "SELECT Username,Name FROM User WHERE isBlackListed = 1";
+
+//String Query to retrieve a list of all users in system. 
+exports.retrieveUserList = "SELECT Username,Name FROM User";

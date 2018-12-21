@@ -2,10 +2,10 @@ exports.RoleBeforeInsertTrigger = `CREATE TRIGGER hotel_before_insert BEFORE INS
                                    FOR EACH ROW 
                                    BEGIN 
                                    CALL check_role (NEW.OwnerUser,NEW.BrokerUser); 
-                                   END`;
+                                   END;`;
 
 exports.RoleBeforeUpdateTrigger = `CREATE TRIGGER hotel_before_update BEFORE UPDATE ON Hotel 
                                    FOR EACH ROW 
                                    BEGIN 
                                    CALL check_role (NEW.OwnerUser,NEW.BrokerUser); 
-                                   END`;
+                                   END;`;

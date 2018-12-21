@@ -26,5 +26,11 @@ exports.retrieveBlackList = function() {
         else return result;
     });
 };
-
+//Returns a list of all users in system. Username and Name of each user is only returned in that case.
+exports.retrieveUserList = function(){
+    conn.query(userQueries.selectUserQueries.retrieveUserList,function(err,result,fields){
+        if(err) return null;
+        else return result;
+    });
+};
 
