@@ -19,3 +19,12 @@ exports.retrieveProfile = function(params) {
     });
 };
 
+//Returns a BlackList of the Users suspended automatically or manually for 1 week from system. Returns their Usernames and Names only. 
+exports.retrieveBlackList = function() {
+    conn.query(userQueries.selectUserQueries.retrieveBlackList,function(err,result,fields){
+        if(err) return null;
+        else return result;
+    });
+};
+
+
