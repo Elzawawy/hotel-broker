@@ -1,0 +1,1 @@
+exports.updateUserInfo = "UPDATE User SET ?"; 
