@@ -1,0 +1,1 @@
+exports.retrieveUser = "SELECT Username FROM User WHERE Username = ? AND Password = ?";
