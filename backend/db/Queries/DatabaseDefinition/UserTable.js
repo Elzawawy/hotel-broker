@@ -7,9 +7,9 @@ module.exports = `CREATE TABLE User (
     Bdate date NOT NULL,
     Address varchar(255) NOT NULL,
     Role ENUM('Broker','Owner','Customer') NOT NULL,
-    isClassA boolean NOT NULL DEFAULT 0,
     isBlacklisted boolean NOT NULL DEFAULT 0,
     isDeleted boolean NOT NULL DEFAULT 0,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );`;
+// (Username, Email, Password, Name, Phone, Bdate, Address, Role, isClassA, isBlacklisted, isDeleted)

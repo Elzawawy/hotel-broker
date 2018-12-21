@@ -1,6 +1,12 @@
 //File Responsible for Database Creation.
 
 module.exports = function(params) {
+  // to be removed later
+  conn.query("DROP DATABASE " + params, function(err, result) {
+    if (err) throw err;
+  });
+  // remove til here only
+
   // our db name is "hotel_reservation", but we can modify it by sending another name
   conn.query(databaseDefinitionQueries.databaseCreate(params), function(
     err,
