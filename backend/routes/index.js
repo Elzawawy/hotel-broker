@@ -1,9 +1,6 @@
 // getting query handlers
 const query = require("../db/QueryHandlers");
 
-//getting router
-router = require("express").Router();
-
 // requiring routes
 const login = require("./login_route");
 const register = require("./register_route");
