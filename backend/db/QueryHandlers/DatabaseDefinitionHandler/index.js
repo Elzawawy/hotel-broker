@@ -6,7 +6,6 @@ exports.createHotelTable = require("./HotelCreate");
 exports.createRoomTable = require("./RoomCreate");
 exports.createRatesRelationTable = require("./RatesCreate");
 exports.createReservationTable = require("./ReservationCreate");
-exports.createRequestsRelationTable = require("./RequestsCreate");
 
 //Export Triggers and Procedures.
 exports.proceeds = require("./ProceduresHandler");
