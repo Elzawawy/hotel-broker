@@ -1,4 +1,4 @@
-//Create the Reservation Table which has a coneptual meaning of "Request to a Reservation" named "Resevation" for shorts. 
+//Create the Reservation Table which has a coneptual meaning of "Request to a Reservation" named "Resevation" for shorts.
 module.exports = `CREATE TABLE Reservation(
     ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     CustomerUser varchar(255) NOT NULL,
@@ -12,7 +12,7 @@ module.exports = `CREATE TABLE Reservation(
     isApproved boolean NOT NULL DEFAULT 0,
     isDeleted boolean NOT NULL DEFAULT 0,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     CONSTRAINT FK_ROOM_RES  FOREIGN KEY (RoomNumber) REFERENCES Room(Number),
     CONSTRAINT FK_USER_RES  FOREIGN KEY (CustomerUser) REFERENCES User(Username),
     CONSTRAINT FK_HOTEL_RES FOREIGN KEY (HotelName,HotelBranch) REFERENCES Hotel(Name,Branch)
