@@ -2,10 +2,28 @@ const router = require("express").Router();
 
 router.post("/:username", addHotel);
 
-function addHotel(req, res, next) {
+async function addHotel(req, res, next) {
   let { username } = req.params;
+  let { Name, Branch, Location } = req.body;
+
+  let params = {
+    OwnerUser: username,
+    Name: Name,
+    Branch: Branch,
+    Location: Location
+  };
+
   try {
-  } catch (error) {}
+    const q = await query.hotelQueriesHandler.hotelInsert(params);
+    if (q) {
+      console.log(q);
+    }
+    res.status(200).send({ message: "hotel Added" });
+  } catch (error) {
+    console.log(error);
+
+    throw error;
+  }
 }
 
 module.exports = function(app) {

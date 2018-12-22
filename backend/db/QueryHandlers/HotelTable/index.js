@@ -1,4 +1,4 @@
-const hotelQueries = require("../../Queries/HotelTable");
+hotelQueries = require("../../Queries/HotelTable");
 
 // Exporting handlers for use
 exports.hotelInsert = require("./insert");
