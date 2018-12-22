@@ -1,4 +1,4 @@
-const userQueries= require("../../Queries/UserTable");
+userQueries= require("../../Queries/UserTable");
 
 exports.userInsert = require("./insertQueryHandler");
 exports.userUpdate = require("./updateQueryHandler");
