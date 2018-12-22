@@ -14,6 +14,7 @@ const login = require("./login_route");
 const register = require("./register_route");
 const browseHotels = require("./browseHotels_route");
 const users = require("./user_route");
+const rooms = require("./room_route");
 const hotel = require("./hotel");
 
 // Exporting Binded pages
@@ -23,4 +24,5 @@ module.exports = function routesBinder(app) {
   register(app);
   browseHotels(app);
   users(app);
+  rooms(app);
 };

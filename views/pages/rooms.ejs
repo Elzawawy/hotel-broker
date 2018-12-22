@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>Past Reservation</title>
+    <title>Rooms</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <% include ../partials/nav.ejs%>
-    <input type="text" placeholder="Search..">
     <div>
         <ul>
             <% for(var i=0; i<rooms.length ; i++){%>
             <li>
                 <% if(room[i].isbooked === 1){%>
-                <div onclick="changeRoomState(this)">
-                    <h3>room[i]</h3>
+                <div>
+                    <h3><%=room[i].number%></h3>
+                    <form method="post" name="add_hotel_form">
+                          <button type="submit" class="btn" name="bookRoom">Unbook</button>
+                    </form>
                 </div>
                 <%}%>
                 <% else {%>
-                <div onclick="changeRoomState(this)">
-                    <h3>room[i]</h3>
+                <div>
+                    <h3><%=room[i].number%></h3>
+                    <form method="post" name="add_hotel_form">
+                        <button type="submit" class="btn" name="bookRoom">Book</button>
+                    </form>
                 </div>
                 <%}%>
             </li>
@@ -29,14 +34,4 @@
         </ul>
     </div>
 </body>
-<script>
-    function changeRoomState(element) {
-        res_id = element.parent.id;
-        $.ajax({
-            type: "POST"
-            //Set this room to booked or not booked and rerender
-        });
-    }
-</script>
-
 </html>
