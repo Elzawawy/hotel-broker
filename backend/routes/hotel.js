@@ -15,9 +15,6 @@ async function addHotel(req, res, next) {
 
   try {
     const q = await query.hotelQueriesHandler.hotelInsert(params);
-    if (q) {
-      console.log(q);
-    }
     res.status(200).send({ message: "hotel Added" });
   } catch (error) {
     console.log(error);
