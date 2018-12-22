@@ -8,7 +8,9 @@ function loadRegisterPage(req,res){
 
 function registerUser(req,res)
 {
-
+    //Insert user into database then take him to his profile page
+    req.session.user = req.body;
+    res.redirect("/profile");
 }
 
 module.exports = function(app){

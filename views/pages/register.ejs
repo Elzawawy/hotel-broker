@@ -9,7 +9,7 @@
         <% include ../partials/nav.ejs %>
         <div>
         <h2>Register</h2>
-        <form method="post"  name="register_form">
+        <form method="post" action="/register" name="register_form">
 
             <div class="input-group">
             <input type="text" name="name" placeholder="Name" required>
@@ -53,7 +53,7 @@
             </div>
 
             <div class="input-group">
-                <button type="submit" class="btn" name="reg_user">Submit</button>
+                <button type="submit" class="btn">Submit</button>
             </div>
         </form>
         </div>

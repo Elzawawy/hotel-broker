@@ -1,14 +1,24 @@
 const router = require("express").Router();
 
 router.get("/", loadLoginPage);
-router.post("/", loginUser);
+router.post("/",logUserIn);
 
 function loadLoginPage(req, res) {
-  res.render("pages/login");
+    if(req.session && req.session.user) {
+        console.log(req.session.user);
+        res.render("pages/profile",{user: req.session.user});
+    }
+    else{
+        res.render("pages/login");
+    }
 }
 
-function loginUser(req, res, next) {
-
+function logUserIn(req, res){
+    //we should check database if the user exist
+    //if he does exist we return user data and put it in his session
+    //if he doesn't exist we load the page again
+    req.session.user = req.body;
+    res.redirect("/profile");
 }
 
 module.exports = function(app) {

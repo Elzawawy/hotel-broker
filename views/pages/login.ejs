@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
   <title></title>
   <meta charset="UTF-8" />
@@ -7,27 +9,18 @@
   <% include('../partials/nav.ejs') %>
   <div>
     <h2>Login</h2>
-    <form
-      method="post"
-      action="./backend/routes/login_user"
-      name="register_form"
-    >
+    <form method="post" action="/login" name="login_form">
       <div class="input-group">
         <input type="text" name="username" placeholder="Username" required />
       </div>
 
       <div class="input-group">
-        <input
-          type="password"
-          name="password"
-          placeholder="Password"
-          required
-        />
+        <input type="password" name="password" placeholder="Password" required/>
       </div>
-
-      <div class="input-group">
-        <button type="submit" class="btn" name="login_user">Submit</button>
+      <div>
+        <button type="submit" class="btn">Submit</button>
       </div>
     </form>
   </div>
 </body>
+</html>

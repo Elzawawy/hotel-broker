@@ -6,17 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <% include ./partials/nav.ejs %>
+    <% include ../partials/nav.ejs %>
     <div>
       <h2>Change Password</h2>
-      <form method="put" action="./backend/routes/edit_user" name="edit_user">
+      <form method="post" action="/profile/edit_profile" name="edit_user">
         <div class="input-group">
-          <input
-            type="password"
-            name="password1"
-            placeholder="Password"
-            required
-          />
+          <input type="text" name="username" placeholder="username" required/>
         </div>
 
         <div class="input-group">

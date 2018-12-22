@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div>
+      <h2>User Profile</h2>
+      <div>
+        <p><%=user.username %></p>
+        <br />
+        <p>Upgrade to owner??</p>
+        <form method="get" action="/profile/edit_profile">
+            <button type="submit">edit</button>
+        </form>
+        <form method="get" action="/profile/logout">
+            <button type="submit"> logout</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

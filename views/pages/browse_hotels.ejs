@@ -1,25 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Browse_Hotels</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<html>
+    <head>
+        <title>Browse_Hotels</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 <body>
-    <% include ../partials/nav.ejs%>
-    <input type="text" placeholder="Search..">
-    <div>
-        <ul>
-            <% for(var i=0; i<hotels.length ; i++){%>
-            <li>
-                <div>
-                    <h3>hotels[i].branch_name</h3>
-                    <img src="data:image/jpeg;base64,<%- hotels[i].image%>"/>
-                </div>
-            </li>
-            <%}%>
-        </ul>
-    </div>
-
+    <h2>Hotels</h2>
 </body>
 </html>
