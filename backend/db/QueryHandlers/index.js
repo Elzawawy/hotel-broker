@@ -8,6 +8,9 @@ let databaseDefinitionHandler = require("./DatabaseDefinitionHandler");
 
 conn = require("../connect")();
 
+exports.hotelQueriesHandler = require("./HotelTable");
+exports.userQueries = require("./UserTable");
+
 //Export Another alternative for Database and Tables Creation through one fucntion call.
 exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.databaseCreate(dbName);
@@ -20,6 +23,3 @@ exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.trigs.BeforeInsertHotelTrig();
   databaseDefinitionHandler.trigs.BeforeUpdateHotelTrig();
 };
-
-exports.hotelQueries = require("./HotelTable");
-exports.userQueries = require("./UserTable");
