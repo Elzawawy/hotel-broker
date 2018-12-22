@@ -12,12 +12,13 @@
         <input type="text" placeholder="Search..">
         <div>
             <ul>
-                <% for(var i=0; i<checkouts.length ; i++){%>
+                <% for(var i=0; i<reservations.length ; i++){%>
                     <li>
                         <div>
-                            <h3>checkouts[i]</h3>
-                            <input type="button">approve
-                            <input>
+                            <h3><%=reservations[i].number%></h3>
+                            <form method="post" name="checkout">
+                                <button type="submit" class="btn" name="checkout">Checkout</button>
+                            </form>
                         </div>
                     </li>
                     <%}%>

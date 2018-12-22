@@ -13,18 +13,18 @@
         <ul>
             <% for(var i=0; i<rooms.length ; i++){%>
             <li>
-                <% if(room[i].isbooked === 1){%>
+                <% if(rooms[i].isbooked === true){%>
                 <div>
-                    <h3><%=room[i].number%></h3>
-                    <form method="post" name="add_hotel_form">
+                    <h3><%=rooms[i].number%></h3>
+                    <form method="post" name="bookRoom">
                           <button type="submit" class="btn" name="bookRoom">Unbook</button>
                     </form>
                 </div>
-                <%}%>
-                <% else {%>
+                
+                <%} else {%>
                 <div>
-                    <h3><%=room[i].number%></h3>
-                    <form method="post" name="add_hotel_form">
+                    <h3><%=rooms[i].number%></h3>
+                    <form method="post" name="bookRoom">
                         <button type="submit" class="btn" name="bookRoom">Book</button>
                     </form>
                 </div>

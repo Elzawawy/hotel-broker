@@ -2,7 +2,7 @@ const router = require("express").Router();
 const query = require("../db/QueryHandlers");
 
 router.get("/:hotelname/:hotelbranch", getRooms);
-router.post("/:hotelname/:hotelbranch/:number", bookRoom);
+router.post("/:hotelname/:hotelbranch", bookRoom);
 
 function getRooms(req, res) {
   let hotelname = req.params.hotelname;
@@ -29,9 +29,13 @@ function getRooms(req, res) {
 }
 
 function bookRoom(req, res) {
+  let hotelname = req.params.hotelname;
+  let hotelbranch = req.params.hotelbranch;
+  console.log("AAA" + hotelname);
+
   //get the room state and change it and update the database
   //res.reload();
-  response.redirect(request.get("referer"));
+  // response.redirect(request.get("referer"));
 }
 
 module.exports = function(app) {
