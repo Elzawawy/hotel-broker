@@ -17,6 +17,10 @@ function loadCheckOut(req, res) {
 }
 function checkOut(req, res) {
   //change the room ischecked into true
+  let hotelname = req.params.hotelname;
+  let hotelbranch = req.params.hotelbranch;
+  console.log("ay haga");
+  res.redirect("/checkout/" + hotelname + "/" + hotelbranch);
 }
 
 module.exports = function(app) {

@@ -16,16 +16,16 @@
                 <% if(rooms[i].isbooked === true){%>
                 <div>
                     <h3><%=rooms[i].number%></h3>
-                    <form method="post" name="bookRoom">
-                          <button type="submit" class="btn" name="bookRoom">Unbook</button>
+                    <form method="post" name="bookRoom" action="<%=rooms[i].hotelbranch%>/<%=rooms[i].number%>">
+                          <button type="submit" class="btn">Unbook</button>
                     </form>
                 </div>
                 
                 <%} else {%>
                 <div>
                     <h3><%=rooms[i].number%></h3>
-                    <form method="post" name="bookRoom">
-                        <button type="submit" class="btn" name="bookRoom">Book</button>
+                    <form method="post" name="bookRoom" action="<%=rooms[i].hotelbranch%>/<%=rooms[i].number%>">
+                        <button type="submit" class="btn" >Book</button>
                     </form>
                 </div>
                 <%}%>
