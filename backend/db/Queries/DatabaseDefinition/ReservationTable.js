@@ -7,6 +7,7 @@ module.exports = `CREATE TABLE Reservation(
     RoomNumber INT NOT NULL,
     StartDate date NOT NULL,
     EndDate date NOT NULL,
+    isChecked_in boolean NOT NULL DEFAULT 0,
     isApproved boolean NOT NULL DEFAULT 0,
     isDeleted boolean NOT NULL DEFAULT 0,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
