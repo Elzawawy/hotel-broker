@@ -2,7 +2,7 @@
 
 module.exports = function(params) {
   // to be removed later
-  conn.query("DROP DATABASE " + params, function(err, result) {
+  conn.query("DROP DATABASE IF EXISTS " + params, function(err, result) {
     if (err) throw err;
   });
   // remove til here only

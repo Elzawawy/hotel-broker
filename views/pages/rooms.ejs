@@ -10,11 +10,10 @@
 </head>
 
 <body>
-    <div>
-        <% include ../partials/nav.ejs%>
-        <h1 class="position-static">Rooms</h1>
-        <h1 class="position-static">Rooms</h1>
-        <div class="row position-relative">
+    <% include ../partials/nav.ejs%>
+    <div style="margin-top:50px">
+        <h1>Rooms</h1>
+        <div class="row" style="margin-left:15% ">
             <% for(var i=0; i<rooms.length ; i++){%>
                 <% if(rooms[i].isbooked === true){%>
                 <div class="card text-white bg-dark m-2 col-sm-6" style="max-width: 18rem;">
