@@ -24,15 +24,10 @@ async function addHotel(req, res, next) {
   }
 }
 
-async function getAllHotels(req, res, next) {
-  try {
-    const q = await query.hotelQueriesHandler.hotelInsert(params);
-    res.status(200).send({ message: "hotel Added" });
-  } catch (error) {
-    console.log(error);
-
-    throw error;
-  }
+function getAllHotels(req, res, next) {
+  query.hotelQueriesHandler.hotelSelect(req, res, null, function(result) {
+    res.status(200).send(JSON.stringify(result));
+  });
 }
 
 module.exports = function(app) {

@@ -31,4 +31,5 @@ module.exports = function routesBinder(app) {
   checkin(app);
   checkout(app);
   hotelRequests(app);
+  hotel(app);
 };
