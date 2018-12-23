@@ -15,3 +15,5 @@ module.exports = `CREATE TABLE Hotel (
     CONSTRAINT FK_OWNER FOREIGN KEY (OwnerUser) REFERENCES User(Username),
     CONSTRAINT PK_HOTEL PRIMARY KEY (Name,Branch)
 );`;
+
+////(`Name`, `Branch`, `Location`, `OwnerUser`)
