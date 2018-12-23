@@ -10,6 +10,7 @@ conn = require("../connect")();
 
 exports.hotelQueriesHandler = require("./HotelTable");
 exports.userQueries = require("./UserTable");
+exports.resQueries = require("./ReservationTable"); 
 
 //Export Another alternative for Database and Tables Creation through one fucntion call.
 exports.databaseSetup = function(dbName) {
