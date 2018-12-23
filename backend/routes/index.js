@@ -17,6 +17,7 @@ const users = require("./user_route");
 const rooms = require("./room_route");
 const checkin = require("./checkIn_route");
 const checkout = require("./checkOut_route");
+const hotelRequests = require("./hotelReservation_route");
 const hotel = require("./hotel");
 
 // Exporting Binded pages
@@ -29,4 +30,5 @@ module.exports = function routesBinder(app) {
   rooms(app);
   checkin(app);
   checkout(app);
+  hotelRequests(app);
 };

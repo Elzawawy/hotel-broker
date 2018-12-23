@@ -1,3 +1,4 @@
+const bcrypt = require("bcrypt");
 const router = require('express').Router();
 query = require("../db/QueryHandlers");
 router.get('/',loadRegisterPage);
@@ -9,11 +10,10 @@ function loadRegisterPage(req,res){
 
 function registerUser(req,res)
 {
-    console.log("Hey dude");
     let user = {
         Username: req.body.username,
         Email: req.body.email,
-        Password: req.body.password1,
+        Password: bcrypt.hash(req.body.password1,10),
         Name: req.body.name,
         Phone: req.body.phone,
         Bdate: req.body.birthdate,
