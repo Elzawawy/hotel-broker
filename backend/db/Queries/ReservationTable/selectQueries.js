@@ -1,6 +1,5 @@
-exports.retrieveUserResList = "SELECT Room.* \
-                               FROM RequestsRelation JOIN Room \
+//query that returns all current and previous reservations.
+exports.retrieveUserResList = "SELECT Reservation.*,Room.Price,Room.Type \
+                               FROM Reservation JOIN Room \
                                WHERE CustomerUser = ? AND \
-                               RoomNumber = Number AND \
-                               RequestsRelation.HotelName = Room.HotelName AND \
-                               RequestsRelation.HotelBranch = Room.HotelBanch";
+                               RoomNumber = Number";

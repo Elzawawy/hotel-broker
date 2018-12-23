@@ -12,7 +12,7 @@ module.exports = `CREATE TABLE Reservation(
     isDeleted boolean NOT NULL DEFAULT 0,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    CONSTRAINT PK_Reservation PRIMARY KEY(ID,HotelName,HotelBranch,RoomNumber)
+    CONSTRAINT PK_Reservation PRIMARY KEY(ID,HotelName,HotelBranch,RoomNumber),
     CONSTRAINT FK_ROOM_RES  FOREIGN KEY (RoomNumber) REFERENCES Room(Number),
     CONSTRAINT FK_USER_RES  FOREIGN KEY (CustomerUser) REFERENCES User(Username),
     CONSTRAINT FK_HOTEL_RES FOREIGN KEY (HotelName,HotelBranch) REFERENCES Hotel(Name,Branch)
