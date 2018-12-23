@@ -13,7 +13,11 @@ function getRooms(req, res) {
     { hotelbranch: hotelbranch, number: 200, isbooked: true },
     { hotelbranch: hotelbranch, number: 201, isbooked: false },
     { hotelbranch: hotelbranch, number: 202, isbooked: true },
-    { hotelbranch: hotelbranch, number: 203, isbooked: false }
+    { hotelbranch: hotelbranch, number: 203, isbooked: false },
+    { hotelbranch: hotelbranch, number: 204, isbooked: true },
+    { hotelbranch: hotelbranch, number: 205, isbooked: false },
+    { hotelbranch: hotelbranch, number: 206, isbooked: true },
+    { hotelbranch: hotelbranch, number: 207, isbooked: false }
   ];
   try {
     for (var i = 0; i < rooms.length; i++) {

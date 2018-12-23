@@ -7,16 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link href="CSS/rooms.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <% include ../partials/nav.ejs%>
     <div>
-        <div class="row">
+        <% include ../partials/nav.ejs%>
+        <h1 class="position-static">Rooms</h1>
+        <h1 class="position-static">Rooms</h1>
+        <div class="row position-relative">
             <% for(var i=0; i<rooms.length ; i++){%>
                 <% if(rooms[i].isbooked === true){%>
-                <div class="card text-white bg-dark m-2 col-sm-6 " style="max-width: 18rem;">
+                <div class="card text-white bg-dark m-2 col-sm-6" style="max-width: 18rem;">
                     <div class="card-header"><%=rooms[i].number%></div>
                     <div class="card-body">
                     <h3 class="card-title"> Customer Name</h3>
