@@ -1,4 +1,5 @@
 const router = require("express").Router();
+query = require("../db/QueryHandlers");
 
 router.get("/", loadLoginPage);
 router.post("/",logUserIn);
@@ -13,12 +14,21 @@ function loadLoginPage(req, res) {
     }
 }
 
-function logUserIn(req, res){
-    //we should check database if the user exist
-    //if he does exist we return user data and put it in his session
-    //if he doesn't exist we load the page again
-    req.session.user = req.body;
-    res.redirect("/profile");
+async function logUserIn(req, res){
+    let userInfo = [req.body.username];
+    try {
+        const user = await query.userQueries.userSelect.retrieveUser(userInfo);
+        console.log("USERRR" + user.username);
+        if(user.username === req.body.username){
+            console.log("TRUE");
+            console.log(user.password);
+        }
+        console.log("ROUTE");
+    }catch (e) {
+        console.log("ERRRORR " +e);
+    }
+
+
 }
 
 module.exports = function(app) {
