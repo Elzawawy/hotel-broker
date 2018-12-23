@@ -21,14 +21,15 @@ app.use(
 ); // For parsing URL encoded Data
 app.use(bodyParser.json()); // Parse to json object
 
-
 // use session middleware
-app.use(session({
-    cookieName: 'session',
-    secret: 'TKRv0IJs=HYqrvagQ#&!F!%V]Ww/4KiVs$s,<<MX',
+app.use(
+  session({
+    cookieName: "session",
+    secret: "TKRv0IJs=HYqrvagQ#&!F!%V]Ww/4KiVs$s,<<MX",
     duration: 30 * 60 * 1000,
     activeDuration: 5 * 60 * 1000
-}));
+  })
+);
 //Use to the EJS Templating Engine for dynamic injection of data into views.
 // view engine setup
 app.set("views", path.join(__dirname, "views"));

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Statistics</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <% include ../partials/nav.ejs%>
+        <input type="text" placeholder="Search..">
+        <div>
+            <ul>
+                <% for(var i=0; i<hotels.length ; i++){%>
+                    <li>
+                        <div>
+                            <h2>
+                                <%=hotels[i].name%>
+                            </h2>
+                            <h3>
+                                <%= hotels[i].cash%>
+                            </h3>
+                        </div>
+                    </li>
+                    <%}%>
+            </ul>
+        </div>
+
+</body>
+
+</html>
