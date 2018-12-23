@@ -13,7 +13,7 @@ function registerUser(req,res)
     let user = {
         Username: req.body.username,
         Email: req.body.email,
-        Password: bcrypt.hash(req.body.password1,10),
+        Password: bcrypt.hashSync(req.body.password1,10),
         Name: req.body.name,
         Phone: req.body.phone,
         Bdate: req.body.birthdate,
