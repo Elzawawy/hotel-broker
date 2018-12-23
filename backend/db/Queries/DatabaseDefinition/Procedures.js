@@ -5,7 +5,7 @@ exports.checkRole = `CREATE PROCEDURE check_role ( IN owner_user varchar(255), I
                     WHERE Username = broker_user and Role = 'Broker'; 
                     SELECT COUNT(1) INTO countdata2 FROM User 
                     WHERE Username = owner_user and Role = 'Owner'; 
-                    IF ( countdata = 0) 
+                    IF ( broker_user != NULL && countdata = 0) 
                     THEN 
                     SIGNAL SQLSTATE '45000'
                     SET MESSAGE_TEXT = 'Check Constraint on BrokerUser failed'; 
