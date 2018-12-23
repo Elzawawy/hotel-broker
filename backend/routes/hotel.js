@@ -1,6 +1,7 @@
 const router = require("express").Router();
 
 router.post("/:username", addHotel);
+router.get("/", getAllHotels);
 
 async function addHotel(req, res, next) {
   let { username } = req.params;
@@ -13,6 +14,17 @@ async function addHotel(req, res, next) {
     Location: Location
   };
 
+  try {
+    const q = await query.hotelQueriesHandler.hotelInsert(params);
+    res.status(200).send({ message: "hotel Added" });
+  } catch (error) {
+    console.log(error);
+
+    throw error;
+  }
+}
+
+async function getAllHotels(req, res, next) {
   try {
     const q = await query.hotelQueriesHandler.hotelInsert(params);
     res.status(200).send({ message: "hotel Added" });
