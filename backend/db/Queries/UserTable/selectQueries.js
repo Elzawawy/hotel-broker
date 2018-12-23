@@ -2,7 +2,7 @@
 exports.retrieveUser = "SELECT Username,Password FROM User WHERE Username = ?";
 
 //String Query to retrieve Profile information "if exists" based on username value.
-exports.retrieveProfile = "SELECT * FROM User WHERE Username = ?";
+exports.retrieveProfile = "SELECT Name,Username,Email,Phone,Bdate,Address,Role FROM User WHERE Username = ?";
 
 //String Query to retrieve the list of BlackListed ( for 1 week )Users in system. 
 exports.retrieveBlackList = "SELECT Username,Name FROM User WHERE isBlackListed = 1";

@@ -9,8 +9,19 @@
     <div>
       <h2>User Profile</h2>
       <div>
-        <p><%=user.username %></p>
+        <p>Name: <%=user.Name%></p>
         <br />
+        <p>Username: <%=user.Username%></p>
+        <br/>
+        <p>Email: <%=user.Email%></p>
+        <br/>
+        <p>Phone: <%=user.Phone%></p>
+        <br/>
+        <p>Bdate: <%=user.Bdate%></p>
+        <br/>
+        <p>Address: <%=user.Address%></p>
+        <br/>
+        <p>Role: <%=user.Role%></p>
         <p>Upgrade to owner??</p>
         <form method="get" action="/profile/edit_profile">
             <button type="submit">edit</button>

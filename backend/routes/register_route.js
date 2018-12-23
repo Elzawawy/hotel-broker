@@ -20,7 +20,7 @@ function registerUser(req,res)
         Address: req.body.address,
         Role: "Customer"
     };
-    req.session.user = req.body;
+    req.session.username = req.body.username;
     query.userQueries.userInsert(user);
     res.redirect("/profile");
 }

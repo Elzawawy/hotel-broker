@@ -3,6 +3,8 @@ const router = require("express").Router();
 /*......User Profile Routes..........*/
 //Load this page when user is logged in
 router.get("/",loadProfilePage);
+query = require("../db/QueryHandlers");
+
 //to handle logout request
 router.get("/logout",logUserOut);
 /*..................................*/
@@ -10,10 +12,16 @@ router.get("/logout",logUserOut);
 router.get("/edit_profile",loadEditProfilePage);
 router.post("/edit_profile",editProfile);
 
+function loadProfilePageCB(req,res,result) {
+    let user = JSON.parse(result)[0];
+    req.session.role = user.Role;
+    res.render("pages/profile",{user: user});
+}
+
 function loadProfilePage(req,res){
-    if(req.session && req.session.user) {
-        console.log(req.session.user);
-        res.render("pages/profile",{user: req.session.user});
+    if(req.session && req.session.username) {
+        console.log(req.session.username);
+        query.userQueries.userSelect.retrieveProfile(req,res,req.session.username,loadProfilePageCB);
     }
     else{
       res.redirect("/login");

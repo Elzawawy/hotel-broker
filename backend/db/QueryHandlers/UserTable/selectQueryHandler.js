@@ -1,21 +1,21 @@
 //retrieveUser() method should be called on User login to verify his/her existence.
 //params should be in the form ['username','password'] and callback function to process code !
 //returns either a Username indicating good news or NULl for Oops !
-exports.retrieveUser = function (params,callback) {
+exports.retrieveUser = function (req,res,params,callback) {
     //query to retrieve Username if username and password exists, otherwise returns NULL
     conn.query(userQueries.userSelectQueries.retrieveUser, params, function (err, result, fields) {
         if(err) return null;
-        else callback(result);
+        else callback(req,res,JSON.stringify(result));
     });
 };
 
 //retrieveProfile() method should be called on Profile view request to get information.
 //params should be in the form ['username'] and callback function to process code !
 //returns either Information of user indicating good news or NULl for Oops !
-exports.retrieveProfile = function(params,callback) {
+exports.retrieveProfile = function(req,res,params,callback) {
     conn.query(userQueries.userSelectQueries.retrieveProfile, params,function(err,result,fields){
         if(err) return null;
-        else callback(result);
+        else callback(req,res,JSON.stringify(result));
     });
 };
 

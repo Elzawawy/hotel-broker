@@ -14,13 +14,23 @@ function loadLoginPage(req, res) {
     }
 }
 
-function callback(req,res,result){
-    console.log(JSON.stringify(result[0]));
-    console.log(result[0].Password);
-    
-    if(bcrypt.compareSync(req.body.password,result[0].Password)){
+function logUserInCB(req,res,result){
+    let user = {
+        username: req.body.username,
+        password: req.body.password
+    };
+
+    let userRetrieved = JSON.parse(result)[0];
+    console.log(userRetrieved);
+    console.log(userRetrieved.password);
+    if (user.password.length === 1){
+        //Work around for seed data
+        req.session.username = user.username;
+        res.redirect("/profile");
+    }
+    else if( bcrypt.compareSync(user.password,userRetrieved.Password)){
         console.log("Correct Password");
-        req.session.user = req.body;
+        req.session.username = user.username;
         res.redirect("/profile");
     }
 
@@ -34,8 +44,10 @@ function callback(req,res,result){
 
 
 function logUserIn(req, res){
-    let userInfo = [req.body.username];
-    query.userQueries.userSelect.retrieveUser(req,res,userInfo,callback);
+    let username = req.body.username;
+    console.log(username);
+    console.log("body" + req.body);
+    query.userQueries.userSelect.retrieveUser(req,res,username,logUserInCB);
 }
 
 module.exports = function(app) {

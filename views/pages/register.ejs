@@ -22,15 +22,24 @@
         class="form-group"
       >
         <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1">@</span>
-          </div>
+          <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Name"
+                  aria-label="Name"
+                  aria-describedby="basic-addon1"
+          />
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon2">@</span>
+            </div>
           <input
             type="text"
             class="form-control"
+            name = "username"
             placeholder="Username"
             aria-label="Username"
-            aria-describedby="basic-addon2"
+            aria-describedby="basic-addon3"
           />
         </div>
 
@@ -38,9 +47,10 @@
           <input
             type="text"
             class="form-control"
+            name = "email"
             placeholder="Email"
             aria-label="Recipient's username"
-            aria-describedby="basic-addon3"
+            aria-describedby="basic-4"
           />
           <div class="input-group-append">
             <span class="input-group-text" id="basic-addon4">@example.com</span>
@@ -49,8 +59,9 @@
 
         <div class="input-group mb-3">
           <input
-            type="text"
+            type="date"
             class="form-control"
+            name = "birthdate"
             placeholder="Birth Date"
             aria-label="bdate"
             aria-describedby="basic-addon5"
@@ -64,6 +75,7 @@
           <input
             type="text"
             class="form-control"
+            name = "address"
             placeholder="Address"
             aria-label="address"
             aria-describedby="basic-addon7"
@@ -76,6 +88,7 @@
           <input
             type="text"
             class="form-control"
+            name = "phone"
             placeholder="phone number"
             aria-label="phone"
             aria-describedby="basic-addon9"
@@ -86,6 +99,7 @@
           <input
             type="password"
             class="form-control"
+            name = "password1"
             placeholder="Password"
             aria-label="password"
             aria-describedby="basic-addon10"
@@ -96,6 +110,7 @@
           <input
             type="password"
             class="form-control"
+            name = "password2"
             placeholder="confirm password"
             aria-label="password2"
             aria-describedby="basic-addon11"
