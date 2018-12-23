@@ -10,16 +10,10 @@ function getRooms(req, res) {
   console.log(hotelname);
   console.log(hotelbranch);
   let rooms = [
-    {
-      hotelbranch: hotelbranch,
-      number: 200,
-      isbooked: true
-    },
-    {
-      hotelbranch: hotelbranch,
-      number: 202,
-      isbooked: false
-    }
+    { hotelbranch: hotelbranch, number: 200, isbooked: true },
+    { hotelbranch: hotelbranch, number: 201, isbooked: false },
+    { hotelbranch: hotelbranch, number: 202, isbooked: true },
+    { hotelbranch: hotelbranch, number: 203, isbooked: false }
   ];
   try {
     for (var i = 0; i < rooms.length; i++) {
