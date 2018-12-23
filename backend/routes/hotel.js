@@ -26,7 +26,9 @@ async function addHotel(req, res, next) {
 
 function getAllHotels(req, res, next) {
   query.hotelQueriesHandler.hotelSelect(req, res, null, function(result) {
-    res.status(200).send(JSON.stringify(result));
+    console.log(result);
+
+    res.status(200).render("pages/browse_hotels", { hotels: result });
   });
 }
 
