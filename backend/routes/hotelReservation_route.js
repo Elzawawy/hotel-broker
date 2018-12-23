@@ -1,27 +1,39 @@
-const router = require('express').Router;
-var reservations;
+const router = require("express").Router();
 
-router.get('/:hotelname/:hotelbranch',getAllRequests);
-router.post('/:hotelname/:hotelbranch',approveDenyRequest);
+router.get("/:hotelname/:hotelbranch", getAllRequests);
+router.post("/:hotelname/:hotelbranch/:id/approve", approveRequest);
+router.post("/:hotelname/:hotelbranch/:id/deny", denyRequest);
 
-function getAllRequests(req,res)
-{
-    //reservations = SQL QUERY TO RETRIEVE REQUESTS OF THIS HOTEL
-    res.render("reservations_request",{reservations: reservations});
+function getAllRequests(req, res) {
+  let hotelname = req.params.hotelname;
+  let hotelbranch = req.params.hotelbranch;
+  //reservations = SQL QUERY TO RETRIEVE REQUESTS OF THIS HOTEL
+
+  let reservations = [
+    { id: 1, hotelbranch: hotelbranch, roomnumber: 200, isApproved: true },
+    { id: 2, hotelbranch: hotelbranch, roomnumber: 202, isApproved: false }
+  ];
+  res.render("pages/reservation_requests", { reservations: reservations });
 }
 
-function approveDenyRequest(req,res) {
-    res_id = req.body.id;
-    if (req.body.button === 1) {
-        //IN SQL MAKE THE RESERVATION STATUS APPROVED
-    }
+function approveRequest(req, res) {
+  let hotelname = req.params.hotelname;
+  let hotelbranch = req.params.hotelbranch;
+  //APPROVE THE REQUEST OF THIS RESERVATION
 
-    if (req.body.button === 1) {
-        //IN SQL DELETE THIS TUPLE OF RESERVATION
-    }
-    res.reload();
+  console.log("Approved");
+  res.redirect("/hotelRequests/" + hotelname + "/" + hotelbranch);
 }
 
-module.exports = function(app){
-    app.use("/hotelRequests", router);
+function denyRequest(req, res) {
+  let hotelname = req.params.hotelname;
+  let hotelbranch = req.params.hotelbranch;
+  //APPROVE THE REQUEST OF THIS RESERVATION
+
+  console.log("Denieed");
+  res.redirect("/hotelRequests/" + hotelname + "/" + hotelbranch);
+}
+
+module.exports = function(app) {
+  app.use("/hotelRequests", router);
 };
