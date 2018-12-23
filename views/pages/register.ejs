@@ -1,52 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <% include ../partials/nav.ejs %>
-        <div>
-        <h2>Register</h2>
-        <form method="post" action="/register" name="register_form">
-
-            <div class="input-group">
-            <input type="text" name="name" placeholder="Name" required>
-            </div>
-
-            <div class="input-group">
-                <input type="text" name="username" placeholder="Username" required>
-            </div>
-
-            <div class="input-group">
-                <input type="email" name="email" placeholder="Email" required>
-            </div>
-
-            <div class="input-group">
-                <input type="date" name="birthdate" placeholder="Bdate" required>
-            </div>
-            
-            <div class="input-group">
-                <input type="text" name="address" placeholder="Address" required>
-            </div>
-
-            <div class="input-group">
-                <input type="text" name="phone" placeholder="Phone" required>
-            </div>
-
-            <div class="input-group">
-                <input type="password" name="password1" placeholder="Password" required> 
-            </div>
-
-            <div class="input-group">
-                <input type="password" name="password2" placeholder="Confirm Password" required>
-            </div>
-
-            <div class="input-group">
-                <button type="submit" class="btn">Submit</button>
-            </div>
-        </form>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <% include ../partials/nav.ejs %>
+    <div>
+      <h2>Register</h2>
+      <form
+        method="post"
+        action="/register"
+        name="register_form"
+        class="form-group"
+      >
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">@</span>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username"
+            aria-label="Username"
+            aria-describedby="basic-addon2"
+          />
         </div>
-    </body>
+
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Email"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon3"
+          />
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon4">@example.com</span>
+          </div>
+        </div>
+
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Birth Date"
+            aria-label="bdate"
+            aria-describedby="basic-addon5"
+          />
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon6">dd/mm/yyyy</span>
+          </div>
+        </div>
+
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Address"
+            aria-label="address"
+            aria-describedby="basic-addon7"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon8">+20</span>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="phone number"
+            aria-label="phone"
+            aria-describedby="basic-addon9"
+          />
+        </div>
+
+        <div class="input-group mb-3">
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Password"
+            aria-label="password"
+            aria-describedby="basic-addon10"
+          />
+        </div>
+
+        <div class="input-group mb-3">
+          <input
+            type="password"
+            class="form-control"
+            placeholder="confirm password"
+            aria-label="password2"
+            aria-describedby="basic-addon11"
+          />
+        </div>
+
+        <div class="input-group">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
