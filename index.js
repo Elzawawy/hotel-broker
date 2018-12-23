@@ -20,6 +20,7 @@ app.use(
   })
 ); // For parsing URL encoded Data
 app.use(bodyParser.json()); // Parse to json object
+// app.use(express.static("docs"));
 
 // use session middleware
 app.use(

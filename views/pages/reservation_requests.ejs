@@ -4,31 +4,35 @@
         <title>Reservations</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
     </head>
 
     <body>
     <% include ../partials/nav.ejs %>
 
     <div>
-        <ul>
+        <div class="list-group">
             <% for(var i=0; i<reservations.length ;i++){ %>
-                <li>
+                <a class="list-group-item list-group-item-action list-group-item-dark">
                     <div id="<%reservations.id%>">
                         <h3>Reservation</h3>
                         <div>
                             <p><%=reservations[i].roomnumber%></p>
                             <p><%=reservations[i].hotelbranch%></p>
                         </div>
-                        <form method="post" name="Approve" action="<%=reservations[i].hotelbranch%>/<%=reservations[i].id%>/approve">
-                            <button type="submit" class="btn">Approve</button>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                        <form   method="post" name="Approve" action="<%=reservations[i].hotelbranch%>/<%=reservations[i].id%>/approve">
+                            <button type="submit" type="button" class="btn btn-success">Approve</button>
                         </form>
                         <form method="post" name="Deny" action="<%=reservations[i].hotelbranch%>/<%=reservations[i].id%>/deny">
-                            <button type="submit" class="btn">Deny</button>
+                            <button type="submit" type="button" class="btn btn-danger">Deny</button>
                         </form>
+                        </div>
                     </div>
-                </li>
+                </a>
             <%}%>
-        </ul>
+            </div>
     </div>
     </body>
 </html>
