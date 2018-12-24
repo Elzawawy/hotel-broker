@@ -8,11 +8,9 @@
 <div>
     <%for(var i=0 ; i<users.length ; i++){%>
     <p>-Username:<%=users[i].Username%></p>
-    <%if(users[i].Role !== "Broker"){%>
     <form method="post" action="/broker/suspendUser/<%=users[i].Username%>">
         <button type="submit">Suspend</button>
     </form>
-    <%}%>
     <%}%>
 </div>
 </body>
