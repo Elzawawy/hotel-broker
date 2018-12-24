@@ -19,11 +19,8 @@
           Edit
         </button>
       </form>
-      <div
-        class="card text-white bg-dark mb-3"
-        style="margin: 5px 20px 20px; color: aquamarine"
-      >
-        <div class="card-header">Name: <%=user.Name%></div>
+      <div class="card text-white bg-dark mb-3" style="margin: 5px 20px 20px;">
+        <div class="card-header"><%=user.Name%></div>
         <div class="card-body">
           <p class="card-text">Username: <%=user.Username%></p>
           <p class="card-text">Email: <%=user.Email%></p>
@@ -33,10 +30,11 @@
           <p class="card-text">Role: <%=user.Role%></p>
         </div>
       </div>
-
+      <%if(user.Role ==="Customer"){%>
       <form method="get" action="" style="margin-left: 20px">
         <button type="submit" class="btn btn-dark">Upgrade to owner??</button>
       </form>
+      <%}%>
       <form
         method="get"
         action="/profile/logout"

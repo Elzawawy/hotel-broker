@@ -4,45 +4,100 @@
     <title></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   </head>
   <body>
     <% include ../partials/nav.ejs %>
-    <div>
-      <h2>Change Password</h2>
-      <form method="post" action="/profile/edit_profile" name="edit_user">
-        <div class="input-group">
-          <input type="text" name="username" placeholder="username"/>
-        </div>
-          <div class="input-group">
-              <input
-                      type="text"
-                      name="name"
-                      placeholder="Name"
-              />
+    <div style="margin-top:55px">
+      <h2>Edit Profile</h2>
+      <form
+        method="post"
+        action="/profile/edit_profile"
+        name="edit_user"
+        style="margin:10%"
+      >
+        <div class="row">
+          <div class="col">
+            <button
+              class="btn btn-dark"
+              type="button"
+              data-toggle="collapse"
+              data-target="#username"
+              aria-expanded="false"
+              aria-controls="username"
+            >
+              Change Username
+            </button>
+            <div class="collapse" id="username">
+              <div class="input-group">
+                <input type="text" name="username" placeholder="username" />
+              </div>
+            </div>
           </div>
-          <div class="input-group">
-              <input
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-              />
+          <div class="col">
+            <button
+              class="btn btn-dark"
+              type="button"
+              data-toggle="collapse"
+              data-target="#name"
+              aria-expanded="false"
+              aria-controls="name"
+            >
+              Change name
+            </button>
+            <div class="collapse" id="name">
+              <div class="input-group">
+                <input type="text" name="name" placeholder="Name" />
+              </div>
+            </div>
           </div>
-
-        <div class="input-group">
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-          />
+          <div class="col">
+            <button
+              class="btn btn-dark"
+              type="button"
+              data-toggle="collapse"
+              data-target="#email"
+              aria-expanded="false"
+              aria-controls="email"
+            >
+              Change Email
+            </button>
+            <div class="collapse" id="email">
+              <div class="input-group">
+                <input type="email" name="email" placeholder="Email" />
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <button
+              class="btn btn-dark"
+              type="button"
+              data-toggle="collapse"
+              data-target="#password"
+              aria-expanded="false"
+              aria-controls="password"
+            >
+              Change Password
+            </button>
+            <div class="collapse" id="password">
+              <div class="input-group">
+                <input type="password" name="password" placeholder="Password" />
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="input-group">
+        <div class="input-group" style="margin-top:15px">
           <button type="submit" class="btn" name="edit_user">Submit</button>
         </div>
       </form>
     </div>
   </body>
-  <script>
-
-  </script>
+  <script></script>
 </html>
