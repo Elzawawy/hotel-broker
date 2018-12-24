@@ -1,9 +1,7 @@
 const router = require("express").Router();
 const bcrypt = require("bcrypt");
-// query = require("../db/QueryHandlers");
+/*----Load Login Page Route-----*/
 router.get("/", loadLoginPage);
-router.post("/",logUserIn);
-
 function loadLoginPage(req, res) {
     if(req.session && req.session.user) {
         console.log(req.session.user);
@@ -13,7 +11,10 @@ function loadLoginPage(req, res) {
         res.render("pages/login");
     }
 }
+/*-------------------------------*/
 
+/*-------Log User In Route---------*/
+router.post("/",logUserIn);
 function logUserInCB(req,res,result){
     let user = {
         username: req.body.username,
@@ -42,12 +43,13 @@ function logUserInCB(req,res,result){
 
 }
 
-
 function logUserIn(req, res){
     let username = req.body.username;
     console.log(username);
     query.userQueries.userSelect.retrieveUser(req,res,username,logUserInCB);
 }
+
+/*-----------------------------*/
 
 module.exports = function(app) {
   app.use("/login", router);

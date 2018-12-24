@@ -9,9 +9,9 @@ exports.showAllHotels = function(req, res, callback) {
   });
 };
 
-exports.showClassAUsers = function(req, res, callback) {
+exports.showSuspendedHotels = function(req, res, callback) {
     // query to insert into hotel table.
-    conn.query(hotelQueries.hotelSelect.getAllHotels, function(
+    conn.query(hotelQueries.hotelSelect.getsuspendedHotels, function(
         err,
         result,
     ) {
