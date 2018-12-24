@@ -14,10 +14,11 @@
       <ul>
         <% for(var i=0; i<hotels.length ; i++){%>
         <li>
-          <div id="<%hotels.id%>">
-            <h3>hotels</h3>
-            <div><p><%hotels[i]%></p></div>
-            <button type="submit" onclick="suspendActivateButton(this)"> <% hotels[i].isSuspended : Suspend ? Activate %></button>
+          <div border="5px solid black">
+            <p>Hotel Name:<%=hotels[i].Name%></p>
+            <p>Hotel Branch:<%=hotels[i].Branch%></p>
+            <p>Hotel Location:<%=hotels[i].Location%></p>
+            <p>Hotel Branch:<%=hotels[i].OwnerUser%></p>
           </div>
         </li>
         <%}%>
