@@ -25,7 +25,7 @@
               <h5 class="card-title">Branch:<%=hotels[i].Branch%></h5>
                 <p class="card-text">Hotel Location:<%=hotels[i].Location%></p>
             <p class="card-text">Hotel Branch:<%=hotels[i].OwnerUser%></p>
-            <form method="put" action="/suspendHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
+            <form method="post" action="/suspendHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
               <button type="submit" class="btn btn-primary">suspend</button>
             </form>
           </div>
