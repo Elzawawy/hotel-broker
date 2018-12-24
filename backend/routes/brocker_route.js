@@ -5,7 +5,13 @@ router.get("/showHotels",loadAllHotels);
 // router.get("/classAUsers",loadClassAUsers);
 
 function loadBrockerPage(req,res){
-    res.render("pages/broker");
+    if(req.session.role !== "Broker"){
+        console.log("Get The Hell Out");
+        res.redirect("/login");
+    }
+    else{
+        res.render("pages/broker");
+    }
 }
 
 function loadAllHotelsCB(req,res,result){
