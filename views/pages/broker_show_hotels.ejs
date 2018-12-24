@@ -5,33 +5,33 @@
     <meta charset="UTF-8" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
   </head>
 
   <body>
-    <% include ../partials/nav.ejs %>
-
     <div>
-      <ul>
+    <% include ../partials/nav.ejs %>
+</div>
+    <div class="row" style="margin-top: 10%;">
+      <ul class="list-group" style="width: 98%">
         <% for(var i=0; i<hotels.length ; i++){%>
-        <li>
-          <div border="5px solid black">
-            <p>Hotel Name:<%=hotels[i].Name%></p>
-            <p>Hotel Branch:<%=hotels[i].Branch%></p>
-            <p>Hotel Location:<%=hotels[i].Location%></p>
-            <p>Hotel Branch:<%=hotels[i].OwnerUser%></p>
+        <li class="list-group-item" >
+          <div class="card text-white bg-dark m-2 col-sm-6" style="max-width: 99%;">
+            <div class="card-header">
+            <h3><%=hotels[i].Name%></h3>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Branch:<%=hotels[i].Branch%></h5>
+                <p class="card-text">Hotel Location:<%=hotels[i].Location%></p>
+            <p class="card-text">Hotel Branch:<%=hotels[i].OwnerUser%></p>
+            <form method="put" action="/suspendHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
+              <button type="submit" class="btn btn-primary">suspend</button>
+            </form>
           </div>
-        </li>
+          </li>
         <%}%>
       </ul>
     </div>
   </body>
-  <script>
-    function suspendActivateButton(element) {
-      res_id = element.parent.id;
-      $.ajax({
-        type: "POST"
-        //activate or suspend the hotel depending on its state
-      });
-    }
-  </script>
 </html>
