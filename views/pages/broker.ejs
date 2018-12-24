@@ -12,7 +12,8 @@
     />
   </head>
   <body>
-    <div class="card">
+    <div class="nav"><% include ../partials/nav%></div>
+    <div class="card" style="margin-top: 50px">
       <div class="card-header">Broker</div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">
@@ -41,7 +42,15 @@
         </li>
         <li class="list-group-item">
           <form method="get" action="/broker/showAllUsers" class="card">
-            <button type="submit" class="btn btn-primary">Show Users</button>
+            <button type="submit" class="btn btn-primary">Users</button>
+          </form>
+        </li>
+        <li class="list-group-item">
+          <form method="get" action="/broker/showSuspendedUsers" class="card">
+            //////----------------->
+            <button type="submit" class="btn btn-primary">
+              Suspended Users
+            </button>
           </form>
         </li>
         <li class="list-group-item">
