@@ -1,6 +1,6 @@
 const bcrypt = require("bcrypt");
 const router = require('express').Router();
-query = require("../db/QueryHandlers");
+
 router.get('/',loadRegisterPage);
 router.post('/',registerUser);
 

@@ -1,1 +1,1 @@
-exports.updateUserInfo = "UPDATE User SET ?"; 
+exports.updateUserInfo = "UPDATE User SET ? WHERE Username = ?";

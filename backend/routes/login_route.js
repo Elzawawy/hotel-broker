@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const bcrypt = require("bcrypt");
-query = require("../db/QueryHandlers");
+// query = require("../db/QueryHandlers");
 router.get("/", loadLoginPage);
 router.post("/",logUserIn);
 
@@ -46,7 +46,6 @@ function logUserInCB(req,res,result){
 function logUserIn(req, res){
     let username = req.body.username;
     console.log(username);
-    console.log("body" + req.body);
     query.userQueries.userSelect.retrieveUser(req,res,username,logUserInCB);
 }
 

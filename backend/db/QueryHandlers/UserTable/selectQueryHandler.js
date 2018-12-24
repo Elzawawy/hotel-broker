@@ -4,8 +4,11 @@
 exports.retrieveUser = function (req,res,params,callback) {
     //query to retrieve Username if username and password exists, otherwise returns NULL
     conn.query(userQueries.userSelectQueries.retrieveUser, params, function (err, result, fields) {
-        if(err) return null;
-        else callback(req,res,JSON.stringify(result));
+        //If Query Failed The Result Is Empty
+        if(result.length !==0)
+            callback(req,res,JSON.stringify(result));
+        else
+            res.redirect("/login");
     });
 };
 

@@ -10,21 +10,7 @@
     <div style="margin-top:55px">
         <h2>Hotels</h2>
         <div class="list-group">
-            <% for(var i=0; i<hotels.length ;i++){ %>
-            <a class="list-group-item list-group-item-action list-group-item-dark">
-                <div>
-                    <h3>Hotel</h3>
-                    <div>
-                        <p>Name:<%=hotels[i].Name%></p>
-                        <p>Branch:<%=hotels[i].Branch%></p>
-                        <p>Address:<%=hotels[i].Location%></p>
-                    </div>
-                        <form method="post" name="Approve" action="">
-                            <button type="submit" type="button" class="btn btn-success">Check</button>
-                        </form>
-                </div>
-            </a>
-            <%}%>
+
         </div>
     </div>
 

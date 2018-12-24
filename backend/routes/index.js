@@ -3,11 +3,17 @@ query = require("../db/QueryHandlers");
 
 //getting router
 const router = require("express").Router();
-const middleware = require("./middlewares");
 
-router.get("/", middleware, function(req, res) {
-  console.log("not logged in");
-  res.render("pages/home");
+router.get("/", function(req, res) {
+    if (req.session  && req.session.username) {
+        console.log("user already logged in");
+        res.redirect("/browse_hotels");
+    }
+    else{
+        console.log("not logged in");
+        res.render("pages/home");
+    }
+
 });
 // requiring routes
 const login = require("./login_route");

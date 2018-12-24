@@ -11,15 +11,28 @@
       <h2>Change Password</h2>
       <form method="post" action="/profile/edit_profile" name="edit_user">
         <div class="input-group">
-          <input type="text" name="username" placeholder="username" required/>
+          <input type="text" name="username" placeholder="username"/>
         </div>
+          <div class="input-group">
+              <input
+                      type="text"
+                      name="name"
+                      placeholder="Name"
+              />
+          </div>
+          <div class="input-group">
+              <input
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+              />
+          </div>
 
         <div class="input-group">
           <input
             type="password"
-            name="password2"
-            placeholder="Confirm Password"
-            required
+            name="password"
+            placeholder="Password"
           />
         </div>
 
@@ -29,4 +42,7 @@
       </form>
     </div>
   </body>
+  <script>
+
+  </script>
 </html>
