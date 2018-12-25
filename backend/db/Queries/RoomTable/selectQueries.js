@@ -10,4 +10,4 @@ exports.getFreeRooms = `SELECT Number,price FROM Room LEFT OUTER JOIN Reservatio
                         AND Room.HotelName = ? 
                         AND Room.HotelBranch = ?
                         AND Room.checkedOut <= ? 
-                        AND Reservation.StartDate <= ?`;
+                        AND Reservation.StartDate >= ?`;
