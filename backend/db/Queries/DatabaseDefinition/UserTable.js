@@ -12,4 +12,4 @@ module.exports = `CREATE TABLE User (
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );`;
-// (Username, Email, Password, Name, Phone, Bdate, Address, Role, isClassA, isBlacklisted, isDeleted)
+// (Username, Email, Password, Name, Phone, Bdate, Address, Role, isBlacklisted, isDeleted)

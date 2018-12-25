@@ -16,4 +16,4 @@ module.exports = `CREATE TABLE Hotel (
     CONSTRAINT PK_HOTEL PRIMARY KEY (Name,Branch)
 );`;
 
-////(`Name`, `Branch`, `Location`, `OwnerUser`)
+////(Name, Branch, Location,BrokerUser, OwnerUser,isSuspended,isPremium,isApproved,isDeleted)

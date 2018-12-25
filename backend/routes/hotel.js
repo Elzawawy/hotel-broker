@@ -2,8 +2,8 @@ const router = require("express").Router();
 
 router.post("/:username", addHotel);
 router.get("/", getAllHotels);
-router.get("/:username/owner", isOwner, getHotelByOwner);
-router.get("/:username/broker", isOwner, getHotelByBroker);
+//router.get("/:username/owner", isOwner, getHotelByOwner);
+//router.get("/:username/broker", isOwner, getHotelByBroker);
 //router.get("/:username", getHotelAddRequests);
 
 async function addHotel(req, res, next) {
@@ -47,7 +47,7 @@ function getHotelByOwner(req, res, next) {
   };
 
   try {
-    await query.hotelQueriesHandler.hotelInsert(params);
+    query.hotelQueriesHandler.hotelInsert(params);
     res.status(200).send({ message: "hotel Added" });
   } catch (error) {
     console.log(error);
