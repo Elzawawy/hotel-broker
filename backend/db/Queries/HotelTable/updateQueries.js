@@ -6,6 +6,7 @@ exports.activateHotel = `UPDATE Hotel SET isSuspended= 0 WHERE Name = ? AND Bran
 
 exports.approveHotel = `UPDATE Hotel SET isApproved = 1 WHERE Name = ? AND Branch  = ? AND isDeleted = 0`;
 
-exports.denyHotel = `UPDATE Hotel SET isApproved=0 WHERE Name = ? AND Branch = ? AND isDeleted = 0`; 
+exports.denyHotel = `UPDATE Hotel SET isDeleted=1 WHERE Name = ? AND Branch = ? AND isDeleted = 0`;
 
+exports.assignHotelToBroker = `UPDATE Hotel SET BrokerUser=? WHERE Name=? AND Branch = ?`;
 
