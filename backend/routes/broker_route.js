@@ -31,11 +31,8 @@ function suspendHotelCB(req,res){
     res.redirect("/broker/showHotels")
 }
 function suspendHotel(req,res){
-    let jsonParam = {
-        isSuspended: 1
-    };
-    let params = [jsonParam,req.params.hotelName,req.params.hotelBranch];
-    query.hotelQueriesHandler.hotelUpdate.updateHotel(req,res,params,suspendHotelCB);
+    let params = [req.params.hotelName,req.params.hotelBranch];
+    query.hotelQueriesHandler.hotelUpdate.SuspendHotel(req,res,params,suspendHotelCB);
 }
 /*--------------------------------------------*/
 
@@ -57,11 +54,8 @@ function unSuspendHotelCB(req,res) {
     res.redirect("/broker/showSuspendedHotels");
 }
 function unSuspendHotel(req,res){
-    let jsonParam = {
-        isSuspended: 0
-    };
-    let params = [jsonParam,req.params.hotelName,req.params.hotelBranch];
-    query.hotelQueriesHandler.hotelUpdate.updateHotel(req,res,params,unSuspendHotelCB);
+    let params = [req.params.hotelName,req.params.hotelBranch];
+    query.hotelQueriesHandler.hotelUpdate.ActivateHotel(req,res,params,unSuspendHotelCB);
 }
 /*--------------------------------------------*/
 
