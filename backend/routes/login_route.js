@@ -3,9 +3,9 @@ const bcrypt = require("bcrypt");
 /*----Load Login Page Route-----*/
 router.get("/", loadLoginPage);
 function loadLoginPage(req, res) {
-    if(req.session && req.session.user) {
-        console.log(req.session.user);
-        res.render("pages/profile",{user: req.session.user});
+    if(req.session && req.session.username) {
+        console.log(req.session.username);
+        res.redirect("/profile");
     }
     else{
         res.render("pages/login");

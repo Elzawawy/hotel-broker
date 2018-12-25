@@ -3,6 +3,7 @@ exports.getAllHotels = `SELECT * FROM Hotel WHERE isSuspended = 0 AND isDeleted 
 
 //query to retrieve the hotels that a specific owner have in the system. 
 exports.getOwnerHotels = `SELECT * FROM Hotel WHERE OwnerUser=? AND isDeleted = 0`;
+exports.getHotelInfo = `SELECT * FROM Hotel WHERE OwnerUser=? AND Name=? AND Branch=? AND isDeleted=0`;
 
 //query to retrieve the hotels a specific broker is responsible for in the system.
 exports.getBrokerHotels = `SELECT * FROM Hotel WHERE isSuspended=0 AND BrokerUser=? AND isDeleted =0`;
