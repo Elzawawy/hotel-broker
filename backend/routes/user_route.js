@@ -30,6 +30,9 @@ function loadEditProfilePage(req,res){
 
 /*..............Edit Profile Routes..........*/
 router.post("/edit_profile",editProfile);
+function editProfileCB(req,res){
+    query.userQueries.userSelect.retrieveProfile(req,res,req.session.username,loadProfilePageCB);
+}
 function editProfile(req,res){
   let newUserInfo = {};
   /***check for field user has entered***/
@@ -45,7 +48,7 @@ function editProfile(req,res){
   console.log(newUserInfo);
   //We need it as array for the query
   let newUserInfoInput = [newUserInfo,req.session.username];
-  query.userQueries.userUpdate.updateUserInfo(req,res,newUserInfoInput);
+  query.userQueries.userUpdate.updateUserInfo(req,res,newUserInfoInput,editProfileCB);
   query.userQueries.userSelect.retrieveProfile(req,res,req.session.username,loadProfilePageCB);
 }
 /*-------------------------------------------*/
