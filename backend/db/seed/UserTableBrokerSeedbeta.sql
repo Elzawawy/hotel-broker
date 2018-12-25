@@ -34,7 +34,7 @@ INSERT INTO `User`  VALUES ('graham38','cboyle@example.com','8336aeee7980e4ba75e
 ('louie.schneider','beer.rusty@example.org','247556b775d9aba5c45df2f19792061c7c36ef85','sint','1-135-266-0742','1995-06-01','802 Benjamin Crossroad\nSherwoodport, OH 55431','Broker','0','0'); 
 
 
-
+graham38,avis06,louie.schneider
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
