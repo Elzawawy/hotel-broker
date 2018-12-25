@@ -13,7 +13,8 @@
 <div>
     <% include ../partials/nav.ejs %>
 </div>
-<div class="row" style="margin-top: 10%;">
+<div style="margin-top: 55px;">
+    <h2>Hotel Requests</h2>
     <ul class="list-group" style="width: 98%">
         <% for(var i=0; i<hotels.length ; i++){%>
         <li class="list-group-item" >
@@ -25,13 +26,16 @@
                     <h5 class="card-title">Branch:<%=hotels[i].Branch%></h5>
                     <p class="card-text">Hotel Location:<%=hotels[i].Location%></p>
                     <p class="card-text">Hotel Branch:<%=hotels[i].OwnerUser%></p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+
                     <form method="post" action="/broker/approveHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
-                        <button type="submit" class="btn btn-primary">Approve</button>
+                        <button type="submit" class="btn btn-primary" style="width: 100px">Approve</button>
                     </form>
                     <br/>
-                    <form method="post" action="/broker/denyHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
-                        <button type="submit" class="btn btn-primary">Deny</button>
+                    <form method="post" action="/broker/denyHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>" style="margin-left: 5px">
+                        <button type="submit" class="btn btn-primary" style="width: 100px">Deny</button>
                     </form>
+                    </div>
                 </div>
             </div>
         </li>
