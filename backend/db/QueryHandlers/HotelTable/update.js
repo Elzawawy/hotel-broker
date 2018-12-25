@@ -1,3 +1,5 @@
+//This Function suspends a hotel specific Hotel in system. 
+//Params is in the form of ['Name','Branch']. 
 exports.SuspendHotel = function (req,res,params,callback){
     conn.query(hotelQueries.hotelUpdate.suspendHotel,params, function(
         err,
@@ -8,6 +10,8 @@ exports.SuspendHotel = function (req,res,params,callback){
     });
 };
 
+//This Function activates a hotel specific Hotel in system. 
+//Params is in the form of ['Name','Branch']. 
 exports.ActivateHotel = function (req,res,params,callback){
     conn.query(hotelQueries.hotelUpdate.activateHotel,params, function(
         err,
@@ -19,6 +23,8 @@ exports.ActivateHotel = function (req,res,params,callback){
     });
 };
 
+//This Function approves a hotel specific request to be in system.
+//Params is in the form of ['Name','Branch']. 
 exports.ApproveHotel = function (req,res,params,callback){
     conn.query(hotelQueries.hotelUpdate.approveHotel,params, function(
         err,
@@ -30,6 +36,8 @@ exports.ApproveHotel = function (req,res,params,callback){
     });
 };
 
+//This Function denys a hotel specific request to be in system. 
+//Params is in the form of ['Name','Branch']. 
 exports.DenyHotel = function (req,res,params,callback){
     conn.query(hotelQueries.hotelUpdate.denyHotel,params, function(
         err,
@@ -41,6 +49,8 @@ exports.DenyHotel = function (req,res,params,callback){
     });
 };
 
+//This Function assigns a broker username responsible for a hotel specific in system.
+//Params is in the form of ['BrokerUsername',Name','Branch']. 
 exports.AssignHotelToBroker = function (params){
     conn.query(hotelQueries.hotelUpdate.assignHotelToBroker,params, function(
         err,
@@ -51,3 +61,16 @@ exports.AssignHotelToBroker = function (params){
 
     });
 };
+
+//This Function allows the edit of a specific Hotel's info. 
+//Params is in the form of ['Name','Branch']. 
+exports.EditHotelInfo = function(params){
+    conn.query(hotelQueries.hotelUpdate.editHotelInfo,params,function(
+        err,
+        result,
+    )
+    {
+        console.log(params);
+        if(err) return null;
+    });
+} 
