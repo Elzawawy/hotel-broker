@@ -47,7 +47,7 @@ function loadAllSuspendedHotelsCB(req,res,result){
     res.render("pages/broker_show_suspendedHotels",{hotels: hotels});
 }
 function loadAllSuspendedHotels(req,res){
-    query.hotelQueriesHandler.hotelSelect.showBrokerSuspendedHotels(req,res,req.session.username,loadAllSuspendedHotelsCB);
+    query.hotelQueriesHandler.hotelSelect.showSuspendedHotels(req,res,req.session.username,loadAllSuspendedHotelsCB);
 }
 /*--------------------------------------------*/
 
