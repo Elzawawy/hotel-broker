@@ -5988,12 +5988,12 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('3','West Kevontown','qui','Double','371.54','1996-10-03','1'),
 ('485','West Kevontown','qui','Double','394.47','1970-09-24','0'),
 ('148','West Kevontown','qui','Double','389.00','1995-10-28','0'),
-('0','East Santos','delectus','Facility','265.27','1995-08-02','1'),
-('0','Jamaalview','ea','Facility','111.40','1985-07-05','0'),
-('0','Garnetport','optio','Facility','217.19','1983-02-21','0'),
-('0','South Mittie','quos','Facility','146.68','1999-06-13','0'),
-('0','Zulaufchester','fugiat','Facility','55.57','2015-06-16','0'),
-('0','New Katherynbury','nihil','Facility','425.67','2016-05-02','0'),
-('0','West Kevontown','qui','Facility','411.94','2008-03-30','0')
+('0','East Santos','delectus','Facility','0','1995-08-02','1'),
+('0','Jamaalview','ea','Facility','0','1985-07-05','0'),
+('0','Garnetport','optio','Facility','0','1983-02-21','0'),
+('0','South Mittie','quos','Facility','0','1999-06-13','0'),
+('0','Zulaufchester','fugiat','Facility','0','2015-06-16','0'),
+('0','New Katherynbury','nihil','Facility','0','2016-05-02','0'),
+('0','West Kevontown','qui','Facility','0','2008-03-30','0')
 
 `;
