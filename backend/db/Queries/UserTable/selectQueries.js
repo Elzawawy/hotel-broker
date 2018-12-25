@@ -8,7 +8,7 @@ exports.retrieveProfile = "SELECT Name,Username,Email,Phone,Bdate,Address,Role F
 exports.retrieveBlackList = "SELECT Username,Name FROM User WHERE isBlackListed = 1";
 
 //String Query to retrieve a list of all users in system. 
-exports.retrieveUserList = "SELECT Username,Name FROM User";
+exports.retrieveUserList = "SELECT Username,Name FROM User WHERE isBlacklisted = 0 AND NOT Role='Broker'";
 
 //String Query to retrieve a list of all classA users in system.
 exports.retrieveClassAList = "SELECT Username,Name FROM User \

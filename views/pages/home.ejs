@@ -10,20 +10,26 @@
 
 <body>
   <% include ../partials/nav.ejs %>
-  <div class="Paragraph" name="aboutUs" style="margin-top:55px">
-    <h1>
-      We see our customers as invited guests to a party, and we are the hosts.
-      It’s our job every day to make every important aspect of the customer
-      experience a little bit better
-    </h1>
-    <h3>Make memories that stay forever</h3>
-  </div>
-  <div class="btn-group" style="margin-left:40%">
-    <a href="./login">
-      <button type="button" class="btn btn-dark" name="signIn">SignIn</button>
-    </a>
-    <a href="./register">
-      <button type="button" class="btn btn-dark" name="signUP">sign up</button>
-    </a>
+  <div class="card text-center">
+    <div class="card-header" name="aboutUs" style="margin-top:55px">
+      <h1>
+        We see our customers as invited guests to a party, and we are the hosts.
+        It’s our job every day to make every important aspect of the customer
+        experience a little bit better
+      </h1>
+      <h3>Make memories that stay forever</h3>
+    </div>
+    <div class="card-body">
+      <a href="./login">
+        <button type="button" class="btn btn-primary" name="signIn">
+          SignIn
+        </button>
+      </a>
+      <a href="./register">
+        <button type="button" class="btn btn-dark" name="signUP">
+          sign up
+        </button>
+      </a>
+    </div>
   </div>
 </body>

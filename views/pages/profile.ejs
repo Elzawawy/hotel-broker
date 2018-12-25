@@ -6,30 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <div>
+    <% include ../partials/nav.ejs%>
+
+    <div style="margin-top:55px">
       <h2>User Profile</h2>
-      <div>
-        <p>Name: <%=user.Name%></p>
-        <br />
-        <p>Username: <%=user.Username%></p>
-        <br/>
-        <p>Email: <%=user.Email%></p>
-        <br/>
-        <p>Phone: <%=user.Phone%></p>
-        <br/>
-        <p>Bdate: <%=user.Bdate%></p>
-        <br/>
-        <p>Address: <%=user.Address%></p>
-        <br/>
-        <p>Role: <%=user.Role%></p>
-        <p>Upgrade to owner??</p>
-        <form method="get" action="/profile/edit_profile">
-            <button type="submit">edit</button>
-        </form>
-        <form method="get" action="/profile/logout">
-            <button type="submit"> logout</button>
-        </form>
+      <form
+        method="get"
+        action="/profile/edit_profile"
+        style="margin-left: 83.5%"
+      >
+        <button type="submit" class="btn btn-dark" style="width:200px">
+          Edit
+        </button>
+      </form>
+      <div class="card text-white bg-dark mb-3" style="margin: 5px 20px 20px;">
+        <div class="card-header"><%=user.Name%></div>
+        <div class="card-body">
+          <p class="card-text">Username: <%=user.Username%></p>
+          <p class="card-text">Email: <%=user.Email%></p>
+          <p class="card-text">Phone: <%=user.Phone%></p>
+          <p class="card-text">Bdate: <%=user.Bdate%></p>
+          <p class="card-text">Address: <%=user.Address%></p>
+          <p class="card-text">Role: <%=user.Role%></p>
+          <%if(user.Role === "Broker"){%>
+          <form method="get" action="/broker">
+            <button type="submit">Admin Page</button>
+          </form>
+          <%}%>
+        </div>
       </div>
+      <%if(user.Role ==="Customer"){%>
+      <form method="get" action="" style="margin-left: 20px">
+        <button type="submit" class="btn btn-dark">Upgrade to owner??</button>
+      </form>
+      <%}%>
+      <form
+        method="get"
+        action="/profile/logout"
+        style="margin-left:20px; margin-top: 5px"
+      >
+        <button type="submit" class="btn btn-dark">Logout</button>
+      </form>
     </div>
   </body>
 </html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Hotels</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+<% include ../partials/nav.ejs %>
+
+<div>
+    <ul>
+        <% for(var i=0; i<hotels.length ; i++){%>
+        <li>
+            <div border="5px solid black">
+                <p>Hotel Name:<%=hotels[i].Name%></p>
+                <p>Hotel Branch:<%=hotels[i].Branch%></p>
+                <p>Hotel Location:<%=hotels[i].Location%></p>
+                <p>Hotel Branch:<%=hotels[i].OwnerUser%></p>
+                <form method="post" action="/broker/unsuspendHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
+                    <button type="submit">unSuspend</button>
+                </form>
+            </div>
+        </li>
+        <%}%>
+    </ul>
+</div>
+</body>
+</html>
