@@ -57,3 +57,6 @@ INSERT INTO `Hotel` VALUES ('sed','Stromanstad','894 Goldner Divide\nRathborough
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+// hotel names: delectus,ea,optio,quos,fugiat,nihil,qui,ut,provident,saepe,officiis,sed,commodi,aliquam,inventore,velit,vero,repellendus,ratione,ullam
+
+// hotel branches: East Santos,Jamaalview,Garnetport,South Mittie,Zulaufchester,New Katherynbury,West Kevontown,Port Noemie,East Websterland,South Willyberg,South Santino,Stromanstad,Arturoville,Sallieside,Lake Dianna,Generalborough,West Gwendolyn,Blockshire,West Shanel,Gertrudeport
