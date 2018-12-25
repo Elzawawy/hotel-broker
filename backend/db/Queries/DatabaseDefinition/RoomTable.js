@@ -11,3 +11,5 @@ module.exports = `CREATE TABLE Room (
     CONSTRAINT FK_HOTEL_ROOM FOREIGN KEY (HotelName,HotelBranch) REFERENCES Hotel(Name,Branch),
     CONSTRAINT PK_ROOM PRIMARY KEY (Number,HotelBranch,HotelName)
 );`;
+
+// (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDeleted)
