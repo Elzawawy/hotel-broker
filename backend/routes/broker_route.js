@@ -116,7 +116,7 @@ function unSuspendedUserCB(req,res){
     res.redirect("/broker/showSuspendedUsers");
 }
 function unSuspendUser(req,res){
-    query.userQueries.userUpdate.UnSuspendUser(req,res,req.params.Username,unSuspendedUserCB);
+    query.userQueries.userUpdate.ActivateUser(req,res,req.params.Username,unSuspendedUserCB);
 }
 /*--------------------------------------------*/
 

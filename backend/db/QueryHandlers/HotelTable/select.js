@@ -30,3 +30,25 @@ exports.ShowHotelRequests = function(req, res, callback) {
         callback(req,res,JSON.stringify(result));
     });
 };
+
+exports.GetOwnerHotels = function(req, res,params,callback) {
+    // query to insert into hotel table.
+    conn.query(hotelQueries.hotelSelect.getOwnerHotels,params, function(
+        err,
+        result,
+    ) {
+        CheckForError(err, result, "Hotel table select");
+        callback(req,res,JSON.stringify(result));
+    });
+};
+
+exports.GetHotelInfo = function(req, res,params,callback) {
+    // query to insert into hotel table.
+    conn.query(hotelQueries.hotelSelect.getHotelInfo,params, function(
+        err,
+        result,
+    ) {
+        CheckForError(err, result, "Hotel table select");
+        callback(req,res,JSON.stringify(result));
+    });
+};
