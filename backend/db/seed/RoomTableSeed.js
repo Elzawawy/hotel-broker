@@ -1,5 +1,5 @@
 module.exports = `
-INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDeleted) VALUES ('875','East Santos','delectus','Facility','265.27','1995-08-02','1'),
+INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDeleted) VALUES 
 ('746','East Santos','delectus','Triple','207.77','1991-12-04','0'),
 ('306','East Santos','delectus','Double','277.41','2014-07-08','0'),
 ('670','East Santos','delectus','Single','487.88','1997-05-28','1'),
@@ -8,11 +8,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('807','East Santos','delectus','Triple','310.93','1988-07-12','0'),
 ('567','East Santos','delectus','Single','212.65','1970-07-13','0'),
 ('261','East Santos','delectus','Triple','310.17','1982-12-05','0'),
-('736','East Santos','delectus','Facility','69.96','1971-06-01','0'),
+
 ('147','East Santos','delectus','Double','480.46','1985-11-15','0'),
 ('832','East Santos','delectus','Single','43.54','2000-09-19','0'),
 ('918','East Santos','delectus','Single','389.23','1979-09-22','0'),
-('194','East Santos','delectus','Facility','440.76','1974-04-14','0'),
+
 ('12','East Santos','delectus','Triple','351.99','2000-11-04','0'),
 ('597','East Santos','delectus','Double','439.67','2016-10-19','0'),
 ('346','East Santos','delectus','Single','391.43','1979-03-07','0'),
@@ -26,11 +26,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('500','East Santos','delectus','Single','297.81','1985-08-04','1'),
 ('772','East Santos','delectus','Single','227.28','2013-02-27','0'),
 ('219','East Santos','delectus','Single','361.68','2011-10-23','0'),
-('917','East Santos','delectus','Facility','213.10','1981-02-04','0'),
+
 ('349','East Santos','delectus','Single','381.54','2007-12-10','0'),
 ('429','East Santos','delectus','Triple','96.70','1986-08-20','0'),
-('843','East Santos','delectus','Facility','286.53','2003-01-04','0'),
-('824','East Santos','delectus','Facility','452.96','1981-12-12','0'),
+
+
 ('790','East Santos','delectus','Triple','277.24','2010-05-18','0'),
 ('83','East Santos','delectus','Double','213.02','1977-03-17','0'),
 ('992','East Santos','delectus','Triple','298.97','2018-04-18','0'),
@@ -40,7 +40,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('986','East Santos','delectus','Double','37.41','2006-04-08','0'),
 ('603','East Santos','delectus','Single','470.83','1984-10-29','0'),
 ('886','East Santos','delectus','Double','388.78','1977-08-04','0'),
-('894','East Santos','delectus','Facility','224.97','1994-09-24','0'),
+
 ('750','East Santos','delectus','Triple','62.01','2011-03-19','0'),
 ('739','East Santos','delectus','Triple','189.39','1993-06-25','0'),
 ('308','East Santos','delectus','Double','63.78','1995-12-28','0'),
@@ -48,25 +48,25 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('635','East Santos','delectus','Triple','450.34','1986-10-21','0'),
 ('307','East Santos','delectus','Triple','368.59','1971-04-06','0'),
 ('224','East Santos','delectus','Double','415.84','2007-07-10','0'),
-('257','East Santos','delectus','Facility','108.29','2018-08-27','0'),
-('910','East Santos','delectus','Facility','402.02','1989-12-06','0'),
+
+
 ('63','East Santos','delectus','Double','62.27','1976-02-24','0'),
 ('37','East Santos','delectus','Triple','45.90','2008-07-11','0'),
-('600','East Santos','delectus','Facility','334.44','2017-08-04','0'),
+
 ('477','East Santos','delectus','Single','266.76','2010-07-02','0'),
-('870','East Santos','delectus','Facility','222.48','2001-09-21','0'),
-('332','East Santos','delectus','Facility','282.80','1972-10-12','0'),
+
+
 ('788','East Santos','delectus','Triple','102.84','1977-07-21','0'),
 ('856','East Santos','delectus','Single','71.39','1977-11-30','0'),
 ('231','East Santos','delectus','Triple','305.43','1983-02-27','0'),
 ('568','East Santos','delectus','Double','60.45','1979-06-15','0'),
 ('504','East Santos','delectus','Triple','228.90','2014-10-21','1'),
 ('506','East Santos','delectus','Double','25.67','1998-10-20','0'),
-('281','East Santos','delectus','Facility','50.12','2000-03-11','0'),
+
 ('571','East Santos','delectus','Triple','465.99','1970-10-25','0'),
 ('539','East Santos','delectus','Single','43.26','2001-11-05','0'),
 ('472','East Santos','delectus','Single','191.71','1976-02-21','0'),
-('110','East Santos','delectus','Facility','30.96','2010-12-26','0'),
+
 ('414','East Santos','delectus','Triple','301.78','1999-11-23','0'),
 ('323','East Santos','delectus','Single','122.71','2013-08-19','1'),
 ('977','East Santos','delectus','Triple','471.17','1981-04-19','1'),
@@ -75,51 +75,51 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('928','East Santos','delectus','Single','343.44','2002-02-01','0'),
 ('35','East Santos','delectus','Double','126.85','1989-02-09','0'),
 ('835','East Santos','delectus','Single','104.41','2003-07-14','0'),
-('681','East Santos','delectus','Facility','360.73','2001-11-16','0'),
-('102','East Santos','delectus','Facility','258.42','2015-02-14','0'),
+
+
 ('31','East Santos','delectus','Single','398.43','1991-10-21','0'),
 ('922','East Santos','delectus','Double','188.56','1979-07-07','0'),
 ('859','East Santos','delectus','Double','219.16','1974-06-20','0'),
 ('632','East Santos','delectus','Single','484.37','2003-04-28','0'),
 ('482','East Santos','delectus','Triple','436.84','1991-01-06','0'),
 ('273','East Santos','delectus','Triple','386.61','2005-08-07','1'),
-('239','East Santos','delectus','Facility','212.38','2010-02-01','0'),
+
 ('109','East Santos','delectus','Triple','74.85','2015-09-10','0'),
-('589','East Santos','delectus','Facility','350.29','1989-02-02','0'),
+
 ('47','East Santos','delectus','Triple','221.77','1974-01-28','0'),
-('623','East Santos','delectus','Facility','287.99','1972-02-12','0'),
-('779','East Santos','delectus','Facility','22.14','1997-03-07','0'),
+
+
 ('606','East Santos','delectus','Single','40.82','1971-11-02','0'),
-('204','East Santos','delectus','Facility','344.94','2009-07-07','0'),
+
 ('678','East Santos','delectus','Double','335.40','2001-10-21','0'),
-('60','East Santos','delectus','Facility','155.66','2011-03-11','1'),
-('424','East Santos','delectus','Facility','419.22','1971-01-10','0'),
+
+
 ('785','East Santos','delectus','Triple','52.78','2000-06-11','0'),
-('893','East Santos','delectus','Facility','157.09','1976-05-24','0'),
-('955','East Santos','delectus','Facility','396.23','2001-01-11','0'),
+
+
 ('357','East Santos','delectus','Triple','102.39','1986-12-24','0'),
-('647','East Santos','delectus','Facility','213.64','1999-05-17','0'),
+
 ('691','East Santos','delectus','Triple','379.46','1988-03-25','0'),
 ('871','East Santos','delectus','Single','122.72','2014-02-05','0'),
-('895','East Santos','delectus','Facility','264.65','1985-09-22','0'),
+
 ('251','East Santos','delectus','Triple','283.68','1992-06-18','0'),
-('416','East Santos','delectus','Facility','305.70','2018-02-02','0'),
+
 ('151','East Santos','delectus','Single','33.67','2011-07-16','0'),
 ('427','East Santos','delectus','Single','324.09','2013-10-13','0'),
 ('348','East Santos','delectus','Single','380.88','1990-09-04','0'),
 ('863','East Santos','delectus','Triple','200.74','1998-08-10','0'),
-('481','East Santos','delectus','Facility','272.91','2014-01-19','0'),
+
 ('527','East Santos','delectus','Triple','338.53','1984-12-22','0'),
 ('382','East Santos','delectus','Single','200.29','1977-10-23','0'),
 ('519','East Santos','delectus','Double','398.73','2010-03-28','0'),
 ('605','East Santos','delectus','Double','120.02','2016-06-16','0'),
 ('592','East Santos','delectus','Single','18.20','1996-01-16','0'),
 ('969','East Santos','delectus','Double','129.81','1980-04-18','0'),
-('211','East Santos','delectus','Facility','183.48','1979-04-03','0'),
+
 ('116','East Santos','delectus','Single','429.87','1982-11-08','0'),
-('868','East Santos','delectus','Facility','25.32','1982-11-27','0'),
+
 ('974','East Santos','delectus','Triple','41.84','2000-12-27','0'),
-('784','East Santos','delectus','Facility','426.18','2009-05-15','0'),
+
 ('71','East Santos','delectus','Double','208.86','2010-06-11','0'),
 ('799','East Santos','delectus','Single','326.10','1980-08-28','0'),
 ('676','East Santos','delectus','Triple','302.83','1985-04-11','1'),
@@ -130,25 +130,25 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('604','East Santos','delectus','Single','132.23','2006-11-13','0'),
 ('449','East Santos','delectus','Triple','67.34','1991-03-21','0'),
 ('456','East Santos','delectus','Double','78.38','2013-10-24','0'),
-('201','East Santos','delectus','Facility','444.02','1990-10-14','0'),
+
 ('745','East Santos','delectus','Double','91.10','1976-04-29','0'),
-('367','East Santos','delectus','Facility','481.75','2002-03-15','1'),
-('601','East Santos','delectus','Facility','129.44','1995-07-08','0'),
+
+
 ('359','East Santos','delectus','Single','236.43','1988-10-21','0'),
 ('925','East Santos','delectus','Single','426.92','2007-09-19','0'),
-('344','East Santos','delectus','Facility','413.66','1990-02-25','0'),
+
 ('940','East Santos','delectus','Triple','358.03','1987-04-23','0'),
 ('697','East Santos','delectus','Double','209.17','1983-08-31','0'),
-('9','East Santos','delectus','Facility','188.25','2010-06-26','0'),
+
 ('581','East Santos','delectus','Triple','176.97','2007-12-25','0'),
 ('117','East Santos','delectus','Single','480.07','2017-01-11','0'),
-('687','East Santos','delectus','Facility','92.84','2008-12-03','0'),
-('963','East Santos','delectus','Facility','97.70','1994-05-28','0'),
+
+
 ('890','East Santos','delectus','Double','212.88','1983-11-30','0'),
 ('633','East Santos','delectus','Single','208.59','1976-07-24','0'),
 ('882','East Santos','delectus','Single','356.75','1972-01-07','0'),
 ('830','East Santos','delectus','Single','39.54','1978-02-03','1'),
-('742','East Santos','delectus','Facility','407.72','2018-11-19','0'),
+
 ('149','East Santos','delectus','Triple','404.41','1997-01-24','1'),
 ('396','East Santos','delectus','Triple','452.32','2001-11-08','1'),
 ('509','East Santos','delectus','Double','328.94','2004-02-10','1'),
@@ -156,21 +156,21 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('831','East Santos','delectus','Single','490.47','2010-11-11','0'),
 ('803','East Santos','delectus','Double','50.03','1982-04-14','0'),
 ('942','East Santos','delectus','Double','205.29','2016-02-13','0'),
-('507','East Santos','delectus','Facility','179.39','1978-01-25','0'),
+
 ('19','East Santos','delectus','Triple','190.04','2011-01-20','0'),
 ('345','East Santos','delectus','Triple','486.94','1993-12-11','0'),
 ('727','East Santos','delectus','Single','32.77','1992-07-20','0'),
 ('846','East Santos','delectus','Triple','286.62','2009-03-03','1'),
 ('961','East Santos','delectus','Single','166.30','1986-09-06','0'),
 ('821','East Santos','delectus','Double','143.96','2008-06-08','0'),
-('418','East Santos','delectus','Facility','406.34','1986-10-02','0'),
+
 ('300','East Santos','delectus','Double','14.96','2002-11-18','0'),
 ('981','East Santos','delectus','Double','238.45','2010-03-20','0'),
-('881','East Santos','delectus','Facility','222.05','1979-07-21','0'),
+
 ('326','East Santos','delectus','Triple','102.03','1998-02-25','0'),
 ('112','East Santos','delectus','Triple','376.33','1976-05-10','0'),
-('318','East Santos','delectus','Facility','251.64','1999-04-15','0'),
-('341','East Santos','delectus','Facility','23.62','1990-04-23','0'),
+
+
 ('609','East Santos','delectus','Double','498.17','2008-02-13','0'),
 ('24','East Santos','delectus','Triple','263.02','1984-07-06','0'),
 ('142','East Santos','delectus','Double','360.56','2011-08-07','0'),
@@ -178,19 +178,19 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('566','East Santos','delectus','Double','184.69','1974-12-10','0'),
 ('230','East Santos','delectus','Double','245.84','1981-09-24','0'),
 ('666','East Santos','delectus','Double','280.48','1983-06-14','0'),
-('984','East Santos','delectus','Facility','390.86','1990-09-25','0'),
-('329','East Santos','delectus','Facility','321.89','1982-09-13','0'),
+
+
 ('453','East Santos','delectus','Double','331.78','2015-04-07','0'),
 ('322','East Santos','delectus','Double','488.47','2006-05-27','0'),
 ('798','East Santos','delectus','Single','152.43','1970-09-27','0'),
 ('696','East Santos','delectus','Single','418.74','1993-10-24','0'),
-('213','East Santos','delectus','Facility','106.07','2009-07-24','1'),
-('538','East Santos','delectus','Facility','372.95','1986-12-03','0'),
+
+
 ('183','East Santos','delectus','Single','352.16','2018-02-10','0'),
 ('877','East Santos','delectus','Single','322.20','1983-01-23','0'),
 ('913','East Santos','delectus','Single','30.62','1974-07-14','0'),
 ('139','East Santos','delectus','Double','171.86','1993-02-03','0'),
-('46','East Santos','delectus','Facility','497.97','2015-01-29','0'),
+
 ('997','East Santos','delectus','Single','169.68','1994-09-30','0'),
 ('535','East Santos','delectus','Double','271.52','1985-10-23','0'),
 ('162','East Santos','delectus','Double','253.39','2009-05-22','0'),
@@ -201,7 +201,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('373','East Santos','delectus','Single','55.40','1991-10-23','0'),
 ('971','East Santos','delectus','Double','224.12','1994-12-08','0'),
 ('285','East Santos','delectus','Triple','162.19','1987-09-09','0'),
-('710','East Santos','delectus','Facility','96.47','1995-10-15','0'),
+
 ('115','East Santos','delectus','Triple','459.18','1988-03-03','0'),
 ('445','East Santos','delectus','Triple','492.70','1987-01-28','0'),
 ('674','East Santos','delectus','Triple','110.85','1979-01-16','0'),
@@ -211,33 +211,33 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('979','East Santos','delectus','Double','476.37','1985-12-13','0'),
 ('825','East Santos','delectus','Double','449.54','1993-06-21','0'),
 ('439','East Santos','delectus','Double','90.96','2009-03-05','0'),
-('540','East Santos','delectus','Facility','473.63','2000-05-16','0'),
+
 ('184','East Santos','delectus','Double','294.52','2001-06-01','0'),
 ('814','East Santos','delectus','Double','494.58','1978-08-30','1'),
 ('377','East Santos','delectus','Triple','115.03','2011-12-11','0'),
 ('129','East Santos','delectus','Single','96.05','1982-09-01','0'),
-('286','East Santos','delectus','Facility','255.59','1990-03-26','0'),
+
 ('277','East Santos','delectus','Double','201.81','2017-01-14','0'),
 ('812','East Santos','delectus','Triple','26.44','1993-06-18','0'),
 ('146','East Santos','delectus','Double','347.12','2017-01-11','0'),
 ('762','East Santos','delectus','Double','487.66','2017-02-21','0'),
 ('755','East Santos','delectus','Double','184.71','1980-01-10','1'),
-('68','East Santos','delectus','Facility','449.15','1980-01-26','1'),
-('122','East Santos','delectus','Facility','173.87','1975-06-20','0'),
+
+
 ('434','East Santos','delectus','Triple','343.67','1977-08-28','0'),
-('516','East Santos','delectus','Facility','58.40','1984-06-08','0'),
+
 ('169','East Santos','delectus','Double','99.76','1981-11-20','0'),
-('143','East Santos','delectus','Facility','185.89','1998-10-03','0'),
+
 ('91','East Santos','delectus','Single','115.59','1995-08-03','0'),
 ('168','East Santos','delectus','Triple','197.57','1977-07-13','0'),
-('985','East Santos','delectus','Facility','67.36','1993-02-28','0'),
+
 ('627','East Santos','delectus','Triple','180.82','2000-11-05','0'),
 ('141','East Santos','delectus','Double','438.18','2013-08-02','0'),
 ('570','East Santos','delectus','Triple','382.28','2003-10-05','0'),
-('106','East Santos','delectus','Facility','404.67','1980-02-11','0'),
+
 ('41','East Santos','delectus','Double','28.24','1974-12-07','0'),
 ('264','East Santos','delectus','Double','338.38','2003-03-14','0'),
-('944','East Santos','delectus','Facility','387.78','1990-01-18','0'),
+
 ('130','East Santos','delectus','Single','312.24','2013-02-25','1'),
 ('419','East Santos','delectus','Double','441.35','1996-01-31','0'),
 ('921','East Santos','delectus','Double','432.74','1976-12-03','0'),
@@ -245,7 +245,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('759','East Santos','delectus','Single','383.58','1995-08-28','0'),
 ('715','East Santos','delectus','Double','459.05','1984-09-29','0'),
 ('284','East Santos','delectus','Single','63.29','1996-08-20','0'),
-('561','East Santos','delectus','Facility','465.81','1977-05-28','1'),
+
 ('64','East Santos','delectus','Single','92.05','1987-11-26','0'),
 ('841','East Santos','delectus','Double','275.54','1998-10-27','0'),
 ('808','East Santos','delectus','Double','435.57','1998-08-07','0'),
@@ -255,7 +255,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('61','East Santos','delectus','Single','417.50','2013-07-24','0'),
 ('182','East Santos','delectus','Double','393.43','1998-06-22','0'),
 ('450','East Santos','delectus','Single','13.27','2005-06-04','0'),
-('222','East Santos','delectus','Facility','196.76','2000-02-13','0'),
+
 ('584','East Santos','delectus','Double','431.05','1977-07-14','0'),
 ('630','East Santos','delectus','Double','201.94','2011-06-13','0'),
 ('686','East Santos','delectus','Triple','202.43','1985-02-23','0'),
@@ -266,9 +266,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('631','East Santos','delectus','Double','432.67','1992-06-19','0'),
 ('968','East Santos','delectus','Single','38.49','1999-11-26','0'),
 ('964','East Santos','delectus','Double','67.00','1981-03-09','0'),
-('823','East Santos','delectus','Facility','115.50','1971-05-19','0'),
+
 ('515','East Santos','delectus','Single','224.24','1977-10-21','0'),
-('233','East Santos','delectus','Facility','484.90','2015-11-05','0'),
+
 ('946','East Santos','delectus','Single','280.90','1980-02-27','0'),
 ('280','East Santos','delectus','Single','441.72','2018-06-04','0'),
 ('474','East Santos','delectus','Single','258.44','2004-06-21','0'),
@@ -276,14 +276,14 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('25','East Santos','delectus','Single','214.26','1987-01-24','0'),
 ('724','East Santos','delectus','Double','197.32','1989-10-18','0'),
 ('398','East Santos','delectus','Triple','183.62','1991-05-19','1'),
-('325','East Santos','delectus','Facility','46.15','1975-04-17','0'),
-('462','East Santos','delectus','Facility','304.37','2002-08-14','0'),
-('217','East Santos','delectus','Facility','377.13','1972-12-22','0'),
+
+
+
 ('728','East Santos','delectus','Triple','205.19','1990-04-19','0'),
-('987','East Santos','delectus','Facility','87.71','1981-11-10','0'),
+
 ('394','East Santos','delectus','Double','311.79','2004-10-31','0'),
 ('103','East Santos','delectus','Single','169.31','2001-04-06','0'),
-('356','East Santos','delectus','Facility','218.55','1985-08-04','0'),
+
 ('531','East Santos','delectus','Double','390.66','2011-02-04','0'),
 ('258','East Santos','delectus','Double','304.14','1992-08-13','0'),
 ('276','East Santos','delectus','Triple','197.50','1978-03-27','0'),
@@ -294,11 +294,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('510','East Santos','delectus','Double','24.46','2012-06-06','0'),
 ('471','East Santos','delectus','Double','473.30','1987-12-29','0'),
 ('572','East Santos','delectus','Single','61.58','2002-02-14','0'),
-('256','East Santos','delectus','Facility','78.60','1984-02-29','0'),
-('118','East Santos','delectus','Facility','93.46','1982-12-30','0'),
+
+
 ('593','East Santos','delectus','Double','198.68','2013-09-09','0'),
 ('648','East Santos','delectus','Triple','130.08','2010-09-25','0'),
-('310','East Santos','delectus','Facility','280.87','1988-10-14','0'),
+
 ('305','East Santos','delectus','Single','373.46','2015-08-15','0'),
 ('243','East Santos','delectus','Triple','44.16','2006-01-21','0'),
 ('430','East Santos','delectus','Single','431.82','1984-04-15','0'),
@@ -306,7 +306,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('548','East Santos','delectus','Triple','75.83','2012-01-14','0'),
 ('912','East Santos','delectus','Single','476.56','1987-10-31','0'),
 ('458','East Santos','delectus','Single','165.92','1974-11-19','0'),
-('884','East Santos','delectus','Facility','38.12','1978-11-09','1'),
+
 ('97','East Santos','delectus','Single','479.17','2010-04-07','0'),
 ('49','East Santos','delectus','Single','468.02','1994-06-12','1'),
 ('53','East Santos','delectus','Double','373.91','1995-12-27','0'),
@@ -330,11 +330,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('629','East Santos','delectus','Single','214.13','2005-12-21','0'),
 ('265','East Santos','delectus','Triple','325.80','1987-02-15','0'),
 ('705','East Santos','delectus','Single','420.33','1992-08-31','0'),
-('302','East Santos','delectus','Facility','180.32','2009-12-29','0'),
+
 ('320','East Santos','delectus','Single','211.20','1997-04-20','1'),
-('291','East Santos','delectus','Facility','53.43','1980-09-16','0'),
+
 ('853','East Santos','delectus','Triple','193.22','1979-06-19','0'),
-('221','East Santos','delectus','Facility','368.77','1988-08-15','0'),
+
 ('732','East Santos','delectus','Single','143.70','1978-02-05','0'),
 ('463','East Santos','delectus','Triple','469.33','2003-12-21','0'),
 ('253','East Santos','delectus','Single','124.41','1998-06-23','0'),
@@ -347,9 +347,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('292','East Santos','delectus','Single','346.33','1990-10-21','0'),
 ('232','East Santos','delectus','Triple','32.94','1989-08-28','0'),
 ('180','East Santos','delectus','Double','147.57','1978-10-11','0'),
-('873','East Santos','delectus','Facility','451.11','1992-03-03','0'),
-('498','East Santos','delectus','Facility','436.79','1991-03-12','0'),
-('797','East Santos','delectus','Facility','194.58','1988-06-24','0'),
+
+
+
 ('541','East Santos','delectus','Double','153.37','2009-06-28','1'),
 ('982','East Santos','delectus','Double','283.39','1999-11-24','0'),
 ('743','East Santos','delectus','Triple','90.81','1971-02-14','0'),
@@ -359,60 +359,60 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('575','East Santos','delectus','Single','151.95','2011-05-28','0'),
 ('827','East Santos','delectus','Single','345.81','1993-12-07','0'),
 ('161','East Santos','delectus','Single','356.28','1995-11-19','1'),
-('874','East Santos','delectus','Facility','474.01','1977-12-04','0'),
-('255','East Santos','delectus','Facility','379.97','2006-10-13','0'),
+
+
 ('580','East Santos','delectus','Single','453.39','2000-05-22','0'),
 ('497','East Santos','delectus','Single','47.79','2006-04-24','0'),
-('343','East Santos','delectus','Facility','147.25','1997-03-31','0'),
+
 ('590','East Santos','delectus','Double','129.37','1978-11-27','0'),
-('586','East Santos','delectus','Facility','203.38','1990-07-27','0'),
+
 ('836','East Santos','delectus','Single','448.73','2009-08-20','0'),
-('569','East Santos','delectus','Facility','307.80','1993-07-17','1'),
+
 ('113','East Santos','delectus','Triple','193.82','2006-10-04','0'),
 ('707','East Santos','delectus','Single','80.84','1985-09-08','0'),
 ('67','East Santos','delectus','Triple','100.28','1986-10-26','0'),
-('72','East Santos','delectus','Facility','202.17','1986-05-19','0'),
+
 ('639','East Santos','delectus','Triple','479.99','1999-04-08','0'),
-('958','East Santos','delectus','Facility','334.31','1973-11-29','0'),
+
 ('391','East Santos','delectus','Single','402.96','1993-03-21','0'),
 ('976','East Santos','delectus','Triple','278.05','1996-08-24','0'),
 ('340','East Santos','delectus','Single','398.78','2008-04-20','0'),
 ('311','East Santos','delectus','Triple','193.29','1984-09-19','0'),
 ('658','East Santos','delectus','Double','32.68','1978-06-04','0'),
-('610','East Santos','delectus','Facility','110.08','2014-05-19','0'),
-('200','East Santos','delectus','Facility','338.08','1978-05-23','1'),
+
+
 ('640','East Santos','delectus','Double','452.19','1978-05-03','0'),
 ('669','East Santos','delectus','Single','75.16','2013-02-24','0'),
 ('131','East Santos','delectus','Double','107.05','1992-03-25','0'),
 ('494','East Santos','delectus','Single','49.27','2016-01-19','0'),
 ('407','East Santos','delectus','Triple','159.03','1992-01-21','0'),
-('975','East Santos','delectus','Facility','309.20','1995-05-04','0'),
+
 ('476','East Santos','delectus','Triple','392.79','1974-06-05','0'),
 ('757','East Santos','delectus','Single','361.53','1980-01-06','0'),
 ('160','East Santos','delectus','Triple','24.02','1999-02-16','0'),
-('865','East Santos','delectus','Facility','387.36','1976-09-16','0'),
-('80','East Santos','delectus','Facility','107.85','2010-08-14','0'),
+
+
 ('32','East Santos','delectus','Double','311.65','1974-10-14','0'),
 ('441','East Santos','delectus','Single','68.06','1976-12-06','0'),
-('641','East Santos','delectus','Facility','272.60','1991-06-12','1'),
+
 ('50','East Santos','delectus','Single','241.40','2016-05-22','1'),
 ('771','East Santos','delectus','Triple','47.97','2004-09-22','0'),
-('898','East Santos','delectus','Facility','396.96','2010-05-05','0'),
-('621','East Santos','delectus','Facility','368.06','1975-03-03','0'),
-('216','East Santos','delectus','Facility','249.99','1999-07-09','0'),
+
+
+
 ('353','East Santos','delectus','Double','47.69','2016-02-08','0'),
 ('517','East Santos','delectus','Triple','157.76','2015-08-18','0'),
 ('726','East Santos','delectus','Triple','203.72','1982-01-31','0'),
 ('76','East Santos','delectus','Single','185.89','2010-12-13','0'),
 ('915','East Santos','delectus','Single','174.01','2007-12-01','0'),
-('249','East Santos','delectus','Facility','48.31','2009-04-15','0'),
-('849','East Santos','delectus','Facility','119.04','2012-09-08','0'),
+
+
 ('22','East Santos','delectus','Double','198.59','2008-07-11','0'),
-('943','East Santos','delectus','Facility','212.40','1993-05-15','1'),
+
 ('937','East Santos','delectus','Double','160.29','1994-01-03','0'),
 ('532','East Santos','delectus','Triple','77.59','1985-11-17','0'),
-('774','East Santos','delectus','Facility','69.99','1991-04-26','0'),
-('282','East Santos','delectus','Facility','244.04','1972-06-01','0'),
+
+
 ('599','East Santos','delectus','Double','363.69','2005-10-19','0'),
 ('107','East Santos','delectus','Double','185.89','2001-10-04','0'),
 ('995','East Santos','delectus','Single','41.00','1992-06-02','0'),
@@ -426,7 +426,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('805','East Santos','delectus','Double','155.28','1970-10-29','0'),
 ('911','East Santos','delectus','Double','333.63','2000-09-04','0'),
 ('374','East Santos','delectus','Triple','164.02','1979-03-02','0'),
-('381','East Santos','delectus','Facility','49.16','2007-11-09','0'),
+
 ('731','East Santos','delectus','Triple','284.79','2018-10-16','0'),
 ('144','East Santos','delectus','Triple','108.49','2017-03-09','1'),
 ('862','East Santos','delectus','Double','370.96','1991-07-13','0'),
@@ -434,26 +434,26 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('839','East Santos','delectus','Triple','291.62','1975-03-23','0'),
 ('559','East Santos','delectus','Single','28.01','2008-12-02','0'),
 ('934','East Santos','delectus','Single','479.79','2017-12-08','0'),
-('290','East Santos','delectus','Facility','53.54','1984-12-11','0'),
+
 ('626','East Santos','delectus','Double','484.07','1988-09-11','0'),
 ('876','East Santos','delectus','Double','99.35','2011-06-12','0'),
 ('27','East Santos','delectus','Single','107.12','2016-05-01','0'),
 ('776','East Santos','delectus','Triple','52.62','1995-11-15','0'),
 ('941','East Santos','delectus','Triple','148.61','1984-10-19','0'),
-('468','East Santos','delectus','Facility','230.84','1978-10-31','0'),
+
 ('885','East Santos','delectus','Double','336.72','2015-07-16','0'),
 ('85','East Santos','delectus','Double','299.85','2010-04-29','0'),
 ('749','East Santos','delectus','Single','30.09','2013-01-06','0'),
-('395','East Santos','delectus','Facility','198.89','2017-08-10','0'),
+
 ('197','East Santos','delectus','Double','69.85','2005-01-02','0'),
 ('289','East Santos','delectus','Double','336.65','1981-08-08','0'),
 ('486','East Santos','delectus','Single','250.78','1990-11-10','0'),
-('34','East Santos','delectus','Facility','468.54','2011-09-12','0'),
+
 ('86','East Santos','delectus','Triple','289.65','1984-04-25','0'),
 ('722','East Santos','delectus','Triple','275.79','1981-10-15','0'),
 ('417','East Santos','delectus','Triple','185.73','2008-07-26','0'),
 ('765','East Santos','delectus','Double','239.71','1990-03-01','0'),
-('208','East Santos','delectus','Facility','289.26','1986-08-21','0'),
+
 ('679','East Santos','delectus','Double','233.17','1988-09-25','0'),
 ('55','East Santos','delectus','Single','150.47','2001-01-18','0'),
 ('176','East Santos','delectus','Double','414.71','1986-09-07','0'),
@@ -465,58 +465,58 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('124','East Santos','delectus','Single','91.63','2009-09-17','0'),
 ('330','East Santos','delectus','Single','174.32','1997-02-10','0'),
 ('333','East Santos','delectus','Single','443.02','1996-08-06','0'),
-('949','East Santos','delectus','Facility','477.02','2017-02-28','0'),
-('761','East Santos','delectus','Facility','322.70','1984-08-14','0'),
+
+
 ('470','East Santos','delectus','Triple','234.87','1982-05-08','0'),
 ('227','East Santos','delectus','Triple','31.98','1998-02-25','0'),
 ('854','East Santos','delectus','Triple','302.57','2002-02-03','0'),
-('402','East Santos','delectus','Facility','110.56','1998-11-23','0'),
-('899','East Santos','delectus','Facility','84.35','1979-05-30','0'),
-('236','East Santos','delectus','Facility','332.14','2014-08-01','0'),
+
+
+
 ('891','East Santos','delectus','Single','286.39','1980-05-05','0'),
 ('170','East Santos','delectus','Double','37.92','1970-07-16','0'),
-('725','East Santos','delectus','Facility','303.52','1997-04-01','0'),
+
 ('595','East Santos','delectus','Single','263.81','2001-10-07','0'),
-('412','East Santos','delectus','Facility','65.85','1997-03-24','0'),
+
 ('159','East Santos','delectus','Single','150.20','1984-07-24','0'),
 ('649','East Santos','delectus','Double','187.54','1991-04-22','0'),
 ('334','East Santos','delectus','Double','455.25','1997-04-08','0'),
 ('781','East Santos','delectus','Triple','139.54','1996-10-02','0'),
 ('536','East Santos','delectus','Triple','71.66','2015-07-14','0'),
-('259','East Santos','delectus','Facility','166.35','2006-02-04','0'),
-('128','East Santos','delectus','Facility','304.31','2010-12-23','0'),
+
+
 ('547','East Santos','delectus','Single','227.74','1985-08-01','1'),
 ('845','East Santos','delectus','Double','137.06','2013-03-25','0'),
 ('524','East Santos','delectus','Triple','463.62','1997-02-19','0'),
 ('288','East Santos','delectus','Single','161.96','2017-02-24','0'),
-('492','East Santos','delectus','Facility','168.63','2015-09-11','0'),
+
 ('661','East Santos','delectus','Single','305.69','2000-12-16','0'),
 ('203','East Santos','delectus','Double','394.46','1977-07-02','0'),
 ('272','East Santos','delectus','Double','332.01','2008-12-26','0'),
-('615','East Santos','delectus','Facility','460.27','1999-03-31','0'),
+
 ('126','East Santos','delectus','Single','441.94','2014-03-14','0'),
-('362','East Santos','delectus','Facility','27.59','2015-04-30','0'),
+
 ('904','East Santos','delectus','Triple','296.40','2018-04-17','0'),
 ('444','East Santos','delectus','Single','373.49','1984-03-09','0'),
-('682','East Santos','delectus','Facility','477.98','1994-10-05','0'),
+
 ('999','East Santos','delectus','Single','426.61','2006-10-07','0'),
 ('478','East Santos','delectus','Single','491.99','1972-07-01','0'),
-('770','East Santos','delectus','Facility','162.18','2001-07-12','0'),
+
 ('993','East Santos','delectus','Single','454.51','2009-07-24','0'),
-('777','East Santos','delectus','Facility','475.98','1994-05-05','0'),
-('852','East Santos','delectus','Facility','310.56','2005-04-08','0'),
+
+
 ('905','East Santos','delectus','Single','141.72','1974-08-19','0'),
 ('924','East Santos','delectus','Single','319.44','1988-08-05','0'),
 ('210','East Santos','delectus','Triple','467.41','1994-07-08','0'),
-('645','East Santos','delectus','Facility','405.23','1980-04-29','0'),
+
 ('573','East Santos','delectus','Single','240.01','1973-12-15','0'),
 ('66','East Santos','delectus','Double','62.48','2012-01-18','0'),
 ('662','East Santos','delectus','Double','30.72','1998-10-19','0'),
-('617','East Santos','delectus','Facility','401.02','1985-03-16','0'),
+
 ('425','East Santos','delectus','Single','10.29','1980-07-18','0'),
 ('52','East Santos','delectus','Single','364.76','2016-07-06','0'),
 ('932','East Santos','delectus','Single','292.78','2018-08-27','0'),
-('966','East Santos','delectus','Facility','178.03','1981-07-12','0'),
+
 ('443','East Santos','delectus','Double','259.28','2007-02-15','0'),
 ('57','East Santos','delectus','Double','202.00','1985-05-25','0'),
 ('28','East Santos','delectus','Single','479.30','2016-01-18','0'),
@@ -530,11 +530,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('296','East Santos','delectus','Single','425.27','1976-01-18','0'),
 ('927','East Santos','delectus','Triple','481.02','2016-11-15','0'),
 ('916','East Santos','delectus','Triple','125.68','2003-04-29','0'),
-('637','East Santos','delectus','Facility','369.16','1979-09-04','0'),
+
 ('711','East Santos','delectus','Double','202.39','1997-07-21','0'),
 ('397','East Santos','delectus','Single','109.55','2017-03-23','0'),
-('215','East Santos','delectus','Facility','399.21','2001-06-13','0'),
-('17','East Santos','delectus','Facility','55.20','2009-05-06','0'),
+
+
 ('297','East Santos','delectus','Double','376.69','2012-04-16','1'),
 ('82','East Santos','delectus','Single','38.42','1989-09-20','0'),
 ('73','East Santos','delectus','Double','78.98','1978-01-09','0'),
@@ -544,52 +544,52 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('663','East Santos','delectus','Double','285.12','2006-03-11','0'),
 ('252','East Santos','delectus','Single','431.26','2009-11-11','0'),
 ('889','East Santos','delectus','Triple','261.36','1993-10-30','0'),
-('438','East Santos','delectus','Facility','12.99','1995-09-26','0'),
+
 ('39','East Santos','delectus','Single','68.67','1988-01-15','0'),
-('420','East Santos','delectus','Facility','209.39','1974-01-02','0'),
+
 ('413','East Santos','delectus','Single','367.86','2013-11-22','0'),
 ('271','East Santos','delectus','Single','59.44','1983-01-06','0'),
 ('275','East Santos','delectus','Triple','456.45','2003-11-29','0'),
 ('299','East Santos','delectus','Single','153.44','2007-09-29','0'),
 ('644','East Santos','delectus','Triple','101.69','1979-10-04','0'),
-('384','East Santos','delectus','Facility','492.69','2015-07-09','0'),
+
 ('723','East Santos','delectus','Single','403.57','1991-01-20','0'),
 ('314','East Santos','delectus','Single','365.03','1988-01-09','0'),
 ('172','East Santos','delectus','Triple','234.38','1971-05-18','1'),
 ('951','East Santos','delectus','Double','448.97','1990-12-01','0'),
 ('747','East Santos','delectus','Single','94.35','2002-10-20','0'),
 ('483','East Santos','delectus','Double','292.49','2012-02-12','0'),
-('378','East Santos','delectus','Facility','127.86','2001-06-12','0'),
+
 ('262','East Santos','delectus','Triple','154.63','1979-09-22','0'),
-('155','East Santos','delectus','Facility','18.28','1994-11-08','0'),
+
 ('718','East Santos','delectus','Triple','388.41','2015-10-25','0'),
 ('87','East Santos','delectus','Double','325.83','1977-06-15','1'),
 ('611','East Santos','delectus','Triple','172.28','1983-03-01','0'),
-('923','East Santos','delectus','Facility','66.06','1986-03-15','0'),
-('209','East Santos','delectus','Facility','73.44','2015-09-10','0'),
+
+
 ('625','East Santos','delectus','Single','51.07','1995-03-17','0'),
 ('196','East Santos','delectus','Single','433.56','2007-08-12','0'),
 ('400','East Santos','delectus','Single','402.81','1997-08-07','0'),
 ('576','East Santos','delectus','Triple','85.64','2003-07-07','0'),
-('708','East Santos','delectus','Facility','331.23','1998-10-31','0'),
-('533','East Santos','delectus','Facility','165.98','2007-05-11','0'),
-('250','East Santos','delectus','Facility','127.33','1995-05-24','0'),
+
+
+
 ('30','East Santos','delectus','Double','420.86','2010-09-11','0'),
-('446','East Santos','delectus','Facility','381.49','1993-11-24','0'),
+
 ('480','East Santos','delectus','Single','257.13','1977-02-12','0'),
 ('354','East Santos','delectus','Single','429.38','2000-08-02','0'),
 ('121','East Santos','delectus','Double','366.37','1989-04-03','0'),
-('410','East Santos','delectus','Facility','447.08','2003-09-05','0'),
-('959','East Santos','delectus','Facility','480.99','1981-03-30','0'),
-('14','East Santos','delectus','Facility','233.10','1977-05-24','1'),
-('132','East Santos','delectus','Facility','328.20','2010-04-13','0'),
+
+
+
+
 ('81','East Santos','delectus','Single','486.21','1983-09-25','0'),
 ('643','East Santos','delectus','Single','84.41','1988-10-16','0'),
 ('238','East Santos','delectus','Double','135.78','1992-11-14','0'),
 ('744','East Santos','delectus','Single','291.99','2006-09-23','0'),
 ('789','East Santos','delectus','Single','148.59','1982-05-31','0'),
 ('175','East Santos','delectus','Triple','229.25','1990-08-01','0'),
-('692','East Santos','delectus','Facility','373.46','2012-03-03','0'),
+
 ('900','East Santos','delectus','Single','23.01','1984-03-26','0'),
 ('804','East Santos','delectus','Single','111.47','1982-06-10','0'),
 ('702','East Santos','delectus','Double','219.66','1992-11-24','1'),
@@ -614,32 +614,32 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('301','East Santos','delectus','Double','167.57','1976-11-30','0'),
 ('741','East Santos','delectus','Triple','282.80','2006-05-10','1'),
 ('608','East Santos','delectus','Double','269.11','2013-09-24','0'),
-('837','East Santos','delectus','Facility','129.48','2004-08-08','0'),
-('667','East Santos','delectus','Facility','212.23','1983-01-26','0'),
+
+
 ('62','East Santos','delectus','Single','414.20','1987-07-29','0'),
 ('688','East Santos','delectus','Single','357.35','1976-10-14','0'),
-('315','East Santos','delectus','Facility','324.17','2017-09-28','0'),
-('902','East Santos','delectus','Facility','349.74','2018-03-07','0'),
-('562','East Santos','delectus','Facility','97.88','2005-12-05','0'),
+
+
+
 ('260','East Santos','delectus','Single','497.98','1971-10-25','0'),
 ('802','East Santos','delectus','Triple','498.89','1972-05-09','0'),
-('181','East Santos','delectus','Facility','41.45','1982-08-21','1'),
+
 ('125','East Santos','delectus','Single','39.66','2000-05-09','0'),
 ('791','East Santos','delectus','Single','353.44','2015-01-29','0'),
-('565','East Santos','delectus','Facility','313.90','1974-01-01','0'),
+
 ('634','East Santos','delectus','Single','48.90','2012-12-12','0'),
-('77','East Santos','delectus','Facility','78.54','1978-08-07','0'),
+
 ('713','East Santos','delectus','Triple','146.26','2012-10-19','1'),
 ('684','East Santos','delectus','Double','101.48','1986-10-13','0'),
 ('683','East Santos','delectus','Single','466.63','2002-09-03','0'),
-('906','East Santos','delectus','Facility','110.79','2003-08-07','0'),
+
 ('279','East Santos','delectus','Double','320.83','2018-08-01','0'),
 ('583','East Santos','delectus','Double','288.62','1985-12-18','0'),
 ('336','East Santos','delectus','Triple','416.92','1972-10-24','0'),
-('780','East Santos','delectus','Facility','85.52','1980-09-06','1'),
+
 ('388','East Santos','delectus','Double','150.61','1993-01-05','0'),
 ('134','East Santos','delectus','Triple','168.23','2006-08-21','0'),
-('826','East Santos','delectus','Facility','171.22','2012-05-24','0'),
+
 ('268','East Santos','delectus','Double','309.36','2016-10-04','0'),
 ('737','East Santos','delectus','Double','246.84','1979-12-05','0'),
 ('466','East Santos','delectus','Double','73.38','1985-03-14','0'),
@@ -648,22 +648,22 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('685','East Santos','delectus','Triple','426.99','1993-07-07','0'),
 ('114','East Santos','delectus','Double','159.69','1979-07-06','1'),
 ('907','East Santos','delectus','Double','163.92','1998-07-09','0'),
-('716','East Santos','delectus','Facility','183.65','2014-05-13','0'),
+
 ('552','East Santos','delectus','Single','70.72','2004-11-30','0'),
 ('800','East Santos','delectus','Single','63.92','1990-01-10','0'),
-('235','East Santos','delectus','Facility','210.17','1994-11-21','0'),
-('1','East Santos','delectus','Facility','457.11','1975-01-11','0'),
+
+
 ('148','East Santos','delectus','Double','111.82','2007-04-06','1'),
 ('935','East Santos','delectus','Triple','497.98','2013-07-29','0'),
 ('138','East Santos','delectus','Double','356.36','2013-07-03','0'),
 ('950','East Santos','delectus','Triple','149.35','2002-04-28','0'),
 ('754','East Santos','delectus','Triple','257.72','1987-06-03','0'),
-('848','East Santos','delectus','Facility','75.36','2008-02-15','0'),
+
 ('321','East Santos','delectus','Triple','246.26','1971-11-25','0'),
 ('962','East Santos','delectus','Double','113.99','1986-03-31','0'),
 ('952','East Santos','delectus','Single','44.19','1994-11-21','0'),
 ('454','East Santos','delectus','Triple','92.41','2009-06-14','0'),
-('496','East Santos','delectus','Facility','291.59','1971-04-01','0'),
+
 ('165','East Santos','delectus','Triple','364.95','1983-01-10','0'),
 ('70','East Santos','delectus','Double','82.98','1996-06-13','0'),
 ('223','East Santos','delectus','Triple','63.36','2015-11-30','0'),
@@ -673,9 +673,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('304','East Santos','delectus','Single','405.16','1970-12-17','0'),
 ('212','East Santos','delectus','Single','126.28','2004-08-30','0'),
 ('738','East Santos','delectus','Triple','79.71','2017-07-28','0'),
-('401','East Santos','delectus','Facility','233.21','2001-04-15','0'),
+
 ('939','East Santos','delectus','Single','275.39','1980-01-23','0'),
-('99','East Santos','delectus','Facility','345.85','2004-11-18','1'),
+
 ('855','East Santos','delectus','Double','396.51','1974-06-22','0'),
 ('295','East Santos','delectus','Double','16.10','2014-02-09','1'),
 ('270','East Santos','delectus','Triple','18.95','2017-12-06','0'),
@@ -684,11 +684,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('719','East Santos','delectus','Triple','138.45','1976-10-05','0'),
 ('338','East Santos','delectus','Double','39.93','2014-07-12','0'),
 ('860','East Santos','delectus','Single','299.95','2012-03-12','0'),
-('616','East Santos','delectus','Facility','245.89','1994-06-18','0'),
+
 ('636','East Santos','delectus','Single','293.93','1989-03-28','1'),
 ('244','East Santos','delectus','Single','467.11','1977-12-24','0'),
 ('369','East Santos','delectus','Single','178.02','1996-02-29','0'),
-('16','East Santos','delectus','Facility','85.29','1983-06-17','0'),
+
 ('317','East Santos','delectus','Double','329.79','2009-05-23','0'),
 ('90','East Santos','delectus','Double','419.97','2013-07-28','0'),
 ('403','East Santos','delectus','Single','281.99','1987-08-18','0'),
@@ -699,38 +699,38 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('965','East Santos','delectus','Single','201.91','1985-03-28','0'),
 ('613','East Santos','delectus','Double','437.68','1999-06-04','0'),
 ('214','East Santos','delectus','Single','122.89','2015-03-16','0'),
-('88','East Santos','delectus','Facility','457.96','1979-05-31','0'),
+
 ('840','East Santos','delectus','Double','65.42','2002-06-27','0'),
 ('735','East Santos','delectus','Double','57.25','2007-08-28','0'),
 ('760','East Santos','delectus','Single','341.09','2010-07-01','0'),
-('511','East Santos','delectus','Facility','117.75','1970-07-12','0'),
+
 ('564','East Santos','delectus','Double','256.12','1985-05-24','0'),
 ('408','East Santos','delectus','Double','78.65','2011-10-30','0'),
-('442','East Santos','delectus','Facility','153.15','1983-10-18','0'),
+
 ('386','East Santos','delectus','Single','284.79','1975-09-09','0'),
 ('673','East Santos','delectus','Single','440.01','2011-08-26','0'),
 ('618','East Santos','delectus','Triple','181.91','1997-05-10','0'),
 ('857','East Santos','delectus','Double','26.10','1984-03-28','0'),
-('457','East Santos','delectus','Facility','461.05','2002-05-14','0'),
+
 ('809','East Santos','delectus','Double','88.87','1987-11-14','0'),
 ('704','East Santos','delectus','Double','455.03','1970-06-18','0'),
-('226','East Santos','delectus','Facility','250.47','2000-12-12','0'),
-('872','East Santos','delectus','Facility','405.66','2003-05-26','0'),
-('864','East Santos','delectus','Facility','471.32','1981-09-05','0'),
+
+
+
 ('767','East Santos','delectus','Triple','10.51','2003-04-02','0'),
 ('13','East Santos','delectus','Single','56.28','2000-10-06','1'),
 ('58','East Santos','delectus','Triple','306.47','1976-11-30','0'),
 ('177','East Santos','delectus','Single','298.74','2018-01-12','0'),
 ('54','East Santos','delectus','Double','430.31','1991-11-21','0'),
-('660','East Santos','delectus','Facility','116.13','2005-01-27','0'),
+
 ('813','East Santos','delectus','Double','306.64','1972-11-02','1'),
 ('521','East Santos','delectus','Double','307.94','1971-05-19','0'),
 ('766','East Santos','delectus','Triple','396.83','1975-05-05','0'),
 ('887','East Santos','delectus','Double','146.99','1970-04-29','0'),
 ('775','East Santos','delectus','Triple','72.30','2003-12-23','0'),
-('220','East Santos','delectus','Facility','26.82','2013-12-29','0'),
-('399','East Santos','delectus','Facility','482.76','2000-10-22','0'),
-('493','East Santos','delectus','Facility','97.90','1996-01-08','0'),
+
+
+
 ('447','East Santos','delectus','Single','314.97','2001-07-16','0'),
 ('98','East Santos','delectus','Triple','179.41','1981-06-22','0'),
 ('806','East Santos','delectus','Triple','293.64','1992-10-06','0'),
@@ -746,14 +746,14 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('525','East Santos','delectus','Single','306.51','1974-09-15','0'),
 ('163','East Santos','delectus','Triple','66.95','1996-11-11','0'),
 ('96','East Santos','delectus','Double','172.81','1971-05-25','0'),
-('26','East Santos','delectus','Facility','454.52','1996-03-27','0'),
+
 ('38','East Santos','delectus','Triple','13.64','1991-11-29','0'),
 ('426','East Santos','delectus','Double','71.51','1987-11-29','0'),
 ('3','East Santos','delectus','Triple','438.21','1984-07-08','0'),
 ('246','East Santos','delectus','Triple','471.26','2000-11-22','0'),
 ('522','East Santos','delectus','Triple','471.65','2005-06-16','1'),
-('423','East Santos','delectus','Facility','42.05','1980-01-02','0'),
-('436','East Santos','delectus','Facility','472.71','1984-01-17','0'),
+
+
 ('574','East Santos','delectus','Double','361.36','2018-02-08','0'),
 ('406','East Santos','delectus','Triple','344.08','1995-09-11','0'),
 ('339','East Santos','delectus','Single','77.77','2015-01-24','0'),
@@ -761,10 +761,10 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('263','East Santos','delectus','Single','421.26','1982-03-13','0'),
 ('452','East Santos','delectus','Double','415.65','1972-07-28','1'),
 ('926','East Santos','delectus','Single','111.06','1999-04-27','0'),
-('988','East Santos','delectus','Facility','449.47','1988-10-28','1'),
+
 ('404','East Santos','delectus','Single','140.48','1989-11-23','0'),
 ('186','East Santos','delectus','Double','147.52','2018-08-30','0'),
-('816','East Santos','delectus','Facility','98.76','2011-10-26','0'),
+
 ('553','East Santos','delectus','Single','165.24','1972-06-08','0'),
 ('888','East Santos','delectus','Single','21.56','2006-06-30','0'),
 ('36','East Santos','delectus','Triple','64.12','1984-07-25','0'),
@@ -773,70 +773,70 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('534','East Santos','delectus','Triple','281.73','1983-08-13','0'),
 ('817','East Santos','delectus','Single','16.28','2001-12-13','1'),
 ('43','East Santos','delectus','Double','249.46','1998-10-06','0'),
-('582','East Santos','delectus','Facility','432.39','1972-07-31','0'),
+
 ('938','East Santos','delectus','Single','465.88','1994-12-07','0'),
 ('185','East Santos','delectus','Single','437.96','1998-03-04','0'),
 ('89','East Santos','delectus','Single','47.91','1994-01-26','0'),
-('355','East Santos','delectus','Facility','190.38','1995-02-16','0'),
+
 ('350','East Santos','delectus','Single','10.77','2013-06-21','0'),
 ('29','East Santos','delectus','Triple','91.95','1999-04-26','0'),
-('850','East Santos','delectus','Facility','407.96','2016-10-05','0'),
+
 ('933','East Santos','delectus','Triple','323.96','1987-12-02','1'),
 ('607','East Santos','delectus','Triple','303.43','1985-10-29','0'),
-('529','East Santos','delectus','Facility','33.00','1994-10-05','0'),
+
 ('709','East Santos','delectus','Single','163.23','1983-03-14','0'),
-('254','East Santos','delectus','Facility','127.30','1983-10-22','0'),
+
 ('773','East Santos','delectus','Triple','378.10','2003-12-31','0'),
 ('558','East Santos','delectus','Double','70.98','2001-06-03','0'),
-('218','East Santos','delectus','Facility','349.76','2012-01-18','1'),
-('491','East Santos','delectus','Facility','243.82','1975-12-02','1'),
+
+
 ('152','East Santos','delectus','Single','462.22','1996-03-29','0'),
 ('189','East Santos','delectus','Triple','431.70','2017-11-20','0'),
 ('267','East Santos','delectus','Single','466.79','1997-10-20','0'),
 ('56','East Santos','delectus','Triple','76.85','1982-07-12','0'),
 ('769','East Santos','delectus','Double','332.46','1988-10-22','0'),
-('698','East Santos','delectus','Facility','229.68','1999-10-13','0'),
+
 ('594','East Santos','delectus','Triple','408.10','1976-11-28','1'),
 ('614','East Santos','delectus','Double','474.27','2005-04-14','0'),
 ('717','East Santos','delectus','Single','362.11','2004-07-18','0'),
-('313','East Santos','delectus','Facility','226.33','1971-03-15','0'),
+
 ('794','East Santos','delectus','Triple','368.38','1975-11-18','0'),
 ('18','East Santos','delectus','Triple','287.74','1984-06-18','0'),
-('501','East Santos','delectus','Facility','397.97','1993-12-29','0'),
-('421','East Santos','delectus','Facility','337.18','2015-06-17','0'),
-('721','East Santos','delectus','Facility','209.47','2004-11-01','0'),
+
+
+
 ('795','East Santos','delectus','Triple','386.03','1978-11-09','0'),
 ('435','East Santos','delectus','Double','351.87','1971-10-02','0'),
-('998','East Santos','delectus','Facility','150.07','1999-09-11','0'),
+
 ('437','East Santos','delectus','Double','231.14','2002-08-23','0'),
 ('274','East Santos','delectus','Double','391.48','1971-04-22','0'),
 ('331','East Santos','delectus','Double','231.10','2002-08-07','1'),
 ('953','East Santos','delectus','Double','84.05','1972-05-23','0'),
 ('228','East Santos','delectus','Triple','382.91','2002-11-26','0'),
-('459','East Santos','delectus','Facility','438.25','2017-03-13','0'),
-('167','East Santos','delectus','Facility','247.39','1977-01-24','0'),
-('84','East Santos','delectus','Facility','429.70','2001-01-10','0'),
+
+
+
 ('23','East Santos','delectus','Double','429.69','1970-02-03','0'),
 ('51','East Santos','delectus','Double','103.92','2005-08-13','1'),
-('994','East Santos','delectus','Facility','474.32','1998-09-11','0'),
+
 ('93','East Santos','delectus','Triple','450.95','1981-06-02','0'),
-('390','East Santos','delectus','Facility','317.06','2012-01-31','0'),
-('190','East Santos','delectus','Facility','347.95','1998-08-13','0'),
+
+
 ('892','East Santos','delectus','Single','129.42','2010-10-26','0'),
-('543','East Santos','delectus','Facility','335.16','1973-03-07','0'),
+
 ('528','East Santos','delectus','Single','65.97','1984-06-08','0'),
-('237','East Santos','delectus','Facility','325.71','1986-03-01','0'),
+
 ('78','East Santos','delectus','Single','315.75','2011-11-27','1'),
 ('385','East Santos','delectus','Double','251.17','1996-01-18','0'),
 ('409','East Santos','delectus','Single','23.00','1987-02-01','0'),
-('972','East Santos','delectus','Facility','339.18','2010-11-18','0'),
+
 ('513','East Santos','delectus','Double','484.23','1990-01-27','0'),
 ('954','East Santos','delectus','Double','389.73','1980-11-19','0'),
-('664','East Santos','delectus','Facility','408.32','1970-01-21','0'),
+
 ('455','East Santos','delectus','Double','239.79','1984-11-09','0'),
 ('380','East Santos','delectus','Single','32.54','1983-12-12','0'),
 ('475','East Santos','delectus','Single','484.66','1989-07-25','0'),
-('59','East Santos','delectus','Facility','101.65','2011-06-22','1'),
+
 ('815','East Santos','delectus','Triple','240.45','2000-07-13','1'),
 ('192','East Santos','delectus','Double','353.42','2000-06-02','0'),
 ('869','East Santos','delectus','Single','395.62','1972-11-23','0'),
@@ -844,35 +844,35 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('499','East Santos','delectus','Double','265.33','1995-09-13','0'),
 ('42','East Santos','delectus','Triple','176.08','1993-03-15','0'),
 ('555','East Santos','delectus','Double','23.06','1985-04-13','0'),
-('145','East Santos','delectus','Facility','137.10','2010-08-14','0'),
+
 ('133','East Santos','delectus','Double','105.38','2017-10-13','0'),
-('668','East Santos','delectus','Facility','409.60','1972-08-03','0'),
-('680','East Santos','delectus','Facility','97.15','2016-12-29','0'),
-('74','East Santos','delectus','Facility','69.41','2014-06-21','0'),
+
+
+
 ('699','East Santos','delectus','Triple','72.45','1999-11-18','0'),
 ('135','East Santos','delectus','Single','346.42','2007-12-30','0'),
 ('909','East Santos','delectus','Double','467.69','1988-09-06','1'),
 ('347','East Santos','delectus','Double','497.33','2001-04-12','0'),
-('173','East Santos','delectus','Facility','365.38','1972-06-28','0'),
+
 ('342','East Santos','delectus','Triple','121.81','1982-07-26','0'),
-('556','East Santos','delectus','Facility','224.23','1983-10-06','0'),
+
 ('464','East Santos','delectus','Double','97.91','2008-03-14','0'),
 ('989','East Santos','delectus','Triple','53.50','2006-05-04','0'),
 ('2','East Santos','delectus','Single','293.71','1990-05-22','0'),
-('842','East Santos','delectus','Facility','114.04','1983-03-01','0'),
-('960','East Santos','delectus','Facility','466.84','1996-09-23','0'),
+
+
 ('191','East Santos','delectus','Triple','76.07','1986-01-11','0'),
 ('123','East Santos','delectus','Single','24.32','1970-09-12','1'),
 ('720','East Santos','delectus','Single','419.07','2017-05-07','0'),
 ('829','East Santos','delectus','Single','278.27','1974-06-16','0'),
-('266','East Santos','delectus','Facility','18.28','2004-02-08','0'),
+
 ('234','East Santos','delectus','Single','428.67','1977-01-12','0'),
 ('819','East Santos','delectus','Single','489.38','2009-05-01','0'),
 ('489','East Santos','delectus','Single','410.07','1994-01-18','0'),
 ('851','East Santos','delectus','Single','186.26','1990-10-08','0'),
 ('503','East Santos','delectus','Double','176.13','1993-06-21','0'),
-('945','East Santos','delectus','Facility','150.10','2002-07-04','0'),
-('672','East Santos','delectus','Facility','193.84','1996-12-30','0'),
+
+
 ('847','East Santos','delectus','Single','300.59','1995-05-18','0'),
 ('158','East Santos','delectus','Single','49.46','2013-09-13','0'),
 ('602','East Santos','delectus','Double','409.94','1974-07-05','0'),
@@ -880,7 +880,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('240','East Santos','delectus','Double','235.24','1974-09-25','0'),
 ('801','East Santos','delectus','Triple','211.31','1978-03-21','0'),
 ('229','East Santos','delectus','Double','61.62','1972-12-05','0'),
-('588','East Santos','delectus','Facility','448.36','2002-09-19','0'),
+
 ('11','East Santos','delectus','Double','44.41','2000-01-16','0'),
 ('415','East Santos','delectus','Double','331.04','2017-04-23','0'),
 ('703','East Santos','delectus','Double','462.24','1983-07-18','0'),
@@ -889,15 +889,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('983','East Santos','delectus','Double','426.29','1986-01-03','0'),
 ('948','East Santos','delectus','Triple','69.46','2008-03-11','0'),
 ('591','East Santos','delectus','Triple','335.42','1983-09-07','0'),
-('518','East Santos','delectus','Facility','356.52','1981-12-07','0'),
+
 ('328','East Santos','delectus','Single','138.55','1994-03-03','0'),
-('947','East Santos','delectus','Facility','364.30','1999-06-20','0'),
+
 ('787','East Santos','delectus','Double','330.16','1971-06-02','0'),
 ('153','East Santos','delectus','Double','486.71','1994-10-24','0'),
 ('542','East Santos','delectus','Single','157.20','1985-11-30','0'),
 ('465','East Santos','delectus','Double','123.83','1972-02-14','0'),
 ('505','East Santos','delectus','Triple','228.21','1975-06-29','0'),
-('140','East Santos','delectus','Facility','425.22','2002-05-05','0'),
+
 ('383','East Santos','delectus','Single','335.18','2013-10-24','0'),
 ('931','East Santos','delectus','Double','41.56','1981-12-02','0'),
 ('523','East Santos','delectus','Double','62.01','1984-10-15','1'),
@@ -905,40 +905,40 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('919','East Santos','delectus','Double','192.84','2007-10-04','0'),
 ('10','East Santos','delectus','Triple','481.99','2012-06-08','0'),
 ('764','East Santos','delectus','Double','98.26','1979-03-11','0'),
-('187','East Santos','delectus','Facility','429.27','1976-05-14','1'),
+
 ('914','East Santos','delectus','Single','250.45','2011-06-14','0'),
 ('293','East Santos','delectus','Triple','215.61','1980-06-30','1'),
 ('693','East Santos','delectus','Double','302.40','1976-08-20','0'),
 ('782','East Santos','delectus','Double','436.27','1981-10-15','0'),
 ('810','East Santos','delectus','Double','14.87','1993-10-27','0'),
 ('368','East Santos','delectus','Single','300.46','2002-06-01','0'),
-('371','East Santos','delectus','Facility','358.58','1994-05-02','0'),
+
 ('820','East Santos','delectus','Triple','463.13','1978-05-30','0'),
-('21','East Santos','delectus','Facility','497.41','1980-02-18','0'),
+
 ('100','East Santos','delectus','Double','396.39','1975-12-30','0'),
 ('730','East Santos','delectus','Double','397.85','1977-04-09','0'),
 ('549','East Santos','delectus','Triple','236.76','1986-01-10','0'),
 ('225','East Santos','delectus','Triple','296.64','2014-12-25','0'),
 ('432','East Santos','delectus','Single','346.28','1987-03-23','0'),
-('671','East Santos','delectus','Facility','250.17','1987-11-06','0'),
-('560','East Santos','delectus','Facility','219.73','1992-11-10','1'),
+
+
 ('858','East Santos','delectus','Triple','375.37','1986-06-10','0'),
 ('818','East Santos','delectus','Double','131.12','1981-10-27','0'),
-('428','East Santos','delectus','Facility','286.40','2014-07-04','0'),
-('861','East Santos','delectus','Facility','222.30','1983-04-04','0'),
-('199','East Santos','delectus','Facility','367.63','1987-05-31','0'),
+
+
+
 ('587','East Santos','delectus','Single','73.93','1993-12-17','0'),
 ('508','East Santos','delectus','Double','441.23','2000-05-29','0'),
 ('903','East Santos','delectus','Triple','307.41','1985-04-21','0'),
 ('701','East Santos','delectus','Double','146.08','1991-06-06','0'),
-('108','East Santos','delectus','Facility','412.73','1977-03-31','0'),
+
 ('487','East Santos','delectus','Triple','267.42','1973-09-20','0'),
-('111','East Santos','delectus','Facility','354.71','1974-04-18','0'),
-('156','East Santos','delectus','Facility','188.37','2005-10-01','0'),
+
+
 ('178','East Santos','delectus','Single','321.07','1971-11-08','0'),
 ('650','East Santos','delectus','Triple','198.24','2006-07-16','0'),
 ('358','East Santos','delectus','Double','362.66','1977-05-04','0'),
-('811','East Santos','delectus','Facility','256.82','2018-09-26','0'),
+
 ('751','East Santos','delectus','Triple','209.56','2016-10-10','0'),
 ('44','East Santos','delectus','Double','263.05','1991-06-27','0'),
 ('431','East Santos','delectus','Triple','105.61','1974-09-21','0'),
@@ -948,7 +948,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('544','East Santos','delectus','Double','21.91','2009-12-21','0'),
 ('65','East Santos','delectus','Triple','54.95','2010-08-29','0'),
 ('756','East Santos','delectus','Double','405.27','2010-12-27','0'),
-('337','East Santos','delectus','Facility','120.78','2010-04-19','1'),
+
 ('700','East Santos','delectus','Single','15.73','2016-10-23','0'),
 ('278','East Santos','delectus','Single','389.57','1992-05-27','0'),
 ('69','East Santos','delectus','Double','331.10','1981-02-20','0'),
@@ -958,50 +958,49 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('712','East Santos','delectus','Triple','17.57','2010-08-04','0'),
 ('758','East Santos','delectus','Single','125.93','2009-01-29','0'),
 ('880','East Santos','delectus','Triple','241.72','1982-10-24','0'),
-('195','East Santos','delectus','Facility','484.89','1996-12-02','0'),
-('33','East Santos','delectus','Facility','87.36','2014-01-05','0'),
-('622','East Santos','delectus','Facility','224.89','1977-12-01','0'),
+
+
+
 ('393','East Santos','delectus','Double','372.77','2002-11-23','1'),
 ('365','East Santos','delectus','Triple','155.71','1999-07-06','0'),
-('136','East Santos','delectus','Facility','274.27','1984-12-18','0'),
+
 ('793','East Santos','delectus','Triple','10.19','1993-01-01','0'),
 ('653','East Santos','delectus','Triple','184.20','1992-11-05','0'),
 ('473','East Santos','delectus','Triple','255.03','1998-02-15','0'),
 ('973','East Santos','delectus','Triple','275.98','1980-10-17','0'),
 ('6','East Santos','delectus','Triple','430.17','1983-03-23','0'),
 ('104','East Santos','delectus','Single','357.75','1978-11-06','0'),
-('433','East Santos','delectus','Facility','301.33','1975-12-01','0'),
-('656','East Santos','delectus','Facility','379.41','1986-04-26','0'),
+
+
 ('8','East Santos','delectus','Double','495.35','1989-05-10','1'),
 ('1000','East Santos','delectus','Double','447.77','2014-03-16','0'),
 ('879','East Santos','delectus','Double','413.23','1988-08-14','0'),
 ('659','East Santos','delectus','Single','447.46','2012-09-10','0'),
 ('495','East Santos','delectus','Single','310.01','2006-08-25','1'),
 ('247','East Santos','delectus','Triple','214.01','2017-10-10','0'),
-('101','East Santos','delectus','Facility','354.57','1997-05-25','0'),
+
 ('577','East Santos','delectus','Triple','483.55','1991-06-03','0'),
 ('198','East Santos','delectus','Double','187.55','1977-01-10','0'),
 ('598','East Santos','delectus','Double','260.36','2012-06-26','0'),
 ('612','East Santos','delectus','Single','365.06','1995-09-22','1'),
 ('651','East Santos','delectus','Single','168.12','1970-04-07','0'),
 ('753','East Santos','delectus','Triple','393.11','1998-10-14','1'),
-('838','East Santos','delectus','Facility','273.28','2016-05-21','0'),
-('309','East Santos','delectus','Facility','471.36','2001-09-26','0'),
+
+
 ('646','East Santos','delectus','Double','10.66','2004-03-01','0'),
 ('714','East Santos','delectus','Single','360.22','1988-05-04','0'),
 ('451','East Santos','delectus','Double','316.10','1995-07-23','1'),
-('127','East Santos','delectus','Facility','318.65','2016-03-14','0'),
+
 ('957','East Santos','delectus','Triple','493.91','2001-07-09','0'),
 ('335','East Santos','delectus','Triple','351.40','1973-08-14','0'),
 ('554','East Santos','delectus','Triple','430.79','1996-06-11','0'),
 ('844','East Santos','delectus','Triple','140.37','2001-07-04','0'),
 ('690','East Santos','delectus','Double','58.02','2016-05-01','0'),
-('15','East Santos','delectus','Facility','345.99','1987-07-03','0'),
+
 ('157','East Santos','delectus','Triple','411.08','2004-10-31','0'),
 ('619','East Santos','delectus','Single','283.02','1984-07-21','0'),
 ('356','Jamaalview','ea','Single','125.18','1996-08-31','0'),
 ('3','Jamaalview','ea','Single','55.94','1972-05-23','0'),
-('978','Jamaalview','ea','Facility','111.40','1985-07-05','0'),
 ('223','Jamaalview','ea','Double','291.83','1999-01-17','0'),
 ('180','Jamaalview','ea','Single','124.14','1980-04-20','0'),
 ('516','Jamaalview','ea','Triple','382.80','1986-05-01','0'),
@@ -1011,15 +1010,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('299','Jamaalview','ea','Double','426.40','2011-09-11','0'),
 ('975','Jamaalview','ea','Single','453.35','2005-01-07','0'),
 ('718','Jamaalview','ea','Double','275.42','2004-11-27','0'),
-('71','Jamaalview','ea','Facility','148.73','2000-12-01','0'),
+
 ('535','Jamaalview','ea','Single','250.02','2018-03-24','0'),
 ('797','Jamaalview','ea','Single','427.91','1990-10-14','0'),
 ('115','Jamaalview','ea','Double','186.79','1983-02-12','0'),
 ('938','Jamaalview','ea','Triple','29.96','2003-05-20','0'),
-('25','Jamaalview','ea','Facility','287.71','1990-09-12','0'),
+
 ('781','Jamaalview','ea','Double','199.32','2004-11-18','0'),
 ('312','Jamaalview','ea','Single','218.53','1992-03-28','0'),
-('850','Jamaalview','ea','Facility','249.07','2009-06-30','0'),
+
 ('796','Jamaalview','ea','Single','25.95','2014-06-20','0'),
 ('203','Jamaalview','ea','Triple','453.05','1989-11-23','0'),
 ('721','Jamaalview','ea','Single','223.04','1995-03-31','0'),
@@ -1029,13 +1028,13 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('738','Jamaalview','ea','Single','89.86','1972-04-23','0'),
 ('761','Jamaalview','ea','Single','112.21','1989-09-06','0'),
 ('625','Jamaalview','ea','Triple','451.96','1985-12-14','1'),
-('710','Jamaalview','ea','Facility','324.36','1991-07-21','1'),
+
 ('27','Jamaalview','ea','Triple','264.33','2014-05-02','0'),
 ('577','Jamaalview','ea','Double','94.63','1987-02-11','0'),
 ('684','Jamaalview','ea','Double','337.74','1978-01-07','0'),
 ('39','Jamaalview','ea','Triple','313.16','1990-12-28','0'),
 ('328','Jamaalview','ea','Double','94.41','1986-03-18','0'),
-('98','Jamaalview','ea','Facility','10.03','1989-06-17','0'),
+
 ('186','Jamaalview','ea','Triple','101.01','2000-03-19','0'),
 ('958','Jamaalview','ea','Triple','110.08','1993-04-11','0'),
 ('633','Jamaalview','ea','Single','254.61','1978-02-01','0'),
@@ -1047,49 +1046,49 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('155','Jamaalview','ea','Triple','101.11','1988-05-27','0'),
 ('499','Jamaalview','ea','Triple','196.04','2016-10-20','0'),
 ('968','Jamaalview','ea','Double','320.18','2006-03-28','0'),
-('696','Jamaalview','ea','Facility','286.49','1978-06-16','0'),
+
 ('341','Jamaalview','ea','Double','98.73','1995-05-28','0'),
 ('298','Jamaalview','ea','Double','13.54','2002-09-15','0'),
-('218','Jamaalview','ea','Facility','72.71','2016-04-02','0'),
+
 ('792','Jamaalview','ea','Triple','196.72','1979-12-07','0'),
-('398','Jamaalview','ea','Facility','337.13','2016-08-18','0'),
+
 ('23','Jamaalview','ea','Single','376.07','1977-03-10','0'),
 ('99','Jamaalview','ea','Triple','403.75','1991-08-28','0'),
 ('559','Jamaalview','ea','Double','274.36','1976-02-12','0'),
 ('999','Jamaalview','ea','Triple','108.58','1991-11-17','0'),
 ('834','Jamaalview','ea','Triple','107.58','2012-03-27','0'),
-('51','Jamaalview','ea','Facility','189.42','1995-04-30','0'),
-('885','Jamaalview','ea','Facility','402.59','1984-05-03','0'),
+
+
 ('443','Jamaalview','ea','Triple','156.47','2004-02-20','0'),
-('144','Jamaalview','ea','Facility','150.43','1978-04-12','0'),
+
 ('295','Jamaalview','ea','Double','148.83','2017-08-28','0'),
-('258','Jamaalview','ea','Facility','186.35','1982-07-23','0'),
+
 ('434','Jamaalview','ea','Double','164.09','2014-01-22','0'),
 ('689','Jamaalview','ea','Single','429.42','2006-02-16','0'),
-('586','Jamaalview','ea','Facility','380.42','1986-11-22','0'),
-('269','Jamaalview','ea','Facility','104.47','2017-02-28','0'),
-('719','Jamaalview','ea','Facility','183.56','2008-06-16','0'),
+
+
+
 ('84','Jamaalview','ea','Single','72.43','2009-11-06','0'),
 ('626','Jamaalview','ea','Single','369.72','1981-03-05','0'),
 ('925','Jamaalview','ea','Triple','282.77','1977-08-22','0'),
 ('869','Jamaalview','ea','Triple','92.24','1977-09-02','0'),
-('588','Jamaalview','ea','Facility','347.57','1985-11-25','1'),
+
 ('419','Jamaalview','ea','Double','57.99','1976-03-04','0'),
 ('486','Jamaalview','ea','Triple','161.73','1982-12-18','0'),
 ('608','Jamaalview','ea','Double','142.06','1981-12-04','0'),
-('344','Jamaalview','ea','Facility','220.65','1995-03-22','0'),
+
 ('594','Jamaalview','ea','Triple','254.14','1977-08-10','0'),
 ('229','Jamaalview','ea','Single','15.70','2000-02-02','0'),
 ('554','Jamaalview','ea','Double','311.65','1977-03-23','0'),
 ('529','Jamaalview','ea','Triple','169.58','1978-12-30','0'),
 ('268','Jamaalview','ea','Triple','369.43','2013-02-12','1'),
-('49','Jamaalview','ea','Facility','399.41','1976-10-31','0'),
+
 ('456','Jamaalview','ea','Single','266.32','1990-01-15','0'),
 ('948','Jamaalview','ea','Single','98.66','1998-09-13','0'),
 ('565','Jamaalview','ea','Triple','148.29','1974-03-22','0'),
-('589','Jamaalview','ea','Facility','366.02','1985-11-02','0'),
+
 ('353','Jamaalview','ea','Single','290.78','1993-01-15','0'),
-('319','Jamaalview','ea','Facility','301.15','1970-06-20','0'),
+
 ('103','Jamaalview','ea','Triple','68.43','1979-01-16','0'),
 ('788','Jamaalview','ea','Single','311.56','1977-10-21','0'),
 ('279','Jamaalview','ea','Triple','42.10','1974-01-10','1'),
@@ -1102,9 +1101,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('342','Jamaalview','ea','Single','485.05','1970-04-18','0'),
 ('665','Jamaalview','ea','Double','100.12','1988-08-05','0'),
 ('126','Jamaalview','ea','Single','484.91','2000-01-06','0'),
-('590','Jamaalview','ea','Facility','136.66','1982-02-08','0'),
-('933','Jamaalview','ea','Facility','155.86','1973-02-21','0'),
-('303','Jamaalview','ea','Facility','33.79','2007-06-13','0'),
+
+
+
 ('350','Jamaalview','ea','Single','449.08','1977-05-10','0'),
 ('146','Jamaalview','ea','Triple','156.33','1977-10-08','0'),
 ('270','Jamaalview','ea','Double','208.32','1981-07-22','0'),
@@ -1114,17 +1113,17 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('843','Jamaalview','ea','Double','442.91','1971-04-09','0'),
 ('521','Jamaalview','ea','Triple','448.48','1995-10-07','0'),
 ('941','Jamaalview','ea','Double','336.02','1973-03-16','0'),
-('220','Jamaalview','ea','Facility','372.95','2017-04-23','0'),
+
 ('359','Jamaalview','ea','Double','44.20','1992-12-09','0'),
-('531','Jamaalview','ea','Facility','120.75','1994-06-30','0'),
+
 ('374','Jamaalview','ea','Triple','339.44','1983-12-06','0'),
-('130','Jamaalview','ea','Facility','295.62','1998-08-16','1'),
+
 ('428','Jamaalview','ea','Triple','376.86','1973-10-12','0'),
 ('949','Jamaalview','ea','Triple','360.34','2012-11-18','0'),
 ('493','Jamaalview','ea','Single','326.74','1987-12-30','0'),
-('524','Jamaalview','ea','Facility','439.98','2004-10-11','0'),
+
 ('251','Jamaalview','ea','Double','326.77','1984-03-30','0'),
-('492','Jamaalview','ea','Facility','293.72','1999-03-15','0'),
+
 ('673','Jamaalview','ea','Single','192.24','2014-07-01','1'),
 ('183','Jamaalview','ea','Double','427.16','1978-07-01','0'),
 ('322','Jamaalview','ea','Double','377.61','2000-05-24','0'),
@@ -1133,19 +1132,19 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('838','Jamaalview','ea','Single','92.16','2008-05-17','0'),
 ('347','Jamaalview','ea','Double','72.69','1991-10-12','0'),
 ('713','Jamaalview','ea','Double','365.51','1975-12-30','0'),
-('314','Jamaalview','ea','Facility','385.06','2001-12-11','0'),
+
 ('117','Jamaalview','ea','Triple','203.32','1971-10-15','0'),
 ('881','Jamaalview','ea','Triple','419.15','1970-08-06','1'),
 ('500','Jamaalview','ea','Double','48.06','1984-08-02','0'),
-('651','Jamaalview','ea','Facility','327.32','1973-10-06','0'),
+
 ('208','Jamaalview','ea','Triple','23.33','1985-07-25','0'),
 ('336','Jamaalview','ea','Triple','171.67','1971-07-05','0'),
 ('837','Jamaalview','ea','Single','352.01','1986-08-08','0'),
 ('848','Jamaalview','ea','Single','10.78','1974-02-06','0'),
-('820','Jamaalview','ea','Facility','448.30','2007-03-03','0'),
-('457','Jamaalview','ea','Facility','84.87','1987-11-06','0'),
+
+
 ('911','Jamaalview','ea','Double','493.12','1986-06-13','0'),
-('791','Jamaalview','ea','Facility','69.36','1975-12-08','0'),
+
 ('840','Jamaalview','ea','Triple','386.42','2002-06-23','0'),
 ('222','Jamaalview','ea','Double','149.65','1971-03-05','1'),
 ('740','Jamaalview','ea','Double','318.69','2000-08-18','0'),
@@ -1159,8 +1158,8 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('581','Jamaalview','ea','Double','497.33','1981-04-10','0'),
 ('249','Jamaalview','ea','Single','163.66','1975-09-18','0'),
 ('343','Jamaalview','ea','Double','339.79','1994-11-28','0'),
-('413','Jamaalview','ea','Facility','408.23','2010-05-30','1'),
-('285','Jamaalview','ea','Facility','323.46','1983-08-23','1'),
+
+
 ('97','Jamaalview','ea','Triple','45.13','1970-01-05','1'),
 ('745','Jamaalview','ea','Double','120.85','2018-05-02','0'),
 ('557','Jamaalview','ea','Triple','411.88','1975-04-03','0'),
@@ -1174,7 +1173,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('92','Jamaalview','ea','Triple','413.49','1992-10-06','1'),
 ('307','Jamaalview','ea','Double','299.75','2011-04-03','0'),
 ('91','Jamaalview','ea','Double','16.90','1976-01-07','0'),
-('318','Jamaalview','ea','Facility','364.62','1976-05-04','0'),
+
 ('176','Jamaalview','ea','Triple','420.03','2004-02-17','0'),
 ('628','Jamaalview','ea','Single','214.31','2014-11-07','0'),
 ('407','Jamaalview','ea','Triple','495.27','2008-11-17','0'),
@@ -1184,33 +1183,33 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('799','Jamaalview','ea','Single','164.45','2001-03-21','0'),
 ('427','Jamaalview','ea','Double','481.99','2015-08-04','0'),
 ('247','Jamaalview','ea','Triple','73.15','2008-10-30','0'),
-('723','Jamaalview','ea','Facility','150.84','1982-09-04','0'),
-('546','Jamaalview','ea','Facility','151.72','2009-03-30','0'),
-('179','Jamaalview','ea','Facility','56.14','1976-11-05','0'),
+
+
+
 ('271','Jamaalview','ea','Double','419.65','1977-09-14','0'),
 ('136','Jamaalview','ea','Single','255.64','1996-03-19','0'),
 ('922','Jamaalview','ea','Single','339.53','1974-07-31','0'),
-('400','Jamaalview','ea','Facility','456.00','1996-02-05','0'),
+
 ('120','Jamaalview','ea','Triple','193.16','2008-02-01','0'),
 ('595','Jamaalview','ea','Double','51.54','1991-08-02','0'),
-('184','Jamaalview','ea','Facility','495.43','1980-12-25','0'),
+
 ('930','Jamaalview','ea','Triple','250.84','1999-12-01','0'),
 ('617','Jamaalview','ea','Single','357.55','2017-02-18','0'),
 ('640','Jamaalview','ea','Triple','288.57','2003-10-26','0'),
 ('437','Jamaalview','ea','Double','93.07','2018-10-01','0'),
 ('507','Jamaalview','ea','Single','225.98','1983-08-15','0'),
-('858','Jamaalview','ea','Facility','372.61','1979-04-21','0'),
-('90','Jamaalview','ea','Facility','84.66','2015-06-17','0'),
-('129','Jamaalview','ea','Facility','282.36','1993-08-15','0'),
+
+
+
 ('76','Jamaalview','ea','Triple','426.57','2006-03-11','1'),
 ('466','Jamaalview','ea','Triple','220.50','2000-10-25','0'),
 ('422','Jamaalview','ea','Triple','438.18','1985-09-13','0'),
-('12','Jamaalview','ea','Facility','388.97','2003-11-01','0'),
+
 ('506','Jamaalview','ea','Double','123.21','1998-08-22','0'),
 ('582','Jamaalview','ea','Double','200.77','1995-01-27','0'),
 ('836','Jamaalview','ea','Triple','109.89','2012-03-17','0'),
 ('992','Jamaalview','ea','Single','233.59','2006-05-06','0'),
-('245','Jamaalview','ea','Facility','210.76','2017-11-04','0'),
+
 ('790','Jamaalview','ea','Double','401.80','2004-05-25','0'),
 ('435','Jamaalview','ea','Triple','284.99','1987-05-04','0'),
 ('693','Jamaalview','ea','Triple','397.96','2015-05-29','0'),
@@ -1218,32 +1217,32 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('712','Jamaalview','ea','Double','439.29','2004-06-07','0'),
 ('671','Jamaalview','ea','Triple','390.98','2002-01-24','0'),
 ('515','Jamaalview','ea','Double','361.02','1983-01-23','0'),
-('453','Jamaalview','ea','Facility','258.86','1970-09-29','0'),
+
 ('244','Jamaalview','ea','Triple','30.24','2017-10-14','0'),
-('392','Jamaalview','ea','Facility','285.50','1992-12-02','0'),
+
 ('452','Jamaalview','ea','Single','222.89','2010-12-04','0'),
 ('409','Jamaalview','ea','Triple','334.12','1989-12-18','0'),
 ('79','Jamaalview','ea','Single','102.46','1985-11-28','0'),
 ('824','Jamaalview','ea','Double','198.81','2013-02-08','0'),
-('872','Jamaalview','ea','Facility','481.44','2010-05-25','1'),
+
 ('645','Jamaalview','ea','Single','52.94','1986-02-28','0'),
 ('876','Jamaalview','ea','Triple','353.36','2012-03-07','0'),
 ('296','Jamaalview','ea','Double','439.53','1993-05-16','0'),
-('405','Jamaalview','ea','Facility','265.21','2014-02-04','0'),
+
 ('764','Jamaalview','ea','Double','253.84','1980-03-16','0'),
-('602','Jamaalview','ea','Facility','313.54','1989-08-05','0'),
+
 ('177','Jamaalview','ea','Single','58.08','1992-01-21','0'),
 ('971','Jamaalview','ea','Single','488.46','2017-04-09','0'),
 ('726','Jamaalview','ea','Double','409.31','2017-09-18','0'),
-('320','Jamaalview','ea','Facility','109.40','1996-07-28','0'),
+
 ('893','Jamaalview','ea','Single','420.91','1973-10-24','0'),
 ('583','Jamaalview','ea','Single','405.46','2001-04-27','0'),
 ('767','Jamaalview','ea','Single','454.51','1987-12-09','0'),
 ('743','Jamaalview','ea','Triple','399.40','2014-08-29','0'),
 ('300','Jamaalview','ea','Single','110.52','1973-11-25','1'),
 ('159','Jamaalview','ea','Single','395.07','1981-07-10','0'),
-('647','Jamaalview','ea','Facility','140.09','1983-04-09','0'),
-('361','Jamaalview','ea','Facility','457.30','1971-12-11','0'),
+
+
 ('96','Jamaalview','ea','Double','39.00','2009-09-25','0'),
 ('892','Jamaalview','ea','Single','433.45','1981-05-13','0'),
 ('9','Jamaalview','ea','Triple','165.53','2011-03-21','0'),
@@ -1255,18 +1254,18 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('332','Jamaalview','ea','Triple','63.53','2003-02-01','0'),
 ('192','Jamaalview','ea','Single','231.99','2003-08-30','0'),
 ('38','Jamaalview','ea','Double','235.72','1990-10-02','0'),
-('195','Jamaalview','ea','Facility','143.09','1979-04-09','0'),
-('75','Jamaalview','ea','Facility','426.32','1983-08-24','0'),
+
+
 ('199','Jamaalview','ea','Triple','94.16','2017-05-06','0'),
 ('987','Jamaalview','ea','Single','48.34','2004-05-28','0'),
 ('277','Jamaalview','ea','Double','434.59','1992-05-06','1'),
-('11','Jamaalview','ea','Facility','81.07','1971-03-22','0'),
+
 ('924','Jamaalview','ea','Triple','138.38','2009-08-06','0'),
 ('72','Jamaalview','ea','Double','68.70','2015-08-21','0'),
-('789','Jamaalview','ea','Facility','311.20','1978-06-11','0'),
+
 ('42','Jamaalview','ea','Double','471.09','1999-03-04','0'),
-('779','Jamaalview','ea','Facility','365.94','1996-01-27','0'),
-('609','Jamaalview','ea','Facility','476.60','2016-06-11','0'),
+
+
 ('835','Jamaalview','ea','Double','291.82','1971-02-07','0'),
 ('182','Jamaalview','ea','Double','138.91','2009-02-11','0'),
 ('391','Jamaalview','ea','Triple','423.30','1974-03-31','0'),
@@ -1279,73 +1278,73 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('855','Jamaalview','ea','Double','210.34','2001-06-22','0'),
 ('454','Jamaalview','ea','Triple','300.76','2011-06-03','0'),
 ('553','Jamaalview','ea','Double','49.32','2007-11-21','0'),
-('765','Jamaalview','ea','Facility','92.40','1993-02-10','0'),
+
 ('900','Jamaalview','ea','Triple','155.02','1977-10-22','0'),
 ('1000','Jamaalview','ea','Single','281.63','1970-09-17','0'),
-('55','Jamaalview','ea','Facility','69.24','2003-09-25','0'),
+
 ('62','Jamaalview','ea','Triple','71.94','2016-11-27','0'),
 ('596','Jamaalview','ea','Triple','341.37','2011-07-03','0'),
-('778','Jamaalview','ea','Facility','270.34','2011-10-21','0'),
+
 ('346','Jamaalview','ea','Double','379.89','2012-02-06','0'),
 ('571','Jamaalview','ea','Double','372.83','2013-09-13','0'),
 ('383','Jamaalview','ea','Double','24.93','1986-11-23','0'),
 ('479','Jamaalview','ea','Single','386.75','1976-08-12','0'),
-('943','Jamaalview','ea','Facility','256.20','1970-07-26','0'),
+
 ('386','Jamaalview','ea','Single','459.22','1984-11-26','0'),
-('157','Jamaalview','ea','Facility','473.56','2005-04-24','0'),
+
 ('568','Jamaalview','ea','Single','38.26','1990-11-28','1'),
 ('239','Jamaalview','ea','Double','254.96','1983-11-10','0'),
-('652','Jamaalview','ea','Facility','337.74','1996-05-13','0'),
+
 ('935','Jamaalview','ea','Triple','408.03','1998-11-02','1'),
-('5','Jamaalview','ea','Facility','415.56','1994-07-20','0'),
-('497','Jamaalview','ea','Facility','161.53','2005-11-06','0'),
+
+
 ('601','Jamaalview','ea','Single','465.91','2015-06-11','1'),
 ('663','Jamaalview','ea','Double','187.92','2017-03-08','0'),
-('851','Jamaalview','ea','Facility','189.25','2007-01-24','0'),
-('993','Jamaalview','ea','Facility','101.32','1994-01-19','0'),
+
+
 ('672','Jamaalview','ea','Double','139.45','1979-10-31','0'),
 ('783','Jamaalview','ea','Single','224.68','1985-10-02','0'),
-('700','Jamaalview','ea','Facility','297.20','2014-08-29','0'),
+
 ('227','Jamaalview','ea','Double','268.64','1976-04-25','0'),
 ('282','Jamaalview','ea','Single','476.15','2000-12-07','0'),
 ('867','Jamaalview','ea','Single','76.68','2000-12-04','0'),
 ('372','Jamaalview','ea','Double','233.92','1990-07-09','0'),
 ('257','Jamaalview','ea','Single','297.29','2003-12-11','0'),
-('170','Jamaalview','ea','Facility','476.11','2005-12-12','0'),
+
 ('417','Jamaalview','ea','Triple','76.56','1987-01-02','0'),
 ('967','Jamaalview','ea','Single','461.51','2018-06-23','1'),
-('200','Jamaalview','ea','Facility','422.67','1994-03-15','0'),
+
 ('339','Jamaalview','ea','Single','37.36','2016-08-26','1'),
-('942','Jamaalview','ea','Facility','257.88','1994-12-01','0'),
+
 ('847','Jamaalview','ea','Single','222.14','1988-06-20','0'),
 ('408','Jamaalview','ea','Triple','87.66','2018-01-25','0'),
-('262','Jamaalview','ea','Facility','370.55','1991-05-14','0'),
+
 ('985','Jamaalview','ea','Double','307.26','1992-05-13','0'),
-('488','Jamaalview','ea','Facility','409.42','1990-12-13','0'),
+
 ('370','Jamaalview','ea','Single','386.72','1999-02-25','1'),
 ('813','Jamaalview','ea','Triple','449.81','1993-12-07','0'),
 ('891','Jamaalview','ea','Triple','494.16','2005-07-28','0'),
 ('56','Jamaalview','ea','Single','41.82','1995-01-28','0'),
 ('741','Jamaalview','ea','Triple','233.26','2016-09-23','0'),
 ('954','Jamaalview','ea','Triple','68.84','1982-10-05','0'),
-('431','Jamaalview','ea','Facility','211.89','2009-01-03','0'),
-('597','Jamaalview','ea','Facility','301.99','1995-10-16','0'),
+
+
 ('928','Jamaalview','ea','Double','438.74','1972-05-22','0'),
-('570','Jamaalview','ea','Facility','82.98','1989-05-08','1'),
+
 ('446','Jamaalview','ea','Triple','103.78','1976-06-23','0'),
 ('877','Jamaalview','ea','Triple','458.63','2011-11-25','0'),
-('998','Jamaalview','ea','Facility','25.27','1985-10-11','0'),
+
 ('441','Jamaalview','ea','Double','35.96','1993-12-10','0'),
 ('690','Jamaalview','ea','Triple','448.51','2012-08-20','0'),
 ('259','Jamaalview','ea','Triple','283.53','1999-10-23','0'),
-('989','Jamaalview','ea','Facility','18.02','1984-08-27','0'),
+
 ('807','Jamaalview','ea','Triple','195.57','1991-12-01','0'),
-('426','Jamaalview','ea','Facility','68.56','1971-03-11','0'),
+
 ('697','Jamaalview','ea','Triple','202.88','2011-07-18','0'),
 ('522','Jamaalview','ea','Triple','211.32','1989-03-24','0'),
 ('755','Jamaalview','ea','Double','289.85','2005-03-01','0'),
 ('110','Jamaalview','ea','Single','79.53','2014-12-26','0'),
-('787','Jamaalview','ea','Facility','173.47','1986-02-11','0'),
+
 ('955','Jamaalview','ea','Triple','444.78','1998-06-25','0'),
 ('854','Jamaalview','ea','Single','476.25','1981-12-04','0'),
 ('436','Jamaalview','ea','Triple','216.08','1974-04-30','0'),
@@ -1354,7 +1353,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('330','Jamaalview','ea','Single','208.24','1974-06-20','0'),
 ('14','Jamaalview','ea','Single','364.35','2012-02-19','0'),
 ('657','Jamaalview','ea','Triple','248.22','1996-11-10','0'),
-('135','Jamaalview','ea','Facility','53.72','2002-11-22','0'),
+
 ('109','Jamaalview','ea','Double','328.79','1986-06-10','0'),
 ('585','Jamaalview','ea','Single','92.49','1991-05-21','0'),
 ('766','Jamaalview','ea','Single','265.16','2009-04-16','0'),
@@ -1368,64 +1367,64 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('475','Jamaalview','ea','Single','279.90','1996-03-10','0'),
 ('802','Jamaalview','ea','Triple','133.47','2013-01-12','1'),
 ('348','Jamaalview','ea','Triple','183.48','1997-06-09','0'),
-('784','Jamaalview','ea','Facility','256.57','1995-05-26','0'),
+
 ('730','Jamaalview','ea','Triple','421.34','2012-09-25','0'),
 ('536','Jamaalview','ea','Triple','172.88','1975-12-27','0'),
 ('793','Jamaalview','ea','Triple','87.98','1973-09-30','0'),
-('517','Jamaalview','ea','Facility','414.10','1994-10-05','0'),
+
 ('124','Jamaalview','ea','Triple','85.76','1982-07-16','0'),
 ('393','Jamaalview','ea','Triple','451.04','1998-07-12','0'),
 ('60','Jamaalview','ea','Single','296.43','1982-11-24','0'),
 ('873','Jamaalview','ea','Single','37.51','1978-11-28','0'),
 ('619','Jamaalview','ea','Double','196.57','2010-10-06','0'),
-('253','Jamaalview','ea','Facility','465.06','1992-12-01','0'),
-('154','Jamaalview','ea','Facility','281.34','2018-07-07','0'),
-('357','Jamaalview','ea','Facility','406.02','1999-06-08','1'),
+
+
+
 ('728','Jamaalview','ea','Triple','473.43','1994-10-20','0'),
 ('145','Jamaalview','ea','Single','365.19','1989-06-25','0'),
 ('94','Jamaalview','ea','Single','344.26','1973-09-19','1'),
-('424','Jamaalview','ea','Facility','162.59','1989-10-08','0'),
+
 ('33','Jamaalview','ea','Double','413.79','2004-05-20','0'),
 ('369','Jamaalview','ea','Single','472.94','2000-12-01','0'),
 ('833','Jamaalview','ea','Triple','368.87','1971-09-07','0'),
-('605','Jamaalview','ea','Facility','18.65','1982-05-14','0'),
-('380','Jamaalview','ea','Facility','252.91','1988-01-10','0'),
+
+
 ('564','Jamaalview','ea','Single','440.99','1995-09-30','0'),
-('43','Jamaalview','ea','Facility','172.65','1989-12-29','0'),
+
 ('248','Jamaalview','ea','Double','245.74','1972-12-29','0'),
-('148','Jamaalview','ea','Facility','156.32','1980-06-23','0'),
+
 ('315','Jamaalview','ea','Triple','309.04','1981-02-26','0'),
 ('513','Jamaalview','ea','Double','356.88','2005-02-02','0'),
 ('732','Jamaalview','ea','Single','40.81','1981-12-25','1'),
 ('240','Jamaalview','ea','Single','148.93','2007-04-04','0'),
 ('41','Jamaalview','ea','Double','70.18','1974-02-26','0'),
 ('204','Jamaalview','ea','Double','203.40','1994-07-14','0'),
-('45','Jamaalview','ea','Facility','239.70','2004-03-05','1'),
+
 ('823','Jamaalview','ea','Single','346.58','2003-03-24','0'),
 ('849','Jamaalview','ea','Single','451.84','2004-04-13','0'),
 ('355','Jamaalview','ea','Triple','445.42','1970-03-01','0'),
 ('509','Jamaalview','ea','Single','302.50','1985-07-19','0'),
 ('600','Jamaalview','ea','Double','429.11','1998-03-06','1'),
-('139','Jamaalview','ea','Facility','395.39','2004-09-16','0'),
+
 ('752','Jamaalview','ea','Double','152.74','1974-11-28','0'),
 ('753','Jamaalview','ea','Triple','471.69','2013-08-21','0'),
 ('997','Jamaalview','ea','Single','440.63','1998-05-31','0'),
-('104','Jamaalview','ea','Facility','30.39','1988-03-06','0'),
+
 ('28','Jamaalview','ea','Triple','84.85','2010-10-31','0'),
 ('390','Jamaalview','ea','Double','176.97','2016-08-09','0'),
 ('396','Jamaalview','ea','Double','242.10','1980-02-22','0'),
 ('205','Jamaalview','ea','Double','125.21','1999-05-17','0'),
 ('325','Jamaalview','ea','Single','343.10','2012-01-10','0'),
 ('354','Jamaalview','ea','Triple','416.13','1979-10-05','1'),
-('884','Jamaalview','ea','Facility','104.91','1989-09-28','0'),
+
 ('474','Jamaalview','ea','Double','377.77','1979-12-30','0'),
 ('421','Jamaalview','ea','Triple','126.81','1999-07-20','0'),
 ('680','Jamaalview','ea','Single','105.04','1994-09-14','0'),
 ('763','Jamaalview','ea','Single','165.78','1970-07-02','0'),
-('242','Jamaalview','ea','Facility','393.34','2002-08-26','0'),
+
 ('252','Jamaalview','ea','Double','229.22','2003-09-15','1'),
-('856','Jamaalview','ea','Facility','136.33','2013-07-03','0'),
-('547','Jamaalview','ea','Facility','105.88','1992-07-24','0'),
+
+
 ('862','Jamaalview','ea','Single','445.39','1985-11-13','0'),
 ('994','Jamaalview','ea','Single','42.86','1985-04-24','0'),
 ('420','Jamaalview','ea','Double','304.45','1987-07-19','0'),
@@ -1435,15 +1434,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('649','Jamaalview','ea','Single','313.95','1997-05-11','0'),
 ('345','Jamaalview','ea','Single','106.54','1983-07-14','0'),
 ('962','Jamaalview','ea','Single','252.88','2009-03-09','0'),
-('832','Jamaalview','ea','Facility','418.17','2009-07-05','0'),
+
 ('969','Jamaalview','ea','Triple','118.71','1975-05-12','0'),
 ('611','Jamaalview','ea','Triple','118.00','1975-06-11','0'),
 ('142','Jamaalview','ea','Triple','305.59','1987-12-05','1'),
-('207','Jamaalview','ea','Facility','160.80','1982-02-08','0'),
+
 ('514','Jamaalview','ea','Double','55.55','1990-04-15','0'),
 ('731','Jamaalview','ea','Triple','315.32','1976-09-15','0'),
 ('782','Jamaalview','ea','Double','217.61','1977-08-09','0'),
-('695','Jamaalview','ea','Facility','393.03','1984-08-18','0'),
+
 ('206','Jamaalview','ea','Triple','70.56','1992-02-25','0'),
 ('275','Jamaalview','ea','Triple','261.28','1970-04-18','0'),
 ('504','Jamaalview','ea','Double','31.84','1995-03-18','0'),
@@ -1453,28 +1452,28 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('773','Jamaalview','ea','Single','37.20','1989-08-18','0'),
 ('399','Jamaalview','ea','Double','266.46','1998-12-18','0'),
 ('263','Jamaalview','ea','Single','445.67','1995-03-11','0'),
-('221','Jamaalview','ea','Facility','220.66','2009-07-15','0'),
+
 ('272','Jamaalview','ea','Single','355.38','1994-09-09','0'),
 ('462','Jamaalview','ea','Triple','284.41','2006-02-28','0'),
 ('919','Jamaalview','ea','Triple','11.95','1998-04-07','0'),
 ('284','Jamaalview','ea','Single','33.41','2001-08-06','0'),
 ('734','Jamaalview','ea','Triple','464.98','2015-04-14','0'),
-('363','Jamaalview','ea','Facility','76.30','2008-06-18','0'),
+
 ('484','Jamaalview','ea','Single','43.65','1997-05-12','1'),
 ('213','Jamaalview','ea','Double','291.95','2007-02-13','0'),
 ('317','Jamaalview','ea','Triple','298.15','2012-11-22','0'),
 ('477','Jamaalview','ea','Single','169.98','2008-05-10','1'),
-('664','Jamaalview','ea','Facility','255.20','1971-09-07','0'),
+
 ('261','Jamaalview','ea','Double','293.27','1970-11-08','0'),
-('306','Jamaalview','ea','Facility','405.65','1984-06-19','0'),
-('331','Jamaalview','ea','Facility','22.14','1970-12-29','0'),
+
+
 ('445','Jamaalview','ea','Double','82.93','1992-01-12','1'),
 ('301','Jamaalview','ea','Double','206.58','2004-08-30','0'),
-('276','Jamaalview','ea','Facility','168.72','1999-08-22','0'),
+
 ('140','Jamaalview','ea','Double','245.67','2018-11-28','0'),
-('246','Jamaalview','ea','Facility','302.72','1995-11-01','0'),
+
 ('156','Jamaalview','ea','Double','135.65','1999-07-04','0'),
-('882','Jamaalview','ea','Facility','348.78','1976-06-20','1'),
+
 ('193','Jamaalview','ea','Triple','293.54','1973-08-03','0'),
 ('305','Jamaalview','ea','Single','318.83','2012-07-26','0'),
 ('551','Jamaalview','ea','Triple','143.00','1988-05-12','0'),
@@ -1494,41 +1493,41 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('762','Jamaalview','ea','Single','326.01','1989-06-13','0'),
 ('956','Jamaalview','ea','Double','69.00','1987-10-11','1'),
 ('630','Jamaalview','ea','Single','298.40','2014-11-06','0'),
-('214','Jamaalview','ea','Facility','215.46','1977-09-05','0'),
+
 ('190','Jamaalview','ea','Double','171.22','1994-02-17','1'),
 ('991','Jamaalview','ea','Single','93.42','2017-12-06','0'),
 ('164','Jamaalview','ea','Triple','312.74','1979-04-14','0'),
 ('844','Jamaalview','ea','Triple','367.95','1986-04-21','0'),
-('250','Jamaalview','ea','Facility','300.63','1986-09-04','0'),
-('237','Jamaalview','ea','Facility','361.82','1998-03-15','1'),
-('714','Jamaalview','ea','Facility','388.45','2018-02-24','0'),
-('304','Jamaalview','ea','Facility','296.00','2009-07-10','0'),
+
+
+
+
 ('165','Jamaalview','ea','Triple','193.19','2012-03-30','1'),
 ('737','Jamaalview','ea','Double','378.40','1999-02-19','1'),
 ('682','Jamaalview','ea','Triple','208.98','1994-03-12','0'),
 ('505','Jamaalview','ea','Triple','482.41','1987-04-26','0'),
 ('669','Jamaalview','ea','Single','332.85','2000-11-21','0'),
-('217','Jamaalview','ea','Facility','43.39','1978-01-03','0'),
+
 ('936','Jamaalview','ea','Single','412.01','1997-05-15','0'),
 ('168','Jamaalview','ea','Double','408.28','1983-11-09','0'),
 ('100','Jamaalview','ea','Double','491.51','2004-12-11','0'),
 ('119','Jamaalview','ea','Triple','56.28','1979-03-13','0'),
 ('231','Jamaalview','ea','Single','379.69','1982-02-22','0'),
 ('338','Jamaalview','ea','Single','337.91','2000-12-24','0'),
-('795','Jamaalview','ea','Facility','142.70','1995-06-29','0'),
+
 ('512','Jamaalview','ea','Single','196.63','2007-08-10','1'),
 ('735','Jamaalview','ea','Double','56.57','1970-08-18','0'),
-('944','Jamaalview','ea','Facility','410.17','2000-01-04','0'),
-('256','Jamaalview','ea','Facility','213.67','1978-09-02','0'),
-('658','Jamaalview','ea','Facility','73.32','2008-10-05','0'),
+
+
+
 ('201','Jamaalview','ea','Double','116.67','2004-03-20','0'),
 ('806','Jamaalview','ea','Double','92.76','1992-02-22','0'),
 ('327','Jamaalview','ea','Triple','349.28','2001-04-10','0'),
 ('772','Jamaalview','ea','Double','488.57','1980-09-06','0'),
 ('476','Jamaalview','ea','Single','373.40','2013-04-02','0'),
 ('846','Jamaalview','ea','Single','247.48','2017-09-03','0'),
-('113','Jamaalview','ea','Facility','494.75','1994-12-20','0'),
-('560','Jamaalview','ea','Facility','190.12','2013-06-03','0'),
+
+
 ('569','Jamaalview','ea','Single','103.55','1972-11-04','0'),
 ('880','Jamaalview','ea','Triple','355.90','2012-01-31','0'),
 ('368','Jamaalview','ea','Single','462.26','1986-03-12','0'),
@@ -1537,7 +1536,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('959','Jamaalview','ea','Triple','315.70','1971-02-13','0'),
 ('465','Jamaalview','ea','Double','139.24','2001-06-07','0'),
 ('83','Jamaalview','ea','Single','309.87','1970-11-19','1'),
-('607','Jamaalview','ea','Facility','282.51','2002-09-03','0'),
+
 ('219','Jamaalview','ea','Triple','411.43','1992-10-13','0'),
 ('501','Jamaalview','ea','Single','172.06','1989-06-03','0'),
 ('1','Jamaalview','ea','Double','408.56','1986-04-25','0'),
@@ -1545,7 +1544,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('160','Jamaalview','ea','Double','391.28','1993-08-02','0'),
 ('905','Jamaalview','ea','Triple','84.39','1987-11-27','0'),
 ('352','Jamaalview','ea','Triple','222.01','1981-01-22','0'),
-('65','Jamaalview','ea','Facility','288.46','1987-06-20','0'),
+
 ('294','Jamaalview','ea','Triple','156.01','2000-11-13','1'),
 ('709','Jamaalview','ea','Double','407.05','1972-01-06','0'),
 ('821','Jamaalview','ea','Single','92.63','1979-10-25','0'),
@@ -1555,22 +1554,22 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('498','Jamaalview','ea','Double','69.63','2017-06-30','0'),
 ('483','Jamaalview','ea','Triple','297.57','1992-12-16','0'),
 ('311','Jamaalview','ea','Single','411.11','2000-09-02','0'),
-('906','Jamaalview','ea','Facility','19.36','2007-07-27','0'),
-('606','Jamaalview','ea','Facility','27.75','2009-02-03','0'),
+
+
 ('132','Jamaalview','ea','Triple','401.50','1982-07-02','0'),
 ('798','Jamaalview','ea','Triple','188.75','1980-06-07','0'),
 ('211','Jamaalview','ea','Single','478.80','1977-08-02','0'),
-('864','Jamaalview','ea','Facility','29.16','1975-05-21','0'),
+
 ('674','Jamaalview','ea','Double','162.42','1976-02-03','0'),
 ('495','Jamaalview','ea','Single','170.91','1974-02-03','0'),
 ('63','Jamaalview','ea','Triple','305.53','2012-10-15','0'),
 ('415','Jamaalview','ea','Double','440.16','1982-01-28','0'),
 ('518','Jamaalview','ea','Triple','99.14','2001-11-09','0'),
-('670','Jamaalview','ea','Facility','116.68','2004-02-06','0'),
+
 ('151','Jamaalview','ea','Double','90.26','1993-03-15','0'),
-('907','Jamaalview','ea','Facility','141.06','2010-03-16','0'),
+
 ('757','Jamaalview','ea','Double','377.31','2012-10-31','0'),
-('266','Jamaalview','ea','Facility','273.98','1991-07-04','0'),
+
 ('281','Jamaalview','ea','Double','314.31','1987-04-28','0'),
 ('382','Jamaalview','ea','Triple','409.08','2013-12-12','0'),
 ('451','Jamaalview','ea','Single','116.01','1987-08-29','0'),
@@ -1587,15 +1586,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('931','Jamaalview','ea','Triple','202.73','1998-07-05','0'),
 ('389','Jamaalview','ea','Triple','144.79','2006-03-26','0'),
 ('13','Jamaalview','ea','Single','17.47','1972-01-27','0'),
-('776','Jamaalview','ea','Facility','183.45','1972-01-18','0'),
-('172','Jamaalview','ea','Facility','316.48','2014-01-29','0'),
+
+
 ('729','Jamaalview','ea','Triple','64.09','2001-04-04','0'),
 ('52','Jamaalview','ea','Single','153.48','1995-10-11','0'),
 ('450','Jamaalview','ea','Triple','423.52','2002-09-17','0'),
 ('815','Jamaalview','ea','Single','258.14','2005-10-08','0'),
 ('666','Jamaalview','ea','Triple','486.68','1980-03-03','0'),
 ('102','Jamaalview','ea','Double','300.91','2003-01-16','0'),
-('816','Jamaalview','ea','Facility','375.85','2017-06-02','0'),
+
 ('636','Jamaalview','ea','Single','446.96','1999-09-17','0'),
 ('34','Jamaalview','ea','Double','23.62','1986-06-11','0'),
 ('29','Jamaalview','ea','Double','211.11','2009-12-20','0'),
@@ -1614,18 +1613,18 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('572','Jamaalview','ea','Single','364.25','1987-03-02','0'),
 ('212','Jamaalview','ea','Single','451.04','2004-09-28','0'),
 ('886','Jamaalview','ea','Single','57.02','1988-08-01','0'),
-('141','Jamaalview','ea','Facility','16.38','1981-06-27','0'),
-('230','Jamaalview','ea','Facility','201.12','2008-02-13','0'),
+
+
 ('418','Jamaalview','ea','Single','161.61','2002-05-06','0'),
-('467','Jamaalview','ea','Facility','116.25','1991-04-20','0'),
-('508','Jamaalview','ea','Facility','416.35','1991-09-12','0'),
+
+
 ('118','Jamaalview','ea','Triple','301.67','2002-08-06','1'),
 ('379','Jamaalview','ea','Single','440.37','1992-11-29','1'),
 ('915','Jamaalview','ea','Triple','219.46','1970-07-10','0'),
-('78','Jamaalview','ea','Facility','200.55','1984-04-30','0'),
+
 ('945','Jamaalview','ea','Triple','487.63','2017-07-20','0'),
 ('152','Jamaalview','ea','Triple','261.73','1994-02-16','0'),
-('26','Jamaalview','ea','Facility','90.05','1988-02-13','0'),
+
 ('980','Jamaalview','ea','Single','273.40','2011-06-11','0'),
 ('857','Jamaalview','ea','Single','24.03','2018-07-03','0'),
 ('705','Jamaalview','ea','Double','247.82','1994-07-15','1'),
@@ -1634,36 +1633,36 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('235','Jamaalview','ea','Single','257.47','2015-10-03','1'),
 ('22','Jamaalview','ea','Triple','249.61','2001-09-18','0'),
 ('128','Jamaalview','ea','Triple','249.26','1971-04-24','0'),
-('153','Jamaalview','ea','Facility','72.63','2011-11-30','0'),
+
 ('770','Jamaalview','ea','Single','212.66','2016-04-10','0'),
 ('238','Jamaalview','ea','Double','487.22','1995-04-19','0'),
 ('297','Jamaalview','ea','Double','108.93','1982-03-03','0'),
 ('394','Jamaalview','ea','Double','188.31','2018-05-06','0'),
 ('278','Jamaalview','ea','Double','272.23','2009-09-05','0'),
 ('687','Jamaalview','ea','Double','486.17','1993-10-18','0'),
-('981','Jamaalview','ea','Facility','260.54','2000-08-21','0'),
+
 ('612','Jamaalview','ea','Triple','199.68','1970-03-16','0'),
-('216','Jamaalview','ea','Facility','470.14','2005-08-27','0'),
+
 ('659','Jamaalview','ea','Double','324.56','1991-02-11','0'),
 ('4','Jamaalview','ea','Double','469.76','2002-09-14','0'),
 ('470','Jamaalview','ea','Triple','445.33','1977-06-06','0'),
-('563','Jamaalview','ea','Facility','371.48','2013-02-07','0'),
-('444','Jamaalview','ea','Facility','299.26','2006-10-30','0'),
+
+
 ('433','Jamaalview','ea','Single','264.49','1996-06-01','0'),
-('926','Jamaalview','ea','Facility','402.50','2002-02-20','1'),
+
 ('19','Jamaalview','ea','Double','163.52','1981-10-05','0'),
 ('699','Jamaalview','ea','Triple','488.77','1988-10-05','0'),
 ('21','Jamaalview','ea','Triple','85.40','1984-10-06','0'),
-('358','Jamaalview','ea','Facility','496.46','1994-05-22','0'),
+
 ('859','Jamaalview','ea','Triple','294.25','1979-03-30','0'),
 ('106','Jamaalview','ea','Single','303.03','2003-04-16','0'),
 ('599','Jamaalview','ea','Single','311.22','2012-08-25','0'),
 ('334','Jamaalview','ea','Triple','422.70','1977-11-22','0'),
 ('68','Jamaalview','ea','Single','163.67','1998-05-10','0'),
 ('953','Jamaalview','ea','Single','115.64','2013-10-26','0'),
-('87','Jamaalview','ea','Facility','307.57','1978-01-08','0'),
-('280','Jamaalview','ea','Facility','23.39','1981-04-08','0'),
-('292','Jamaalview','ea','Facility','46.04','1990-10-02','0'),
+
+
+
 ('977','Jamaalview','ea','Triple','397.92','1982-09-04','1'),
 ('273','Jamaalview','ea','Double','315.94','2007-03-15','0'),
 ('988','Jamaalview','ea','Single','15.62','1982-11-01','0'),
@@ -1671,11 +1670,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('759','Jamaalview','ea','Double','477.18','2015-04-23','0'),
 ('471','Jamaalview','ea','Triple','388.19','2006-05-26','0'),
 ('478','Jamaalview','ea','Double','162.53','1979-08-16','0'),
-('774','Jamaalview','ea','Facility','114.48','1989-10-15','0'),
-('567','Jamaalview','ea','Facility','439.72','2007-10-16','0'),
+
+
 ('620','Jamaalview','ea','Triple','32.78','1992-11-04','0'),
 ('580','Jamaalview','ea','Double','457.30','2000-05-09','0'),
-('951','Jamaalview','ea','Facility','107.01','1999-02-20','0'),
+
 ('89','Jamaalview','ea','Single','466.21','1983-07-08','0'),
 ('20','Jamaalview','ea','Double','178.87','1987-12-03','0'),
 ('654','Jamaalview','ea','Triple','143.07','1995-01-02','0'),
@@ -1684,10 +1683,10 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('780','Jamaalview','ea','Triple','417.24','1979-01-26','0'),
 ('114','Jamaalview','ea','Double','124.01','1974-11-11','0'),
 ('598','Jamaalview','ea','Single','174.25','1975-10-16','0'),
-('10','Jamaalview','ea','Facility','244.23','2004-10-13','0'),
+
 ('541','Jamaalview','ea','Single','294.26','2002-06-27','0'),
-('228','Jamaalview','ea','Facility','139.71','1986-07-07','0'),
-('706','Jamaalview','ea','Facility','388.76','1970-02-16','0'),
+
+
 ('655','Jamaalview','ea','Triple','103.37','2015-02-04','0'),
 ('775','Jamaalview','ea','Single','199.75','1999-07-21','0'),
 ('123','Jamaalview','ea','Single','48.90','1975-10-15','0'),
@@ -1695,14 +1694,14 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('809','Jamaalview','ea','Double','321.46','2007-10-21','0'),
 ('265','Jamaalview','ea','Single','33.13','1972-07-15','0'),
 ('746','Jamaalview','ea','Triple','196.63','2007-09-07','0'),
-('138','Jamaalview','ea','Facility','155.67','2008-03-28','0'),
+
 ('853','Jamaalview','ea','Triple','116.96','1989-03-28','0'),
 ('879','Jamaalview','ea','Single','216.95','1986-05-18','0'),
 ('842','Jamaalview','ea','Double','296.75','2000-09-21','0'),
 ('895','Jamaalview','ea','Triple','272.18','2006-02-13','1'),
-('81','Jamaalview','ea','Facility','468.99','1983-09-05','0'),
-('40','Jamaalview','ea','Facility','143.06','2002-08-13','0'),
-('603','Jamaalview','ea','Facility','109.57','1993-10-07','0'),
+
+
+
 ('736','Jamaalview','ea','Double','334.79','1970-02-03','0'),
 ('621','Jamaalview','ea','Single','80.40','2004-05-15','0'),
 ('550','Jamaalview','ea','Triple','403.43','2006-02-07','0'),
@@ -1711,26 +1710,26 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('313','Jamaalview','ea','Single','405.62','1998-03-26','0'),
 ('35','Jamaalview','ea','Single','293.10','2018-06-30','0'),
 ('447','Jamaalview','ea','Triple','133.97','2007-06-13','1'),
-('533','Jamaalview','ea','Facility','392.94','2000-08-27','0'),
+
 ('641','Jamaalview','ea','Single','402.31','2009-01-19','0'),
 ('615','Jamaalview','ea','Double','323.40','1984-03-02','0'),
-('337','Jamaalview','ea','Facility','452.81','2008-04-04','0'),
+
 ('335','Jamaalview','ea','Triple','125.28','2009-09-03','0'),
-('302','Jamaalview','ea','Facility','430.02','2014-09-10','0'),
+
 ('174','Jamaalview','ea','Triple','314.91','2014-10-31','0'),
-('903','Jamaalview','ea','Facility','119.44','1999-06-08','0'),
-('53','Jamaalview','ea','Facility','423.20','1991-01-15','0'),
+
+
 ('286','Jamaalview','ea','Double','411.46','1994-05-16','0'),
 ('185','Jamaalview','ea','Triple','238.79','1997-12-02','0'),
-('839','Jamaalview','ea','Facility','260.51','1985-07-28','0'),
-('904','Jamaalview','ea','Facility','28.87','1993-07-17','0'),
+
+
 ('826','Jamaalview','ea','Double','450.57','1977-10-30','0'),
 ('642','Jamaalview','ea','Triple','151.33','1982-11-13','0'),
 ('952','Jamaalview','ea','Double','297.81','1978-10-01','0'),
 ('430','Jamaalview','ea','Single','179.85','2002-10-15','0'),
 ('77','Jamaalview','ea','Double','206.17','2004-03-12','1'),
 ('702','Jamaalview','ea','Triple','280.64','1987-06-27','0'),
-('875','Jamaalview','ea','Facility','476.51','2009-09-19','0'),
+
 ('381','Jamaalview','ea','Triple','331.00','2004-01-21','0'),
 ('187','Jamaalview','ea','Double','183.86','2004-12-09','0'),
 ('423','Jamaalview','ea','Double','454.35','1996-09-22','0'),
@@ -1740,25 +1739,25 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('494','Jamaalview','ea','Single','300.30','1992-09-11','1'),
 ('59','Jamaalview','ea','Single','340.34','2004-02-02','0'),
 ('646','Jamaalview','ea','Triple','343.65','1980-07-22','0'),
-('162','Jamaalview','ea','Facility','65.15','2003-06-25','0'),
+
 ('31','Jamaalview','ea','Single','139.32','1980-08-06','0'),
-('556','Jamaalview','ea','Facility','143.90','2013-09-02','0'),
+
 ('818','Jamaalview','ea','Triple','324.39','2017-01-15','0'),
 ('122','Jamaalview','ea','Triple','195.12','2003-02-18','0'),
 ('225','Jamaalview','ea','Single','433.57','1972-08-02','0'),
 ('93','Jamaalview','ea','Single','368.04','1980-03-20','0'),
 ('525','Jamaalview','ea','Triple','405.89','1994-02-02','0'),
-('940','Jamaalview','ea','Facility','108.67','2008-04-02','0'),
+
 ('777','Jamaalview','ea','Triple','162.52','1998-10-23','0'),
 ('874','Jamaalview','ea','Single','258.68','2001-04-17','0'),
-('442','Jamaalview','ea','Facility','47.15','1990-03-07','0'),
+
 ('326','Jamaalview','ea','Triple','86.76','2008-07-11','1'),
 ('808','Jamaalview','ea','Double','164.46','1993-07-28','0'),
-('58','Jamaalview','ea','Facility','462.50','1993-10-17','0'),
-('545','Jamaalview','ea','Facility','400.65','1977-12-31','0'),
+
+
 ('637','Jamaalview','ea','Double','145.24','2018-05-07','0'),
 ('704','Jamaalview','ea','Single','221.67','1978-01-09','0'),
-('18','Jamaalview','ea','Facility','46.90','1997-03-07','1'),
+
 ('739','Jamaalview','ea','Triple','408.94','2016-03-30','0'),
 ('485','Jamaalview','ea','Single','176.52','1981-03-24','0'),
 ('459','Jamaalview','ea','Single','92.32','1992-04-07','1'),
@@ -1769,50 +1768,50 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('411','Jamaalview','ea','Single','430.67','1978-08-03','0'),
 ('82','Jamaalview','ea','Triple','318.43','1978-07-08','0'),
 ('425','Jamaalview','ea','Double','488.39','1996-07-29','0'),
-('2','Jamaalview','ea','Facility','33.35','2005-03-13','1'),
+
 ('852','Jamaalview','ea','Double','198.72','1971-11-21','0'),
 ('610','Jamaalview','ea','Double','381.93','1995-07-12','0'),
 ('890','Jamaalview','ea','Triple','408.32','1982-11-28','0'),
 ('534','Jamaalview','ea','Double','265.10','2010-03-14','0'),
 ('932','Jamaalview','ea','Triple','143.05','1999-03-31','0'),
 ('917','Jamaalview','ea','Single','114.80','1994-12-03','0'),
-('438','Jamaalview','ea','Facility','359.67','1992-01-24','1'),
+
 ('708','Jamaalview','ea','Double','81.96','1994-10-21','1'),
-('961','Jamaalview','ea','Facility','298.54','2013-12-26','0'),
+
 ('472','Jamaalview','ea','Single','34.78','1995-10-05','0'),
 ('995','Jamaalview','ea','Double','43.19','1979-08-05','0'),
 ('635','Jamaalview','ea','Single','483.53','1984-03-10','0'),
 ('449','Jamaalview','ea','Double','409.31','1976-06-14','0'),
-('914','Jamaalview','ea','Facility','398.10','1984-09-23','0'),
+
 ('321','Jamaalview','ea','Double','340.93','1983-06-11','0'),
 ('439','Jamaalview','ea','Triple','146.55','2018-02-15','0'),
 ('166','Jamaalview','ea','Triple','383.54','1980-11-19','0'),
 ('676','Jamaalview','ea','Double','142.53','2016-03-24','0'),
 ('894','Jamaalview','ea','Triple','165.03','1984-09-27','0'),
 ('236','Jamaalview','ea','Triple','325.58','1980-04-09','0'),
-('377','Jamaalview','ea','Facility','319.85','2005-11-17','0'),
+
 ('584','Jamaalview','ea','Triple','498.92','1982-10-16','0'),
 ('44','Jamaalview','ea','Triple','294.89','2003-02-24','0'),
 ('966','Jamaalview','ea','Triple','109.13','1974-01-27','0'),
 ('366','Jamaalview','ea','Double','178.94','2002-12-04','1'),
-('209','Jamaalview','ea','Facility','342.11','1997-07-20','0'),
+
 ('662','Jamaalview','ea','Double','167.48','2000-10-02','0'),
 ('30','Jamaalview','ea','Double','314.60','1988-07-02','1'),
 ('722','Jamaalview','ea','Double','203.33','2011-03-30','0'),
 ('188','Jamaalview','ea','Double','229.99','1990-09-26','1'),
 ('622','Jamaalview','ea','Double','155.19','1979-07-03','0'),
 ('986','Jamaalview','ea','Double','126.49','1973-07-01','0'),
-('575','Jamaalview','ea','Facility','465.35','1971-04-14','0'),
+
 ('387','Jamaalview','ea','Single','26.04','1986-02-16','0'),
-('579','Jamaalview','ea','Facility','82.74','1992-05-13','0'),
+
 ('937','Jamaalview','ea','Single','408.96','1979-07-24','0'),
 ('255','Jamaalview','ea','Triple','436.70','1990-08-25','1'),
 ('592','Jamaalview','ea','Double','11.48','1976-05-18','0'),
 ('562','Jamaalview','ea','Double','303.03','2014-09-03','0'),
-('771','Jamaalview','ea','Facility','402.48','1999-05-03','0'),
+
 ('827','Jamaalview','ea','Triple','487.64','2017-06-18','0'),
 ('878','Jamaalview','ea','Single','391.15','2012-12-14','0'),
-('429','Jamaalview','ea','Facility','303.16','1999-09-30','0'),
+
 ('191','Jamaalview','ea','Single','249.85','1992-07-20','0'),
 ('817','Jamaalview','ea','Triple','41.37','2015-04-18','1'),
 ('830','Jamaalview','ea','Double','75.59','1988-12-17','0'),
@@ -1828,49 +1827,49 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('946','Jamaalview','ea','Single','365.42','1992-06-26','0'),
 ('73','Jamaalview','ea','Triple','406.13','1973-05-27','0'),
 ('232','Jamaalview','ea','Single','306.54','2015-04-14','0'),
-('644','Jamaalview','ea','Facility','183.54','1973-04-15','0'),
+
 ('197','Jamaalview','ea','Triple','375.94','1987-03-09','0'),
-('323','Jamaalview','ea','Facility','374.58','1994-07-23','0'),
+
 ('469','Jamaalview','ea','Double','203.21','1987-07-04','0'),
 ('131','Jamaalview','ea','Double','445.04','1983-03-25','0'),
 ('576','Jamaalview','ea','Double','30.50','1976-02-08','0'),
 ('587','Jamaalview','ea','Triple','145.24','1981-01-29','0'),
 ('929','Jamaalview','ea','Single','389.65','1978-10-19','0'),
-('143','Jamaalview','ea','Facility','305.75','2014-03-17','0'),
-('913','Jamaalview','ea','Facility','204.88','2016-12-23','0'),
+
+
 ('616','Jamaalview','ea','Double','53.45','2011-07-31','0'),
 ('566','Jamaalview','ea','Triple','445.16','1979-11-05','0'),
 ('889','Jamaalview','ea','Triple','308.21','1975-06-22','0'),
-('167','Jamaalview','ea','Facility','253.62','2016-12-30','0'),
-('329','Jamaalview','ea','Facility','460.85','2014-02-11','1'),
+
+
 ('679','Jamaalview','ea','Triple','97.28','2006-03-19','0'),
-('290','Jamaalview','ea','Facility','117.50','1999-01-20','0'),
+
 ('480','Jamaalview','ea','Double','45.55','2006-10-04','0'),
 ('814','Jamaalview','ea','Double','472.50','1992-05-30','0'),
-('539','Jamaalview','ea','Facility','418.17','1985-03-05','0'),
-('373','Jamaalview','ea','Facility','427.94','1982-07-01','0'),
+
+
 ('888','Jamaalview','ea','Double','375.19','1989-07-03','0'),
 ('233','Jamaalview','ea','Single','171.71','1994-01-13','0'),
-('870','Jamaalview','ea','Facility','468.48','2018-11-08','0'),
+
 ('489','Jamaalview','ea','Triple','298.76','2004-05-29','0'),
 ('491','Jamaalview','ea','Single','161.43','2013-02-18','0'),
 ('67','Jamaalview','ea','Triple','418.72','2005-07-29','0'),
 ('638','Jamaalview','ea','Single','375.40','2002-08-08','0'),
-('310','Jamaalview','ea','Facility','279.52','1970-08-04','0'),
+
 ('395','Jamaalview','ea','Single','249.07','1982-11-04','0'),
 ('899','Jamaalview','ea','Double','339.73','2003-10-08','0'),
 ('939','Jamaalview','ea','Double','437.69','2007-04-28','0'),
-('624','Jamaalview','ea','Facility','422.58','2018-09-12','0'),
-('618','Jamaalview','ea','Facility','471.33','2000-02-24','0'),
+
+
 ('16','Jamaalview','ea','Double','228.30','1972-09-07','0'),
-('656','Jamaalview','ea','Facility','497.82','1980-02-04','0'),
+
 ('215','Jamaalview','ea','Double','315.16','1987-10-10','0'),
 ('15','Jamaalview','ea','Single','248.42','2011-06-30','0'),
 ('116','Jamaalview','ea','Triple','210.67','1973-05-22','0'),
-('786','Jamaalview','ea','Facility','236.88','1972-06-16','0'),
+
 ('747','Jamaalview','ea','Triple','334.23','2003-07-23','0'),
 ('748','Jamaalview','ea','Triple','146.56','2000-08-11','0'),
-('573','Jamaalview','ea','Facility','460.24','1975-09-10','0'),
+
 ('896','Jamaalview','ea','Triple','58.28','1980-09-15','0'),
 ('468','Jamaalview','ea','Double','32.13','1974-06-07','0'),
 ('812','Jamaalview','ea','Double','112.35','1979-03-23','0'),
@@ -1880,38 +1879,38 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('234','Jamaalview','ea','Triple','237.85','1971-06-11','0'),
 ('829','Jamaalview','ea','Single','294.73','1997-09-06','0'),
 ('133','Jamaalview','ea','Single','99.49','1995-05-17','0'),
-('158','Jamaalview','ea','Facility','32.92','1974-07-12','1'),
+
 ('632','Jamaalview','ea','Single','140.50','2005-10-18','0'),
 ('194','Jamaalview','ea','Single','120.21','1976-09-29','0'),
 ('210','Jamaalview','ea','Single','159.99','1991-09-22','0'),
 ('66','Jamaalview','ea','Triple','243.77','1991-03-12','0'),
 ('198','Jamaalview','ea','Single','416.73','1983-12-29','0'),
 ('927','Jamaalview','ea','Double','279.51','2004-11-17','0'),
-('707','Jamaalview','ea','Facility','415.77','2015-02-25','0'),
-('692','Jamaalview','ea','Facility','329.58','1999-08-07','0'),
+
+
 ('402','Jamaalview','ea','Single','497.36','1995-06-07','0'),
 ('460','Jamaalview','ea','Single','477.75','1992-01-09','1'),
 ('825','Jamaalview','ea','Triple','301.80','2011-06-17','0'),
 ('376','Jamaalview','ea','Triple','48.74','1972-01-17','0'),
 ('47','Jamaalview','ea','Triple','259.12','1981-05-13','0'),
-('947','Jamaalview','ea','Facility','437.11','1989-04-26','0'),
+
 ('923','Jamaalview','ea','Single','381.89','2009-04-13','0'),
 ('538','Jamaalview','ea','Double','295.69','1977-06-08','0'),
 ('800','Jamaalview','ea','Single','272.33','2018-03-11','0'),
 ('744','Jamaalview','ea','Double','241.09','2011-03-12','0'),
 ('996','Jamaalview','ea','Triple','87.22','1974-09-02','0'),
 ('711','Jamaalview','ea','Single','257.21','1984-02-10','0'),
-('107','Jamaalview','ea','Facility','273.52','1982-04-21','0'),
+
 ('803','Jamaalview','ea','Double','289.50','1993-07-06','0'),
 ('979','Jamaalview','ea','Double','193.46','1982-08-14','0'),
-('984','Jamaalview','ea','Facility','362.14','2008-11-28','0'),
-('397','Jamaalview','ea','Facility','120.02','2014-04-17','0'),
-('105','Jamaalview','ea','Facility','383.59','1983-10-28','0'),
+
+
+
 ('650','Jamaalview','ea','Double','72.04','1987-04-20','1'),
 ('574','Jamaalview','ea','Single','312.53','2001-10-04','1'),
-('61','Jamaalview','ea','Facility','78.82','2002-10-22','0'),
+
 ('414','Jamaalview','ea','Single','464.90','1974-08-28','0'),
-('542','Jamaalview','ea','Facility','360.23','1994-04-22','0'),
+
 ('8','Jamaalview','ea','Triple','251.87','2008-07-16','0'),
 ('111','Jamaalview','ea','Single','70.76','1988-10-22','1'),
 ('982','Jamaalview','ea','Triple','476.78','1984-06-25','0'),
@@ -1920,54 +1919,54 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('293','Jamaalview','ea','Double','312.81','1977-12-31','0'),
 ('901','Jamaalview','ea','Double','464.45','1981-03-17','0'),
 ('101','Jamaalview','ea','Single','77.23','2000-08-12','0'),
-('768','Jamaalview','ea','Facility','364.39','1988-05-27','0'),
+
 ('805','Jamaalview','ea','Single','415.84','2013-01-23','0'),
 ('785','Jamaalview','ea','Double','42.80','2016-01-25','0'),
 ('46','Jamaalview','ea','Single','17.27','1979-07-12','0'),
-('365','Jamaalview','ea','Facility','54.76','1997-10-23','0'),
+
 ('916','Jamaalview','ea','Triple','446.50','2007-11-23','0'),
-('482','Jamaalview','ea','Facility','274.73','2000-01-23','0'),
+
 ('897','Jamaalview','ea','Double','305.83','1976-07-14','0'),
 ('410','Jamaalview','ea','Triple','444.00','1998-01-01','0'),
 ('683','Jamaalview','ea','Double','359.25','2016-09-25','0'),
 ('675','Jamaalview','ea','Single','315.58','1982-10-18','1'),
-('871','Jamaalview','ea','Facility','369.62','2018-11-12','0'),
+
 ('6','Jamaalview','ea','Triple','76.74','1985-10-01','0'),
 ('367','Jamaalview','ea','Triple','164.91','1992-03-11','0'),
-('80','Jamaalview','ea','Facility','326.21','1983-01-19','0'),
+
 ('412','Jamaalview','ea','Single','161.31','2001-08-11','0'),
 ('593','Jamaalview','ea','Single','54.41','2000-10-02','0'),
-('750','Jamaalview','ea','Facility','262.45','2005-09-16','0'),
+
 ('519','Jamaalview','ea','Single','422.99','1982-03-22','0'),
 ('733','Jamaalview','ea','Double','328.21','1996-05-14','0'),
 ('725','Jamaalview','ea','Triple','418.69','2007-12-21','0'),
 ('121','Jamaalview','ea','Single','15.35','2018-07-06','0'),
-('751','Jamaalview','ea','Facility','237.24','2005-12-28','0'),
+
 ('226','Jamaalview','ea','Double','413.65','2003-03-18','0'),
 ('866','Jamaalview','ea','Double','123.42','2018-08-09','0'),
 ('631','Jamaalview','ea','Triple','88.23','1974-08-26','0'),
 ('487','Jamaalview','ea','Single','413.57','1983-02-15','0'),
 ('181','Jamaalview','ea','Double','249.22','2005-10-08','0'),
-('860','Jamaalview','ea','Facility','236.51','1990-02-27','1'),
-('694','Jamaalview','ea','Facility','495.73','1978-02-12','0'),
+
+
 ('362','Jamaalview','ea','Triple','429.02','1987-06-26','0'),
 ('69','Jamaalview','ea','Double','12.15','1979-08-31','1'),
 ('309','Jamaalview','ea','Triple','168.71','1972-05-20','0'),
 ('108','Jamaalview','ea','Double','142.68','2006-09-29','0'),
 ('865','Jamaalview','ea','Double','68.51','1982-08-10','0'),
 ('316','Jamaalview','ea','Single','290.91','1971-05-07','0'),
-('831','Jamaalview','ea','Facility','115.32','1997-04-18','0'),
+
 ('503','Jamaalview','ea','Double','223.74','1998-03-22','0'),
 ('758','Jamaalview','ea','Double','134.58','1979-08-11','0'),
-('863','Jamaalview','ea','Facility','182.97','2006-06-09','0'),
+
 ('375','Jamaalview','ea','Triple','418.44','2009-07-04','0'),
 ('918','Jamaalview','ea','Single','421.99','1994-05-30','0'),
-('74','Jamaalview','ea','Facility','186.88','1983-05-09','0'),
+
 ('548','Jamaalview','ea','Double','363.95','1981-03-31','0'),
 ('530','Jamaalview','ea','Double','176.25','1986-06-05','0'),
 ('17','Jamaalview','ea','Triple','157.95','1971-05-22','0'),
-('287','Jamaalview','ea','Facility','375.99','2013-02-11','0'),
-('112','Jamaalview','ea','Facility','194.17','1989-07-23','0'),
+
+
 ('528','Jamaalview','ea','Single','80.97','1972-05-14','0'),
 ('604','Jamaalview','ea','Single','194.75','1977-12-24','0'),
 ('760','Jamaalview','ea','Single','459.47','1994-03-25','0'),
@@ -1975,72 +1974,72 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('742','Jamaalview','ea','Single','389.07','1997-03-12','1'),
 ('264','Jamaalview','ea','Single','39.59','1995-11-28','0'),
 ('769','Jamaalview','ea','Triple','107.77','2000-05-02','0'),
-('983','Jamaalview','ea','Facility','301.61','1979-09-19','0'),
-('724','Jamaalview','ea','Facility','364.35','1996-08-25','0'),
+
+
 ('202','Jamaalview','ea','Triple','137.94','1972-01-17','0'),
 ('691','Jamaalview','ea','Single','131.80','1991-12-19','0'),
 ('754','Jamaalview','ea','Triple','335.19','2005-11-03','0'),
-('70','Jamaalview','ea','Facility','341.91','1986-02-24','0'),
+
 ('667','Jamaalview','ea','Single','376.21','1975-10-09','0'),
-('686','Jamaalview','ea','Facility','178.83','2002-01-03','0'),
-('883','Jamaalview','ea','Facility','269.31','2008-10-18','0'),
-('161','Jamaalview','ea','Facility','142.32','1979-02-05','0'),
+
+
+
 ('703','Jamaalview','ea','Triple','20.44','2008-09-02','0'),
-('957','Jamaalview','ea','Facility','171.31','1978-08-18','0'),
-('902','Jamaalview','ea','Facility','60.33','1989-06-12','0'),
+
+
 ('288','Jamaalview','ea','Triple','426.63','2010-07-13','0'),
-('57','Jamaalview','ea','Facility','494.12','2013-02-18','0'),
-('416','Jamaalview','ea','Facility','251.35','1994-01-04','0'),
+
+
 ('861','Jamaalview','ea','Single','423.42','1997-09-13','0'),
-('678','Jamaalview','ea','Facility','322.20','1983-07-07','0'),
+
 ('960','Jamaalview','ea','Triple','320.27','1974-09-19','0'),
-('804','Jamaalview','ea','Facility','272.47','1978-01-28','0'),
+
 ('178','Jamaalview','ea','Triple','421.19','1986-06-30','0'),
 ('720','Jamaalview','ea','Double','223.79','2015-08-14','0'),
 ('401','Jamaalview','ea','Single','328.00','2005-10-08','0'),
 ('555','Jamaalview','ea','Triple','259.33','2010-03-03','0'),('928','Garnetport','optio','Triple','160.24','2011-01-05','0'),
 ('836','Garnetport','optio','Double','122.63','1994-06-06','0'),
 ('511','Garnetport','optio','Single','27.19','2017-08-24','0'),
-('102','Garnetport','optio','Facility','200.41','1981-09-29','0'),
+
 ('967','Garnetport','optio','Double','61.96','2017-07-11','0'),
-('846','Garnetport','optio','Facility','283.65','1992-10-27','0'),
+
 ('187','Garnetport','optio','Single','489.68','2010-01-12','0'),
-('435','Garnetport','optio','Facility','460.95','1990-03-03','0'),
-('363','Garnetport','optio','Facility','354.83','1971-10-05','0'),
+
+
 ('43','Garnetport','optio','Triple','102.73','2009-07-10','0'),
 ('112','Garnetport','optio','Double','202.05','1978-11-07','0'),
 ('538','Garnetport','optio','Triple','141.93','2003-10-09','0'),
-('781','Garnetport','optio','Facility','237.14','2011-12-22','0'),
+
 ('626','Garnetport','optio','Single','128.22','2001-12-20','0'),
 ('481','Garnetport','optio','Triple','326.79','2015-07-08','0'),
 ('608','Garnetport','optio','Double','357.80','2010-12-02','0'),
 ('889','Garnetport','optio','Single','244.51','1996-02-26','0'),
 ('576','Garnetport','optio','Triple','499.53','2012-09-10','0'),
 ('571','Garnetport','optio','Single','305.09','1984-08-18','0'),
-('592','Garnetport','optio','Facility','417.80','2017-02-25','0'),
+
 ('777','Garnetport','optio','Triple','71.92','2010-05-15','1'),
-('380','Garnetport','optio','Facility','499.34','2013-01-16','0'),
+
 ('597','Garnetport','optio','Single','246.06','1981-12-23','0'),
-('911','Garnetport','optio','Facility','325.58','1984-07-27','0'),
+
 ('582','Garnetport','optio','Single','385.99','1985-01-06','0'),
-('923','Garnetport','optio','Facility','391.90','1971-03-25','0'),
+
 ('918','Garnetport','optio','Single','98.58','1981-01-22','0'),
-('546','Garnetport','optio','Facility','396.73','2017-11-21','0'),
+
 ('636','Garnetport','optio','Single','121.18','2000-06-28','0'),
 ('532','Garnetport','optio','Triple','259.45','1975-02-19','0'),
 ('88','Garnetport','optio','Single','315.20','2012-07-28','0'),
 ('491','Garnetport','optio','Single','258.22','2013-09-29','0'),
-('303','Garnetport','optio','Facility','186.91','1991-06-21','0'),
-('214','Garnetport','optio','Facility','453.89','1991-09-19','0'),
+
+
 ('847','Garnetport','optio','Triple','318.17','1975-12-30','1'),
 ('155','Garnetport','optio','Triple','115.32','2004-02-17','0'),
 ('525','Garnetport','optio','Triple','192.36','1970-11-04','0'),
 ('753','Garnetport','optio','Triple','303.49','1979-06-08','1'),
-('221','Garnetport','optio','Facility','172.35','2016-04-28','0'),
-('670','Garnetport','optio','Facility','309.15','1983-09-22','0'),
-('935','Garnetport','optio','Facility','377.27','1994-07-25','0'),
+
+
+
 ('916','Garnetport','optio','Single','224.53','1975-07-28','0'),
-('857','Garnetport','optio','Facility','330.57','1997-04-13','1'),
+
 ('499','Garnetport','optio','Double','433.12','2006-04-30','0'),
 ('89','Garnetport','optio','Triple','156.22','1971-12-31','0'),
 ('394','Garnetport','optio','Triple','170.17','1979-06-26','0'),
@@ -2048,7 +2047,6 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('172','Garnetport','optio','Triple','287.01','2006-05-18','0'),
 ('977','Garnetport','optio','Triple','432.01','1975-02-14','1'),
 ('405','Garnetport','optio','Single','75.61','1987-07-09','0'),
-('758','Garnetport','optio','Facility','217.19','1983-02-21','0'),
 ('125','Garnetport','optio','Triple','440.71','2017-05-02','0'),
 ('229','Garnetport','optio','Double','232.93','1985-05-13','0'),
 ('879','Garnetport','optio','Triple','218.54','1990-05-31','0'),
@@ -2066,7 +2064,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('521','Garnetport','optio','Single','78.70','1970-12-07','1'),
 ('947','Garnetport','optio','Double','95.31','2001-01-11','0'),
 ('15','Garnetport','optio','Single','286.24','2012-01-02','0'),
-('767','Garnetport','optio','Facility','377.56','1978-10-31','0'),
+
 ('628','Garnetport','optio','Single','60.77','1974-03-12','0'),
 ('929','Garnetport','optio','Triple','437.56','1992-03-04','0'),
 ('284','Garnetport','optio','Single','13.18','1981-09-15','0'),
@@ -2074,28 +2072,28 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('559','Garnetport','optio','Triple','193.99','2011-04-02','0'),
 ('121','Garnetport','optio','Double','188.68','1995-02-24','0'),
 ('368','Garnetport','optio','Triple','233.45','2001-02-13','1'),
-('607','Garnetport','optio','Facility','220.07','1992-03-01','0'),
-('674','Garnetport','optio','Facility','456.98','1982-02-02','0'),
+
+
 ('401','Garnetport','optio','Single','82.26','2007-07-30','1'),
-('755','Garnetport','optio','Facility','384.98','1972-04-02','0'),
+
 ('317','Garnetport','optio','Single','38.55','2006-06-16','0'),
 ('11','Garnetport','optio','Triple','421.97','1974-06-03','0'),
 ('668','Garnetport','optio','Triple','93.41','1971-03-10','0'),
-('766','Garnetport','optio','Facility','229.06','2014-04-23','1'),
+
 ('486','Garnetport','optio','Double','223.15','1974-01-29','0'),
 ('261','Garnetport','optio','Double','95.26','2003-11-16','0'),
-('338','Garnetport','optio','Facility','309.98','2004-02-07','0'),
+
 ('901','Garnetport','optio','Double','150.47','1997-06-02','0'),
 ('658','Garnetport','optio','Single','107.71','2018-05-08','0'),
-('224','Garnetport','optio','Facility','280.02','1980-06-30','0'),
+
 ('657','Garnetport','optio','Triple','32.67','1998-03-30','1'),
 ('513','Garnetport','optio','Single','123.61','1988-09-18','0'),
 ('285','Garnetport','optio','Single','195.81','2005-04-02','0'),
 ('508','Garnetport','optio','Triple','324.87','2017-09-17','0'),
 ('704','Garnetport','optio','Triple','146.67','2018-06-10','0'),
 ('128','Garnetport','optio','Triple','213.04','1996-02-07','1'),
-('227','Garnetport','optio','Facility','230.83','1977-07-23','0'),
-('495','Garnetport','optio','Facility','407.96','2006-04-24','0'),
+
+
 ('563','Garnetport','optio','Single','446.26','1977-06-08','0'),
 ('398','Garnetport','optio','Triple','319.08','2007-07-14','0'),
 ('470','Garnetport','optio','Double','184.63','2018-05-03','0'),
@@ -2104,28 +2102,28 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('673','Garnetport','optio','Single','275.33','1973-04-30','0'),
 ('614','Garnetport','optio','Single','131.15','1997-11-26','0'),
 ('175','Garnetport','optio','Single','486.72','1973-11-21','0'),
-('565','Garnetport','optio','Facility','229.44','2004-02-25','0'),
+
 ('344','Garnetport','optio','Single','383.79','1985-09-13','0'),
 ('931','Garnetport','optio','Triple','11.31','1991-03-15','0'),
 ('586','Garnetport','optio','Single','67.79','1980-04-12','0'),
 ('798','Garnetport','optio','Double','415.44','1989-08-11','0'),
 ('728','Garnetport','optio','Triple','260.20','1979-09-21','0'),
 ('661','Garnetport','optio','Single','222.69','2018-09-21','0'),
-('748','Garnetport','optio','Facility','210.48','1980-05-21','0'),
+
 ('906','Garnetport','optio','Double','244.09','1997-02-01','0'),
-('20','Garnetport','optio','Facility','445.99','2012-08-24','0'),
+
 ('52','Garnetport','optio','Double','176.66','2005-10-18','1'),
 ('330','Garnetport','optio','Triple','198.78','1985-01-20','0'),
-('867','Garnetport','optio','Facility','376.95','2011-06-06','0'),
+
 ('38','Garnetport','optio','Single','16.96','1989-03-30','0'),
 ('564','Garnetport','optio','Triple','428.69','2007-04-24','0'),
 ('943','Garnetport','optio','Triple','414.92','2005-06-02','0'),
 ('964','Garnetport','optio','Double','258.60','2009-11-01','0'),
-('238','Garnetport','optio','Facility','35.06','1979-09-07','0'),
+
 ('823','Garnetport','optio','Double','155.51','1996-08-19','0'),
-('682','Garnetport','optio','Facility','79.48','1998-05-30','0'),
+
 ('233','Garnetport','optio','Double','60.18','1986-09-06','0'),
-('543','Garnetport','optio','Facility','30.18','1980-05-21','0'),
+
 ('429','Garnetport','optio','Single','386.68','2002-11-02','0'),
 ('731','Garnetport','optio','Single','495.09','2001-10-20','1'),
 ('697','Garnetport','optio','Single','35.73','1971-08-15','0'),
@@ -2135,27 +2133,27 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('514','Garnetport','optio','Single','358.05','1984-02-20','0'),
 ('630','Garnetport','optio','Single','478.40','1979-07-15','1'),
 ('131','Garnetport','optio','Single','76.57','2004-11-24','1'),
-('82','Garnetport','optio','Facility','264.17','1986-06-12','0'),
-('506','Garnetport','optio','Facility','255.95','1982-11-09','1'),
+
+
 ('487','Garnetport','optio','Triple','479.14','2007-08-18','0'),
 ('343','Garnetport','optio','Single','224.53','1994-11-16','1'),
 ('333','Garnetport','optio','Triple','189.29','2013-11-02','0'),
 ('136','Garnetport','optio','Single','483.66','1973-09-05','0'),
 ('74','Garnetport','optio','Triple','297.41','2003-01-30','0'),
 ('936','Garnetport','optio','Triple','19.16','1993-02-13','0'),
-('232','Garnetport','optio','Facility','19.31','2015-12-23','0'),
+
 ('747','Garnetport','optio','Double','231.34','2012-09-06','0'),
 ('437','Garnetport','optio','Single','161.64','1976-06-03','0'),
 ('990','Garnetport','optio','Double','421.35','1988-06-15','0'),
-('105','Garnetport','optio','Facility','171.45','1972-08-24','1'),
-('744','Garnetport','optio','Facility','484.40','1976-01-13','0'),
-('976','Garnetport','optio','Facility','128.37','2000-06-24','1'),
+
+
+
 ('550','Garnetport','optio','Single','413.65','2011-04-28','1'),
 ('9','Garnetport','optio','Triple','275.60','2003-02-18','0'),
 ('778','Garnetport','optio','Single','364.76','1980-12-31','0'),
 ('67','Garnetport','optio','Double','480.74','2010-09-26','0'),
-('87','Garnetport','optio','Facility','147.75','1999-10-27','0'),
-('311','Garnetport','optio','Facility','112.80','1989-09-23','0'),
+
+
 ('769','Garnetport','optio','Double','50.53','1999-07-24','0'),
 ('168','Garnetport','optio','Triple','316.49','1975-02-04','0'),
 ('692','Garnetport','optio','Double','376.07','1984-12-26','0'),
@@ -2173,15 +2171,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('945','Garnetport','optio','Single','426.62','1983-07-14','0'),
 ('467','Garnetport','optio','Double','145.43','1988-11-15','1'),
 ('32','Garnetport','optio','Single','165.87','1984-07-19','0'),
-('805','Garnetport','optio','Facility','419.72','2017-01-26','0'),
+
 ('440','Garnetport','optio','Single','395.39','1971-07-18','0'),
 ('231','Garnetport','optio','Triple','139.45','1988-08-13','0'),
-('42','Garnetport','optio','Facility','181.56','2004-07-27','0'),
-('515','Garnetport','optio','Facility','99.71','1999-11-17','0'),
+
+
 ('485','Garnetport','optio','Single','445.95','1977-02-12','0'),
 ('492','Garnetport','optio','Triple','488.86','1998-10-03','0'),
 ('577','Garnetport','optio','Single','359.38','2005-04-16','0'),
-('917','Garnetport','optio','Facility','325.35','1982-09-10','0'),
+
 ('806','Garnetport','optio','Single','314.56','1992-05-05','0'),
 ('551','Garnetport','optio','Single','400.94','2004-05-13','0'),
 ('949','Garnetport','optio','Triple','460.53','2005-04-14','0'),
@@ -2192,42 +2190,42 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('295','Garnetport','optio','Single','75.77','1982-04-24','0'),
 ('518','Garnetport','optio','Triple','113.05','1980-03-11','0'),
 ('143','Garnetport','optio','Single','76.43','1982-05-16','0'),
-('359','Garnetport','optio','Facility','443.79','1975-06-23','0'),
+
 ('111','Garnetport','optio','Double','367.78','1974-01-24','0'),
-('205','Garnetport','optio','Facility','435.38','1980-09-04','0'),
+
 ('810','Garnetport','optio','Double','229.50','1999-07-28','1'),
 ('347','Garnetport','optio','Single','73.12','1971-06-28','0'),
 ('732','Garnetport','optio','Single','373.18','1997-06-01','0'),
-('444','Garnetport','optio','Facility','350.98','1989-09-21','0'),
+
 ('533','Garnetport','optio','Double','418.39','2003-10-24','0'),
 ('780','Garnetport','optio','Single','54.74','1992-08-03','0'),
-('182','Garnetport','optio','Facility','381.65','2012-04-17','0'),
-('603','Garnetport','optio','Facility','425.74','1972-07-30','0'),
+
+
 ('451','Garnetport','optio','Double','468.78','1993-09-05','0'),
 ('53','Garnetport','optio','Single','430.48','1992-08-12','0'),
 ('130','Garnetport','optio','Triple','416.11','2007-10-28','0'),
 ('651','Garnetport','optio','Triple','163.67','1972-10-06','0'),
 ('240','Garnetport','optio','Single','89.75','2007-07-18','0'),
 ('71','Garnetport','optio','Double','199.14','1986-02-21','0'),
-('944','Garnetport','optio','Facility','416.13','1970-05-04','0'),
+
 ('329','Garnetport','optio','Double','305.60','1982-02-18','0'),
 ('225','Garnetport','optio','Single','349.26','1986-10-04','0'),
 ('527','Garnetport','optio','Triple','397.29','2006-01-10','0'),
-('802','Garnetport','optio','Facility','161.00','1972-10-03','0'),
+
 ('93','Garnetport','optio','Single','406.17','1981-08-17','0'),
-('132','Garnetport','optio','Facility','77.27','1983-07-14','0'),
+
 ('971','Garnetport','optio','Double','23.89','2014-01-20','0'),
 ('449','Garnetport','optio','Double','425.25','2011-10-27','0'),
 ('968','Garnetport','optio','Double','27.11','2010-10-25','0'),
 ('339','Garnetport','optio','Single','376.23','1997-03-12','0'),
 ('841','Garnetport','optio','Triple','262.33','1978-09-15','0'),
-('876','Garnetport','optio','Facility','26.07','1994-04-12','0'),
+
 ('882','Garnetport','optio','Single','108.73','2011-02-19','0'),
 ('452','Garnetport','optio','Single','229.46','1973-05-01','0'),
 ('522','Garnetport','optio','Triple','12.82','1975-09-02','0'),
 ('40','Garnetport','optio','Double','367.82','2015-03-05','0'),
 ('320','Garnetport','optio','Double','308.42','1990-02-02','0'),
-('59','Garnetport','optio','Facility','333.27','2011-05-08','0'),
+
 ('585','Garnetport','optio','Triple','118.04','1995-07-30','0'),
 ('853','Garnetport','optio','Double','312.60','2010-08-01','0'),
 ('643','Garnetport','optio','Single','373.74','2008-06-02','0'),
@@ -2250,24 +2248,24 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('123','Garnetport','optio','Double','254.97','1976-05-14','0'),
 ('157','Garnetport','optio','Triple','415.51','2015-08-20','0'),
 ('567','Garnetport','optio','Single','76.18','1972-08-13','1'),
-('80','Garnetport','optio','Facility','425.70','2009-04-17','0'),
-('302','Garnetport','optio','Facility','208.42','1992-07-23','0'),
+
+
 ('266','Garnetport','optio','Single','360.54','1987-06-01','0'),
-('664','Garnetport','optio','Facility','261.94','1993-08-22','1'),
+
 ('587','Garnetport','optio','Triple','429.06','1998-09-17','0'),
 ('703','Garnetport','optio','Single','77.34','1977-07-09','0'),
-('23','Garnetport','optio','Facility','272.18','1990-11-18','0'),
+
 ('620','Garnetport','optio','Double','281.68','1984-07-15','0'),
 ('203','Garnetport','optio','Triple','497.26','1999-09-08','0'),
-('754','Garnetport','optio','Facility','486.66','1984-10-17','0'),
+
 ('254','Garnetport','optio','Double','25.26','1974-09-09','0'),
 ('663','Garnetport','optio','Double','152.55','2007-04-09','0'),
 ('685','Garnetport','optio','Triple','132.76','1990-02-22','0'),
 ('270','Garnetport','optio','Double','10.87','1995-10-12','0'),
 ('606','Garnetport','optio','Double','117.83','1995-04-06','0'),
 ('601','Garnetport','optio','Double','427.49','2010-10-14','1'),
-('611','Garnetport','optio','Facility','191.92','2015-03-30','0'),
-('653','Garnetport','optio','Facility','209.41','2014-07-01','0'),
+
+
 ('880','Garnetport','optio','Double','483.99','1994-12-13','0'),
 ('813','Garnetport','optio','Single','80.11','1991-04-14','0'),
 ('504','Garnetport','optio','Single','216.42','1971-04-22','0'),
@@ -2277,15 +2275,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('465','Garnetport','optio','Single','11.90','2005-07-07','0'),
 ('47','Garnetport','optio','Double','314.47','2009-07-12','0'),
 ('426','Garnetport','optio','Single','373.78','2006-06-02','0'),
-('353','Garnetport','optio','Facility','94.31','2013-04-10','0'),
-('800','Garnetport','optio','Facility','418.92','1992-06-11','0'),
+
+
 ('751','Garnetport','optio','Triple','18.32','1991-10-23','0'),
-('129','Garnetport','optio','Facility','446.32','1994-05-22','1'),
+
 ('612','Garnetport','optio','Triple','301.99','1977-05-03','0'),
 ('519','Garnetport','optio','Double','202.29','1999-05-22','0'),
-('110','Garnetport','optio','Facility','229.49','1993-04-20','1'),
+
 ('958','Garnetport','optio','Triple','140.03','1977-03-09','0'),
-('193','Garnetport','optio','Facility','371.07','1991-10-19','0'),
+
 ('309','Garnetport','optio','Triple','246.47','1982-06-25','0'),
 ('176','Garnetport','optio','Single','253.64','1999-12-14','0'),
 ('829','Garnetport','optio','Triple','69.56','2006-08-23','0'),
@@ -2294,7 +2292,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('382','Garnetport','optio','Double','345.78','1994-12-14','0'),
 ('812','Garnetport','optio','Double','482.98','2003-06-24','0'),
 ('70','Garnetport','optio','Single','194.24','2016-06-07','0'),
-('497','Garnetport','optio','Facility','195.02','2015-05-30','0'),
+
 ('291','Garnetport','optio','Single','305.31','2007-05-27','0'),
 ('417','Garnetport','optio','Triple','77.32','1981-06-26','0'),
 ('738','Garnetport','optio','Double','413.88','2014-12-18','1'),
@@ -2306,17 +2304,17 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('899','Garnetport','optio','Triple','369.16','1982-04-24','0'),
 ('436','Garnetport','optio','Single','283.13','1976-10-18','0'),
 ('838','Garnetport','optio','Triple','379.41','1997-03-13','0'),
-('686','Garnetport','optio','Facility','264.51','2007-03-13','0'),
-('914','Garnetport','optio','Facility','295.20','1990-05-14','0'),
+
+
 ('678','Garnetport','optio','Single','142.94','1988-08-21','0'),
 ('702','Garnetport','optio','Single','174.02','2011-04-06','0'),
 ('560','Garnetport','optio','Triple','481.45','2010-02-13','0'),
-('103','Garnetport','optio','Facility','156.91','1980-11-26','1'),
-('763','Garnetport','optio','Facility','497.74','2014-02-01','0'),
+
+
 ('821','Garnetport','optio','Double','126.10','2002-01-26','0'),
 ('159','Garnetport','optio','Triple','312.78','2013-04-18','0'),
 ('119','Garnetport','optio','Double','79.50','1971-04-10','0'),
-('549','Garnetport','optio','Facility','37.36','2014-11-24','0'),
+
 ('960','Garnetport','optio','Triple','320.12','1997-06-17','0'),
 ('84','Garnetport','optio','Single','498.70','1975-07-30','0'),
 ('554','Garnetport','optio','Triple','115.46','1980-08-16','0'),
@@ -2326,13 +2324,13 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('796','Garnetport','optio','Triple','439.39','1994-01-18','0'),
 ('186','Garnetport','optio','Double','359.85','2011-09-24','0'),
 ('545','Garnetport','optio','Double','487.75','1976-12-31','1'),
-('659','Garnetport','optio','Facility','29.33','1987-01-02','0'),
+
 ('61','Garnetport','optio','Single','66.27','1997-12-03','0'),
 ('646','Garnetport','optio','Single','76.84','1985-07-09','0'),
 ('570','Garnetport','optio','Single','443.96','1976-11-03','0'),
 ('730','Garnetport','optio','Triple','461.12','1992-12-17','0'),
 ('888','Garnetport','optio','Double','65.24','1987-08-11','0'),
-('357','Garnetport','optio','Facility','142.03','1984-03-26','0'),
+
 ('463','Garnetport','optio','Single','414.29','1971-12-28','0'),
 ('814','Garnetport','optio','Double','114.56','1978-08-20','0'),
 ('21','Garnetport','optio','Double','41.23','2017-03-19','1'),
@@ -2350,10 +2348,10 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('490','Garnetport','optio','Single','485.15','1988-05-20','1'),
 ('541','Garnetport','optio','Single','235.76','2017-07-23','0'),
 ('98','Garnetport','optio','Single','149.35','1979-07-15','0'),
-('729','Garnetport','optio','Facility','490.40','1988-03-10','0'),
+
 ('108','Garnetport','optio','Triple','98.74','2017-10-10','0'),
 ('954','Garnetport','optio','Double','193.77','2009-01-05','0'),
-('169','Garnetport','optio','Facility','230.92','2016-01-21','0'),
+
 ('48','Garnetport','optio','Single','228.02','1979-02-20','0'),
 ('257','Garnetport','optio','Triple','211.45','1997-06-06','0'),
 ('946','Garnetport','optio','Single','379.49','1972-09-26','0'),
@@ -2366,33 +2364,33 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('797','Garnetport','optio','Double','285.97','1970-01-08','0'),
 ('150','Garnetport','optio','Triple','32.74','1979-01-11','0'),
 ('281','Garnetport','optio','Double','237.51','2000-01-16','0'),
-('588','Garnetport','optio','Facility','406.40','1977-05-01','0'),
-('479','Garnetport','optio','Facility','494.82','1999-09-22','0'),
+
+
 ('537','Garnetport','optio','Double','459.99','1984-11-26','0'),
-('851','Garnetport','optio','Facility','365.36','1996-12-29','1'),
-('864','Garnetport','optio','Facility','60.22','1984-08-28','0'),
-('94','Garnetport','optio','Facility','224.26','2005-03-15','0'),
+
+
+
 ('206','Garnetport','optio','Single','45.22','1987-02-11','0'),
 ('503','Garnetport','optio','Single','231.31','1985-04-23','0'),
 ('457','Garnetport','optio','Double','292.27','1981-12-16','1'),
 ('825','Garnetport','optio','Triple','56.79','2018-07-07','0'),
-('937','Garnetport','optio','Facility','435.82','1997-12-24','1'),
+
 ('842','Garnetport','optio','Double','499.60','2009-11-11','0'),
 ('507','Garnetport','optio','Single','336.78','1993-12-11','0'),
 ('68','Garnetport','optio','Single','68.15','2004-07-20','0'),
-('531','Garnetport','optio','Facility','166.36','1975-06-19','0'),
+
 ('925','Garnetport','optio','Triple','163.29','1999-03-21','0'),
-('539','Garnetport','optio','Facility','373.97','2018-09-14','0'),
-('719','Garnetport','optio','Facility','473.06','1981-08-10','0'),
-('791','Garnetport','optio','Facility','280.41','1985-08-31','0'),
+
+
+
 ('427','Garnetport','optio','Single','198.70','2015-12-01','0'),
-('827','Garnetport','optio','Facility','131.86','1978-01-28','0'),
+
 ('342','Garnetport','optio','Double','447.92','1995-03-07','1'),
 ('324','Garnetport','optio','Triple','418.21','1990-09-10','0'),
 ('49','Garnetport','optio','Single','331.66','1971-02-15','0'),
 ('197','Garnetport','optio','Double','407.02','2002-08-20','0'),
 ('337','Garnetport','optio','Triple','339.54','1973-09-06','0'),
-('300','Garnetport','optio','Facility','414.50','2009-06-09','0'),
+
 ('248','Garnetport','optio','Triple','91.84','1995-10-09','0'),
 ('390','Garnetport','optio','Double','391.36','1982-01-23','0'),
 ('874','Garnetport','optio','Single','51.17','1983-08-05','0'),
@@ -2401,78 +2399,78 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('1000','Garnetport','optio','Double','392.36','1991-11-02','0'),
 ('594','Garnetport','optio','Triple','431.34','2010-10-31','0'),
 ('133','Garnetport','optio','Triple','290.36','1979-08-17','0'),
-('625','Garnetport','optio','Facility','148.84','1973-08-15','0'),
+
 ('278','Garnetport','optio','Single','341.45','2003-01-31','0'),
-('520','Garnetport','optio','Facility','118.99','2001-02-05','0'),
+
 ('345','Garnetport','optio','Triple','158.74','1987-02-11','1'),
 ('237','Garnetport','optio','Triple','464.60','1971-04-22','0'),
-('613','Garnetport','optio','Facility','468.26','1984-12-16','0'),
-('930','Garnetport','optio','Facility','106.42','2011-09-15','0'),
+
+
 ('388','Garnetport','optio','Triple','253.96','1988-07-04','1'),
-('475','Garnetport','optio','Facility','120.74','2016-08-31','0'),
+
 ('997','Garnetport','optio','Single','132.28','2003-09-16','0'),
 ('832','Garnetport','optio','Triple','110.02','1974-07-14','0'),
 ('135','Garnetport','optio','Single','58.81','1985-02-16','0'),
 ('794','Garnetport','optio','Triple','44.58','2000-03-24','0'),
-('700','Garnetport','optio','Facility','54.39','2001-03-18','0'),
+
 ('512','Garnetport','optio','Double','462.25','2001-01-01','0'),
 ('352','Garnetport','optio','Single','137.67','2001-03-13','0'),
 ('926','Garnetport','optio','Single','354.62','1987-07-23','0'),
-('410','Garnetport','optio','Facility','315.22','1992-09-14','0'),
+
 ('208','Garnetport','optio','Double','58.60','1997-01-10','0'),
 ('190','Garnetport','optio','Triple','473.85','1999-11-01','0'),
 ('276','Garnetport','optio','Triple','48.37','1987-04-01','0'),
 ('667','Garnetport','optio','Triple','40.16','2003-09-14','0'),
 ('671','Garnetport','optio','Double','382.99','1995-04-21','0'),
-('310','Garnetport','optio','Facility','104.96','1977-04-11','0'),
-('39','Garnetport','optio','Facility','375.69','2014-03-27','0'),
+
+
 ('144','Garnetport','optio','Double','72.98','2017-12-28','0'),
-('181','Garnetport','optio','Facility','278.42','2012-04-23','0'),
+
 ('219','Garnetport','optio','Single','226.12','1994-02-07','0'),
 ('483','Garnetport','optio','Double','405.86','2015-05-29','1'),
-('8','Garnetport','optio','Facility','249.38','2018-10-11','0'),
+
 ('145','Garnetport','optio','Single','18.22','1995-11-28','0'),
 ('385','Garnetport','optio','Double','110.92','1985-05-27','0'),
 ('277','Garnetport','optio','Triple','345.83','2013-02-11','0'),
 ('220','Garnetport','optio','Double','297.83','2000-11-22','0'),
 ('951','Garnetport','optio','Double','35.12','1995-01-16','0'),
 ('581','Garnetport','optio','Single','412.64','2016-09-06','0'),
-('212','Garnetport','optio','Facility','335.98','2003-04-14','0'),
+
 ('97','Garnetport','optio','Double','333.72','2018-08-15','0'),
 ('775','Garnetport','optio','Triple','66.73','2016-02-10','1'),
-('422','Garnetport','optio','Facility','495.97','2011-09-06','0'),
+
 ('236','Garnetport','optio','Triple','44.99','1974-06-02','1'),
 ('152','Garnetport','optio','Single','79.42','1975-12-06','0'),
 ('578','Garnetport','optio','Double','416.17','1989-04-19','0'),
-('493','Garnetport','optio','Facility','279.29','1990-09-02','1'),
+
 ('336','Garnetport','optio','Double','52.02','2003-09-07','1'),
 ('194','Garnetport','optio','Single','14.88','1978-06-23','0'),
 ('770','Garnetport','optio','Single','331.80','1977-12-19','0'),
 ('73','Garnetport','optio','Single','399.79','1970-07-19','0'),
-('321','Garnetport','optio','Facility','456.75','2004-07-07','0'),
+
 ('909','Garnetport','optio','Triple','44.71','1995-05-21','1'),
 ('245','Garnetport','optio','Triple','116.54','2002-08-20','0'),
-('126','Garnetport','optio','Facility','494.09','1987-01-05','0'),
+
 ('29','Garnetport','optio','Triple','137.91','1994-12-26','0'),
-('840','Garnetport','optio','Facility','331.72','2000-02-25','0'),
+
 ('34','Garnetport','optio','Triple','314.00','2011-12-31','0'),
-('424','Garnetport','optio','Facility','46.82','1991-05-12','0'),
+
 ('62','Garnetport','optio','Single','177.09','2010-12-06','0'),
 ('204','Garnetport','optio','Single','305.16','2011-02-06','0'),
 ('610','Garnetport','optio','Triple','70.18','1988-11-30','0'),
 ('275','Garnetport','optio','Triple','177.25','2018-06-21','0'),
 ('243','Garnetport','optio','Single','498.41','1981-05-03','0'),
 ('413','Garnetport','optio','Double','364.40','1975-07-14','0'),
-('255','Garnetport','optio','Facility','233.77','1991-05-25','1'),
+
 ('72','Garnetport','optio','Double','434.61','1988-10-28','0'),
 ('189','Garnetport','optio','Triple','179.54','2015-07-04','0'),
 ('163','Garnetport','optio','Single','17.09','1978-12-26','0'),
 ('433','Garnetport','optio','Triple','373.59','2014-08-28','0'),
-('19','Garnetport','optio','Facility','168.53','2010-06-08','0'),
+
 ('372','Garnetport','optio','Double','321.40','1982-07-03','0'),
 ('826','Garnetport','optio','Single','425.65','1985-07-05','0'),
-('687','Garnetport','optio','Facility','90.67','1973-09-02','0'),
-('349','Garnetport','optio','Facility','145.94','2007-03-09','1'),
+
+
 ('305','Garnetport','optio','Double','414.94','2016-04-07','0'),
 ('992','Garnetport','optio','Double','125.50','1984-03-30','0'),
 ('986','Garnetport','optio','Single','318.95','2003-10-26','0'),
@@ -2487,9 +2485,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('886','Garnetport','optio','Triple','184.16','1992-08-16','0'),
 ('599','Garnetport','optio','Double','220.81','2017-06-19','0'),
 ('454','Garnetport','optio','Single','94.07','1986-11-22','0'),
-('609','Garnetport','optio','Facility','74.24','2012-02-07','0'),
+
 ('726','Garnetport','optio','Single','52.68','2005-07-06','0'),
-('908','Garnetport','optio','Facility','362.10','1975-04-26','1'),
+
 ('725','Garnetport','optio','Single','471.18','1972-01-12','0'),
 ('173','Garnetport','optio','Double','318.05','1996-01-14','0'),
 ('684','Garnetport','optio','Triple','137.70','1987-01-02','0'),
@@ -2498,7 +2496,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('184','Garnetport','optio','Single','292.86','1987-11-28','0'),
 ('883','Garnetport','optio','Single','302.70','1992-12-27','0'),
 ('45','Garnetport','optio','Triple','419.72','1972-03-29','0'),
-('618','Garnetport','optio','Facility','256.77','1985-12-29','0'),
+
 ('30','Garnetport','optio','Triple','174.48','1979-03-09','0'),
 ('294','Garnetport','optio','Double','233.15','1973-03-29','0'),
 ('933','Garnetport','optio','Single','192.49','2015-08-11','0'),
@@ -2506,17 +2504,17 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('472','Garnetport','optio','Single','352.51','1995-03-24','0'),
 ('534','Garnetport','optio','Triple','99.24','2016-10-14','0'),
 ('924','Garnetport','optio','Single','308.59','2014-10-07','0'),
-('721','Garnetport','optio','Facility','15.83','1975-01-26','0'),
-('898','Garnetport','optio','Facility','410.88','1974-04-02','0'),
+
+
 ('14','Garnetport','optio','Triple','194.96','2014-07-06','0'),
 ('85','Garnetport','optio','Triple','212.74','1971-01-19','0'),
 ('246','Garnetport','optio','Triple','461.07','1990-10-10','0'),
-('502','Garnetport','optio','Facility','446.85','1991-02-09','0'),
+
 ('741','Garnetport','optio','Triple','134.36','1999-11-24','0'),
 ('192','Garnetport','optio','Double','448.56','2018-03-25','1'),
 ('975','Garnetport','optio','Triple','41.25','1998-04-07','0'),
-('589','Garnetport','optio','Facility','263.16','2015-08-01','0'),
-('216','Garnetport','optio','Facility','50.58','1996-01-27','0'),
+
+
 ('230','Garnetport','optio','Triple','401.33','1994-01-14','0'),
 ('308','Garnetport','optio','Double','496.25','2016-01-05','0'),
 ('510','Garnetport','optio','Single','462.04','1971-02-16','0'),
@@ -2525,7 +2523,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('765','Garnetport','optio','Single','401.63','1982-08-06','0'),
 ('822','Garnetport','optio','Single','20.95','1989-06-12','0'),
 ('83','Garnetport','optio','Single','444.22','1998-04-28','0'),
-('312','Garnetport','optio','Facility','301.58','1986-01-19','1'),
+
 ('544','Garnetport','optio','Double','479.96','1978-07-08','1'),
 ('117','Garnetport','optio','Single','302.16','2013-11-15','0'),
 ('453','Garnetport','optio','Double','57.44','2010-10-13','0'),
@@ -2534,9 +2532,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('188','Garnetport','optio','Triple','35.36','1970-09-25','0'),
 ('423','Garnetport','optio','Single','346.79','2005-06-26','0'),
 ('361','Garnetport','optio','Triple','69.44','1983-10-30','0'),
-('56','Garnetport','optio','Facility','128.16','1997-07-25','0'),
+
 ('459','Garnetport','optio','Double','492.67','1973-06-12','0'),
-('772','Garnetport','optio','Facility','389.93','1971-06-01','0'),
+
 ('669','Garnetport','optio','Triple','322.72','1991-11-10','0'),
 ('634','Garnetport','optio','Triple','217.65','1986-08-02','0'),
 ('348','Garnetport','optio','Triple','191.28','1976-06-09','0'),
@@ -2551,23 +2549,23 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('22','Garnetport','optio','Double','106.44','1995-05-17','0'),
 ('662','Garnetport','optio','Single','17.70','2008-05-13','0'),
 ('831','Garnetport','optio','Double','12.71','2009-03-10','0'),
-('762','Garnetport','optio','Facility','345.92','1973-08-18','0'),
+
 ('548','Garnetport','optio','Double','392.23','2017-03-19','0'),
-('910','Garnetport','optio','Facility','273.40','1987-12-10','0'),
+
 ('655','Garnetport','optio','Single','335.84','1984-12-29','1'),
 ('860','Garnetport','optio','Double','407.86','2007-07-17','0'),
-('776','Garnetport','optio','Facility','129.84','2017-06-15','0'),
+
 ('356','Garnetport','optio','Double','132.57','1991-02-19','0'),
-('558','Garnetport','optio','Facility','288.54','2015-11-16','0'),
-('553','Garnetport','optio','Facility','77.19','2006-02-18','0'),
-('395','Garnetport','optio','Facility','342.48','2007-09-10','0'),
+
+
+
 ('837','Garnetport','optio','Single','364.88','1973-08-31','0'),
-('912','Garnetport','optio','Facility','217.49','2005-01-18','0'),
-('632','Garnetport','optio','Facility','140.34','2006-05-28','0'),
+
+
 ('289','Garnetport','optio','Single','192.56','2010-02-21','0'),
 ('304','Garnetport','optio','Single','473.20','2012-11-02','0'),
 ('645','Garnetport','optio','Triple','319.03','2013-09-27','0'),
-('307','Garnetport','optio','Facility','211.39','1985-01-30','0'),
+
 ('885','Garnetport','optio','Double','290.49','1981-08-23','0'),
 ('406','Garnetport','optio','Double','279.94','1970-06-09','0'),
 ('138','Garnetport','optio','Double','11.96','2004-07-20','0'),
@@ -2575,11 +2573,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('743','Garnetport','optio','Triple','336.91','2007-05-13','0'),
 ('412','Garnetport','optio','Triple','210.94','1970-01-16','0'),
 ('872','Garnetport','optio','Double','304.66','2012-11-19','0'),
-('391','Garnetport','optio','Facility','12.31','1970-02-05','0'),
+
 ('107','Garnetport','optio','Double','296.17','2006-07-31','0'),
 ('273','Garnetport','optio','Triple','130.85','1986-02-21','0'),
 ('267','Garnetport','optio','Single','112.07','1973-09-03','0'),
-('761','Garnetport','optio','Facility','456.23','1997-01-19','0'),
+
 ('180','Garnetport','optio','Single','305.03','1970-02-12','0'),
 ('161','Garnetport','optio','Single','217.49','1986-12-27','1'),
 ('878','Garnetport','optio','Double','126.68','2014-11-12','0'),
@@ -2590,166 +2588,166 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('50','Garnetport','optio','Single','433.52','2015-04-02','0'),
 ('734','Garnetport','optio','Single','440.90','1994-01-23','0'),
 ('952','Garnetport','optio','Single','390.81','2000-01-16','0'),
-('263','Garnetport','optio','Facility','177.08','1974-04-14','0'),
+
 ('639','Garnetport','optio','Single','127.66','2006-12-19','0'),
-('972','Garnetport','optio','Facility','258.89','1999-03-03','0'),
+
 ('969','Garnetport','optio','Double','54.95','2018-06-06','0'),
-('27','Garnetport','optio','Facility','195.24','2003-02-01','0'),
+
 ('987','Garnetport','optio','Single','141.88','2003-07-20','0'),
 ('416','Garnetport','optio','Single','251.70','1990-09-06','1'),
 ('792','Garnetport','optio','Double','386.09','1980-06-25','0'),
 ('458','Garnetport','optio','Triple','349.14','2013-06-10','0'),
 ('316','Garnetport','optio','Single','189.10','2009-07-31','0'),
-('4','Garnetport','optio','Facility','118.38','2016-04-27','0'),
-('140','Garnetport','optio','Facility','474.97','2011-08-28','0'),
+
+
 ('557','Garnetport','optio','Double','357.42','1999-09-20','0'),
 ('286','Garnetport','optio','Double','277.81','2015-01-31','0'),
 ('60','Garnetport','optio','Double','169.09','2009-01-30','0'),
 ('547','Garnetport','optio','Triple','442.17','2010-08-04','0'),
-('41','Garnetport','optio','Facility','88.65','1993-03-21','0'),
-('509','Garnetport','optio','Facility','448.52','1989-08-23','0'),
+
+
 ('830','Garnetport','optio','Double','27.68','1996-07-10','1'),
-('441','Garnetport','optio','Facility','473.97','1994-09-23','0'),
+
 ('355','Garnetport','optio','Triple','123.81','1995-06-29','0'),
-('683','Garnetport','optio','Facility','256.31','1994-12-09','0'),
-('834','Garnetport','optio','Facility','209.50','2005-08-30','1'),
-('622','Garnetport','optio','Facility','30.58','2006-08-23','0'),
+
+
+
 ('735','Garnetport','optio','Single','476.29','1971-12-02','0'),
 ('649','Garnetport','optio','Double','475.14','1995-12-22','0'),
 ('148','Garnetport','optio','Single','71.85','2013-10-20','0'),
 ('707','Garnetport','optio','Double','338.74','2001-04-03','0'),
 ('462','Garnetport','optio','Triple','488.60','1994-04-11','1'),
 ('868','Garnetport','optio','Double','278.58','2005-05-04','0'),
-('177','Garnetport','optio','Facility','321.71','2000-06-16','0'),
+
 ('466','Garnetport','optio','Single','382.05','1972-05-25','0'),
 ('934','Garnetport','optio','Single','372.14','2017-10-12','0'),
 ('873','Garnetport','optio','Triple','180.66','1970-07-29','0'),
 ('870','Garnetport','optio','Single','186.03','1990-08-13','0'),
 ('991','Garnetport','optio','Triple','219.94','1993-02-17','0'),
-('51','Garnetport','optio','Facility','372.85','2001-11-06','0'),
+
 ('325','Garnetport','optio','Double','53.63','1988-12-12','0'),
-('371','Garnetport','optio','Facility','196.43','2018-02-08','0'),
-('505','Garnetport','optio','Facility','363.91','1991-09-23','0'),
+
+
 ('379','Garnetport','optio','Double','428.14','1971-08-27','0'),
 ('940','Garnetport','optio','Single','347.84','1992-03-29','0'),
 ('191','Garnetport','optio','Double','230.56','1975-11-12','0'),
-('350','Garnetport','optio','Facility','439.10','2008-10-26','0'),
+
 ('900','Garnetport','optio','Single','31.24','1973-05-09','0'),
-('688','Garnetport','optio','Facility','450.05','1978-01-28','0'),
+
 ('354','Garnetport','optio','Triple','386.59','2010-09-09','0'),
 ('712','Garnetport','optio','Triple','193.22','2003-07-06','1'),
-('863','Garnetport','optio','Facility','165.62','2005-04-04','0'),
-('58','Garnetport','optio','Facility','278.28','2016-06-09','0'),
+
+
 ('373','Garnetport','optio','Triple','50.54','2018-06-12','0'),
 ('235','Garnetport','optio','Single','448.52','1975-09-11','0'),
 ('517','Garnetport','optio','Triple','278.86','2014-12-22','0'),
-('759','Garnetport','optio','Facility','192.17','2011-07-13','1'),
-('699','Garnetport','optio','Facility','271.78','2003-12-22','1'),
+
+
 ('524','Garnetport','optio','Triple','153.73','1994-07-04','0'),
 ('698','Garnetport','optio','Single','285.28','1974-12-10','0'),
-('178','Garnetport','optio','Facility','233.32','2003-07-26','0'),
+
 ('809','Garnetport','optio','Triple','32.68','2018-04-26','0'),
 ('736','Garnetport','optio','Single','28.34','2000-06-18','1'),
 ('340','Garnetport','optio','Double','439.47','1977-06-12','0'),
 ('115','Garnetport','optio','Single','338.82','2000-08-10','0'),
 ('414','Garnetport','optio','Single','274.79','1997-05-29','0'),
-('271','Garnetport','optio','Facility','256.97','2001-01-25','0'),
+
 ('421','Garnetport','optio','Triple','496.74','2017-07-05','0'),
 ('54','Garnetport','optio','Triple','350.67','1992-02-01','1'),
 ('228','Garnetport','optio','Triple','31.93','1978-10-28','0'),
-('752','Garnetport','optio','Facility','407.96','2012-02-23','0'),
+
 ('723','Garnetport','optio','Triple','443.93','2011-04-18','1'),
 ('367','Garnetport','optio','Triple','491.57','1971-05-23','0'),
 ('488','Garnetport','optio','Double','203.90','1988-11-02','1'),
-('764','Garnetport','optio','Facility','122.50','2005-07-22','0'),
-('957','Garnetport','optio','Facility','499.83','2000-01-24','0'),
-('234','Garnetport','optio','Facility','322.69','1995-03-28','0'),
+
+
+
 ('170','Garnetport','optio','Triple','60.57','1972-04-30','0'),
 ('562','Garnetport','optio','Double','493.86','2009-02-22','0'),
-('396','Garnetport','optio','Facility','388.30','1978-04-29','0'),
-('498','Garnetport','optio','Facility','206.55','1979-06-10','0'),
+
+
 ('694','Garnetport','optio','Single','284.10','2007-08-30','1'),
 ('476','Garnetport','optio','Single','257.09','1987-03-12','0'),
 ('482','Garnetport','optio','Triple','259.52','1977-03-15','0'),
-('313','Garnetport','optio','Facility','313.97','1999-06-10','0'),
+
 ('328','Garnetport','optio','Triple','61.36','2012-03-05','0'),
-('983','Garnetport','optio','Facility','322.15','2005-12-25','0'),
+
 ('37','Garnetport','optio','Single','61.36','2009-05-25','0'),
-('941','Garnetport','optio','Facility','351.77','2018-01-06','0'),
-('17','Garnetport','optio','Facility','453.40','2010-05-24','1'),
+
+
 ('966','Garnetport','optio','Single','253.89','2016-06-14','0'),
 ('654','Garnetport','optio','Triple','393.30','1983-04-01','0'),
-('31','Garnetport','optio','Facility','25.12','1991-09-26','0'),
-('218','Garnetport','optio','Facility','283.68','2014-11-29','0'),
+
+
 ('955','Garnetport','optio','Single','138.52','2002-10-13','0'),
-('839','Garnetport','optio','Facility','49.63','1976-12-04','0'),
-('820','Garnetport','optio','Facility','468.62','1987-05-28','0'),
+
+
 ('260','Garnetport','optio','Double','35.29','1990-10-25','0'),
 ('893','Garnetport','optio','Single','357.96','1975-08-23','0'),
 ('542','Garnetport','optio','Triple','250.07','1990-08-20','0'),
 ('1','Garnetport','optio','Triple','49.90','1970-09-27','0'),
 ('985','Garnetport','optio','Double','265.54','2017-04-04','0'),
-('358','Garnetport','optio','Facility','109.64','1982-02-20','0'),
+
 ('418','Garnetport','optio','Single','65.66','1985-11-11','0'),
-('633','Garnetport','optio','Facility','375.92','1981-12-06','0'),
+
 ('226','Garnetport','optio','Triple','255.56','1972-01-26','0'),
-('896','Garnetport','optio','Facility','489.02','1988-12-22','1'),
+
 ('210','Garnetport','optio','Single','236.61','2012-08-18','0'),
 ('464','Garnetport','optio','Single','278.74','2017-03-09','0'),
-('375','Garnetport','optio','Facility','36.29','2002-01-28','0'),
+
 ('36','Garnetport','optio','Single','51.87','1989-07-06','0'),
 ('862','Garnetport','optio','Triple','123.59','2016-11-11','0'),
-('793','Garnetport','optio','Facility','492.75','1974-06-23','0'),
-('448','Garnetport','optio','Facility','411.81','1973-06-17','0'),
+
+
 ('384','Garnetport','optio','Double','308.07','2014-09-17','1'),
-('600','Garnetport','optio','Facility','212.40','2009-07-25','0'),
+
 ('86','Garnetport','optio','Triple','121.89','2001-11-08','0'),
 ('593','Garnetport','optio','Triple','405.33','2001-02-04','0'),
 ('962','Garnetport','optio','Double','253.91','1979-08-25','0'),
 ('455','Garnetport','optio','Triple','386.94','2013-03-07','0'),
-('75','Garnetport','optio','Facility','183.57','1994-07-07','0'),
-('474','Garnetport','optio','Facility','270.31','1970-07-19','0'),
-('434','Garnetport','optio','Facility','166.26','1986-09-05','0'),
+
+
+
 ('57','Garnetport','optio','Single','294.11','1991-04-06','0'),
 ('680','Garnetport','optio','Double','31.38','1987-10-23','0'),
 ('963','Garnetport','optio','Single','457.42','2009-08-12','0'),
 ('672','Garnetport','optio','Double','448.04','2017-04-08','0'),
 ('982','Garnetport','optio','Single','90.70','1997-07-07','0'),
 ('789','Garnetport','optio','Triple','464.13','2012-01-06','0'),
-('979','Garnetport','optio','Facility','177.99','2000-02-05','0'),
+
 ('174','Garnetport','optio','Double','199.78','1998-07-30','1'),
 ('319','Garnetport','optio','Single','198.87','2011-02-14','0'),
-('5','Garnetport','optio','Facility','53.07','1981-07-28','1'),
+
 ('165','Garnetport','optio','Double','117.97','1999-09-09','0'),
 ('65','Garnetport','optio','Double','459.00','2004-10-10','0'),
-('799','Garnetport','optio','Facility','286.75','1980-07-23','0'),
+
 ('648','Garnetport','optio','Triple','391.49','1983-06-13','0'),
 ('265','Garnetport','optio','Single','160.17','2016-08-05','0'),
-('619','Garnetport','optio','Facility','95.94','1983-01-30','1'),
+
 ('183','Garnetport','optio','Double','406.88','1996-01-23','0'),
 ('679','Garnetport','optio','Double','392.41','2015-02-28','0'),
-('156','Garnetport','optio','Facility','176.64','2018-06-07','1'),
-('402','Garnetport','optio','Facility','406.61','1988-11-20','0'),
-('790','Garnetport','optio','Facility','176.30','1978-12-22','0'),
-('561','Garnetport','optio','Facility','125.14','2012-08-12','0'),
-('477','Garnetport','optio','Facility','181.28','2006-09-21','0'),
+
+
+
+
+
 ('76','Garnetport','optio','Single','173.48','2003-06-18','0'),
 ('411','Garnetport','optio','Single','151.11','1993-12-07','0'),
-('895','Garnetport','optio','Facility','400.75','2003-05-14','0'),
+
 ('392','Garnetport','optio','Triple','189.82','1982-08-14','0'),
 ('332','Garnetport','optio','Single','87.90','1991-05-22','0'),
-('696','Garnetport','optio','Facility','108.36','2000-07-09','0'),
-('892','Garnetport','optio','Facility','497.14','1975-06-08','0'),
+
+
 ('526','Garnetport','optio','Double','443.32','1974-09-22','0'),
 ('693','Garnetport','optio','Double','94.09','1992-05-10','0'),
 ('907','Garnetport','optio','Single','260.18','1971-12-15','0'),
 ('501','Garnetport','optio','Triple','196.75','2017-05-31','0'),
-('247','Garnetport','optio','Facility','325.38','2000-06-01','0'),
+
 ('835','Garnetport','optio','Triple','360.98','2002-04-13','0'),
-('306','Garnetport','optio','Facility','480.11','1979-08-11','0'),
-('774','Garnetport','optio','Facility','387.41','2005-11-08','0'),
+
+
 ('843','Garnetport','optio','Single','385.63','1983-01-29','0'),
-('656','Garnetport','optio','Facility','137.16','1989-12-11','1'),
+
 ('269','Garnetport','optio','Triple','175.17','1983-06-16','1'),
 ('638','Garnetport','optio','Double','276.69','1989-01-18','0'),
 ('456','Garnetport','optio','Triple','395.77','2018-01-19','0'),
@@ -2761,26 +2759,26 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('415','Garnetport','optio','Single','439.34','1975-09-19','0'),
 ('989','Garnetport','optio','Triple','464.59','2017-02-04','0'),
 ('921','Garnetport','optio','Single','299.55','1987-06-12','0'),
-('280','Garnetport','optio','Facility','113.58','1983-04-17','0'),
+
 ('647','Garnetport','optio','Triple','492.49','2000-11-07','0'),
 ('199','Garnetport','optio','Single','21.17','1978-08-04','0'),
-('334','Garnetport','optio','Facility','299.68','2011-04-04','1'),
-('164','Garnetport','optio','Facility','58.50','1978-04-28','0'),
+
+
 ('196','Garnetport','optio','Triple','148.63','1983-11-15','0'),
-('346','Garnetport','optio','Facility','419.15','1989-10-16','0'),
+
 ('113','Garnetport','optio','Double','378.11','1983-03-09','0'),
 ('905','Garnetport','optio','Double','138.44','1976-12-12','0'),
 ('666','Garnetport','optio','Single','490.41','2003-12-15','0'),
-('849','Garnetport','optio','Facility','154.94','2004-02-18','0'),
+
 ('720','Garnetport','optio','Double','373.96','2011-03-19','0'),
 ('745','Garnetport','optio','Triple','124.49','1982-09-07','1'),
-('871','Garnetport','optio','Facility','229.80','1978-04-03','0'),
-('833','Garnetport','optio','Facility','274.96','1972-01-24','0'),
+
+
 ('64','Garnetport','optio','Double','439.90','1986-10-16','0'),
 ('660','Garnetport','optio','Single','233.79','2017-01-23','0'),
 ('264','Garnetport','optio','Single','289.57','2002-07-24','0'),
 ('362','Garnetport','optio','Single','251.90','1972-11-18','0'),
-('288','Garnetport','optio','Facility','420.79','2004-04-29','0'),
+
 ('904','Garnetport','optio','Double','366.27','2011-02-14','0'),
 ('460','Garnetport','optio','Triple','67.29','1977-12-25','0'),
 ('786','Garnetport','optio','Double','69.92','1988-03-21','0'),
@@ -2790,13 +2788,13 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('676','Garnetport','optio','Triple','26.59','2015-04-05','0'),
 ('473','Garnetport','optio','Single','382.81','1987-01-10','0'),
 ('572','Garnetport','optio','Double','181.12','2004-01-03','0'),
-('817','Garnetport','optio','Facility','169.33','1979-05-23','0'),
-('742','Garnetport','optio','Facility','493.62','2018-10-03','0'),
+
+
 ('970','Garnetport','optio','Triple','294.85','2015-09-11','0'),
 ('855','Garnetport','optio','Single','385.39','2007-05-13','0'),
 ('595','Garnetport','optio','Single','89.54','2010-07-03','0'),
 ('202','Garnetport','optio','Triple','287.58','1994-06-09','0'),
-('740','Garnetport','optio','Facility','184.70','1992-01-07','1'),
+
 ('447','Garnetport','optio','Single','338.58','1996-01-20','0'),
 ('446','Garnetport','optio','Double','414.68','1994-11-28','0'),
 ('489','Garnetport','optio','Single','48.57','2015-08-13','0'),
@@ -2807,7 +2805,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('845','Garnetport','optio','Double','73.62','2002-08-16','0'),
 ('124','Garnetport','optio','Single','127.32','1994-08-22','0'),
 ('535','Garnetport','optio','Triple','415.13','2006-07-12','0'),
-('787','Garnetport','optio','Facility','497.11','1973-01-27','0'),
+
 ('81','Garnetport','optio','Double','361.32','1994-04-06','0'),
 ('120','Garnetport','optio','Triple','254.02','2012-06-25','0'),
 ('408','Garnetport','optio','Single','390.75','1983-02-14','0'),
@@ -2817,9 +2815,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('919','Garnetport','optio','Double','18.70','1997-12-07','0'),
 ('722','Garnetport','optio','Single','224.05','1971-10-26','0'),
 ('195','Garnetport','optio','Single','82.85','1984-02-29','0'),
-('241','Garnetport','optio','Facility','281.39','2017-08-04','1'),
+
 ('253','Garnetport','optio','Single','69.24','1978-09-04','0'),
-('891','Garnetport','optio','Facility','244.82','2011-10-15','0'),
+
 ('953','Garnetport','optio','Triple','171.62','2002-04-16','0'),
 ('575','Garnetport','optio','Double','366.08','2009-09-16','0'),
 ('627','Garnetport','optio','Single','359.52','1975-11-15','0'),
@@ -2828,16 +2826,16 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('784','Garnetport','optio','Triple','438.63','2012-06-23','0'),
 ('104','Garnetport','optio','Single','211.67','2005-09-29','0'),
 ('207','Garnetport','optio','Double','320.14','1996-06-20','0'),
-('939','Garnetport','optio','Facility','340.17','1999-07-28','0'),
+
 ('26','Garnetport','optio','Triple','109.60','1991-09-10','1'),
 ('484','Garnetport','optio','Triple','490.27','1990-01-02','0'),
 ('690','Garnetport','optio','Triple','375.94','1993-02-14','1'),
 ('296','Garnetport','optio','Triple','102.63','2011-12-14','0'),
 ('555','Garnetport','optio','Double','448.46','1994-05-10','0'),
 ('978','Garnetport','optio','Single','290.21','2013-03-06','1'),
-('397','Garnetport','optio','Facility','458.40','1993-04-28','0'),
+
 ('695','Garnetport','optio','Double','28.69','1981-05-10','0'),
-('425','Garnetport','optio','Facility','125.49','1991-03-19','0'),
+
 ('652','Garnetport','optio','Triple','377.97','1975-12-03','0'),
 ('631','Garnetport','optio','Triple','468.09','2008-09-29','0'),
 ('818','Garnetport','optio','Triple','413.51','2005-10-16','0'),
@@ -2848,54 +2846,54 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('468','Garnetport','optio','Triple','254.38','2003-03-20','0'),
 ('854','Garnetport','optio','Triple','83.61','1971-02-10','0'),
 ('327','Garnetport','optio','Single','316.59','1987-03-19','0'),
-('91','Garnetport','optio','Facility','163.58','2012-02-25','0'),
+
 ('222','Garnetport','optio','Single','74.17','1979-10-22','0'),
 ('859','Garnetport','optio','Single','95.09','1986-02-15','0'),
 ('701','Garnetport','optio','Single','172.62','1971-11-17','0'),
-('55','Garnetport','optio','Facility','443.13','2005-03-08','0'),
+
 ('536','Garnetport','optio','Single','14.29','2013-02-20','0'),
 ('272','Garnetport','optio','Triple','451.43','1973-01-01','0'),
 ('756','Garnetport','optio','Single','389.71','1980-12-25','0'),
-('604','Garnetport','optio','Facility','226.98','2004-06-27','0'),
+
 ('824','Garnetport','optio','Double','369.00','1996-09-10','0'),
-('580','Garnetport','optio','Facility','116.81','1999-11-04','0'),
+
 ('24','Garnetport','optio','Triple','200.89','2005-12-22','0'),
-('114','Garnetport','optio','Facility','155.14','1985-01-08','1'),
-('442','Garnetport','optio','Facility','220.45','2010-12-19','0'),
+
+
 ('998','Garnetport','optio','Triple','75.97','2006-09-17','0'),
 ('90','Garnetport','optio','Single','202.08','1996-09-29','0'),
 ('948','Garnetport','optio','Double','236.60','1973-02-05','1'),
 ('785','Garnetport','optio','Triple','267.07','2005-09-10','0'),
-('591','Garnetport','optio','Facility','246.68','1984-12-29','0'),
+
 ('995','Garnetport','optio','Triple','72.26','1987-09-30','0'),
-('665','Garnetport','optio','Facility','169.70','2004-04-14','0'),
+
 ('35','Garnetport','optio','Double','164.54','1994-10-30','0'),
 ('913','Garnetport','optio','Triple','97.62','1971-03-03','0'),
-('961','Garnetport','optio','Facility','182.42','1978-07-08','0'),
-('965','Garnetport','optio','Facility','152.50','2014-07-11','0'),
+
+
 ('244','Garnetport','optio','Single','359.67','1980-02-27','0'),
-('724','Garnetport','optio','Facility','106.70','1986-09-03','0'),
-('984','Garnetport','optio','Facility','42.95','1974-09-08','0'),
+
+
 ('223','Garnetport','optio','Triple','332.44','1989-03-27','0'),
 ('419','Garnetport','optio','Double','261.52','2018-02-12','0'),
 ('516','Garnetport','optio','Triple','132.23','1974-08-30','0'),
-('351','Garnetport','optio','Facility','17.83','1977-09-19','0'),
+
 ('101','Garnetport','optio','Single','125.12','2018-07-02','0'),
-('185','Garnetport','optio','Facility','292.57','1993-05-26','0'),
-('461','Garnetport','optio','Facility','10.19','1992-05-18','0'),
+
+
 ('706','Garnetport','optio','Triple','199.29','1990-07-30','0'),
-('988','Garnetport','optio','Facility','354.81','1972-08-26','0'),
+
 ('7','Garnetport','optio','Double','409.19','1975-09-04','1'),
 ('795','Garnetport','optio','Double','291.60','1982-09-19','0'),
 ('160','Garnetport','optio','Triple','266.94','1981-06-03','0'),
 ('749','Garnetport','optio','Triple','70.20','1983-05-21','0'),
-('44','Garnetport','optio','Facility','160.20','1987-07-26','0'),
+
 ('640','Garnetport','optio','Double','64.17','2004-08-24','0'),
 ('209','Garnetport','optio','Single','277.96','2003-05-16','0'),
 ('771','Garnetport','optio','Triple','309.72','1973-11-19','0'),
-('469','Garnetport','optio','Facility','184.36','2015-08-22','0'),
-('341','Garnetport','optio','Facility','245.03','2012-05-12','0'),
-('623','Garnetport','optio','Facility','439.72','1995-02-04','0'),
+
+
+
 ('293','Garnetport','optio','Double','222.87','1991-05-24','0'),
 ('215','Garnetport','optio','Triple','344.43','1977-04-03','0'),
 ('920','Garnetport','optio','Double','224.15','1981-08-21','0'),
@@ -2911,27 +2909,27 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('691','Garnetport','optio','Triple','320.76','2001-01-25','0'),
 ('314','Garnetport','optio','Double','104.61','1992-02-14','0'),
 ('902','Garnetport','optio','Double','70.25','2017-12-17','0'),
-('715','Garnetport','optio','Facility','312.42','1980-09-15','0'),
-('884','Garnetport','optio','Facility','260.04','1998-12-14','1'),
-('217','Garnetport','optio','Facility','264.87','1998-09-27','0'),
-('828','Garnetport','optio','Facility','336.91','2015-04-03','1'),
-('99','Garnetport','optio','Facility','11.12','2015-01-24','0'),
+
+
+
+
+
 ('903','Garnetport','optio','Single','121.43','2003-06-20','1'),
 ('432','Garnetport','optio','Double','441.71','1992-07-14','0'),
-('950','Garnetport','optio','Facility','159.89','2005-02-01','0'),
+
 ('739','Garnetport','optio','Single','466.61','2004-12-21','0'),
 ('3','Garnetport','optio','Double','274.39','2010-08-19','0'),
-('478','Garnetport','optio','Facility','207.31','2012-04-26','0'),
-('127','Garnetport','optio','Facility','134.26','1973-10-26','0'),
+
+
 ('18','Garnetport','optio','Single','123.91','1977-01-11','0'),
-('387','Garnetport','optio','Facility','98.14','1999-01-09','0'),
+
 ('858','Garnetport','optio','Single','282.54','1983-05-09','0'),
 ('389','Garnetport','optio','Double','278.16','1991-10-29','0'),
 ('335','Garnetport','optio','Single','16.96','1994-07-01','0'),
 ('981','Garnetport','optio','Triple','73.50','1988-10-06','0'),
 ('109','Garnetport','optio','Single','331.19','2003-09-15','0'),
 ('641','Garnetport','optio','Triple','305.79','1975-05-24','0'),
-('63','Garnetport','optio','Facility','317.20','1971-07-27','0'),
+
 ('450','Garnetport','optio','Single','13.93','1978-04-21','1'),
 ('239','Garnetport','optio','Triple','138.77','1979-03-20','0'),
 ('12','Garnetport','optio','Triple','423.90','1983-05-18','0'),
@@ -2943,43 +2941,43 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('428','Garnetport','optio','Triple','242.69','1971-11-08','0'),
 ('376','Garnetport','optio','Triple','170.91','1976-12-05','0'),
 ('819','Garnetport','optio','Triple','356.64','1978-08-17','1'),
-('746','Garnetport','optio','Facility','444.01','1973-01-21','0'),
-('568','Garnetport','optio','Facility','359.27','1998-06-29','0'),
+
+
 ('804','Garnetport','optio','Double','307.26','1996-05-28','0'),
 ('993','Garnetport','optio','Single','57.25','1979-06-13','0'),
-('171','Garnetport','optio','Facility','104.12','1996-07-13','0'),
+
 ('279','Garnetport','optio','Triple','390.38','2007-07-15','0'),
-('938','Garnetport','optio','Facility','427.88','1985-08-15','0'),
+
 ('705','Garnetport','optio','Triple','374.91','1988-05-06','0'),
 ('615','Garnetport','optio','Double','146.07','2011-03-30','0'),
 ('377','Garnetport','optio','Single','187.42','2012-03-09','0'),
 ('134','Garnetport','optio','Single','312.52','1995-09-12','0'),
 ('142','Garnetport','optio','Single','126.81','2003-07-13','0'),
-('471','Garnetport','optio','Facility','387.89','1994-07-28','0'),
+
 ('331','Garnetport','optio','Single','479.09','2016-12-30','0'),
 ('16','Garnetport','optio','Single','473.49','1993-10-05','1'),
-('116','Garnetport','optio','Facility','352.96','2004-07-31','0'),
+
 ('258','Garnetport','optio','Double','363.63','2007-08-22','0'),
 ('274','Garnetport','optio','Double','164.27','2018-01-07','0'),
 ('677','Garnetport','optio','Double','404.83','1995-01-11','0'),
 ('621','Garnetport','optio','Double','18.42','2001-03-29','0'),
 ('644','Garnetport','optio','Double','108.90','1994-10-22','0'),
-('569','Garnetport','optio','Facility','99.29','1992-02-28','0'),
-('602','Garnetport','optio','Facility','392.93','1997-10-17','1'),
+
+
 ('877','Garnetport','optio','Triple','129.43','2003-03-08','0'),
 ('370','Garnetport','optio','Double','276.58','1970-09-10','0'),
 ('290','Garnetport','optio','Double','69.53','2000-01-11','0'),
-('932','Garnetport','optio','Facility','449.91','2015-03-06','0'),
+
 ('404','Garnetport','optio','Single','49.54','2010-07-30','0'),
 ('848','Garnetport','optio','Single','491.15','2011-02-09','0'),
-('78','Garnetport','optio','Facility','424.61','2009-06-07','0'),
-('200','Garnetport','optio','Facility','34.24','1978-07-14','0'),
+
+
 ('369','Garnetport','optio','Double','410.81','1989-02-09','0'),
 ('927','Garnetport','optio','Triple','431.79','1988-04-17','0'),
 ('430','Garnetport','optio','Triple','151.00','1972-12-24','1'),
 ('616','Garnetport','optio','Single','296.61','1976-01-21','0'),
 ('154','Garnetport','optio','Triple','369.65','1977-10-07','0'),
-('566','Garnetport','optio','Facility','313.96','2016-11-17','0'),
+
 ('95','Garnetport','optio','Triple','456.48','1972-09-15','1'),
 ('445','Garnetport','optio','Double','372.95','1973-05-28','0'),
 ('409','Garnetport','optio','Triple','222.34','1993-12-25','0'),
@@ -2988,13 +2986,13 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('431','Garnetport','optio','Double','122.78','2015-05-12','0'),
 ('852','Garnetport','optio','Single','65.61','1999-12-11','0'),
 ('737','Garnetport','optio','Triple','132.66','1975-08-20','0'),
-('162','Garnetport','optio','Facility','314.70','2000-11-16','0'),
+
 ('96','Garnetport','optio','Double','248.52','1977-05-17','0'),
 ('540','Garnetport','optio','Triple','38.85','1974-03-28','1'),
 ('118','Garnetport','optio','Single','280.62','1985-12-16','0'),
-('122','Garnetport','optio','Facility','331.22','2003-01-12','0'),
+
 ('523','Garnetport','optio','Triple','390.05','1973-09-24','0'),
-('439','Garnetport','optio','Facility','373.02','1977-12-22','0'),
+
 ('750','Garnetport','optio','Triple','85.61','1991-06-27','0'),
 ('297','Garnetport','optio','Double','271.55','1987-07-14','0'),
 ('158','Garnetport','optio','Double','144.68','1982-12-21','0'),('90','South Mittie','quos','Single','217.25','2003-01-11','0'),
@@ -3004,20 +3002,20 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('350','South Mittie','quos','Single','358.83','1999-05-29','0'),
 ('291','South Mittie','quos','Single','120.80','2001-07-28','0'),
 ('104','South Mittie','quos','Triple','140.44','2015-03-29','0'),
-('557','South Mittie','quos','Facility','236.78','1976-07-09','0'),
+
 ('362','South Mittie','quos','Triple','410.87','1998-01-11','0'),
 ('588','South Mittie','quos','Double','267.58','1998-04-07','0'),
 ('520','South Mittie','quos','Single','166.21','2011-09-22','1'),
-('908','South Mittie','quos','Facility','496.71','1981-05-11','0'),
+
 ('112','South Mittie','quos','Single','389.21','1996-12-12','0'),
 ('48','South Mittie','quos','Triple','360.02','1971-01-02','0'),
 ('471','South Mittie','quos','Single','210.56','2014-12-05','0'),
 ('690','South Mittie','quos','Double','19.73','2016-10-20','1'),
-('144','South Mittie','quos','Facility','412.57','1979-05-02','0'),
-('277','South Mittie','quos','Facility','85.99','1992-02-19','0'),
+
+
 ('237','South Mittie','quos','Triple','255.63','1990-12-16','0'),
-('741','South Mittie','quos','Facility','467.22','1992-02-23','0'),
-('551','South Mittie','quos','Facility','174.91','1997-08-07','0'),
+
+
 ('506','South Mittie','quos','Triple','466.42','1977-05-29','0'),
 ('446','South Mittie','quos','Double','78.35','1978-12-06','0'),
 ('60','South Mittie','quos','Single','37.36','2014-04-04','0'),
@@ -3030,40 +3028,40 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('275','South Mittie','quos','Double','254.59','1981-04-08','0'),
 ('58','South Mittie','quos','Single','473.43','1977-03-24','1'),
 ('80','South Mittie','quos','Triple','184.66','2001-05-14','0'),
-('990','South Mittie','quos','Facility','359.40','1987-02-10','0'),
+
 ('396','South Mittie','quos','Double','337.12','2002-04-03','0'),
 ('344','South Mittie','quos','Double','366.57','1989-02-07','0'),
-('295','South Mittie','quos','Facility','253.36','2004-01-24','0'),
+
 ('957','South Mittie','quos','Double','60.38','2009-08-24','0'),
 ('683','South Mittie','quos','Single','151.34','2008-04-07','0'),
 ('84','South Mittie','quos','Single','411.82','2007-10-10','1'),
 ('427','South Mittie','quos','Double','369.59','2013-10-20','0'),
 ('324','South Mittie','quos','Double','463.95','1997-01-22','0'),
 ('470','South Mittie','quos','Single','256.48','2014-08-07','0'),
-('826','South Mittie','quos','Facility','486.76','1973-05-10','0'),
+
 ('93','South Mittie','quos','Triple','115.43','2004-10-23','0'),
 ('673','South Mittie','quos','Single','331.11','1976-12-02','0'),
 ('216','South Mittie','quos','Triple','493.84','1971-01-14','0'),
 ('465','South Mittie','quos','Double','114.72','1975-01-15','0'),
 ('986','South Mittie','quos','Single','234.15','2000-01-24','0'),
-('701','South Mittie','quos','Facility','196.44','1986-11-20','0'),
-('411','South Mittie','quos','Facility','406.12','2004-09-29','0'),
-('219','South Mittie','quos','Facility','347.40','1984-05-01','0'),
+
+
+
 ('635','South Mittie','quos','Single','155.59','1970-05-02','0'),
 ('717','South Mittie','quos','Triple','387.52','1985-10-19','0'),
 ('675','South Mittie','quos','Triple','22.39','1994-12-02','0'),
 ('448','South Mittie','quos','Single','289.91','2013-04-09','0'),
 ('800','South Mittie','quos','Double','58.74','1995-01-13','0'),
 ('868','South Mittie','quos','Double','411.24','1990-04-01','0'),
-('257','South Mittie','quos','Facility','250.19','1990-01-30','0'),
-('137','South Mittie','quos','Facility','172.85','1975-12-16','0'),
+
+
 ('897','South Mittie','quos','Single','480.09','2007-07-31','0'),
 ('222','South Mittie','quos','Double','28.74','2015-09-02','0'),
 ('655','South Mittie','quos','Single','292.14','2011-10-02','0'),
 ('829','South Mittie','quos','Triple','209.12','2005-08-19','0'),
 ('566','South Mittie','quos','Triple','80.62','1994-08-03','0'),
 ('29','South Mittie','quos','Triple','484.65','1979-06-19','0'),
-('191','South Mittie','quos','Facility','366.84','1999-04-27','1'),
+
 ('439','South Mittie','quos','Double','65.20','1995-11-07','0'),
 ('9','South Mittie','quos','Double','173.33','1980-04-22','0'),
 ('367','South Mittie','quos','Double','87.96','1998-11-06','0'),
@@ -3075,16 +3073,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('975','South Mittie','quos','Triple','325.16','2010-07-22','0'),
 ('195','South Mittie','quos','Triple','139.18','1982-05-02','0'),
 ('833','South Mittie','quos','Single','143.80','2007-11-25','0'),
-('316','South Mittie','quos','Facility','399.27','2004-08-01','0'),
-('298','South Mittie','quos','Facility','455.66','1987-05-11','1'),
+
+
 ('393','South Mittie','quos','Single','479.58','1971-02-05','1'),
 ('81','South Mittie','quos','Double','325.40','1991-10-29','0'),
-('358','South Mittie','quos','Facility','196.32','1993-12-28','0'),
+
 ('727','South Mittie','quos','Triple','451.35','1971-03-30','0'),
 ('928','South Mittie','quos','Single','260.14','1991-05-26','0'),
 ('161','South Mittie','quos','Double','260.29','2014-04-24','0'),
-('153','South Mittie','quos','Facility','146.68','1999-06-13','0'),
-('270','South Mittie','quos','Facility','481.29','1985-04-15','0'),
+
 ('44','South Mittie','quos','Triple','413.48','2018-10-07','0'),
 ('162','South Mittie','quos','Single','151.80','1987-08-09','0'),
 ('65','South Mittie','quos','Double','171.16','1979-12-31','0'),
@@ -3093,15 +3090,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('988','South Mittie','quos','Single','450.72','1979-08-14','0'),
 ('779','South Mittie','quos','Triple','17.09','1976-06-13','0'),
 ('422','South Mittie','quos','Double','26.75','2012-09-02','0'),
-('767','South Mittie','quos','Facility','98.72','1995-10-30','0'),
-('317','South Mittie','quos','Facility','218.72','1972-07-10','1'),
+
+
 ('64','South Mittie','quos','Single','17.93','1995-03-08','0'),
-('876','South Mittie','quos','Facility','179.93','1984-05-05','0'),
+
 ('160','South Mittie','quos','Triple','228.28','2004-01-06','0'),
 ('1','South Mittie','quos','Triple','10.69','1976-01-22','0'),
-('764','South Mittie','quos','Facility','62.12','2005-11-05','0'),
+
 ('318','South Mittie','quos','Double','235.66','2012-12-22','0'),
-('947','South Mittie','quos','Facility','74.01','1974-04-04','0'),
+
 ('337','South Mittie','quos','Triple','404.31','1990-10-23','0'),
 ('646','South Mittie','quos','Single','370.62','1973-01-24','0'),
 ('995','South Mittie','quos','Double','51.17','1994-08-25','0'),
@@ -3113,21 +3110,21 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('251','South Mittie','quos','Double','161.98','1990-12-22','0'),
 ('39','South Mittie','quos','Single','153.66','1987-01-26','0'),
 ('585','South Mittie','quos','Double','286.29','2002-08-05','0'),
-('247','South Mittie','quos','Facility','287.96','2016-10-16','1'),
-('264','South Mittie','quos','Facility','335.55','1973-05-17','0'),
+
+
 ('763','South Mittie','quos','Double','355.11','1985-10-01','0'),
 ('233','South Mittie','quos','Single','238.70','2008-02-25','1'),
 ('423','South Mittie','quos','Triple','16.91','2006-08-08','0'),
-('252','South Mittie','quos','Facility','115.93','2015-01-14','0'),
+
 ('420','South Mittie','quos','Single','78.99','1993-01-23','0'),
-('13','South Mittie','quos','Facility','405.50','1997-05-21','1'),
+
 ('300','South Mittie','quos','Double','412.95','1973-05-04','0'),
 ('584','South Mittie','quos','Double','86.25','2001-12-06','0'),
 ('479','South Mittie','quos','Triple','236.24','1999-12-18','0'),
 ('303','South Mittie','quos','Double','127.16','1983-08-14','0'),
 ('542','South Mittie','quos','Double','311.30','2007-07-02','0'),
-('929','South Mittie','quos','Facility','492.69','2007-06-15','0'),
-('444','South Mittie','quos','Facility','266.66','1990-08-10','0'),
+
+
 ('380','South Mittie','quos','Double','357.71','1975-03-05','0'),
 ('424','South Mittie','quos','Triple','133.34','1996-10-22','0'),
 ('495','South Mittie','quos','Double','71.27','1981-04-20','0'),
@@ -3136,10 +3133,10 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('755','South Mittie','quos','Single','83.79','1997-10-22','0'),
 ('637','South Mittie','quos','Single','492.64','1983-05-04','0'),
 ('945','South Mittie','quos','Double','298.60','1997-11-26','0'),
-('600','South Mittie','quos','Facility','68.54','1983-05-19','0'),
-('122','South Mittie','quos','Facility','360.72','1998-01-26','0'),
+
+
 ('436','South Mittie','quos','Single','391.42','1981-02-22','0'),
-('907','South Mittie','quos','Facility','263.34','1989-09-23','0'),
+
 ('494','South Mittie','quos','Single','165.64','1973-10-28','0'),
 ('102','South Mittie','quos','Triple','151.46','1993-09-23','0'),
 ('572','South Mittie','quos','Single','237.02','1977-02-14','0'),
@@ -3148,23 +3145,23 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('563','South Mittie','quos','Single','251.76','1998-09-24','0'),
 ('917','South Mittie','quos','Double','89.10','1992-02-21','1'),
 ('230','South Mittie','quos','Double','23.15','2002-10-20','0'),
-('814','South Mittie','quos','Facility','490.88','1976-12-21','0'),
+
 ('891','South Mittie','quos','Single','392.00','2015-02-20','0'),
 ('221','South Mittie','quos','Single','29.51','2001-02-19','1'),
-('312','South Mittie','quos','Facility','380.69','1979-05-15','0'),
+
 ('357','South Mittie','quos','Triple','392.73','1975-07-12','1'),
 ('895','South Mittie','quos','Double','12.29','2018-03-11','0'),
-('842','South Mittie','quos','Facility','432.13','1987-11-06','0'),
+
 ('61','South Mittie','quos','Double','174.17','2007-05-25','1'),
 ('567','South Mittie','quos','Double','314.11','1978-04-06','0'),
 ('884','South Mittie','quos','Double','469.90','1979-01-20','0'),
-('564','South Mittie','quos','Facility','304.75','1991-12-13','0'),
+
 ('431','South Mittie','quos','Triple','436.80','1992-10-28','0'),
-('212','South Mittie','quos','Facility','336.40','2016-09-19','0'),
+
 ('705','South Mittie','quos','Double','80.68','1971-08-18','0'),
 ('744','South Mittie','quos','Double','393.40','2004-06-19','0'),
 ('232','South Mittie','quos','Double','327.59','2005-05-22','0'),
-('323','South Mittie','quos','Facility','52.15','1970-09-11','1'),
+
 ('253','South Mittie','quos','Double','226.79','2010-05-28','0'),
 ('101','South Mittie','quos','Triple','454.60','2003-08-31','0'),
 ('558','South Mittie','quos','Triple','463.50','2017-11-13','0'),
@@ -3174,46 +3171,46 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('913','South Mittie','quos','Single','352.47','1984-11-24','1'),
 ('540','South Mittie','quos','Triple','353.15','1993-11-19','0'),
 ('536','South Mittie','quos','Single','197.11','2013-10-18','0'),
-('851','South Mittie','quos','Facility','467.22','1994-12-21','0'),
+
 ('918','South Mittie','quos','Triple','45.74','1997-10-30','0'),
-('667','South Mittie','quos','Facility','436.93','2017-06-15','0'),
+
 ('319','South Mittie','quos','Single','377.39','1994-04-03','0'),
 ('348','South Mittie','quos','Triple','359.13','1998-12-17','0'),
 ('841','South Mittie','quos','Single','95.67','1988-07-16','0'),
 ('109','South Mittie','quos','Triple','429.52','1985-07-02','0'),
 ('807','South Mittie','quos','Single','308.26','2003-05-12','0'),
-('728','South Mittie','quos','Facility','252.96','1987-06-26','0'),
+
 ('149','South Mittie','quos','Single','195.23','2005-10-17','0'),
 ('904','South Mittie','quos','Single','11.36','1981-10-01','0'),
-('643','South Mittie','quos','Facility','110.95','1990-08-16','0'),
+
 ('17','South Mittie','quos','Double','122.41','1992-01-13','0'),
 ('634','South Mittie','quos','Single','302.85','1983-05-25','0'),
 ('902','South Mittie','quos','Single','14.70','2006-07-18','0'),
 ('835','South Mittie','quos','Single','68.68','2000-12-11','0'),
 ('874','South Mittie','quos','Double','79.30','1993-10-14','0'),
 ('624','South Mittie','quos','Triple','61.88','1988-10-31','0'),
-('935','South Mittie','quos','Facility','312.94','1983-04-27','0'),
+
 ('56','South Mittie','quos','Double','73.59','2000-01-19','0'),
 ('579','South Mittie','quos','Single','260.39','1982-05-09','0'),
-('960','South Mittie','quos','Facility','346.70','1975-09-17','0'),
+
 ('386','South Mittie','quos','Triple','369.03','1974-04-04','0'),
-('515','South Mittie','quos','Facility','371.02','1977-11-04','0'),
-('723','South Mittie','quos','Facility','212.37','1972-01-24','0'),
-('7','South Mittie','quos','Facility','378.20','2010-03-30','0'),
+
+
+
 ('5','South Mittie','quos','Double','71.53','1993-08-02','0'),
 ('729','South Mittie','quos','Single','257.08','1970-06-26','0'),
 ('213','South Mittie','quos','Double','383.11','1991-03-13','0'),
 ('243','South Mittie','quos','Double','39.43','2001-02-09','0'),
-('451','South Mittie','quos','Facility','493.63','1970-05-06','0'),
-('401','South Mittie','quos','Facility','493.44','1988-09-09','0'),
-('544','South Mittie','quos','Facility','220.03','2003-05-21','0'),
-('776','South Mittie','quos','Facility','471.80','1999-08-21','0'),
+
+
+
+
 ('106','South Mittie','quos','Double','333.23','2011-11-02','0'),
-('576','South Mittie','quos','Facility','249.33','1974-01-10','0'),
+
 ('952','South Mittie','quos','Triple','382.18','2007-09-06','0'),
-('304','South Mittie','quos','Facility','101.33','1973-01-02','0'),
-('859','South Mittie','quos','Facility','118.24','1975-02-27','0'),
-('239','South Mittie','quos','Facility','184.67','1975-04-22','0'),
+
+
+
 ('447','South Mittie','quos','Double','84.24','1981-11-27','1'),
 ('429','South Mittie','quos','Single','365.12','1990-05-28','1'),
 ('136','South Mittie','quos','Triple','87.14','2007-07-30','0'),
@@ -3223,7 +3220,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('647','South Mittie','quos','Triple','41.11','1973-08-05','0'),
 ('916','South Mittie','quos','Triple','167.07','2011-11-27','0'),
 ('507','South Mittie','quos','Double','38.59','1980-11-07','0'),
-('406','South Mittie','quos','Facility','256.48','2006-04-17','0'),
+
 ('209','South Mittie','quos','Triple','495.40','1995-02-10','0'),
 ('329','South Mittie','quos','Triple','28.19','1985-05-14','0'),
 ('70','South Mittie','quos','Double','301.88','2007-01-30','0'),
@@ -3245,69 +3242,69 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('414','South Mittie','quos','Double','241.98','2018-12-23','0'),
 ('662','South Mittie','quos','Double','402.49','1999-06-29','0'),
 ('193','South Mittie','quos','Double','144.09','2002-07-12','0'),
-('604','South Mittie','quos','Facility','428.48','1977-07-13','0'),
+
 ('186','South Mittie','quos','Single','243.50','1991-05-21','0'),
-('201','South Mittie','quos','Facility','363.68','2004-06-09','1'),
+
 ('892','South Mittie','quos','Triple','249.13','1989-12-01','0'),
 ('903','South Mittie','quos','Single','79.96','1981-04-20','0'),
 ('47','South Mittie','quos','Triple','123.41','2001-04-19','0'),
 ('963','South Mittie','quos','Double','119.91','2005-08-13','0'),
 ('461','South Mittie','quos','Double','257.55','2017-12-10','0'),
 ('562','South Mittie','quos','Double','67.38','1978-05-20','1'),
-('925','South Mittie','quos','Facility','309.40','2006-01-23','0'),
+
 ('453','South Mittie','quos','Triple','241.74','1982-07-31','0'),
 ('781','South Mittie','quos','Double','39.61','1979-06-26','0'),
 ('138','South Mittie','quos','Single','393.21','1989-04-10','1'),
-('306','South Mittie','quos','Facility','309.02','1974-10-07','0'),
+
 ('885','South Mittie','quos','Single','393.02','1974-03-26','0'),
 ('582','South Mittie','quos','Single','84.40','2017-01-05','0'),
 ('858','South Mittie','quos','Single','359.97','2018-02-21','0'),
-('278','South Mittie','quos','Facility','115.58','1987-08-08','0'),
+
 ('687','South Mittie','quos','Triple','482.97','2004-01-17','0'),
 ('155','South Mittie','quos','Single','485.58','1987-08-03','0'),
 ('514','South Mittie','quos','Double','456.71','1970-05-06','0'),
 ('894','South Mittie','quos','Single','319.68','1998-07-15','0'),
 ('950','South Mittie','quos','Triple','266.13','1975-07-14','1'),
-('379','South Mittie','quos','Facility','218.83','1991-08-19','0'),
+
 ('642','South Mittie','quos','Triple','130.95','1971-06-30','0'),
 ('15','South Mittie','quos','Triple','372.53','1984-03-14','0'),
 ('571','South Mittie','quos','Double','123.37','1999-09-09','0'),
 ('628','South Mittie','quos','Double','226.60','2003-06-04','0'),
-('217','South Mittie','quos','Facility','123.78','2010-04-28','0'),
+
 ('589','South Mittie','quos','Single','42.61','1991-09-27','0'),
-('711','South Mittie','quos','Facility','376.67','2013-10-14','0'),
+
 ('147','South Mittie','quos','Triple','15.97','1996-10-08','0'),
 ('167','South Mittie','quos','Triple','298.61','2000-08-08','0'),
-('639','South Mittie','quos','Facility','453.82','2017-10-23','0'),
+
 ('372','South Mittie','quos','Single','213.55','1995-07-07','0'),
 ('877','South Mittie','quos','Single','69.90','2013-08-10','0'),
 ('831','South Mittie','quos','Triple','249.80','2016-08-18','0'),
-('368','South Mittie','quos','Facility','83.54','1995-07-17','0'),
+
 ('775','South Mittie','quos','Single','173.18','1991-04-28','0'),
 ('953','South Mittie','quos','Single','70.07','1997-10-01','0'),
 ('943','South Mittie','quos','Triple','153.36','1995-06-03','0'),
 ('565','South Mittie','quos','Double','53.76','2001-10-27','0'),
 ('445','South Mittie','quos','Triple','371.77','1995-07-08','0'),
 ('887','South Mittie','quos','Triple','18.02','2016-11-06','0'),
-('20','South Mittie','quos','Facility','376.83','1971-03-15','1'),
-('915','South Mittie','quos','Facility','451.60','2010-11-08','1'),
+
+
 ('966','South Mittie','quos','Single','469.68','1970-09-13','0'),
 ('26','South Mittie','quos','Single','371.05','1979-11-28','0'),
 ('518','South Mittie','quos','Single','87.40','1988-02-15','0'),
 ('499','South Mittie','quos','Triple','272.46','1976-09-16','0'),
 ('760','South Mittie','quos','Triple','280.14','2016-08-02','0'),
-('857','South Mittie','quos','Facility','305.08','2008-12-02','0'),
+
 ('527','South Mittie','quos','Double','290.60','1983-05-12','1'),
 ('790','South Mittie','quos','Double','369.18','1983-02-04','0'),
 ('794','South Mittie','quos','Double','383.22','2014-09-25','0'),
-('721','South Mittie','quos','Facility','314.21','1996-04-11','0'),
+
 ('343','South Mittie','quos','Triple','196.03','1971-10-18','0'),
 ('787','South Mittie','quos','Triple','87.17','1976-09-24','0'),
 ('997','South Mittie','quos','Double','45.43','1975-01-15','0'),
 ('207','South Mittie','quos','Triple','194.91','2004-06-20','0'),
-('587','South Mittie','quos','Facility','406.43','2015-07-03','0'),
-('786','South Mittie','quos','Facility','309.13','2012-12-13','1'),
-('638','South Mittie','quos','Facility','457.64','1985-09-04','0'),
+
+
+
 ('926','South Mittie','quos','Triple','136.31','1982-06-25','0'),
 ('958','South Mittie','quos','Double','400.14','1971-03-03','0'),
 ('33','South Mittie','quos','Triple','194.07','2004-08-19','0'),
@@ -3317,13 +3314,13 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('909','South Mittie','quos','Double','124.76','2002-09-16','0'),
 ('695','South Mittie','quos','Single','128.59','1970-02-20','0'),
 ('778','South Mittie','quos','Single','282.04','1978-05-17','0'),
-('743','South Mittie','quos','Facility','235.31','1996-09-19','0'),
+
 ('568','South Mittie','quos','Single','209.92','2003-06-05','0'),
 ('511','South Mittie','quos','Triple','469.70','2013-11-25','0'),
 ('328','South Mittie','quos','Double','313.04','1997-08-15','0'),
 ('898','South Mittie','quos','Triple','153.60','2002-06-22','0'),
 ('287','South Mittie','quos','Triple','317.22','2015-03-30','0'),
-('613','South Mittie','quos','Facility','247.54','1971-05-18','0'),
+
 ('426','South Mittie','quos','Single','238.18','1988-03-12','0'),
 ('179','South Mittie','quos','Single','52.35','1998-05-01','0'),
 ('927','South Mittie','quos','Single','464.00','1996-08-07','0'),
@@ -3331,45 +3328,45 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('378','South Mittie','quos','Double','111.14','2012-06-04','0'),
 ('601','South Mittie','quos','Single','338.18','2017-04-13','0'),
 ('561','South Mittie','quos','Single','122.34','1999-03-22','0'),
-('332','South Mittie','quos','Facility','153.45','1993-03-21','0'),
+
 ('733','South Mittie','quos','Single','110.39','1975-10-06','0'),
-('827','South Mittie','quos','Facility','293.41','1983-10-01','0'),
+
 ('700','South Mittie','quos','Double','146.06','1996-08-19','0'),
 ('688','South Mittie','quos','Double','15.54','1996-12-02','0'),
-('725','South Mittie','quos','Facility','20.18','1992-03-26','0'),
-('389','South Mittie','quos','Facility','164.68','2015-07-28','0'),
+
+
 ('95','South Mittie','quos','Triple','236.96','2002-10-15','0'),
-('210','South Mittie','quos','Facility','349.01','2016-03-19','0'),
-('761','South Mittie','quos','Facility','433.47','2002-11-21','1'),
+
+
 ('57','South Mittie','quos','Triple','427.82','1983-12-01','1'),
 ('309','South Mittie','quos','Triple','44.62','1981-01-08','0'),
 ('678','South Mittie','quos','Double','236.08','2001-11-06','0'),
-('985','South Mittie','quos','Facility','322.34','2008-08-02','0'),
+
 ('539','South Mittie','quos','Single','356.10','1982-12-22','0'),
 ('491','South Mittie','quos','Single','340.06','1990-04-16','0'),
 ('989','South Mittie','quos','Triple','385.20','2014-12-24','0'),
-('979','South Mittie','quos','Facility','225.54','1974-12-13','0'),
+
 ('475','South Mittie','quos','Single','489.08','2004-08-09','0'),
 ('313','South Mittie','quos','Triple','349.63','2005-01-17','0'),
 ('428','South Mittie','quos','Double','334.74','1981-04-23','0'),
-('819','South Mittie','quos','Facility','35.07','1997-10-27','0'),
+
 ('236','South Mittie','quos','Single','190.53','1975-11-25','0'),
 ('745','South Mittie','quos','Double','267.09','1978-08-28','0'),
 ('409','South Mittie','quos','Triple','112.71','1995-08-02','0'),
-('163','South Mittie','quos','Facility','418.90','1998-05-20','0'),
-('676','South Mittie','quos','Facility','103.92','1972-06-24','0'),
+
+
 ('325','South Mittie','quos','Triple','411.57','2011-07-03','1'),
 ('12','South Mittie','quos','Double','216.10','1974-04-10','1'),
-('537','South Mittie','quos','Facility','47.81','1991-08-20','0'),
+
 ('407','South Mittie','quos','Double','293.51','2004-04-10','0'),
 ('490','South Mittie','quos','Single','129.32','2003-05-25','1'),
 ('914','South Mittie','quos','Triple','477.01','1986-05-06','0'),
 ('125','South Mittie','quos','Triple','107.32','2000-07-28','0'),
 ('769','South Mittie','quos','Double','318.34','1999-11-30','0'),
-('25','South Mittie','quos','Facility','381.33','2007-11-21','0'),
-('939','South Mittie','quos','Facility','478.33','1972-02-05','0'),
+
+
 ('577','South Mittie','quos','Triple','470.79','1995-10-18','0'),
-('441','South Mittie','quos','Facility','193.06','1978-04-22','0'),
+
 ('806','South Mittie','quos','Single','338.09','2001-06-12','0'),
 ('248','South Mittie','quos','Single','109.61','1981-10-21','0'),
 ('77','South Mittie','quos','Triple','76.15','1996-01-20','0'),
@@ -3379,23 +3376,23 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('906','South Mittie','quos','Double','72.86','1983-10-21','0'),
 ('249','South Mittie','quos','Double','178.75','1984-12-04','0'),
 ('838','South Mittie','quos','Triple','186.37','2017-08-31','0'),
-('854','South Mittie','quos','Facility','326.96','2003-12-10','0'),
+
 ('649','South Mittie','quos','Single','484.41','1981-05-21','0'),
 ('510','South Mittie','quos','Double','254.68','2010-03-13','0'),
 ('124','South Mittie','quos','Single','244.75','1978-10-31','1'),
 ('583','South Mittie','quos','Triple','374.50','1979-09-18','0'),
 ('40','South Mittie','quos','Single','340.03','1991-06-26','0'),
 ('703','South Mittie','quos','Triple','439.44','1989-01-25','0'),
-('936','South Mittie','quos','Facility','241.35','1994-01-25','1'),
+
 ('784','South Mittie','quos','Triple','88.67','1975-03-15','0'),
-('271','South Mittie','quos','Facility','140.66','1973-01-20','0'),
+
 ('832','South Mittie','quos','Single','84.22','1999-06-02','0'),
 ('206','South Mittie','quos','Double','142.12','1989-02-22','0'),
 ('430','South Mittie','quos','Triple','363.12','1977-04-02','0'),
 ('346','South Mittie','quos','Double','229.99','1971-11-04','0'),
 ('671','South Mittie','quos','Double','481.33','2003-08-05','0'),
 ('677','South Mittie','quos','Single','73.63','1997-03-30','0'),
-('516','South Mittie','quos','Facility','338.69','1993-09-03','0'),
+
 ('464','South Mittie','quos','Double','380.37','1991-07-26','0'),
 ('715','South Mittie','quos','Single','138.72','2002-07-08','0'),
 ('720','South Mittie','quos','Triple','336.65','1977-06-19','0'),
@@ -3406,24 +3403,24 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('977','South Mittie','quos','Triple','107.17','1982-11-16','0'),
 ('190','South Mittie','quos','Double','484.69','2003-08-09','1'),
 ('956','South Mittie','quos','Triple','340.72','2018-01-05','0'),
-('76','South Mittie','quos','Facility','51.21','1979-10-19','0'),
+
 ('36','South Mittie','quos','Double','268.04','1979-08-04','0'),
 ('665','South Mittie','quos','Triple','146.47','1989-03-08','0'),
 ('641','South Mittie','quos','Triple','166.11','2001-08-14','0'),
-('434','South Mittie','quos','Facility','125.33','2004-05-08','1'),
-('792','South Mittie','quos','Facility','193.80','2013-07-01','0'),
+
+
 ('87','South Mittie','quos','Triple','220.12','2017-04-09','0'),
 ('293','South Mittie','quos','Double','48.23','1982-04-27','0'),
-('825','South Mittie','quos','Facility','140.88','1984-09-03','0'),
-('685','South Mittie','quos','Facility','447.42','2015-07-01','1'),
+
+
 ('156','South Mittie','quos','Triple','334.76','1978-06-30','0'),
 ('265','South Mittie','quos','Double','344.66','1973-10-10','0'),
 ('967','South Mittie','quos','Double','244.46','1998-06-20','0'),
-('387','South Mittie','quos','Facility','88.15','1985-04-27','0'),
+
 ('860','South Mittie','quos','Single','470.30','1981-08-22','0'),
 ('172','South Mittie','quos','Single','242.68','1983-05-12','0'),
 ('737','South Mittie','quos','Double','450.33','1980-07-10','0'),
-('171','South Mittie','quos','Facility','495.48','1987-04-11','0'),
+
 ('820','South Mittie','quos','Double','189.97','1991-11-21','0'),
 ('609','South Mittie','quos','Double','448.00','2009-03-13','0'),
 ('238','South Mittie','quos','Single','269.10','1986-10-15','0'),
@@ -3431,15 +3428,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('260','South Mittie','quos','Double','269.17','1992-07-17','0'),
 ('395','South Mittie','quos','Single','494.73','2010-01-23','0'),
 ('669','South Mittie','quos','Triple','295.34','1993-04-23','0'),
-('443','South Mittie','quos','Facility','271.27','1991-04-26','0'),
+
 ('246','South Mittie','quos','Single','486.46','1988-08-06','0'),
-('177','South Mittie','quos','Facility','74.80','2004-02-08','0'),
+
 ('656','South Mittie','quos','Triple','197.25','1995-07-27','1'),
-('38','South Mittie','quos','Facility','403.96','1975-09-09','0'),
-('934','South Mittie','quos','Facility','140.74','1980-09-18','0'),
+
+
 ('772','South Mittie','quos','Single','377.99','1982-04-21','0'),
-('866','South Mittie','quos','Facility','82.48','2016-06-20','1'),
-('176','South Mittie','quos','Facility','155.03','2002-07-17','1'),
+
+
 ('734','South Mittie','quos','Triple','180.73','2010-09-03','0'),
 ('189','South Mittie','quos','Single','321.63','1971-05-02','0'),
 ('501','South Mittie','quos','Single','404.04','2009-05-18','0'),
@@ -3448,11 +3445,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('836','South Mittie','quos','Triple','149.23','2011-12-16','0'),
 ('541','South Mittie','quos','Triple','109.95','1993-07-29','0'),
 ('281','South Mittie','quos','Single','140.31','2008-06-02','1'),
-('146','South Mittie','quos','Facility','481.87','1990-04-16','0'),
+
 ('962','South Mittie','quos','Single','417.10','1993-03-04','0'),
 ('850','South Mittie','quos','Double','309.54','1999-06-15','0'),
 ('164','South Mittie','quos','Single','365.29','1981-12-15','0'),
-('809','South Mittie','quos','Facility','220.84','2013-07-04','0'),
+
 ('151','South Mittie','quos','Triple','153.46','2015-05-30','0'),
 ('611','South Mittie','quos','Double','371.00','2009-08-04','0'),
 ('326','South Mittie','quos','Triple','159.16','2011-03-11','0'),
@@ -3463,7 +3460,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('805','South Mittie','quos','Double','314.50','1974-08-08','0'),
 ('440','South Mittie','quos','Triple','30.60','2001-04-05','0'),
 ('435','South Mittie','quos','Double','299.46','1993-02-20','0'),
-('742','South Mittie','quos','Facility','96.97','1986-08-03','0'),
+
 ('259','South Mittie','quos','Double','484.71','1977-07-22','0'),
 ('10','South Mittie','quos','Single','78.33','1970-08-07','0'),
 ('484','South Mittie','quos','Double','146.65','1981-05-08','0'),
@@ -3472,18 +3469,18 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('618','South Mittie','quos','Single','297.27','1999-05-07','1'),
 ('19','South Mittie','quos','Triple','62.44','2002-12-27','0'),
 ('438','South Mittie','quos','Double','82.06','1993-09-20','0'),
-('16','South Mittie','quos','Facility','442.40','2010-02-07','0'),
-('932','South Mittie','quos','Facility','499.42','1976-01-02','0'),
+
+
 ('305','South Mittie','quos','Single','249.94','2015-01-07','0'),
 ('413','South Mittie','quos','Single','345.21','1979-01-28','0'),
 ('178','South Mittie','quos','Double','336.32','1986-01-20','1'),
 ('949','South Mittie','quos','Single','373.99','1996-08-31','0'),
 ('449','South Mittie','quos','Single','230.24','1970-10-30','0'),
 ('644','South Mittie','quos','Triple','411.78','1984-07-24','1'),
-('658','South Mittie','quos','Facility','468.86','1979-03-04','0'),
+
 ('280','South Mittie','quos','Double','30.16','1997-05-24','0'),
 ('477','South Mittie','quos','Triple','273.89','1984-07-26','1'),
-('336','South Mittie','quos','Facility','362.83','1997-10-21','0'),
+
 ('886','South Mittie','quos','Triple','12.94','1973-03-21','0'),
 ('870','South Mittie','quos','Double','334.99','1973-05-24','0'),
 ('119','South Mittie','quos','Single','402.68','1983-12-16','0'),
@@ -3494,10 +3491,10 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('680','South Mittie','quos','Double','134.99','1972-07-03','0'),
 ('606','South Mittie','quos','Double','232.86','2001-01-01','0'),
 ('873','South Mittie','quos','Double','254.62','2013-04-01','0'),
-('522','South Mittie','quos','Facility','282.44','1974-09-04','0'),
+
 ('519','South Mittie','quos','Double','63.36','2018-08-24','0'),
 ('100','South Mittie','quos','Double','178.20','1997-08-27','0'),
-('713','South Mittie','quos','Facility','86.18','1989-08-17','0'),
+
 ('872','South Mittie','quos','Single','452.79','2016-08-18','0'),
 ('808','South Mittie','quos','Triple','457.08','2006-08-23','0'),
 ('780','South Mittie','quos','Triple','90.35','2015-06-01','0'),
@@ -3505,7 +3502,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('856','South Mittie','quos','Triple','151.21','1983-01-31','0'),
 ('798','South Mittie','quos','Triple','373.75','2010-11-28','0'),
 ('450','South Mittie','quos','Single','109.25','1978-07-25','0'),
-('28','South Mittie','quos','Facility','183.66','1978-12-22','0'),
+
 ('85','South Mittie','quos','Triple','73.32','1992-12-29','0'),
 ('308','South Mittie','quos','Double','468.61','1997-03-19','0'),
 ('99','South Mittie','quos','Single','22.44','2011-11-05','0'),
@@ -3515,23 +3512,23 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('139','South Mittie','quos','Triple','313.37','1994-12-27','0'),
 ('113','South Mittie','quos','Double','156.66','2005-06-18','0'),
 ('174','South Mittie','quos','Single','255.68','1990-02-01','0'),
-('593','South Mittie','quos','Facility','42.58','1999-03-31','0'),
+
 ('810','South Mittie','quos','Double','440.24','1974-03-25','0'),
 ('912','South Mittie','quos','Triple','80.56','1975-03-05','0'),
 ('181','South Mittie','quos','Triple','273.99','2018-11-17','0'),
-('632','South Mittie','quos','Facility','271.26','1990-01-10','1'),
+
 ('552','South Mittie','quos','Double','101.96','1978-08-22','0'),
 ('365','South Mittie','quos','Single','110.71','1982-02-08','0'),
 ('226','South Mittie','quos','Double','347.81','1975-11-28','0'),
 ('31','South Mittie','quos','Double','42.91','2010-09-01','0'),
-('710','South Mittie','quos','Facility','375.90','2010-01-03','1'),
+
 ('397','South Mittie','quos','Double','373.03','1979-02-20','0'),
 ('116','South Mittie','quos','Double','213.76','2005-11-20','0'),
-('108','South Mittie','quos','Facility','137.16','1970-05-07','0'),
+
 ('615','South Mittie','quos','Single','271.79','2011-05-22','0'),
-('184','South Mittie','quos','Facility','287.82','2015-06-15','1'),
+
 ('748','South Mittie','quos','Double','438.66','2007-05-16','0'),
-('696','South Mittie','quos','Facility','321.02','2013-05-11','1'),
+
 ('383','South Mittie','quos','Triple','466.05','1999-03-12','1'),
 ('392','South Mittie','quos','Double','408.53','2013-09-17','0'),
 ('738','South Mittie','quos','Double','82.25','1989-08-06','0'),
@@ -3540,8 +3537,8 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('983','South Mittie','quos','Double','192.10','1988-05-27','0'),
 ('142','South Mittie','quos','Triple','268.67','1985-12-08','0'),
 ('215','South Mittie','quos','Triple','233.38','1970-10-11','0'),
-('878','South Mittie','quos','Facility','34.16','2009-12-13','0'),
-('881','South Mittie','quos','Facility','374.54','1978-09-10','0'),
+
+
 ('49','South Mittie','quos','Single','262.56','2009-05-07','0'),
 ('730','South Mittie','quos','Single','447.91','1985-07-18','0'),
 ('821','South Mittie','quos','Triple','63.84','1975-05-02','0'),
@@ -3555,7 +3552,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('390','South Mittie','quos','Double','257.35','2004-11-11','0'),
 ('126','South Mittie','quos','Single','217.86','1979-06-08','0'),
 ('824','South Mittie','quos','Triple','33.54','2012-10-15','0'),
-('547','South Mittie','quos','Facility','238.79','2018-05-15','0'),
+
 ('4','South Mittie','quos','Single','436.07','1988-12-24','0'),
 ('231','South Mittie','quos','Double','288.70','1997-06-03','0'),
 ('890','South Mittie','quos','Triple','206.83','2003-04-22','0'),
@@ -3568,8 +3565,8 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('801','South Mittie','quos','Single','370.80','1979-04-21','0'),
 ('864','South Mittie','quos','Single','203.27','1981-10-07','0'),
 ('753','South Mittie','quos','Single','327.09','2014-03-02','0'),
-('266','South Mittie','quos','Facility','376.30','2010-01-13','0'),
-('261','South Mittie','quos','Facility','38.28','2007-06-22','0'),
+
+
 ('893','South Mittie','quos','Triple','70.67','1977-11-28','1'),
 ('175','South Mittie','quos','Triple','34.69','1998-10-30','0'),
 ('933','South Mittie','quos','Triple','52.50','2008-06-30','0'),
@@ -3581,19 +3578,19 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('75','South Mittie','quos','Double','170.92','2003-07-22','0'),
 ('165','South Mittie','quos','Single','325.83','1994-12-20','0'),
 ('865','South Mittie','quos','Double','315.86','1999-06-06','1'),
-('853','South Mittie','quos','Facility','489.76','1999-05-29','0'),
+
 ('148','South Mittie','quos','Single','457.48','1993-07-10','0'),
 ('418','South Mittie','quos','Single','102.38','2012-12-21','0'),
 ('240','South Mittie','quos','Double','131.29','2000-08-29','0'),
-('739','South Mittie','quos','Facility','362.77','1977-03-07','0'),
+
 ('18','South Mittie','quos','Double','337.67','2005-12-25','0'),
 ('900','South Mittie','quos','Double','414.27','2014-02-04','0'),
 ('672','South Mittie','quos','Double','88.34','2010-08-17','0'),
 ('120','South Mittie','quos','Triple','219.39','2017-09-03','0'),
 ('919','South Mittie','quos','Single','372.70','2011-02-28','0'),
-('616','South Mittie','quos','Facility','307.92','1981-01-30','0'),
+
 ('799','South Mittie','quos','Triple','217.02','2016-04-03','0'),
-('817','South Mittie','quos','Facility','234.65','1975-03-31','0'),
+
 ('996','South Mittie','quos','Triple','119.20','1975-10-16','0'),
 ('719','South Mittie','quos','Single','20.29','2010-07-10','1'),
 ('785','South Mittie','quos','Single','177.34','1987-11-24','0'),
@@ -3602,17 +3599,17 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('631','South Mittie','quos','Single','248.27','1996-04-02','0'),
 ('648','South Mittie','quos','Single','281.09','1992-02-19','0'),
 ('198','South Mittie','quos','Single','421.96','1979-08-05','0'),
-('214','South Mittie','quos','Facility','28.00','2004-04-03','0'),
+
 ('53','South Mittie','quos','Triple','234.81','1975-09-27','1'),
 ('709','South Mittie','quos','Single','342.74','1999-03-27','0'),
 ('105','South Mittie','quos','Triple','409.39','1970-04-08','0'),
-('553','South Mittie','quos','Facility','470.77','1990-10-12','0'),
+
 ('651','South Mittie','quos','Double','151.36','2004-08-29','0'),
 ('559','South Mittie','quos','Single','235.96','2009-04-17','0'),
-('110','South Mittie','quos','Facility','279.26','2013-03-03','0'),
+
 ('342','South Mittie','quos','Single','109.33','2010-09-21','0'),
 ('614','South Mittie','quos','Triple','85.70','2012-04-27','0'),
-('117','South Mittie','quos','Facility','258.15','2011-12-22','0'),
+
 ('62','South Mittie','quos','Double','181.89','1987-04-17','0'),
 ('921','South Mittie','quos','Single','234.28','2013-05-05','0'),
 ('746','South Mittie','quos','Single','405.64','1970-12-27','0'),
@@ -3623,41 +3620,41 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('225','South Mittie','quos','Double','150.82','2003-04-14','0'),
 ('550','South Mittie','quos','Single','76.47','2004-04-25','0'),
 ('652','South Mittie','quos','Triple','495.15','1972-02-19','0'),
-('375','South Mittie','quos','Facility','323.16','2018-11-02','0'),
+
 ('355','South Mittie','quos','Triple','437.08','1989-04-26','0'),
 ('992','South Mittie','quos','Triple','81.31','1994-09-22','0'),
 ('98','South Mittie','quos','Double','391.28','2008-09-14','0'),
-('211','South Mittie','quos','Facility','189.97','1970-02-02','0'),
+
 ('731','South Mittie','quos','Triple','255.00','2010-01-21','0'),
 ('197','South Mittie','quos','Double','59.71','2005-09-06','0'),
 ('747','South Mittie','quos','Double','173.01','1998-05-20','0'),
 ('402','South Mittie','quos','Single','80.31','1993-02-06','0'),
-('478','South Mittie','quos','Facility','188.63','2008-06-12','0'),
+
 ('503','South Mittie','quos','Double','438.07','2011-09-19','0'),
 ('580','South Mittie','quos','Triple','218.47','1988-09-22','0'),
 ('843','South Mittie','quos','Double','99.51','2012-12-22','0'),
-('942','South Mittie','quos','Facility','262.68','2006-04-23','0'),
+
 ('152','South Mittie','quos','Double','68.09','1990-11-02','0'),
 ('502','South Mittie','quos','Double','328.17','1975-02-01','1'),
 ('315','South Mittie','quos','Double','101.80','2007-09-07','0'),
 ('619','South Mittie','quos','Double','209.48','2001-12-09','0'),
-('954','South Mittie','quos','Facility','58.62','1970-09-15','0'),
+
 ('241','South Mittie','quos','Triple','411.15','1973-02-09','0'),
-('482','South Mittie','quos','Facility','445.77','2006-10-14','0'),
-('855','South Mittie','quos','Facility','310.38','1972-12-25','0'),
+
+
 ('882','South Mittie','quos','Double','69.69','1979-11-11','0'),
-('183','South Mittie','quos','Facility','216.30','1982-02-17','0'),
+
 ('327','South Mittie','quos','Triple','93.21','2006-05-06','0'),
 ('321','South Mittie','quos','Single','309.28','1972-06-27','1'),
 ('500','South Mittie','quos','Triple','462.06','1971-02-28','0'),
 ('376','South Mittie','quos','Single','71.21','1985-11-17','0'),
-('948','South Mittie','quos','Facility','164.16','1981-02-02','0'),
+
 ('352','South Mittie','quos','Double','37.97','1975-05-20','0'),
 ('704','South Mittie','quos','Double','53.23','2008-12-27','1'),
 ('361','South Mittie','quos','Triple','404.00','2006-02-02','0'),
 ('82','South Mittie','quos','Triple','112.60','1992-02-26','0'),
-('899','South Mittie','quos','Facility','88.66','2008-07-12','1'),
-('200','South Mittie','quos','Facility','294.60','1989-09-16','0'),
+
+
 ('839','South Mittie','quos','Single','266.70','2015-12-09','0'),
 ('692','South Mittie','quos','Double','382.49','1998-07-26','0'),
 ('157','South Mittie','quos','Double','465.12','1973-02-13','0'),
@@ -3667,21 +3664,21 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('188','South Mittie','quos','Double','238.60','2006-02-28','0'),
 ('140','South Mittie','quos','Single','386.29','2003-10-23','0'),
 ('556','South Mittie','quos','Single','241.87','1989-11-24','0'),
-('385','South Mittie','quos','Facility','109.06','1980-01-01','0'),
+
 ('944','South Mittie','quos','Single','166.53','1979-11-24','0'),
 ('660','South Mittie','quos','Double','45.99','2008-05-22','0'),
 ('521','South Mittie','quos','Single','174.47','1990-01-25','1'),
 ('525','South Mittie','quos','Single','337.03','2012-08-31','0'),
-('294','South Mittie','quos','Facility','248.08','1983-01-25','1'),
+
 ('41','South Mittie','quos','Triple','463.43','1979-05-26','0'),
 ('433','South Mittie','quos','Double','334.40','2012-03-01','0'),
 ('590','South Mittie','quos','Single','180.79','1990-01-30','0'),
-('535','South Mittie','quos','Facility','10.35','1998-09-17','0'),
-('369','South Mittie','quos','Facility','392.03','1994-04-15','0'),
-('889','South Mittie','quos','Facility','80.26','1983-01-17','0'),
+
+
+
 ('714','South Mittie','quos','Double','201.11','2015-08-20','0'),
 ('166','South Mittie','quos','Triple','409.40','2001-12-18','0'),
-('322','South Mittie','quos','Facility','332.05','1976-10-26','0'),
+
 ('6','South Mittie','quos','Single','248.45','1973-01-07','0'),
 ('78','South Mittie','quos','Single','37.69','2008-03-31','0'),
 ('974','South Mittie','quos','Triple','36.55','1971-07-19','1'),
@@ -3690,9 +3687,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('684','South Mittie','quos','Single','47.13','1990-08-05','0'),
 ('987','South Mittie','quos','Single','302.94','2010-05-12','0'),
 ('187','South Mittie','quos','Single','93.57','1987-07-04','0'),
-('622','South Mittie','quos','Facility','55.31','1997-11-13','0'),
+
 ('14','South Mittie','quos','Single','355.51','1977-12-01','0'),
-('612','South Mittie','quos','Facility','129.08','1975-04-10','0'),
+
 ('235','South Mittie','quos','Single','357.64','2009-08-15','0'),
 ('505','South Mittie','quos','Double','131.37','1998-01-07','1'),
 ('205','South Mittie','quos','Double','158.65','1993-12-10','0'),
@@ -3703,34 +3700,34 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('569','South Mittie','quos','Single','342.51','1986-10-15','0'),
 ('595','South Mittie','quos','Single','321.40','1986-08-17','0'),
 ('869','South Mittie','quos','Double','498.13','1995-08-31','0'),
-('290','South Mittie','quos','Facility','262.40','1989-10-21','0'),
+
 ('356','South Mittie','quos','Double','121.21','2005-06-19','0'),
 ('931','South Mittie','quos','Triple','147.08','2006-11-25','0'),
 ('862','South Mittie','quos','Double','458.73','1999-03-07','0'),
-('127','South Mittie','quos','Facility','357.69','1982-12-12','0'),
+
 ('757','South Mittie','quos','Double','99.72','1970-10-25','0'),
 ('791','South Mittie','quos','Triple','333.06','2010-05-19','1'),
 ('815','South Mittie','quos','Double','473.29','2001-12-16','0'),
 ('581','South Mittie','quos','Triple','476.56','2010-05-08','0'),
 ('351','South Mittie','quos','Single','399.26','2014-06-07','0'),
 ('770','South Mittie','quos','Triple','238.21','1975-01-21','0'),
-('694','South Mittie','quos','Facility','119.56','1976-06-03','0'),
+
 ('523','South Mittie','quos','Triple','56.29','1972-09-30','1'),
 ('483','South Mittie','quos','Single','50.81','1985-08-12','0'),
 ('302','South Mittie','quos','Single','200.38','1979-08-15','0'),
 ('307','South Mittie','quos','Triple','229.69','1973-05-22','0'),
 ('681','South Mittie','quos','Single','451.17','1972-07-01','0'),
-('627','South Mittie','quos','Facility','191.09','1978-06-25','1'),
+
 ('55','South Mittie','quos','Single','351.80','1981-02-27','0'),
 ('468','South Mittie','quos','Triple','437.21','1992-12-17','0'),
-('497','South Mittie','quos','Facility','272.89','2006-05-26','1'),
+
 ('991','South Mittie','quos','Double','82.65','1979-04-23','0'),
 ('492','South Mittie','quos','Triple','224.44','2007-05-06','0'),
 ('242','South Mittie','quos','Double','217.72','1984-01-22','0'),
-('360','South Mittie','quos','Facility','453.57','1976-03-11','0'),
+
 ('432','South Mittie','quos','Single','406.97','2002-05-31','0'),
-('370','South Mittie','quos','Facility','368.13','2000-01-14','0'),
-('706','South Mittie','quos','Facility','214.37','2006-12-11','0'),
+
+
 ('83','South Mittie','quos','Single','317.46','1974-07-04','0'),
 ('999','South Mittie','quos','Triple','239.50','1970-03-30','0'),
 ('72','South Mittie','quos','Double','477.45','1989-05-04','1'),
@@ -3743,8 +3740,8 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('68','South Mittie','quos','Single','425.16','2013-03-14','1'),
 ('255','South Mittie','quos','Triple','312.32','1972-08-15','0'),
 ('51','South Mittie','quos','Double','311.46','1976-12-02','0'),
-('984','South Mittie','quos','Facility','249.07','1970-09-08','0'),
-('466','South Mittie','quos','Facility','143.57','1992-04-26','0'),
+
+
 ('131','South Mittie','quos','Triple','17.86','2013-03-19','0'),
 ('111','South Mittie','quos','Double','327.57','1987-06-08','0'),
 ('905','South Mittie','quos','Double','145.63','1997-03-08','0'),
@@ -3754,7 +3751,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('994','South Mittie','quos','Double','180.58','2005-11-26','0'),
 ('405','South Mittie','quos','Single','223.13','1992-08-10','0'),
 ('299','South Mittie','quos','Double','269.30','2016-09-21','0'),
-('279','South Mittie','quos','Facility','137.28','2000-04-03','0'),
+
 ('374','South Mittie','quos','Double','257.34','2007-08-05','0'),
 ('888','South Mittie','quos','Single','297.88','1975-04-21','0'),
 ('115','South Mittie','quos','Triple','96.38','1991-11-10','0'),
@@ -3763,12 +3760,12 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('750','South Mittie','quos','Double','33.65','2001-09-18','0'),
 ('910','South Mittie','quos','Triple','277.54','2003-10-19','0'),
 ('659','South Mittie','quos','Single','298.24','1972-10-22','0'),
-('94','South Mittie','quos','Facility','355.01','1989-10-08','0'),
+
 ('391','South Mittie','quos','Double','110.57','2012-05-04','0'),
 ('203','South Mittie','quos','Triple','49.58','1972-11-16','0'),
 ('538','South Mittie','quos','Double','361.03','2008-01-13','0'),
 ('972','South Mittie','quos','Triple','120.73','1973-04-26','0'),
-('782','South Mittie','quos','Facility','198.57','1971-12-22','0'),
+
 ('524','South Mittie','quos','Single','377.24','2012-06-09','0'),
 ('802','South Mittie','quos','Single','245.33','2005-07-10','0'),
 ('339','South Mittie','quos','Double','466.99','1976-05-02','0'),
@@ -3777,38 +3774,38 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('353','South Mittie','quos','Single','255.88','2014-09-16','0'),
 ('168','South Mittie','quos','Triple','125.75','1972-07-04','0'),
 ('880','South Mittie','quos','Double','95.36','2018-09-13','0'),
-('256','South Mittie','quos','Facility','493.81','1998-11-03','0'),
+
 ('141','South Mittie','quos','Triple','293.13','1991-11-22','1'),
 ('50','South Mittie','quos','Triple','200.78','2008-10-05','0'),
 ('272','South Mittie','quos','Triple','341.58','1984-06-06','1'),
 ('133','South Mittie','quos','Single','226.14','2015-03-22','0'),
-('823','South Mittie','quos','Facility','432.16','1984-11-23','0'),
+
 ('228','South Mittie','quos','Double','82.95','2003-03-30','0'),
 ('23','South Mittie','quos','Triple','410.68','1993-04-21','1'),
 ('698','South Mittie','quos','Double','61.22','1984-07-04','0'),
-('533','South Mittie','quos','Facility','190.66','1974-11-07','0'),
-('834','South Mittie','quos','Facility','196.41','1991-03-03','0'),
-('371','South Mittie','quos','Facility','408.50','1979-04-03','1'),
-('274','South Mittie','quos','Facility','484.76','1980-07-08','0'),
-('334','South Mittie','quos','Facility','297.71','1974-05-23','1'),
-('46','South Mittie','quos','Facility','84.53','1980-11-13','0'),
+
+
+
+
+
+
 ('268','South Mittie','quos','Single','207.41','1991-07-09','0'),
-('526','South Mittie','quos','Facility','346.49','1990-09-13','0'),
+
 ('774','South Mittie','quos','Triple','204.18','1982-12-26','0'),
 ('592','South Mittie','quos','Double','490.08','2004-07-02','0'),
 ('973','South Mittie','quos','Triple','212.95','1988-01-12','0'),
 ('170','South Mittie','quos','Triple','130.03','2014-08-18','1'),
-('955','South Mittie','quos','Facility','233.61','1996-08-08','0'),
+
 ('3','South Mittie','quos','Triple','379.74','2011-12-29','0'),
 ('937','South Mittie','quos','Double','163.86','1984-05-24','0'),
 ('845','South Mittie','quos','Triple','215.08','1985-10-30','0'),
 ('982','South Mittie','quos','Double','388.67','2006-05-07','0'),
-('43','South Mittie','quos','Facility','499.71','2008-09-09','0'),
+
 ('79','South Mittie','quos','Single','307.42','2007-03-09','0'),
-('968','South Mittie','quos','Facility','447.97','2015-05-15','0'),
+
 ('654','South Mittie','quos','Single','62.90','1979-10-12','0'),
-('603','South Mittie','quos','Facility','216.27','1988-10-15','0'),
-('363','South Mittie','quos','Facility','227.23','1997-09-24','0'),
+
+
 ('67','South Mittie','quos','Single','470.52','1999-12-26','0'),
 ('924','South Mittie','quos','Triple','173.56','1999-11-24','0'),
 ('623','South Mittie','quos','Double','17.48','2016-03-20','0'),
@@ -3818,22 +3815,22 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('573','South Mittie','quos','Triple','422.02','1993-06-02','1'),
 ('722','South Mittie','quos','Double','253.02','1970-10-08','0'),
 ('2','South Mittie','quos','Triple','154.09','1997-03-07','0'),
-('766','South Mittie','quos','Facility','235.95','2010-04-04','0'),
+
 ('670','South Mittie','quos','Single','467.83','2009-08-13','0'),
 ('45','South Mittie','quos','Single','134.19','2010-12-02','0'),
 ('311','South Mittie','quos','Double','351.47','2001-11-13','0'),
-('320','South Mittie','quos','Facility','472.56','1991-01-05','0'),
+
 ('118','South Mittie','quos','Single','44.06','2005-01-23','0'),
-('180','South Mittie','quos','Facility','81.47','1995-01-03','0'),
-('35','South Mittie','quos','Facility','286.03','1996-09-23','0'),
+
+
 ('114','South Mittie','quos','Triple','257.20','1995-08-22','0'),
 ('896','South Mittie','quos','Triple','170.39','1980-11-07','0'),
 ('970','South Mittie','quos','Single','120.99','1989-07-01','0'),
-('338','South Mittie','quos','Facility','292.88','1979-09-15','0'),
-('394','South Mittie','quos','Facility','229.48','1970-08-09','0'),
+
+
 ('244','South Mittie','quos','Single','447.96','1977-11-21','0'),
 ('837','South Mittie','quos','Single','212.59','1978-09-09','0'),
-('822','South Mittie','quos','Facility','139.48','2015-04-19','0'),
+
 ('150','South Mittie','quos','Single','371.08','1996-08-25','0'),
 ('707','South Mittie','quos','Single','355.27','1994-10-19','0'),
 ('512','South Mittie','quos','Single','252.85','2004-06-24','1'),
@@ -3841,29 +3838,29 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('330','South Mittie','quos','Triple','244.83','1984-04-06','0'),
 ('555','South Mittie','quos','Single','100.27','2002-03-19','0'),
 ('969','South Mittie','quos','Triple','10.97','1993-07-31','0'),
-('543','South Mittie','quos','Facility','132.85','1993-12-19','1'),
+
 ('262','South Mittie','quos','Single','105.25','1994-06-07','0'),
 ('74','South Mittie','quos','Double','157.38','1993-07-17','0'),
 ('657','South Mittie','quos','Single','482.87','1974-08-01','0'),
 ('971','South Mittie','quos','Single','466.83','1972-06-15','0'),
 ('292','South Mittie','quos','Single','144.81','1997-04-26','0'),
 ('788','South Mittie','quos','Single','197.34','2007-03-10','0'),
-('364','South Mittie','quos','Facility','306.18','2000-08-29','0'),
+
 ('463','South Mittie','quos','Double','131.57','2012-08-07','0'),
 ('159','South Mittie','quos','Triple','351.94','2006-06-28','1'),
 ('460','South Mittie','quos','Triple','270.02','2013-08-28','0'),
-('1000','South Mittie','quos','Facility','297.27','1972-06-25','1'),
+
 ('951','South Mittie','quos','Single','448.58','1990-11-07','0'),
 ('63','South Mittie','quos','Triple','325.14','1999-02-25','0'),
 ('911','South Mittie','quos','Single','412.60','1995-08-02','0'),
 ('469','South Mittie','quos','Single','129.46','2003-10-25','0'),
 ('867','South Mittie','quos','Single','232.21','2002-06-11','0'),
-('697','South Mittie','quos','Facility','416.29','2007-09-25','0'),
+
 ('121','South Mittie','quos','Triple','307.00','1974-10-17','0'),
-('940','South Mittie','quos','Facility','156.54','2008-12-18','1'),
+
 ('861','South Mittie','quos','Double','490.30','1974-04-08','0'),
-('199','South Mittie','quos','Facility','232.24','2009-01-22','0'),
-('88','South Mittie','quos','Facility','416.48','1970-08-19','0'),
+
+
 ('546','South Mittie','quos','Triple','482.50','2001-09-02','0'),
 ('863','South Mittie','quos','Triple','314.16','1976-07-02','0'),
 ('486','South Mittie','quos','Single','239.11','1988-10-14','0'),
@@ -3874,55 +3871,55 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('976','South Mittie','quos','Triple','303.29','1979-07-29','0'),
 ('693','South Mittie','quos','Triple','77.38','2010-10-20','0'),
 ('626','South Mittie','quos','Single','115.16','2009-01-03','0'),
-('749','South Mittie','quos','Facility','87.10','1975-11-27','0'),
+
 ('702','South Mittie','quos','Triple','243.99','1988-04-16','0'),
 ('286','South Mittie','quos','Single','127.40','1974-05-21','1'),
-('282','South Mittie','quos','Facility','28.45','2006-12-04','0'),
+
 ('630','South Mittie','quos','Triple','464.37','1977-06-20','0'),
-('938','South Mittie','quos','Facility','263.27','1973-07-19','1'),
+
 ('21','South Mittie','quos','Single','413.11','1987-06-30','0'),
 ('382','South Mittie','quos','Double','359.17','2018-10-21','0'),
-('517','South Mittie','quos','Facility','378.61','2018-07-17','0'),
-('498','South Mittie','quos','Facility','25.17','2007-07-02','0'),
-('852','South Mittie','quos','Facility','479.80','1975-08-04','0'),
+
+
+
 ('399','South Mittie','quos','Single','255.99','1999-07-16','0'),
 ('8','South Mittie','quos','Double','338.93','1986-12-08','0'),
 ('964','South Mittie','quos','Single','335.30','2003-12-20','0'),
-('489','South Mittie','quos','Facility','395.61','1989-09-30','0'),
+
 ('754','South Mittie','quos','Single','394.05','1987-05-11','0'),
-('930','South Mittie','quos','Facility','24.80','2011-12-23','0'),
+
 ('650','South Mittie','quos','Double','127.72','1999-01-27','0'),
 ('97','South Mittie','quos','Single','23.96','1975-02-25','0'),
 ('570','South Mittie','quos','Triple','41.47','1979-01-13','0'),
-('107','South Mittie','quos','Facility','305.61','2003-08-12','0'),
-('398','South Mittie','quos','Facility','122.32','1979-03-23','0'),
+
+
 ('388','South Mittie','quos','Double','419.42','1971-02-26','0'),
 ('602','South Mittie','quos','Single','98.55','2016-12-16','0'),
 ('89','South Mittie','quos','Triple','131.80','2002-12-20','0'),
 ('234','South Mittie','quos','Double','28.49','1970-02-04','0'),
 ('598','South Mittie','quos','Single','292.96','1973-04-17','0'),
 ('771','South Mittie','quos','Single','169.86','1986-02-12','0'),
-('708','South Mittie','quos','Facility','459.29','1995-06-29','0'),
-('496','South Mittie','quos','Facility','367.81','1997-10-04','0'),
-('135','South Mittie','quos','Facility','496.84','2007-04-20','1'),
+
+
+
 ('92','South Mittie','quos','Triple','457.25','1995-03-13','0'),
 ('132','South Mittie','quos','Double','464.14','2009-05-21','0'),
-('169','South Mittie','quos','Facility','489.71','2003-10-16','0'),
-('223','South Mittie','quos','Facility','126.87','1980-04-24','0'),
+
+
 ('811','South Mittie','quos','Double','462.60','2005-03-01','0'),
-('347','South Mittie','quos','Facility','332.25','1973-10-17','0'),
-('267','South Mittie','quos','Facility','380.21','1981-07-26','0'),
-('158','South Mittie','quos','Facility','215.83','1991-12-03','0'),
+
+
+
 ('664','South Mittie','quos','Triple','333.41','1977-09-09','0'),
 ('762','South Mittie','quos','Single','96.87','2009-03-23','0'),
-('381','South Mittie','quos','Facility','396.62','1979-11-02','0'),
+
 ('359','South Mittie','quos','Double','86.85','1985-02-01','0'),
 ('777','South Mittie','quos','Triple','318.36','2018-04-12','0'),
 ('220','South Mittie','quos','Single','364.71','2002-11-07','0'),
 ('751','South Mittie','quos','Double','109.37','1989-07-06','0'),
 ('185','South Mittie','quos','Double','32.70','1984-06-12','0'),
 ('297','South Mittie','quos','Double','442.43','2003-12-26','0'),
-('653','South Mittie','quos','Facility','137.31','1994-05-05','0'),
+
 ('879','South Mittie','quos','Double','42.10','2003-05-05','0'),
 ('528','South Mittie','quos','Triple','220.08','2007-10-17','0'),
 ('629','South Mittie','quos','Double','262.56','1980-06-25','0'),
@@ -3932,68 +3929,68 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('554','South Mittie','quos','Single','15.42','1992-07-28','0'),
 ('686','South Mittie','quos','Triple','441.85','2017-12-31','0'),
 ('617','South Mittie','quos','Single','88.43','1970-03-14','0'),
-('86','South Mittie','quos','Facility','173.26','2017-09-30','0'),
+
 ('508','South Mittie','quos','Single','88.83','2012-06-03','0'),
 ('844','South Mittie','quos','Double','361.41','2012-12-29','0'),
 ('301','South Mittie','quos','Triple','183.15','2018-09-02','0'),
 ('883','South Mittie','quos','Single','126.11','1987-10-17','0'),
-('691','South Mittie','quos','Facility','64.26','1999-05-04','0'),
-('803','South Mittie','quos','Facility','273.13','1999-03-07','0'),
+
+
 ('804','South Mittie','quos','Single','434.18','1982-12-28','0'),
-('425','South Mittie','quos','Facility','403.99','2010-05-03','0'),
+
 ('597','South Mittie','quos','Triple','246.70','1995-10-09','0'),
 ('34','South Mittie','quos','Double','119.74','2011-05-22','0'),
 ('476','South Mittie','quos','Single','437.91','1999-09-22','0'),
 ('689','South Mittie','quos','Triple','36.76','2006-08-09','0'),
 ('712','South Mittie','quos','Single','464.15','1975-02-12','0'),
 ('599','South Mittie','quos','Double','174.38','1997-12-07','0'),
-('403','South Mittie','quos','Facility','346.03','2014-05-23','0'),
+
 ('923','South Mittie','quos','Single','176.81','1986-05-29','0'),
 ('229','South Mittie','quos','Double','186.95','1979-02-07','0'),
 ('534','South Mittie','quos','Single','46.87','1996-03-29','0'),
 ('310','South Mittie','quos','Triple','262.72','2015-08-22','0'),
 ('182','South Mittie','quos','Double','403.06','1988-03-04','0'),
-('24','South Mittie','quos','Facility','456.00','1974-07-06','0'),
+
 ('263','South Mittie','quos','Triple','473.54','1980-12-22','0'),
 ('454','South Mittie','quos','Single','32.28','1991-10-19','0'),
-('129','South Mittie','quos','Facility','42.12','1972-11-19','0'),
-('980','South Mittie','quos','Facility','431.38','2018-12-14','1'),
+
+
 ('52','South Mittie','quos','Triple','179.95','1974-10-21','0'),
-('661','South Mittie','quos','Facility','445.42','2013-04-21','0'),
+
 ('103','South Mittie','quos','Triple','262.89','1994-03-09','0'),
 ('922','South Mittie','quos','Triple','55.08','2004-02-02','0'),
 ('134','South Mittie','quos','Double','218.10','1971-06-08','0'),
 ('620','South Mittie','quos','Double','223.03','2003-11-11','0'),
 ('408','South Mittie','quos','Double','241.24','1980-03-30','0'),
 ('699','South Mittie','quos','Triple','337.96','2008-12-23','0'),
-('458','South Mittie','quos','Facility','99.51','1974-09-29','0'),
-('610','South Mittie','quos','Facility','215.01','1979-04-02','0'),
-('732','South Mittie','quos','Facility','114.31','1990-11-21','0'),
+
+
+
 ('192','South Mittie','quos','Double','71.93','1987-06-25','0'),
-('410','South Mittie','quos','Facility','281.01','1988-08-29','0'),
+
 ('421','South Mittie','quos','Single','294.20','1974-05-29','0'),
 ('269','South Mittie','quos','Triple','453.96','1982-03-22','0'),
 ('345','South Mittie','quos','Double','169.87','1977-06-11','0'),
 ('530','South Mittie','quos','Single','301.01','2004-10-06','0'),
 ('276','South Mittie','quos','Triple','187.96','1974-07-13','0'),
-('250','South Mittie','quos','Facility','254.69','1976-01-27','0'),
-('487','South Mittie','quos','Facility','454.52','1976-06-13','0'),
-('474','South Mittie','quos','Facility','439.68','1998-09-04','0'),
+
+
+
 ('736','South Mittie','quos','Single','330.78','2017-01-26','0'),
-('452','South Mittie','quos','Facility','339.65','1981-05-04','0'),
+
 ('718','South Mittie','quos','Double','178.36','1978-09-17','0'),
 ('473','South Mittie','quos','Triple','166.72','1980-05-06','0'),
-('457','South Mittie','quos','Facility','397.82','1986-09-20','0'),
-('847','South Mittie','quos','Facility','489.50','1971-05-12','0'),
-('296','South Mittie','quos','Facility','497.44','1996-11-22','0'),
+
+
+
 ('840','South Mittie','quos','Double','445.95','1972-03-31','1'),
-('575','South Mittie','quos','Facility','413.49','1995-11-14','0'),
+
 ('27','South Mittie','quos','Triple','261.23','2001-03-28','0'),
 ('130','South Mittie','quos','Single','108.58','1977-12-10','0'),
-('227','South Mittie','quos','Facility','240.07','1988-08-20','0'),
+
 ('283','South Mittie','quos','Triple','364.24','1992-03-14','0'),
 ('591','South Mittie','quos','Single','224.40','1984-07-03','0'),
-('335','South Mittie','quos','Facility','279.25','2013-11-27','0'),
+
 ('91','South Mittie','quos','Single','271.19','1973-05-11','0'),
 ('586','South Mittie','quos','Double','435.57','1974-08-03','0'),
 ('404','South Mittie','quos','Triple','150.94','2005-11-21','0'),('210','Zulaufchester','fugiat','Triple','84.23','2011-04-13','0'),
@@ -4002,16 +3999,16 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('719','Zulaufchester','fugiat','Double','107.38','2009-09-11','1'),
 ('485','Zulaufchester','fugiat','Triple','418.49','1995-12-30','1'),
 ('321','Zulaufchester','fugiat','Triple','279.00','2000-11-04','0'),
-('241','Zulaufchester','fugiat','Facility','362.77','1973-12-09','0'),
+
 ('790','Zulaufchester','fugiat','Triple','309.59','2015-07-04','1'),
-('27','Zulaufchester','fugiat','Facility','295.51','1986-04-08','0'),
-('587','Zulaufchester','fugiat','Facility','323.52','1995-02-28','0'),
+
+
 ('8','Zulaufchester','fugiat','Single','189.77','1978-03-03','0'),
-('794','Zulaufchester','fugiat','Facility','92.66','2008-04-16','0'),
+
 ('984','Zulaufchester','fugiat','Single','145.57','2013-08-23','0'),
 ('89','Zulaufchester','fugiat','Triple','373.73','2011-10-23','0'),
-('504','Zulaufchester','fugiat','Facility','44.37','1972-12-24','0'),
-('482','Zulaufchester','fugiat','Facility','383.22','1994-07-22','0'),
+
+
 ('142','Zulaufchester','fugiat','Single','477.28','1974-10-11','0'),
 ('746','Zulaufchester','fugiat','Triple','100.86','1999-03-18','0'),
 ('478','Zulaufchester','fugiat','Triple','192.88','1998-08-12','0'),
@@ -4022,23 +4019,23 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('518','Zulaufchester','fugiat','Double','439.56','1989-10-03','0'),
 ('376','Zulaufchester','fugiat','Double','202.61','1991-06-28','0'),
 ('752','Zulaufchester','fugiat','Single','149.66','1989-11-30','0'),
-('148','Zulaufchester','fugiat','Facility','294.79','1971-07-02','0'),
+
 ('385','Zulaufchester','fugiat','Triple','423.09','1984-06-29','0'),
 ('880','Zulaufchester','fugiat','Double','76.15','1991-03-07','0'),
 ('573','Zulaufchester','fugiat','Double','275.62','1995-10-13','0'),
 ('603','Zulaufchester','fugiat','Double','218.99','1996-07-09','0'),
-('693','Zulaufchester','fugiat','Facility','390.43','1982-12-28','0'),
+
 ('392','Zulaufchester','fugiat','Single','368.85','2009-12-10','0'),
 ('121','Zulaufchester','fugiat','Single','334.76','2017-06-29','0'),
 ('674','Zulaufchester','fugiat','Single','17.05','1980-05-20','0'),
 ('455','Zulaufchester','fugiat','Double','58.63','1986-01-17','0'),
 ('73','Zulaufchester','fugiat','Triple','403.55','2006-02-26','0'),
 ('114','Zulaufchester','fugiat','Triple','395.43','1977-09-07','0'),
-('975','Zulaufchester','fugiat','Facility','145.85','1980-07-10','0'),
-('811','Zulaufchester','fugiat','Facility','488.50','1978-02-21','1'),
+
+
 ('534','Zulaufchester','fugiat','Triple','226.37','1998-06-23','0'),
 ('978','Zulaufchester','fugiat','Triple','385.43','1972-10-16','0'),
-('979','Zulaufchester','fugiat','Facility','213.93','2014-12-26','0'),
+
 ('561','Zulaufchester','fugiat','Triple','389.36','2005-10-25','0'),
 ('545','Zulaufchester','fugiat','Double','52.95','1970-03-17','0'),
 ('834','Zulaufchester','fugiat','Single','475.96','2013-02-28','0'),
@@ -4046,8 +4043,8 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('124','Zulaufchester','fugiat','Single','172.02','1991-08-08','0'),
 ('236','Zulaufchester','fugiat','Triple','311.75','1972-08-03','0'),
 ('267','Zulaufchester','fugiat','Triple','409.76','1980-03-02','0'),
-('227','Zulaufchester','fugiat','Facility','247.02','2008-06-29','0'),
-('690','Zulaufchester','fugiat','Facility','138.00','1972-12-26','0'),
+
+
 ('532','Zulaufchester','fugiat','Double','428.21','2001-06-20','0'),
 ('77','Zulaufchester','fugiat','Triple','86.62','1990-07-02','0'),
 ('26','Zulaufchester','fugiat','Single','257.19','2015-09-22','0'),
@@ -4062,45 +4059,44 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('559','Zulaufchester','fugiat','Triple','183.99','1983-04-18','0'),
 ('850','Zulaufchester','fugiat','Triple','467.62','1999-04-20','0'),
 ('85','Zulaufchester','fugiat','Triple','217.47','1977-07-07','0'),
-('634','Zulaufchester','fugiat','Facility','476.20','1989-05-01','0'),
+
 ('45','Zulaufchester','fugiat','Single','345.58','2017-08-07','0'),
 ('146','Zulaufchester','fugiat','Single','205.45','1981-02-10','0'),
 ('335','Zulaufchester','fugiat','Single','67.17','1973-01-27','0'),
-('654','Zulaufchester','fugiat','Facility','339.28','2000-03-11','1'),
+
 ('79','Zulaufchester','fugiat','Double','443.69','1979-04-19','0'),
-('83','Zulaufchester','fugiat','Facility','107.33','2010-07-08','0'),
+
 ('15','Zulaufchester','fugiat','Double','468.87','1979-08-13','0'),
-('808','Zulaufchester','fugiat','Facility','471.21','1997-05-26','0'),
-('39','Zulaufchester','fugiat','Facility','167.69','1982-05-18','0'),
+
+
 ('556','Zulaufchester','fugiat','Triple','458.78','1993-05-13','0'),
-('461','Zulaufchester','fugiat','Facility','239.31','1970-02-16','0'),
+
 ('937','Zulaufchester','fugiat','Triple','115.10','1997-10-05','0'),
 ('816','Zulaufchester','fugiat','Single','357.20','1992-09-10','0'),
 ('720','Zulaufchester','fugiat','Single','55.79','1973-01-31','0'),
 ('550','Zulaufchester','fugiat','Triple','224.32','1996-04-19','0'),
-('111','Zulaufchester','fugiat','Facility','55.57','2015-06-16','0'),
 ('35','Zulaufchester','fugiat','Triple','169.18','2018-10-05','0'),
 ('371','Zulaufchester','fugiat','Triple','235.46','1983-03-07','0'),
-('543','Zulaufchester','fugiat','Facility','318.49','1972-01-11','0'),
+
 ('511','Zulaufchester','fugiat','Single','480.65','2004-05-11','0'),
 ('171','Zulaufchester','fugiat','Triple','35.41','2000-03-29','0'),
 ('529','Zulaufchester','fugiat','Single','332.31','1976-05-17','0'),
 ('903','Zulaufchester','fugiat','Single','260.12','1997-06-10','0'),
 ('164','Zulaufchester','fugiat','Single','295.48','2010-03-19','0'),
-('664','Zulaufchester','fugiat','Facility','99.83','1990-02-27','0'),
+
 ('898','Zulaufchester','fugiat','Triple','187.18','2003-03-07','0'),
-('993','Zulaufchester','fugiat','Facility','299.04','2018-12-21','0'),
+
 ('540','Zulaufchester','fugiat','Single','296.47','2011-12-01','0'),
-('803','Zulaufchester','fugiat','Facility','496.31','2016-12-22','0'),
+
 ('5','Zulaufchester','fugiat','Double','292.86','1998-04-17','0'),
 ('976','Zulaufchester','fugiat','Triple','52.76','1989-02-25','0'),
 ('133','Zulaufchester','fugiat','Triple','181.34','1986-03-12','0'),
-('642','Zulaufchester','fugiat','Facility','149.58','1976-07-27','0'),
-('141','Zulaufchester','fugiat','Facility','14.07','1998-07-15','1'),
-('749','Zulaufchester','fugiat','Facility','114.19','1983-07-03','0'),
+
+
+
 ('833','Zulaufchester','fugiat','Single','354.24','1982-01-31','0'),
 ('728','Zulaufchester','fugiat','Triple','206.88','1992-10-07','0'),
-('686','Zulaufchester','fugiat','Facility','268.41','2009-07-05','0'),
+
 ('29','Zulaufchester','fugiat','Double','332.06','1977-03-05','0'),
 ('315','Zulaufchester','fugiat','Triple','446.94','1997-06-04','0'),
 ('762','Zulaufchester','fugiat','Triple','481.48','2002-10-08','0'),
@@ -4119,26 +4115,26 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('944','Zulaufchester','fugiat','Double','125.25','2006-07-29','1'),
 ('535','Zulaufchester','fugiat','Double','358.41','1999-05-17','0'),
 ('284','Zulaufchester','fugiat','Triple','276.00','2015-08-29','0'),
-('223','Zulaufchester','fugiat','Facility','96.35','1972-05-23','1'),
+
 ('809','Zulaufchester','fugiat','Triple','215.64','1973-07-28','0'),
-('463','Zulaufchester','fugiat','Facility','155.82','1978-02-24','0'),
+
 ('352','Zulaufchester','fugiat','Triple','195.56','2005-11-15','0'),
-('555','Zulaufchester','fugiat','Facility','178.92','2004-03-07','0'),
+
 ('427','Zulaufchester','fugiat','Single','440.68','2009-05-31','0'),
 ('973','Zulaufchester','fugiat','Double','190.44','2007-10-31','0'),
 ('566','Zulaufchester','fugiat','Single','73.13','1975-10-08','0'),
 ('381','Zulaufchester','fugiat','Double','13.67','1982-02-11','0'),
 ('174','Zulaufchester','fugiat','Double','38.53','1982-06-27','0'),
 ('1000','Zulaufchester','fugiat','Triple','479.97','1986-05-25','1'),
-('305','Zulaufchester','fugiat','Facility','18.12','1982-02-15','0'),
+
 ('225','Zulaufchester','fugiat','Single','326.06','1999-08-28','1'),
 ('864','Zulaufchester','fugiat','Triple','307.21','2004-10-31','0'),
 ('407','Zulaufchester','fugiat','Triple','364.50','1996-12-16','0'),
-('740','Zulaufchester','fugiat','Facility','177.05','1997-08-18','0'),
+
 ('680','Zulaufchester','fugiat','Single','305.58','1970-08-01','0'),
 ('126','Zulaufchester','fugiat','Double','267.45','1987-09-22','0'),
 ('359','Zulaufchester','fugiat','Single','72.15','2000-07-21','0'),
-('307','Zulaufchester','fugiat','Facility','13.07','1983-03-06','0'),
+
 ('238','Zulaufchester','fugiat','Single','408.56','1976-03-17','0'),
 ('757','Zulaufchester','fugiat','Triple','353.54','1993-08-20','0'),
 ('64','Zulaufchester','fugiat','Single','238.82','1990-09-09','1'),
@@ -4147,106 +4143,106 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('732','Zulaufchester','fugiat','Single','419.08','2006-09-14','0'),
 ('132','Zulaufchester','fugiat','Double','225.43','1985-05-21','0'),
 ('196','Zulaufchester','fugiat','Double','296.23','1989-12-13','1'),
-('869','Zulaufchester','fugiat','Facility','412.59','2013-05-03','0'),
+
 ('320','Zulaufchester','fugiat','Single','242.75','1997-01-08','1'),
 ('37','Zulaufchester','fugiat','Single','277.54','2018-08-19','0'),
-('888','Zulaufchester','fugiat','Facility','267.76','1984-11-01','0'),
+
 ('100','Zulaufchester','fugiat','Single','93.52','1979-07-16','0'),
 ('780','Zulaufchester','fugiat','Single','199.07','1990-02-08','0'),
-('626','Zulaufchester','fugiat','Facility','124.25','1991-10-05','1'),
+
 ('988','Zulaufchester','fugiat','Triple','110.07','2007-08-04','0'),
 ('701','Zulaufchester','fugiat','Triple','38.45','1970-12-21','0'),
-('451','Zulaufchester','fugiat','Facility','293.54','2004-07-20','1'),
-('786','Zulaufchester','fugiat','Facility','410.78','2011-07-29','0'),
+
+
 ('4','Zulaufchester','fugiat','Double','348.69','2004-03-03','0'),
 ('433','Zulaufchester','fugiat','Triple','372.29','1991-01-29','0'),
 ('695','Zulaufchester','fugiat','Double','232.03','1983-07-21','0'),
-('987','Zulaufchester','fugiat','Facility','142.34','1975-04-19','0'),
+
 ('106','Zulaufchester','fugiat','Triple','148.93','2004-02-24','0'),
 ('847','Zulaufchester','fugiat','Double','152.04','1984-11-30','0'),
 ('974','Zulaufchester','fugiat','Single','490.82','1971-08-03','0'),
-('263','Zulaufchester','fugiat','Facility','271.45','1986-06-08','0'),
+
 ('806','Zulaufchester','fugiat','Triple','58.63','1981-04-01','0'),
 ('586','Zulaufchester','fugiat','Double','224.18','2009-03-17','1'),
-('6','Zulaufchester','fugiat','Facility','195.90','1991-07-30','0'),
+
 ('519','Zulaufchester','fugiat','Triple','147.10','1991-12-01','0'),
 ('523','Zulaufchester','fugiat','Single','490.57','1988-07-04','0'),
 ('577','Zulaufchester','fugiat','Triple','34.20','2005-11-07','0'),
 ('266','Zulaufchester','fugiat','Single','336.11','1996-03-08','0'),
 ('793','Zulaufchester','fugiat','Triple','31.31','1978-02-28','0'),
-('51','Zulaufchester','fugiat','Facility','72.14','2011-12-23','0'),
+
 ('419','Zulaufchester','fugiat','Triple','445.62','2002-10-12','0'),
 ('155','Zulaufchester','fugiat','Double','445.27','1981-05-11','0'),
-('439','Zulaufchester','fugiat','Facility','373.63','1980-11-15','0'),
+
 ('667','Zulaufchester','fugiat','Triple','474.94','1984-06-24','0'),
 ('233','Zulaufchester','fugiat','Single','348.48','2004-08-26','0'),
 ('687','Zulaufchester','fugiat','Single','349.53','2008-11-20','0'),
-('867','Zulaufchester','fugiat','Facility','36.48','1972-07-10','0'),
+
 ('943','Zulaufchester','fugiat','Single','471.39','2018-01-19','0'),
 ('397','Zulaufchester','fugiat','Triple','374.76','1989-07-13','0'),
-('923','Zulaufchester','fugiat','Facility','402.45','1997-12-02','0'),
-('922','Zulaufchester','fugiat','Facility','359.10','2015-02-04','0'),
-('812','Zulaufchester','fugiat','Facility','206.62','2018-11-01','0'),
-('673','Zulaufchester','fugiat','Facility','322.05','2002-07-03','0'),
+
+
+
+
 ('679','Zulaufchester','fugiat','Triple','176.80','1980-06-13','0'),
 ('127','Zulaufchester','fugiat','Double','451.83','1997-10-28','0'),
-('276','Zulaufchester','fugiat','Facility','281.90','1994-03-23','0'),
+
 ('971','Zulaufchester','fugiat','Triple','66.69','2009-01-15','0'),
 ('663','Zulaufchester','fugiat','Single','115.43','1997-09-19','1'),
 ('158','Zulaufchester','fugiat','Triple','243.71','2006-12-21','0'),
 ('705','Zulaufchester','fugiat','Single','67.33','1989-08-18','0'),
 ('456','Zulaufchester','fugiat','Single','63.33','2016-09-27','0'),
-('704','Zulaufchester','fugiat','Facility','49.96','1986-10-16','0'),
-('859','Zulaufchester','fugiat','Facility','63.74','1983-12-13','0'),
+
+
 ('597','Zulaufchester','fugiat','Single','162.91','2006-01-06','1'),
 ('874','Zulaufchester','fugiat','Triple','136.33','2008-05-22','1'),
 ('639','Zulaufchester','fugiat','Single','68.97','1988-09-22','0'),
 ('394','Zulaufchester','fugiat','Double','121.99','1971-05-02','1'),
 ('93','Zulaufchester','fugiat','Double','365.91','2008-09-09','0'),
-('103','Zulaufchester','fugiat','Facility','209.23','1971-07-04','0'),
+
 ('982','Zulaufchester','fugiat','Single','466.87','1984-01-29','0'),
 ('505','Zulaufchester','fugiat','Triple','148.99','1981-09-21','1'),
 ('798','Zulaufchester','fugiat','Double','81.59','1973-09-01','1'),
-('738','Zulaufchester','fugiat','Facility','479.89','1989-11-08','0'),
+
 ('50','Zulaufchester','fugiat','Triple','27.86','2006-01-24','0'),
 ('951','Zulaufchester','fugiat','Triple','172.74','1988-05-10','0'),
 ('772','Zulaufchester','fugiat','Single','349.78','1986-08-20','0'),
-('460','Zulaufchester','fugiat','Facility','198.58','2011-01-31','0'),
+
 ('310','Zulaufchester','fugiat','Double','85.78','2009-06-04','0'),
-('43','Zulaufchester','fugiat','Facility','198.75','2004-04-26','0'),
-('94','Zulaufchester','fugiat','Facility','71.28','1984-12-30','1'),
+
+
 ('71','Zulaufchester','fugiat','Triple','359.90','1993-02-28','0'),
-('632','Zulaufchester','fugiat','Facility','410.89','1994-05-04','0'),
+
 ('358','Zulaufchester','fugiat','Single','216.27','2009-09-18','0'),
 ('768','Zulaufchester','fugiat','Double','385.27','1986-10-25','0'),
 ('622','Zulaufchester','fugiat','Double','36.39','2004-05-24','0'),
 ('398','Zulaufchester','fugiat','Single','352.60','1971-11-23','0'),
 ('484','Zulaufchester','fugiat','Triple','44.14','1993-01-30','0'),
 ('494','Zulaufchester','fugiat','Single','114.51','1970-03-30','0'),
-('918','Zulaufchester','fugiat','Facility','127.70','1979-02-16','0'),
+
 ('777','Zulaufchester','fugiat','Double','314.78','1992-01-23','0'),
 ('75','Zulaufchester','fugiat','Single','156.73','1997-06-29','0'),
 ('855','Zulaufchester','fugiat','Double','159.10','1983-12-12','0'),
 ('285','Zulaufchester','fugiat','Double','373.06','1993-03-16','1'),
-('921','Zulaufchester','fugiat','Facility','367.01','1984-01-11','0'),
-('231','Zulaufchester','fugiat','Facility','224.21','2006-10-13','0'),
+
+
 ('681','Zulaufchester','fugiat','Triple','126.47','2000-10-18','0'),
 ('291','Zulaufchester','fugiat','Double','474.35','2013-04-03','0'),
 ('337','Zulaufchester','fugiat','Single','247.75','2010-02-10','0'),
 ('393','Zulaufchester','fugiat','Single','225.96','2000-03-13','0'),
 ('446','Zulaufchester','fugiat','Triple','294.60','1985-02-22','0'),
 ('372','Zulaufchester','fugiat','Single','330.41','1970-10-25','0'),
-('109','Zulaufchester','fugiat','Facility','13.16','1996-09-19','0'),
+
 ('198','Zulaufchester','fugiat','Double','176.22','2013-05-27','0'),
-('453','Zulaufchester','fugiat','Facility','289.74','1980-10-10','0'),
-('386','Zulaufchester','fugiat','Facility','258.64','2006-10-23','0'),
-('852','Zulaufchester','fugiat','Facility','60.05','2015-02-05','0'),
-('961','Zulaufchester','fugiat','Facility','408.48','2005-06-19','0'),
+
+
+
+
 ('635','Zulaufchester','fugiat','Triple','177.04','1984-09-06','0'),
 ('314','Zulaufchester','fugiat','Single','443.87','1983-02-27','0'),
 ('840','Zulaufchester','fugiat','Triple','111.83','1996-01-19','0'),
 ('256','Zulaufchester','fugiat','Single','133.15','2000-06-26','0'),
-('774','Zulaufchester','fugiat','Facility','304.73','2005-11-25','0'),
+
 ('938','Zulaufchester','fugiat','Double','236.17','1971-04-25','1'),
 ('621','Zulaufchester','fugiat','Double','126.03','1970-09-29','0'),
 ('645','Zulaufchester','fugiat','Single','94.48','2002-04-27','0'),
@@ -4254,19 +4250,19 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('347','Zulaufchester','fugiat','Double','272.13','1972-05-10','0'),
 ('919','Zulaufchester','fugiat','Triple','477.36','2016-04-03','0'),
 ('403','Zulaufchester','fugiat','Double','78.80','1981-04-10','0'),
-('396','Zulaufchester','fugiat','Facility','317.78','1998-03-30','0'),
+
 ('879','Zulaufchester','fugiat','Single','460.87','1998-02-10','0'),
 ('336','Zulaufchester','fugiat','Double','286.44','1993-12-29','0'),
 ('354','Zulaufchester','fugiat','Double','35.88','1994-07-03','0'),
 ('98','Zulaufchester','fugiat','Single','455.16','1971-03-07','0'),
-('620','Zulaufchester','fugiat','Facility','404.33','1977-10-11','0'),
+
 ('557','Zulaufchester','fugiat','Double','428.21','1977-05-26','0'),
-('506','Zulaufchester','fugiat','Facility','451.31','2011-07-22','0'),
+
 ('609','Zulaufchester','fugiat','Double','97.40','1980-11-11','0'),
 ('789','Zulaufchester','fugiat','Single','392.12','1989-07-23','0'),
 ('138','Zulaufchester','fugiat','Single','400.10','1994-08-24','1'),
 ('828','Zulaufchester','fugiat','Double','393.32','2018-12-17','0'),
-('815','Zulaufchester','fugiat','Facility','366.33','1973-09-04','0'),
+
 ('165','Zulaufchester','fugiat','Double','487.53','2001-10-09','1'),
 ('836','Zulaufchester','fugiat','Single','394.02','1999-02-06','0'),
 ('214','Zulaufchester','fugiat','Triple','273.58','1982-06-24','0'),
@@ -4283,13 +4279,13 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('747','Zulaufchester','fugiat','Double','166.27','1996-07-28','0'),
 ('727','Zulaufchester','fugiat','Single','375.25','2011-06-02','0'),
 ('858','Zulaufchester','fugiat','Double','399.33','1987-10-17','0'),
-('34','Zulaufchester','fugiat','Facility','462.49','1990-10-01','0'),
-('721','Zulaufchester','fugiat','Facility','419.93','1971-08-04','0'),
+
+
 ('449','Zulaufchester','fugiat','Single','369.13','1992-05-28','0'),
-('425','Zulaufchester','fugiat','Facility','57.97','1974-11-15','0'),
+
 ('84','Zulaufchester','fugiat','Triple','473.76','2016-05-08','0'),
 ('802','Zulaufchester','fugiat','Single','394.90','1991-03-22','0'),
-('805','Zulaufchester','fugiat','Facility','56.92','1993-01-28','0'),
+
 ('584','Zulaufchester','fugiat','Single','58.31','1971-12-06','0'),
 ('80','Zulaufchester','fugiat','Triple','303.59','1988-12-14','1'),
 ('249','Zulaufchester','fugiat','Single','378.06','2006-02-07','0'),
@@ -4298,25 +4294,25 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('509','Zulaufchester','fugiat','Triple','485.78','1985-10-09','0'),
 ('428','Zulaufchester','fugiat','Double','246.80','1970-04-28','1'),
 ('685','Zulaufchester','fugiat','Single','40.02','1999-03-24','0'),
-('41','Zulaufchester','fugiat','Facility','22.76','2014-04-10','0'),
+
 ('935','Zulaufchester','fugiat','Double','72.86','1973-03-04','0'),
 ('346','Zulaufchester','fugiat','Double','231.31','2002-11-17','0'),
 ('709','Zulaufchester','fugiat','Triple','359.21','2005-09-08','0'),
-('764','Zulaufchester','fugiat','Facility','495.13','1983-10-15','0'),
+
 ('216','Zulaufchester','fugiat','Double','378.30','1977-06-01','0'),
 ('886','Zulaufchester','fugiat','Triple','48.75','2003-02-28','0'),
-('74','Zulaufchester','fugiat','Facility','133.02','2013-02-05','0'),
+
 ('287','Zulaufchester','fugiat','Single','389.00','1985-09-27','0'),
 ('515','Zulaufchester','fugiat','Single','156.18','1980-12-08','0'),
 ('86','Zulaufchester','fugiat','Single','344.68','2015-10-19','0'),
-('773','Zulaufchester','fugiat','Facility','461.04','1987-04-09','0'),
-('960','Zulaufchester','fugiat','Facility','257.18','1980-05-24','0'),
-('49','Zulaufchester','fugiat','Facility','453.01','1978-11-14','0'),
-('822','Zulaufchester','fugiat','Facility','93.21','2016-02-15','0'),
+
+
+
+
 ('300','Zulaufchester','fugiat','Single','233.23','1999-11-16','0'),
 ('769','Zulaufchester','fugiat','Single','210.17','1989-01-03','0'),
 ('652','Zulaufchester','fugiat','Single','150.43','1977-12-22','0'),
-('62','Zulaufchester','fugiat','Facility','459.50','2002-09-24','0'),
+
 ('579','Zulaufchester','fugiat','Double','163.96','1995-02-16','0'),
 ('531','Zulaufchester','fugiat','Triple','167.43','2012-10-21','0'),
 ('562','Zulaufchester','fugiat','Single','339.61','1978-03-30','0'),
@@ -4325,7 +4321,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('130','Zulaufchester','fugiat','Single','466.76','1995-11-21','0'),
 ('648','Zulaufchester','fugiat','Triple','68.35','1994-03-12','1'),
 ('729','Zulaufchester','fugiat','Triple','233.63','1971-06-28','1'),
-('615','Zulaufchester','fugiat','Facility','28.43','1985-07-30','0'),
+
 ('758','Zulaufchester','fugiat','Double','37.36','2010-03-19','0'),
 ('265','Zulaufchester','fugiat','Double','148.50','2010-11-24','0'),
 ('889','Zulaufchester','fugiat','Single','14.24','1973-10-02','0'),
@@ -4336,36 +4332,36 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('991','Zulaufchester','fugiat','Single','478.02','1974-02-19','0'),
 ('842','Zulaufchester','fugiat','Double','371.10','2018-09-05','0'),
 ('568','Zulaufchester','fugiat','Single','171.18','1988-03-19','0'),
-('820','Zulaufchester','fugiat','Facility','368.05','2017-09-24','0'),
-('683','Zulaufchester','fugiat','Facility','138.31','2015-03-11','0'),
+
+
 ('908','Zulaufchester','fugiat','Double','91.11','1973-04-14','0'),
 ('672','Zulaufchester','fugiat','Single','10.73','1976-09-19','0'),
 ('122','Zulaufchester','fugiat','Single','441.59','1997-04-05','1'),
 ('277','Zulaufchester','fugiat','Double','262.86','2006-12-10','0'),
 ('553','Zulaufchester','fugiat','Double','226.27','1996-08-06','0'),
 ('334','Zulaufchester','fugiat','Triple','151.44','1995-11-03','0'),
-('588','Zulaufchester','fugiat','Facility','463.61','1995-11-16','0'),
+
 ('468','Zulaufchester','fugiat','Triple','431.15','1985-01-09','0'),
 ('384','Zulaufchester','fugiat','Triple','107.84','2007-11-21','0'),
 ('551','Zulaufchester','fugiat','Double','430.74','2002-10-30','1'),
 ('268','Zulaufchester','fugiat','Single','90.46','1974-10-28','0'),
 ('269','Zulaufchester','fugiat','Triple','280.36','1971-08-15','0'),
-('260','Zulaufchester','fugiat','Facility','148.17','1988-12-03','1'),
+
 ('659','Zulaufchester','fugiat','Single','344.96','2012-09-01','0'),
 ('144','Zulaufchester','fugiat','Triple','411.18','1974-05-24','0'),
 ('470','Zulaufchester','fugiat','Single','296.06','1983-12-21','0'),
 ('791','Zulaufchester','fugiat','Single','389.68','1978-11-01','0'),
 ('901','Zulaufchester','fugiat','Single','78.66','1970-06-16','0'),
 ('797','Zulaufchester','fugiat','Single','452.33','1991-11-12','0'),
-('261','Zulaufchester','fugiat','Facility','468.36','1977-06-26','0'),
+
 ('896','Zulaufchester','fugiat','Double','33.31','1971-08-02','0'),
 ('298','Zulaufchester','fugiat','Single','492.00','1978-09-03','0'),
 ('149','Zulaufchester','fugiat','Single','456.03','1992-11-14','0'),
 ('957','Zulaufchester','fugiat','Single','17.68','2013-02-05','0'),
-('431','Zulaufchester','fugiat','Facility','361.64','1987-09-16','0'),
+
 ('513','Zulaufchester','fugiat','Triple','228.67','2006-05-10','0'),
-('646','Zulaufchester','fugiat','Facility','23.11','2013-06-22','0'),
-('319','Zulaufchester','fugiat','Facility','478.76','2011-10-07','1'),
+
+
 ('875','Zulaufchester','fugiat','Single','456.01','2010-09-02','0'),
 ('775','Zulaufchester','fugiat','Single','444.74','2011-09-01','1'),
 ('68','Zulaufchester','fugiat','Single','489.37','2015-03-04','0'),
@@ -4375,61 +4371,61 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('9','Zulaufchester','fugiat','Single','248.76','1992-06-10','1'),
 ('911','Zulaufchester','fugiat','Double','303.33','1992-05-21','0'),
 ('387','Zulaufchester','fugiat','Double','22.33','1980-01-12','0'),
-('163','Zulaufchester','fugiat','Facility','302.14','2003-03-25','0'),
+
 ('856','Zulaufchester','fugiat','Double','361.69','1987-12-23','0'),
 ('213','Zulaufchester','fugiat','Triple','496.33','1987-03-14','0'),
-('940','Zulaufchester','fugiat','Facility','158.05','2014-06-04','0'),
-('841','Zulaufchester','fugiat','Facility','234.74','1980-05-17','0'),
+
+
 ('59','Zulaufchester','fugiat','Single','82.55','2016-11-26','0'),
-('920','Zulaufchester','fugiat','Facility','181.92','2011-05-17','0'),
+
 ('691','Zulaufchester','fugiat','Single','190.27','2007-06-17','1'),
 ('222','Zulaufchester','fugiat','Triple','143.87','1988-12-23','0'),
 ('734','Zulaufchester','fugiat','Single','469.05','1986-06-16','0'),
-('366','Zulaufchester','fugiat','Facility','493.68','1999-08-22','0'),
+
 ('228','Zulaufchester','fugiat','Double','288.14','1975-01-24','0'),
 ('930','Zulaufchester','fugiat','Double','374.49','1987-03-29','0'),
 ('723','Zulaufchester','fugiat','Triple','254.07','1985-01-06','0'),
-('299','Zulaufchester','fugiat','Facility','180.36','1971-06-15','0'),
+
 ('424','Zulaufchester','fugiat','Triple','173.00','1983-09-09','0'),
-('23','Zulaufchester','fugiat','Facility','213.98','1996-06-08','0'),
+
 ('731','Zulaufchester','fugiat','Single','166.12','2013-11-01','0'),
 ('530','Zulaufchester','fugiat','Triple','18.63','1992-03-18','0'),
-('751','Zulaufchester','fugiat','Facility','40.01','2017-04-08','0'),
-('694','Zulaufchester','fugiat','Facility','315.96','2013-11-11','0'),
+
+
 ('490','Zulaufchester','fugiat','Single','258.45','1983-12-20','0'),
-('400','Zulaufchester','fugiat','Facility','91.33','1983-06-28','0'),
+
 ('188','Zulaufchester','fugiat','Single','237.51','2011-02-01','0'),
 ('655','Zulaufchester','fugiat','Double','230.66','2016-03-11','0'),
 ('861','Zulaufchester','fugiat','Single','124.29','1974-02-22','0'),
-('754','Zulaufchester','fugiat','Facility','225.55','1978-10-25','0'),
+
 ('402','Zulaufchester','fugiat','Double','298.32','1999-02-25','0'),
 ('365','Zulaufchester','fugiat','Triple','264.34','2017-05-29','0'),
 ('370','Zulaufchester','fugiat','Double','340.57','2001-03-22','0'),
 ('55','Zulaufchester','fugiat','Double','220.56','2002-02-04','0'),
 ('154','Zulaufchester','fugiat','Double','348.52','1999-05-27','0'),
-('19','Zulaufchester','fugiat','Facility','145.89','1994-09-22','0'),
+
 ('631','Zulaufchester','fugiat','Single','85.25','1982-01-20','0'),
-('776','Zulaufchester','fugiat','Facility','88.13','1991-11-20','0'),
+
 ('116','Zulaufchester','fugiat','Single','143.33','2016-08-26','0'),
-('67','Zulaufchester','fugiat','Facility','215.20','1974-10-22','0'),
+
 ('941','Zulaufchester','fugiat','Double','290.28','1992-10-17','0'),
-('771','Zulaufchester','fugiat','Facility','394.97','1977-04-18','0'),
-('492','Zulaufchester','fugiat','Facility','31.76','1974-04-07','0'),
+
+
 ('526','Zulaufchester','fugiat','Single','437.54','2006-07-15','0'),
 ('753','Zulaufchester','fugiat','Triple','271.20','1984-09-24','0'),
 ('3','Zulaufchester','fugiat','Single','274.04','1984-04-08','0'),
-('356','Zulaufchester','fugiat','Facility','371.97','1994-09-16','0'),
+
 ('952','Zulaufchester','fugiat','Triple','290.58','1986-06-07','0'),
 ('913','Zulaufchester','fugiat','Double','196.10','1974-01-11','0'),
 ('443','Zulaufchester','fugiat','Double','196.34','2002-06-22','0'),
-('618','Zulaufchester','fugiat','Facility','68.83','1999-10-12','1'),
+
 ('517','Zulaufchester','fugiat','Single','312.74','1977-09-04','0'),
 ('14','Zulaufchester','fugiat','Double','316.33','1994-11-14','0'),
 ('251','Zulaufchester','fugiat','Single','387.71','1983-08-01','0'),
 ('202','Zulaufchester','fugiat','Triple','344.08','1998-12-13','0'),
 ('970','Zulaufchester','fugiat','Triple','45.98','2009-10-19','1'),
-('48','Zulaufchester','fugiat','Facility','205.70','1970-04-10','0'),
-('97','Zulaufchester','fugiat','Facility','253.15','2009-04-12','0'),
+
+
 ('516','Zulaufchester','fugiat','Single','82.42','1988-05-18','1'),
 ('341','Zulaufchester','fugiat','Single','134.51','1983-03-31','0'),
 ('537','Zulaufchester','fugiat','Single','80.26','1970-05-29','0'),
@@ -4443,7 +4439,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('389','Zulaufchester','fugiat','Triple','83.73','1971-01-12','0'),
 ('296','Zulaufchester','fugiat','Double','44.24','1981-08-22','0'),
 ('949','Zulaufchester','fugiat','Double','173.37','1970-12-28','0'),
-('711','Zulaufchester','fugiat','Facility','356.51','1979-05-24','0'),
+
 ('420','Zulaufchester','fugiat','Single','372.72','2006-05-15','0'),
 ('382','Zulaufchester','fugiat','Triple','128.69','1988-03-28','0'),
 ('567','Zulaufchester','fugiat','Double','442.05','1981-01-12','0'),
@@ -4451,23 +4447,23 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('318','Zulaufchester','fugiat','Double','58.27','1972-01-31','0'),
 ('278','Zulaufchester','fugiat','Double','172.13','1999-10-15','0'),
 ('53','Zulaufchester','fugiat','Triple','424.32','1978-04-30','0'),
-('725','Zulaufchester','fugiat','Facility','77.26','2009-04-13','0'),
-('491','Zulaufchester','fugiat','Facility','373.03','2005-11-10','0'),
+
+
 ('476','Zulaufchester','fugiat','Triple','455.16','1984-04-20','0'),
 ('678','Zulaufchester','fugiat','Double','129.81','1998-10-11','0'),
 ('483','Zulaufchester','fugiat','Triple','254.75','1993-01-13','0'),
-('625','Zulaufchester','fugiat','Facility','85.67','2005-03-31','0'),
+
 ('706','Zulaufchester','fugiat','Triple','274.44','1972-02-01','0'),
 ('183','Zulaufchester','fugiat','Double','365.68','2013-06-23','0'),
 ('28','Zulaufchester','fugiat','Double','203.99','1983-01-25','0'),
 ('831','Zulaufchester','fugiat','Single','434.65','1982-03-12','0'),
 ('785','Zulaufchester','fugiat','Triple','13.61','1982-09-17','0'),
-('575','Zulaufchester','fugiat','Facility','386.62','1983-10-12','0'),
+
 ('150','Zulaufchester','fugiat','Single','486.07','1989-10-25','0'),
-('571','Zulaufchester','fugiat','Facility','384.89','1986-03-07','0'),
+
 ('524','Zulaufchester','fugiat','Single','235.51','1979-03-29','0'),
 ('948','Zulaufchester','fugiat','Triple','384.84','2015-04-15','0'),
-('799','Zulaufchester','fugiat','Facility','88.45','2011-11-11','0'),
+
 ('406','Zulaufchester','fugiat','Triple','144.83','2004-11-03','0'),
 ('748','Zulaufchester','fugiat','Single','85.27','1972-01-12','0'),
 ('942','Zulaufchester','fugiat','Double','208.26','1982-04-28','0'),
@@ -4481,49 +4477,49 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('839','Zulaufchester','fugiat','Single','367.84','2011-07-22','0'),
 ('129','Zulaufchester','fugiat','Single','40.24','1980-12-28','0'),
 ('895','Zulaufchester','fugiat','Double','217.65','2004-03-06','0'),
-('151','Zulaufchester','fugiat','Facility','395.08','2011-10-13','0'),
+
 ('969','Zulaufchester','fugiat','Single','42.71','1976-06-03','0'),
 ('765','Zulaufchester','fugiat','Triple','176.36','2001-05-26','0'),
 ('718','Zulaufchester','fugiat','Single','335.32','1986-12-06','1'),
 ('644','Zulaufchester','fugiat','Double','422.81','1987-10-25','0'),
 ('411','Zulaufchester','fugiat','Triple','53.00','2001-07-09','0'),
 ('247','Zulaufchester','fugiat','Triple','190.62','2000-03-21','0'),
-('887','Zulaufchester','fugiat','Facility','250.56','2015-09-12','0'),
+
 ('123','Zulaufchester','fugiat','Triple','128.72','1977-04-02','0'),
 ('303','Zulaufchester','fugiat','Double','438.86','1997-10-19','0'),
 ('934','Zulaufchester','fugiat','Single','14.42','2012-10-29','0'),
 ('134','Zulaufchester','fugiat','Triple','334.88','1988-02-28','0'),
-('998','Zulaufchester','fugiat','Facility','92.16','2013-06-19','0'),
-('118','Zulaufchester','fugiat','Facility','164.05','2008-08-01','0'),
+
+
 ('967','Zulaufchester','fugiat','Triple','420.30','1972-04-27','0'),
 ('232','Zulaufchester','fugiat','Triple','72.82','1980-09-08','0'),
 ('629','Zulaufchester','fugiat','Double','490.84','2000-05-20','0'),
 ('527','Zulaufchester','fugiat','Single','363.09','2015-03-08','0'),
 ('854','Zulaufchester','fugiat','Double','258.53','1989-06-17','0'),
 ('778','Zulaufchester','fugiat','Single','22.05','2005-01-27','0'),
-('450','Zulaufchester','fugiat','Facility','486.09','1991-04-19','0'),
-('611','Zulaufchester','fugiat','Facility','477.53','1975-07-27','0'),
-('47','Zulaufchester','fugiat','Facility','54.33','2006-09-02','0'),
+
+
+
 ('290','Zulaufchester','fugiat','Triple','49.66','1990-09-03','0'),
-('716','Zulaufchester','fugiat','Facility','287.59','2005-01-11','0'),
-('999','Zulaufchester','fugiat','Facility','455.53','1974-06-05','0'),
+
+
 ('166','Zulaufchester','fugiat','Double','188.00','1991-10-04','0'),
 ('962','Zulaufchester','fugiat','Single','300.77','1974-10-02','0'),
-('546','Zulaufchester','fugiat','Facility','210.51','1990-08-14','1'),
+
 ('208','Zulaufchester','fugiat','Double','298.08','1993-12-02','0'),
 ('262','Zulaufchester','fugiat','Double','36.64','2015-07-19','0'),
-('289','Zulaufchester','fugiat','Facility','422.24','2003-10-19','0'),
+
 ('362','Zulaufchester','fugiat','Single','89.12','2008-06-16','0'),
-('292','Zulaufchester','fugiat','Facility','33.78','1999-04-07','0'),
-('779','Zulaufchester','fugiat','Facility','187.58','1971-01-04','1'),
-('368','Zulaufchester','fugiat','Facility','358.63','2004-05-26','0'),
-('193','Zulaufchester','fugiat','Facility','254.60','1992-09-08','0'),
+
+
+
+
 ('375','Zulaufchester','fugiat','Triple','112.08','1977-06-06','0'),
 ('282','Zulaufchester','fugiat','Triple','94.79','1975-07-24','0'),
-('436','Zulaufchester','fugiat','Facility','226.65','2005-12-13','0'),
+
 ('259','Zulaufchester','fugiat','Triple','95.20','1977-03-03','0'),
 ('613','Zulaufchester','fugiat','Triple','195.93','1981-01-17','0'),
-('21','Zulaufchester','fugiat','Facility','210.92','2004-05-09','0'),
+
 ('877','Zulaufchester','fugiat','Triple','417.90','2005-10-19','0'),
 ('383','Zulaufchester','fugiat','Single','337.49','2005-11-03','0'),
 ('353','Zulaufchester','fugiat','Double','68.40','2012-01-02','0'),
@@ -4541,14 +4537,14 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('591','Zulaufchester','fugiat','Triple','378.65','2011-07-16','0'),
 ('792','Zulaufchester','fugiat','Double','427.31','2008-12-10','0'),
 ('429','Zulaufchester','fugiat','Single','148.71','2005-07-09','0'),
-('947','Zulaufchester','fugiat','Facility','125.55','2004-09-02','0'),
+
 ('914','Zulaufchester','fugiat','Triple','189.34','2013-06-23','0'),
 ('488','Zulaufchester','fugiat','Double','66.03','2000-01-02','0'),
 ('614','Zulaufchester','fugiat','Triple','151.95','1979-02-14','0'),
 ('377','Zulaufchester','fugiat','Double','208.55','1997-08-19','0'),
 ('332','Zulaufchester','fugiat','Double','15.16','2012-03-13','0'),
-('185','Zulaufchester','fugiat','Facility','36.06','1994-08-12','0'),
-('932','Zulaufchester','fugiat','Facility','97.20','1977-07-03','0'),
+
+
 ('882','Zulaufchester','fugiat','Single','33.06','1995-03-30','0'),
 ('257','Zulaufchester','fugiat','Double','92.77','2006-11-19','0'),
 ('653','Zulaufchester','fugiat','Triple','77.69','2017-11-01','0'),
@@ -4562,7 +4558,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('878','Zulaufchester','fugiat','Single','129.86','1973-01-20','1'),
 ('929','Zulaufchester','fugiat','Single','401.60','2013-04-08','0'),
 ('486','Zulaufchester','fugiat','Double','423.18','1973-07-31','0'),
-('542','Zulaufchester','fugiat','Facility','416.75','1998-06-20','0'),
+
 ('24','Zulaufchester','fugiat','Double','112.78','2001-12-31','1'),
 ('851','Zulaufchester','fugiat','Triple','33.41','1983-02-27','0'),
 ('253','Zulaufchester','fugiat','Double','56.99','2005-10-13','0'),
@@ -4572,14 +4568,14 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('554','Zulaufchester','fugiat','Single','499.65','1989-12-28','0'),
 ('226','Zulaufchester','fugiat','Single','318.16','1981-05-27','0'),
 ('459','Zulaufchester','fugiat','Triple','323.24','1994-06-12','0'),
-('245','Zulaufchester','fugiat','Facility','491.59','1994-04-12','0'),
-('570','Zulaufchester','fugiat','Facility','233.41','1997-05-27','0'),
+
+
 ('782','Zulaufchester','fugiat','Triple','144.80','2012-04-16','0'),
 ('25','Zulaufchester','fugiat','Triple','158.16','1978-02-02','0'),
-('893','Zulaufchester','fugiat','Facility','136.16','1976-09-22','0'),
-('189','Zulaufchester','fugiat','Facility','239.46','2011-08-18','0'),
-('120','Zulaufchester','fugiat','Facility','142.79','1977-11-20','0'),
-('363','Zulaufchester','fugiat','Facility','424.51','1986-02-10','0'),
+
+
+
+
 ('186','Zulaufchester','fugiat','Double','322.72','1970-07-25','0'),
 ('572','Zulaufchester','fugiat','Single','259.75','2017-04-13','0'),
 ('139','Zulaufchester','fugiat','Double','314.51','2011-06-25','0'),
@@ -4599,29 +4595,29 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('871','Zulaufchester','fugiat','Single','430.52','1989-10-27','0'),
 ('252','Zulaufchester','fugiat','Triple','204.72','2000-05-12','0'),
 ('294','Zulaufchester','fugiat','Double','466.93','2006-06-02','1'),
-('904','Zulaufchester','fugiat','Facility','140.48','1977-07-04','0'),
+
 ('578','Zulaufchester','fugiat','Double','55.15','2001-02-27','0'),
-('813','Zulaufchester','fugiat','Facility','467.61','1980-01-31','0'),
-('630','Zulaufchester','fugiat','Facility','453.74','1978-11-15','0'),
+
+
 ('243','Zulaufchester','fugiat','Double','347.12','1978-10-16','0'),
 ('647','Zulaufchester','fugiat','Triple','258.02','1990-03-09','0'),
 ('201','Zulaufchester','fugiat','Double','388.23','2012-05-06','0'),
 ('234','Zulaufchester','fugiat','Triple','230.04','1977-06-15','0'),
 ('737','Zulaufchester','fugiat','Triple','351.12','1970-12-22','0'),
-('275','Zulaufchester','fugiat','Facility','178.36','1991-12-08','1'),
+
 ('977','Zulaufchester','fugiat','Double','382.69','1985-03-23','0'),
 ('964','Zulaufchester','fugiat','Double','359.91','1986-08-03','0'),
 ('441','Zulaufchester','fugiat','Triple','153.30','2004-02-14','0'),
-('1','Zulaufchester','fugiat','Facility','361.96','1996-04-25','0'),
+
 ('907','Zulaufchester','fugiat','Double','167.75','1991-03-22','0'),
-('317','Zulaufchester','fugiat','Facility','22.28','1986-10-29','0'),
+
 ('959','Zulaufchester','fugiat','Triple','271.23','1993-07-08','0'),
-('367','Zulaufchester','fugiat','Facility','447.12','1990-04-05','0'),
+
 ('444','Zulaufchester','fugiat','Double','331.19','1985-01-27','1'),
-('355','Zulaufchester','fugiat','Facility','194.80','1975-04-12','0'),
+
 ('498','Zulaufchester','fugiat','Triple','447.48','1992-09-21','0'),
 ('702','Zulaufchester','fugiat','Single','150.45','2005-07-12','0'),
-('760','Zulaufchester','fugiat','Facility','97.25','1988-12-29','0'),
+
 ('696','Zulaufchester','fugiat','Single','221.74','2001-04-13','0'),
 ('16','Zulaufchester','fugiat','Double','112.72','1978-03-16','0'),
 ('344','Zulaufchester','fugiat','Triple','463.95','2013-08-29','0'),
@@ -4631,52 +4627,52 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('493','Zulaufchester','fugiat','Single','456.59','1985-08-04','0'),
 ('658','Zulaufchester','fugiat','Single','348.12','2013-09-13','0'),
 ('342','Zulaufchester','fugiat','Single','160.48','1991-05-11','0'),
-('246','Zulaufchester','fugiat','Facility','111.81','1988-04-20','0'),
+
 ('495','Zulaufchester','fugiat','Single','490.31','1999-07-19','0'),
 ('195','Zulaufchester','fugiat','Triple','396.92','1986-11-18','0'),
-('900','Zulaufchester','fugiat','Facility','15.26','1976-06-06','0'),
+
 ('283','Zulaufchester','fugiat','Single','119.36','1985-02-20','0'),
 ('668','Zulaufchester','fugiat','Single','181.81','1992-12-27','0'),
 ('624','Zulaufchester','fugiat','Single','459.43','2007-01-26','0'),
 ('42','Zulaufchester','fugiat','Triple','403.25','2011-12-17','0'),
-('710','Zulaufchester','fugiat','Facility','455.56','2009-05-23','0'),
+
 ('194','Zulaufchester','fugiat','Single','468.04','1993-05-09','0'),
 ('846','Zulaufchester','fugiat','Triple','135.22','2008-05-17','0'),
-('235','Zulaufchester','fugiat','Facility','407.61','1974-09-23','0'),
+
 ('564','Zulaufchester','fugiat','Single','350.82','2009-12-01','0'),
 ('248','Zulaufchester','fugiat','Single','190.39','1999-12-30','0'),
-('70','Zulaufchester','fugiat','Facility','198.67','1978-06-10','0'),
+
 ('788','Zulaufchester','fugiat','Double','19.56','2004-07-13','0'),
 ('255','Zulaufchester','fugiat','Double','156.86','2001-06-16','0'),
 ('52','Zulaufchester','fugiat','Single','247.88','1975-11-20','0'),
-('272','Zulaufchester','fugiat','Facility','456.48','1976-10-30','0'),
+
 ('827','Zulaufchester','fugiat','Double','25.12','1985-03-17','0'),
 ('902','Zulaufchester','fugiat','Triple','497.06','2008-04-11','0'),
 ('175','Zulaufchester','fugiat','Double','459.83','1995-12-18','1'),
 ('390','Zulaufchester','fugiat','Single','366.34','1995-07-22','0'),
 ('361','Zulaufchester','fugiat','Single','205.67','2000-11-05','0'),
-('187','Zulaufchester','fugiat','Facility','159.51','2011-12-29','0'),
+
 ('713','Zulaufchester','fugiat','Single','256.32','2002-05-09','0'),
 ('926','Zulaufchester','fugiat','Triple','404.87','1974-06-22','0'),
-('640','Zulaufchester','fugiat','Facility','67.67','1977-10-01','0'),
+
 ('522','Zulaufchester','fugiat','Single','96.79','1993-12-15','0'),
 ('906','Zulaufchester','fugiat','Single','260.65','1977-06-19','0'),
 ('735','Zulaufchester','fugiat','Single','381.79','1972-10-19','0'),
 ('883','Zulaufchester','fugiat','Triple','95.05','1995-05-04','0'),
-('105','Zulaufchester','fugiat','Facility','96.10','1975-09-22','0'),
-('112','Zulaufchester','fugiat','Facility','210.22','2013-08-22','0'),
+
+
 ('601','Zulaufchester','fugiat','Triple','68.44','2011-01-30','0'),
 ('666','Zulaufchester','fugiat','Single','388.43','1994-12-13','0'),
 ('669','Zulaufchester','fugiat','Single','228.34','2011-04-30','0'),
-('714','Zulaufchester','fugiat','Facility','393.21','1995-01-13','0'),
-('270','Zulaufchester','fugiat','Facility','44.90','2013-04-17','0'),
-('990','Zulaufchester','fugiat','Facility','376.71','2001-01-03','0'),
+
+
+
 ('293','Zulaufchester','fugiat','Triple','322.19','1983-01-02','0'),
-('295','Zulaufchester','fugiat','Facility','180.97','2015-12-22','1'),
+
 ('178','Zulaufchester','fugiat','Double','229.28','1972-04-15','0'),
 ('430','Zulaufchester','fugiat','Single','457.18','1999-04-23','0'),
 ('182','Zulaufchester','fugiat','Double','113.39','1997-09-15','0'),
-('585','Zulaufchester','fugiat','Facility','219.76','2013-01-02','0'),
+
 ('745','Zulaufchester','fugiat','Double','234.14','1978-11-23','1'),
 ('197','Zulaufchester','fugiat','Single','436.08','1992-11-28','0'),
 ('818','Zulaufchester','fugiat','Double','26.60','1997-04-06','0'),
@@ -4685,19 +4681,19 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('552','Zulaufchester','fugiat','Triple','34.01','1985-08-10','0'),
 ('157','Zulaufchester','fugiat','Double','142.83','1991-03-01','0'),
 ('945','Zulaufchester','fugiat','Triple','25.53','1991-03-07','1'),
-('313','Zulaufchester','fugiat','Facility','399.16','1971-01-13','0'),
-('832','Zulaufchester','fugiat','Facility','300.50','2010-02-01','0'),
-('860','Zulaufchester','fugiat','Facility','468.53','2012-04-04','0'),
+
+
+
 ('980','Zulaufchester','fugiat','Triple','437.26','1999-10-15','0'),
-('560','Zulaufchester','fugiat','Facility','394.83','1971-04-10','0'),
+
 ('739','Zulaufchester','fugiat','Triple','180.39','2008-09-13','0'),
 ('20','Zulaufchester','fugiat','Triple','193.35','2010-05-14','1'),
 ('983','Zulaufchester','fugiat','Triple','340.81','2001-09-29','0'),
 ('830','Zulaufchester','fugiat','Triple','102.81','2001-09-23','0'),
 ('172','Zulaufchester','fugiat','Double','24.02','1998-12-24','0'),
 ('66','Zulaufchester','fugiat','Double','400.58','2004-04-07','0'),
-('203','Zulaufchester','fugiat','Facility','401.32','2005-01-23','0'),
-('471','Zulaufchester','fugiat','Facility','106.75','1994-07-28','1'),
+
+
 ('191','Zulaufchester','fugiat','Single','375.11','1997-08-27','1'),
 ('10','Zulaufchester','fugiat','Double','424.31','2016-04-22','0'),
 ('190','Zulaufchester','fugiat','Triple','296.53','1995-07-31','0'),
@@ -4718,49 +4714,49 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('338','Zulaufchester','fugiat','Triple','276.80','1974-11-20','0'),
 ('885','Zulaufchester','fugiat','Double','51.33','1983-06-21','0'),
 ('147','Zulaufchester','fugiat','Single','281.49','2015-11-07','0'),
-('288','Zulaufchester','fugiat','Facility','385.75','1970-08-13','0'),
+
 ('539','Zulaufchester','fugiat','Single','424.63','1994-04-03','0'),
 ('697','Zulaufchester','fugiat','Double','147.77','1999-07-17','0'),
 ('325','Zulaufchester','fugiat','Triple','387.29','1993-12-07','0'),
 ('421','Zulaufchester','fugiat','Single','98.59','2009-07-28','0'),
-('897','Zulaufchester','fugiat','Facility','374.26','1971-03-08','0'),
+
 ('117','Zulaufchester','fugiat','Triple','160.44','2007-01-12','0'),
-('7','Zulaufchester','fugiat','Facility','265.84','1991-01-26','0'),
+
 ('374','Zulaufchester','fugiat','Single','450.28','1980-09-20','1'),
 ('838','Zulaufchester','fugiat','Double','372.55','1994-08-02','1'),
 ('479','Zulaufchester','fugiat','Triple','441.59','1986-01-19','1'),
 ('736','Zulaufchester','fugiat','Triple','229.87','1976-12-02','0'),
 ('574','Zulaufchester','fugiat','Double','363.33','1977-01-28','0'),
 ('135','Zulaufchester','fugiat','Single','293.65','1975-08-21','0'),
-('761','Zulaufchester','fugiat','Facility','265.75','1995-04-15','1'),
+
 ('873','Zulaufchester','fugiat','Single','324.43','1975-11-03','0'),
-('766','Zulaufchester','fugiat','Facility','352.42','1970-07-21','0'),
-('102','Zulaufchester','fugiat','Facility','480.03','1983-01-10','0'),
+
+
 ('329','Zulaufchester','fugiat','Single','460.49','1982-04-25','0'),
 ('405','Zulaufchester','fugiat','Triple','436.30','2004-04-11','0'),
-('348','Zulaufchester','fugiat','Facility','164.61','1982-04-19','0'),
-('724','Zulaufchester','fugiat','Facility','486.27','1995-04-30','0'),
+
+
 ('404','Zulaufchester','fugiat','Double','458.07','2009-08-06','0'),
-('763','Zulaufchester','fugiat','Facility','268.21','1983-08-23','0'),
+
 ('608','Zulaufchester','fugiat','Double','310.17','2018-01-29','0'),
 ('992','Zulaufchester','fugiat','Double','311.97','1971-08-02','0'),
-('458','Zulaufchester','fugiat','Facility','85.44','2014-10-08','0'),
-('322','Zulaufchester','fugiat','Facility','326.32','1996-01-15','0'),
-('909','Zulaufchester','fugiat','Facility','47.01','1997-08-08','0'),
+
+
+
 ('619','Zulaufchester','fugiat','Double','197.70','1990-08-12','1'),
 ('487','Zulaufchester','fugiat','Double','220.53','2000-04-02','0'),
-('96','Zulaufchester','fugiat','Facility','265.15','2010-05-20','0'),
+
 ('910','Zulaufchester','fugiat','Triple','219.94','2002-08-02','1'),
 ('817','Zulaufchester','fugiat','Triple','247.69','2010-10-09','1'),
 ('872','Zulaufchester','fugiat','Triple','412.58','1977-12-10','0'),
 ('72','Zulaufchester','fugiat','Single','49.08','2006-01-30','0'),
 ('180','Zulaufchester','fugiat','Triple','251.72','1984-06-02','1'),
 ('215','Zulaufchester','fugiat','Double','366.84','1983-10-19','0'),
-('60','Zulaufchester','fugiat','Facility','97.72','1996-06-01','0'),
+
 ('807','Zulaufchester','fugiat','Single','86.29','1994-05-09','0'),
 ('110','Zulaufchester','fugiat','Single','207.26','1984-02-27','0'),
-('598','Zulaufchester','fugiat','Facility','53.82','1973-05-26','0'),
-('101','Zulaufchester','fugiat','Facility','347.35','1998-01-22','0'),
+
+
 ('44','Zulaufchester','fugiat','Triple','476.15','2011-10-07','0'),
 ('61','Zulaufchester','fugiat','Single','334.53','1974-01-13','0'),
 ('915','Zulaufchester','fugiat','Double','371.28','1983-07-02','0'),
@@ -4775,14 +4771,14 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('997','Zulaufchester','fugiat','Single','411.27','1976-01-04','0'),
 ('91','Zulaufchester','fugiat','Triple','303.99','1976-05-04','0'),
 ('876','Zulaufchester','fugiat','Triple','435.52','2002-10-18','1'),
-('401','Zulaufchester','fugiat','Facility','111.03','2001-10-27','0'),
+
 ('286','Zulaufchester','fugiat','Single','92.98','1975-10-03','0'),
-('32','Zulaufchester','fugiat','Facility','349.76','1996-10-20','0'),
+
 ('665','Zulaufchester','fugiat','Triple','14.48','1993-12-31','0'),
 ('810','Zulaufchester','fugiat','Single','266.07','2016-10-07','0'),
-('489','Zulaufchester','fugiat','Facility','417.15','2002-08-26','0'),
+
 ('623','Zulaufchester','fugiat','Single','244.25','2004-03-16','0'),
-('119','Zulaufchester','fugiat','Facility','223.06','2004-11-18','0'),
+
 ('995','Zulaufchester','fugiat','Single','449.71','1996-04-01','0'),
 ('167','Zulaufchester','fugiat','Triple','305.53','1990-05-10','0'),
 ('596','Zulaufchester','fugiat','Single','421.10','1970-03-11','0'),
@@ -4794,14 +4790,14 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('525','Zulaufchester','fugiat','Triple','334.18','1975-05-02','0'),
 ('606','Zulaufchester','fugiat','Triple','267.69','1983-06-26','0'),
 ('258','Zulaufchester','fugiat','Single','313.58','2010-06-18','0'),
-('240','Zulaufchester','fugiat','Facility','284.97','1994-02-28','0'),
-('863','Zulaufchester','fugiat','Facility','51.14','1976-01-26','0'),
+
+
 ('989','Zulaufchester','fugiat','Triple','88.16','1997-01-13','0'),
 ('447','Zulaufchester','fugiat','Triple','346.39','1978-01-15','0'),
 ('423','Zulaufchester','fugiat','Double','485.27','1990-09-23','0'),
 ('510','Zulaufchester','fugiat','Double','300.78','2014-10-10','0'),
 ('339','Zulaufchester','fugiat','Double','432.22','2018-08-01','1'),
-('357','Zulaufchester','fugiat','Facility','458.89','1991-03-10','0'),
+
 ('733','Zulaufchester','fugiat','Single','270.60','1985-03-19','0'),
 ('637','Zulaufchester','fugiat','Double','240.58','2001-11-24','0'),
 ('741','Zulaufchester','fugiat','Single','269.66','1998-11-06','0'),
@@ -4812,13 +4808,13 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('845','Zulaufchester','fugiat','Single','296.29','2017-04-13','1'),
 ('22','Zulaufchester','fugiat','Triple','352.52','1985-01-07','0'),
 ('956','Zulaufchester','fugiat','Triple','228.01','2010-07-22','0'),
-('351','Zulaufchester','fugiat','Facility','373.20','1979-05-20','0'),
+
 ('137','Zulaufchester','fugiat','Single','330.11','1977-10-13','0'),
-('181','Zulaufchester','fugiat','Facility','388.82','1980-02-10','0'),
-('200','Zulaufchester','fugiat','Facility','296.86','1982-08-20','0'),
+
+
 ('416','Zulaufchester','fugiat','Single','465.62','1971-11-08','0'),
 ('328','Zulaufchester','fugiat','Triple','337.16','1985-09-20','0'),
-('242','Zulaufchester','fugiat','Facility','55.31','1996-08-06','0'),
+
 ('78','Zulaufchester','fugiat','Single','448.11','2001-09-19','0'),
 ('415','Zulaufchester','fugiat','Double','125.19','1991-10-03','0'),
 ('230','Zulaufchester','fugiat','Single','313.99','2013-12-08','0'),
@@ -4829,15 +4825,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('462','Zulaufchester','fugiat','Double','417.99','1983-02-14','0'),
 ('244','Zulaufchester','fugiat','Single','406.33','2005-12-26','0'),
 ('204','Zulaufchester','fugiat','Triple','161.81','2008-07-05','0'),
-('438','Zulaufchester','fugiat','Facility','315.84','2015-09-24','0'),
+
 ('218','Zulaufchester','fugiat','Triple','93.18','1973-04-10','0'),
 ('54','Zulaufchester','fugiat','Single','263.72','1991-12-26','0'),
-('306','Zulaufchester','fugiat','Facility','189.17','1980-09-30','0'),
-('520','Zulaufchester','fugiat','Facility','206.12','1981-06-19','0'),
+
+
 ('826','Zulaufchester','fugiat','Triple','483.23','2013-05-02','0'),
 ('349','Zulaufchester','fugiat','Triple','231.48','2000-07-02','0'),
-('933','Zulaufchester','fugiat','Facility','379.10','2002-09-15','0'),
-('221','Zulaufchester','fugiat','Facility','16.33','1975-01-02','0'),
+
+
 ('217','Zulaufchester','fugiat','Triple','62.92','1977-07-29','0'),
 ('512','Zulaufchester','fugiat','Double','17.73','2010-07-24','0'),
 ('199','Zulaufchester','fugiat','Triple','473.67','1976-03-04','0'),
@@ -4845,20 +4841,20 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('819','Zulaufchester','fugiat','Triple','146.86','1981-09-09','0'),
 ('814','Zulaufchester','fugiat','Triple','404.01','1978-12-19','0'),
 ('581','Zulaufchester','fugiat','Double','163.99','1971-09-08','0'),
-('804','Zulaufchester','fugiat','Facility','81.93','2015-02-21','1'),
+
 ('481','Zulaufchester','fugiat','Triple','163.63','1971-04-19','0'),
 ('958','Zulaufchester','fugiat','Double','197.59','1985-11-15','0'),
 ('662','Zulaufchester','fugiat','Single','118.30','2011-10-12','0'),
 ('549','Zulaufchester','fugiat','Double','93.34','1995-03-14','0'),
-('274','Zulaufchester','fugiat','Facility','148.97','2006-03-14','1'),
+
 ('442','Zulaufchester','fugiat','Double','49.88','2002-08-05','0'),
 ('548','Zulaufchester','fugiat','Double','52.36','2015-12-14','0'),
 ('966','Zulaufchester','fugiat','Triple','424.39','1980-06-28','0'),
 ('538','Zulaufchester','fugiat','Double','290.02','2003-03-07','0'),
 ('955','Zulaufchester','fugiat','Triple','248.44','1986-10-17','0'),
 ('755','Zulaufchester','fugiat','Double','472.25','2014-11-04','0'),
-('514','Zulaufchester','fugiat','Facility','320.17','1970-05-06','1'),
-('866','Zulaufchester','fugiat','Facility','316.35','1974-11-16','0'),
+
+
 ('33','Zulaufchester','fugiat','Single','153.73','2013-01-08','0'),
 ('612','Zulaufchester','fugiat','Single','251.34','2002-09-30','0'),
 ('209','Zulaufchester','fugiat','Single','456.51','2000-10-31','0'),
@@ -4869,7 +4865,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('602','Zulaufchester','fugiat','Triple','327.09','1996-04-05','0'),
 ('145','Zulaufchester','fugiat','Double','189.49','2015-12-04','0'),
 ('107','Zulaufchester','fugiat','Triple','125.57','1987-03-17','0'),
-('360','Zulaufchester','fugiat','Facility','281.42','2000-02-16','0'),
+
 ('744','Zulaufchester','fugiat','Triple','348.69','2017-03-02','0'),
 ('418','Zulaufchester','fugiat','Triple','263.16','1972-04-16','0'),
 ('205','Zulaufchester','fugiat','Single','118.02','2016-01-18','0'),
@@ -4879,11 +4875,11 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('273','Zulaufchester','fugiat','Single','222.72','2009-08-01','1'),
 ('742','Zulaufchester','fugiat','Double','33.81','1998-10-27','0'),
 ('677','Zulaufchester','fugiat','Single','206.95','1975-01-23','0'),
-('707','Zulaufchester','fugiat','Facility','347.61','1997-06-25','0'),
+
 ('569','Zulaufchester','fugiat','Double','341.27','1987-10-28','0'),
 ('465','Zulaufchester','fugiat','Single','202.53','2000-05-09','0'),
-('408','Zulaufchester','fugiat','Facility','31.37','1982-12-18','0'),
-('327','Zulaufchester','fugiat','Facility','311.26','2013-01-03','0'),
+
+
 ('131','Zulaufchester','fugiat','Double','334.95','2005-07-03','1'),
 ('474','Zulaufchester','fugiat','Single','108.49','1977-06-20','0'),
 ('508','Zulaufchester','fugiat','Single','12.77','1991-03-05','0'),
@@ -4891,49 +4887,49 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('936','Zulaufchester','fugiat','Single','147.64','2000-10-04','0'),
 ('410','Zulaufchester','fugiat','Single','340.57','1998-11-06','0'),
 ('281','Zulaufchester','fugiat','Single','48.51','1987-10-14','0'),
-('650','Zulaufchester','fugiat','Facility','380.23','2004-03-19','1'),
+
 ('580','Zulaufchester','fugiat','Triple','336.14','2010-12-31','0'),
 ('500','Zulaufchester','fugiat','Triple','82.25','2001-11-15','0'),
-('192','Zulaufchester','fugiat','Facility','117.47','1974-02-03','0'),
+
 ('661','Zulaufchester','fugiat','Triple','431.51','2008-08-09','0'),
 ('207','Zulaufchester','fugiat','Single','168.05','1987-04-12','1'),
 ('594','Zulaufchester','fugiat','Single','422.68','2008-06-23','0'),
 ('435','Zulaufchester','fugiat','Double','165.59','2015-09-01','0'),
-('466','Zulaufchester','fugiat','Facility','25.19','2001-03-31','0'),
-('795','Zulaufchester','fugiat','Facility','278.40','1985-07-18','0'),
+
+
 ('324','Zulaufchester','fugiat','Double','158.71','1972-08-25','0'),
 ('469','Zulaufchester','fugiat','Single','448.15','1978-09-01','0'),
 ('454','Zulaufchester','fugiat','Triple','273.60','1970-08-29','0'),
 ('651','Zulaufchester','fugiat','Triple','10.97','2002-06-21','0'),
-('179','Zulaufchester','fugiat','Facility','291.30','1992-07-09','1'),
+
 ('168','Zulaufchester','fugiat','Single','165.22','2007-11-28','0'),
-('46','Zulaufchester','fugiat','Facility','49.23','1999-10-21','1'),
+
 ('12','Zulaufchester','fugiat','Single','11.53','2016-04-13','0'),
 ('206','Zulaufchester','fugiat','Triple','405.71','2011-09-03','0'),
-('994','Zulaufchester','fugiat','Facility','174.19','1983-01-19','0'),
-('787','Zulaufchester','fugiat','Facility','265.71','1978-09-20','0'),
+
+
 ('670','Zulaufchester','fugiat','Double','257.14','2004-09-23','1'),
 ('480','Zulaufchester','fugiat','Triple','364.81','1993-09-27','0'),
 ('152','Zulaufchester','fugiat','Triple','303.11','1972-01-28','0'),
 ('582','Zulaufchester','fugiat','Double','59.58','2014-04-18','0'),
-('657','Zulaufchester','fugiat','Facility','215.58','1973-12-16','0'),
+
 ('373','Zulaufchester','fugiat','Single','218.31','1984-03-31','0'),
 ('170','Zulaufchester','fugiat','Single','39.12','1997-12-21','0'),
 ('457','Zulaufchester','fugiat','Single','156.90','1994-04-01','0'),
 ('589','Zulaufchester','fugiat','Triple','279.76','2016-06-06','0'),
 ('981','Zulaufchester','fugiat','Single','396.09','1987-08-25','1'),
-('928','Zulaufchester','fugiat','Facility','385.14','2006-04-04','0'),
+
 ('953','Zulaufchester','fugiat','Single','438.65','1981-07-07','0'),
 ('413','Zulaufchester','fugiat','Single','348.76','1997-11-10','0'),
 ('128','Zulaufchester','fugiat','Double','72.77','2007-12-23','0'),
 ('297','Zulaufchester','fugiat','Double','364.70','1992-03-14','0'),
 ('617','Zulaufchester','fugiat','Triple','83.44','1980-01-17','0'),
-('136','Zulaufchester','fugiat','Facility','430.91','2004-01-22','1'),
-('583','Zulaufchester','fugiat','Facility','213.85','1984-03-29','0'),
+
+
 ('823','Zulaufchester','fugiat','Triple','63.45','2008-01-31','0'),
-('801','Zulaufchester','fugiat','Facility','256.83','2011-10-17','0'),
+
 ('475','Zulaufchester','fugiat','Double','324.58','2004-02-07','0'),
-('279','Zulaufchester','fugiat','Facility','82.53','2016-07-24','0'),
+
 ('56','Zulaufchester','fugiat','Triple','331.50','1980-05-24','0'),
 ('161','Zulaufchester','fugiat','Double','114.23','2008-03-31','0'),
 ('219','Zulaufchester','fugiat','Single','490.49','2014-05-27','0'),
@@ -4948,69 +4944,69 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('340','Zulaufchester','fugiat','Double','188.21','2006-12-05','0'),
 ('254','Zulaufchester','fugiat','Single','388.61','2012-04-27','0'),
 ('643','Zulaufchester','fugiat','Double','101.46','2000-05-08','0'),
-('184','Zulaufchester','fugiat','Facility','181.21','1977-08-25','0'),
+
 ('616','Zulaufchester','fugiat','Double','355.99','1987-04-06','0'),
 ('323','Zulaufchester','fugiat','Triple','292.27','1976-10-13','0'),
 ('649','Zulaufchester','fugiat','Triple','47.82','2004-06-13','0'),
 ('82','Zulaufchester','fugiat','Single','40.64','1986-03-17','0'),
 ('917','Zulaufchester','fugiat','Single','421.24','2013-06-09','0'),
 ('412','Zulaufchester','fugiat','Triple','358.96','2000-08-16','0'),
-('533','Zulaufchester','fugiat','Facility','355.82','2017-02-23','0'),
+
 ('688','Zulaufchester','fugiat','Single','106.85','1987-06-23','0'),
 ('700','Zulaufchester','fugiat','Double','142.10','1988-09-21','0'),
 ('239','Zulaufchester','fugiat','Single','71.48','2000-01-06','0'),
-('17','Zulaufchester','fugiat','Facility','218.97','1999-04-03','0'),
+
 ('628','Zulaufchester','fugiat','Double','465.23','1976-04-19','0'),
 ('916','Zulaufchester','fugiat','Triple','112.44','2002-04-25','0'),
 ('563','Zulaufchester','fugiat','Single','138.49','2003-04-23','0'),
-('756','Zulaufchester','fugiat','Facility','282.61','2014-10-30','0'),
-('40','Zulaufchester','fugiat','Facility','342.93','2001-05-22','0'),
-('31','Zulaufchester','fugiat','Facility','359.18','1982-01-17','0'),
-('726','Zulaufchester','fugiat','Facility','340.67','1990-12-27','0'),
+
+
+
+
 ('177','Zulaufchester','fugiat','Triple','404.38','2001-04-01','0'),
-('502','Zulaufchester','fugiat','Facility','454.29','1995-11-14','1'),
+
 ('388','Zulaufchester','fugiat','Single','151.97','2009-04-15','0'),
 ('767','Zulaufchester','fugiat','Single','485.52','2006-03-16','0'),
 ('610','Zulaufchester','fugiat','Triple','368.88','1981-02-13','0'),
 ('58','Zulaufchester','fugiat','Single','447.81','1977-06-05','0'),
-('153','Zulaufchester','fugiat','Facility','73.22','2012-12-06','0'),
-('708','Zulaufchester','fugiat','Facility','460.83','2006-09-11','0'),
+
+
 ('224','Zulaufchester','fugiat','Triple','242.11','1991-08-04','1'),
 ('156','Zulaufchester','fugiat','Double','327.12','2011-12-03','0'),
 ('865','Zulaufchester','fugiat','Double','418.55','1980-02-26','0'),
 ('884','Zulaufchester','fugiat','Triple','404.87','2004-06-06','0'),
 ('703','Zulaufchester','fugiat','Triple','222.99','1970-09-04','1'),
-('113','Zulaufchester','fugiat','Facility','253.17','1999-02-15','0'),
-('676','Zulaufchester','fugiat','Facility','270.69','2005-11-01','0'),
+
+
 ('212','Zulaufchester','fugiat','Triple','418.22','1993-03-17','0'),
 ('173','Zulaufchester','fugiat','Single','45.96','1975-05-05','0'),
 ('844','Zulaufchester','fugiat','Single','280.17','1988-01-09','0'),
 ('104','Zulaufchester','fugiat','Single','482.04','1987-10-29','0'),
 ('870','Zulaufchester','fugiat','Double','217.80','1987-01-08','0'),
-('894','Zulaufchester','fugiat','Facility','209.61','1990-03-01','0'),
+
 ('715','Zulaufchester','fugiat','Single','440.07','2006-05-24','0'),
 ('343','Zulaufchester','fugiat','Single','178.90','1990-11-08','0'),
 ('99','Zulaufchester','fugiat','Triple','248.35','1976-07-02','1'),
 ('743','Zulaufchester','fugiat','Single','311.89','1985-11-18','1'),
-('399','Zulaufchester','fugiat','Facility','36.14','2006-09-19','0'),
+
 ('250','Zulaufchester','fugiat','Single','132.14','2002-12-05','0'),
-('369','Zulaufchester','fugiat','Facility','465.24','2015-08-02','0'),
+
 ('837','Zulaufchester','fugiat','Double','125.65','2009-06-11','1'),('217','New Katherynbury','nihil','Single','115.57','1987-08-09','0'),
 ('284','New Katherynbury','nihil','Triple','428.16','2003-04-12','0'),
 ('692','New Katherynbury','nihil','Single','474.39','2000-03-06','0'),
 ('797','New Katherynbury','nihil','Single','336.51','2005-10-05','0'),
 ('924','New Katherynbury','nihil','Single','274.43','2012-02-14','0'),
-('405','New Katherynbury','nihil','Facility','247.55','1975-05-08','0'),
+
 ('24','New Katherynbury','nihil','Double','275.78','2006-08-27','0'),
 ('893','New Katherynbury','nihil','Single','310.29','1984-02-27','0'),
 ('82','New Katherynbury','nihil','Single','257.48','2008-12-01','0'),
-('642','New Katherynbury','nihil','Facility','68.39','1983-08-30','0'),
+
 ('837','New Katherynbury','nihil','Single','226.18','1978-10-07','0'),
 ('464','New Katherynbury','nihil','Single','419.90','2006-12-04','0'),
 ('983','New Katherynbury','nihil','Double','229.47','1977-03-28','0'),
-('646','New Katherynbury','nihil','Facility','355.63','1972-05-30','0'),
+
 ('406','New Katherynbury','nihil','Triple','281.19','1996-04-23','0'),
-('799','New Katherynbury','nihil','Facility','241.88','2005-03-20','0'),
+
 ('192','New Katherynbury','nihil','Double','176.50','2002-02-26','1'),
 ('956','New Katherynbury','nihil','Double','94.88','2011-08-12','0'),
 ('391','New Katherynbury','nihil','Single','393.45','2009-08-04','1'),
@@ -5022,12 +5018,12 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('615','New Katherynbury','nihil','Single','249.56','1983-06-17','0'),
 ('704','New Katherynbury','nihil','Triple','139.66','2008-10-30','0'),
 ('20','New Katherynbury','nihil','Triple','194.30','1983-08-04','0'),
-('1','New Katherynbury','nihil','Facility','99.32','1999-12-12','0'),
+
 ('541','New Katherynbury','nihil','Single','155.54','2010-06-14','1'),
 ('779','New Katherynbury','nihil','Double','493.05','1970-06-13','0'),
-('148','New Katherynbury','nihil','Facility','330.13','1978-12-22','0'),
+
 ('18','New Katherynbury','nihil','Single','27.48','1972-02-17','0'),
-('485','New Katherynbury','nihil','Facility','66.03','1977-09-22','0'),
+
 ('53','New Katherynbury','nihil','Single','282.53','2004-03-10','0'),
 ('273','New Katherynbury','nihil','Double','159.87','1986-05-10','0'),
 ('821','New Katherynbury','nihil','Triple','401.92','2010-10-02','0'),
@@ -5043,157 +5039,156 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('725','New Katherynbury','nihil','Double','49.58','1987-09-19','0'),
 ('903','New Katherynbury','nihil','Single','69.66','2004-03-21','0'),
 ('786','New Katherynbury','nihil','Single','130.79','2013-11-25','0'),
-('732','New Katherynbury','nihil','Facility','363.62','2005-07-01','0'),
+
 ('239','New Katherynbury','nihil','Triple','73.35','1971-02-01','0'),
 ('407','New Katherynbury','nihil','Single','181.13','1983-09-03','0'),
 ('190','New Katherynbury','nihil','Triple','423.44','1985-01-10','0'),
 ('470','New Katherynbury','nihil','Triple','267.61','2008-01-24','0'),
 ('200','New Katherynbury','nihil','Double','314.47','1976-04-13','0'),
-('390','New Katherynbury','nihil','Facility','21.65','1974-05-06','0'),
+
 ('433','New Katherynbury','nihil','Single','108.92','2013-04-24','0'),
 ('12','New Katherynbury','nihil','Single','358.50','2008-11-04','0'),
 ('445','New Katherynbury','nihil','Double','195.16','1980-11-13','0'),
 ('542','New Katherynbury','nihil','Triple','12.22','2008-04-23','0'),
 ('37','New Katherynbury','nihil','Double','385.83','2007-07-23','0'),
 ('883','New Katherynbury','nihil','Single','350.84','2016-11-09','0'),
-('535','New Katherynbury','nihil','Facility','264.91','2014-05-31','0'),
+
 ('312','New Katherynbury','nihil','Triple','456.42','2011-09-30','0'),
 ('196','New Katherynbury','nihil','Triple','247.24','1990-12-11','0'),
 ('443','New Katherynbury','nihil','Single','284.94','1991-10-02','0'),
-('518','New Katherynbury','nihil','Facility','417.79','2004-01-09','0'),
-('106','New Katherynbury','nihil','Facility','172.92','2003-03-12','0'),
-('177','New Katherynbury','nihil','Facility','51.69','2017-01-15','0'),
-('225','New Katherynbury','nihil','Facility','269.94','1975-12-13','0'),
+
+
+
+
 ('242','New Katherynbury','nihil','Triple','103.95','2003-10-20','0'),
 ('528','New Katherynbury','nihil','Triple','44.48','1986-06-10','1'),
 ('675','New Katherynbury','nihil','Triple','447.89','1979-06-06','0'),
-('58','New Katherynbury','nihil','Facility','277.79','1989-05-05','0'),
+
 ('933','New Katherynbury','nihil','Double','379.75','1970-09-13','0'),
 ('607','New Katherynbury','nihil','Double','171.37','2012-01-31','0'),
 ('695','New Katherynbury','nihil','Triple','401.98','1976-04-08','0'),
 ('231','New Katherynbury','nihil','Double','301.23','2002-05-07','0'),
 ('973','New Katherynbury','nihil','Double','301.67','1978-01-21','0'),
 ('448','New Katherynbury','nihil','Triple','414.10','1996-08-17','0'),
-('628','New Katherynbury','nihil','Facility','114.86','1971-04-10','0'),
-('373','New Katherynbury','nihil','Facility','88.77','1983-06-16','0'),
-('303','New Katherynbury','nihil','Facility','427.25','2018-11-16','0'),
+
+
+
 ('899','New Katherynbury','nihil','Single','92.84','1974-01-06','0'),
 ('718','New Katherynbury','nihil','Triple','104.71','2014-01-06','0'),
-('56','New Katherynbury','nihil','Facility','487.12','2002-12-26','0'),
-('701','New Katherynbury','nihil','Facility','383.85','2012-08-03','0'),
+
+
 ('141','New Katherynbury','nihil','Triple','496.57','2014-06-27','1'),
-('757','New Katherynbury','nihil','Facility','18.54','1977-09-08','0'),
-('532','New Katherynbury','nihil','Facility','121.30','2008-09-12','0'),
-('639','New Katherynbury','nihil','Facility','110.30','1985-01-16','1'),
+
+
+
 ('143','New Katherynbury','nihil','Triple','313.72','2011-09-27','0'),
-('234','New Katherynbury','nihil','Facility','356.67','1975-12-12','0'),
+
 ('34','New Katherynbury','nihil','Triple','469.79','2010-08-24','0'),
 ('499','New Katherynbury','nihil','Triple','370.01','2011-09-08','0'),
 ('635','New Katherynbury','nihil','Double','362.71','1970-09-20','0'),
 ('153','New Katherynbury','nihil','Double','141.49','2017-12-03','0'),
 ('328','New Katherynbury','nihil','Double','304.43','1994-08-20','0'),
 ('896','New Katherynbury','nihil','Double','251.24','1973-07-08','0'),
-('102','New Katherynbury','nihil','Facility','167.08','1974-03-22','0'),
-('68','New Katherynbury','nihil','Facility','200.75','1997-10-11','0'),
+
+
 ('451','New Katherynbury','nihil','Single','363.42','1986-08-09','0'),
 ('902','New Katherynbury','nihil','Double','426.69','1987-12-08','1'),
-('825','New Katherynbury','nihil','Facility','134.02','2002-04-24','0'),
+
 ('588','New Katherynbury','nihil','Single','219.64','1977-05-16','0'),
 ('777','New Katherynbury','nihil','Double','310.73','2001-07-06','0'),
 ('625','New Katherynbury','nihil','Single','100.55','2004-02-12','0'),
 ('121','New Katherynbury','nihil','Triple','390.92','1995-08-19','1'),
 ('158','New Katherynbury','nihil','Triple','434.60','1986-07-12','0'),
-('117','New Katherynbury','nihil','Facility','285.40','1977-08-03','0'),
+
 ('998','New Katherynbury','nihil','Triple','128.02','1995-10-28','0'),
 ('935','New Katherynbury','nihil','Single','460.40','2009-03-06','0'),
-('211','New Katherynbury','nihil','Facility','128.51','1970-09-20','0'),
-('623','New Katherynbury','nihil','Facility','432.75','1997-07-10','1'),
+
+
 ('659','New Katherynbury','nihil','Triple','190.82','1973-10-20','0'),
 ('600','New Katherynbury','nihil','Triple','157.49','2004-11-21','1'),
-('773','New Katherynbury','nihil','Facility','178.75','2018-07-17','0'),
-('399','New Katherynbury','nihil','Facility','192.56','2009-02-03','0'),
+
+
 ('25','New Katherynbury','nihil','Double','121.21','1989-09-11','0'),
-('872','New Katherynbury','nihil','Facility','153.13','1985-07-28','0'),
+
 ('758','New Katherynbury','nihil','Single','52.25','2008-05-19','0'),
 ('269','New Katherynbury','nihil','Triple','330.17','1974-09-13','0'),
-('375','New Katherynbury','nihil','Facility','125.18','1992-11-06','0'),
+
 ('498','New Katherynbury','nihil','Triple','325.96','1981-11-09','0'),
 ('862','New Katherynbury','nihil','Single','382.64','2000-06-15','0'),
-('967','New Katherynbury','nihil','Facility','184.72','2015-07-18','0'),
+
 ('919','New Katherynbury','nihil','Triple','186.28','2002-08-24','0'),
 ('991','New Katherynbury','nihil','Single','270.84','1993-10-16','0'),
 ('26','New Katherynbury','nihil','Double','53.27','1977-07-01','0'),
-('755','New Katherynbury','nihil','Facility','425.67','2016-05-02','0'),
 ('500','New Katherynbury','nihil','Double','132.10','2013-12-27','0'),
-('572','New Katherynbury','nihil','Facility','427.78','1976-04-01','0'),
-('427','New Katherynbury','nihil','Facility','282.78','2011-03-26','1'),
+
+
 ('674','New Katherynbury','nihil','Single','266.58','2014-05-09','0'),
 ('90','New Katherynbury','nihil','Triple','302.55','1972-01-16','0'),
 ('61','New Katherynbury','nihil','Double','474.75','1988-02-24','0'),
 ('548','New Katherynbury','nihil','Single','373.21','1975-04-25','0'),
-('728','New Katherynbury','nihil','Facility','241.88','1973-06-05','0'),
+
 ('662','New Katherynbury','nihil','Double','274.93','1987-05-17','0'),
-('71','New Katherynbury','nihil','Facility','390.09','1997-03-30','0'),
+
 ('655','New Katherynbury','nihil','Triple','224.21','2002-08-26','0'),
 ('364','New Katherynbury','nihil','Double','79.45','1988-02-08','0'),
-('176','New Katherynbury','nihil','Facility','24.58','1999-01-18','0'),
+
 ('598','New Katherynbury','nihil','Triple','229.24','1999-09-03','0'),
 ('637','New Katherynbury','nihil','Single','378.80','1988-08-19','0'),
-('185','New Katherynbury','nihil','Facility','330.39','1997-01-31','0'),
+
 ('716','New Katherynbury','nihil','Double','197.40','2016-12-06','1'),
-('84','New Katherynbury','nihil','Facility','362.42','1986-03-12','0'),
+
 ('186','New Katherynbury','nihil','Triple','398.46','2016-04-02','0'),
 ('491','New Katherynbury','nihil','Single','131.51','1997-03-11','0'),
-('226','New Katherynbury','nihil','Facility','42.03','1975-11-25','0'),
+
 ('383','New Katherynbury','nihil','Single','285.99','2007-03-28','0'),
 ('724','New Katherynbury','nihil','Single','276.87','1992-01-30','0'),
 ('943','New Katherynbury','nihil','Triple','455.32','1983-07-31','0'),
 ('880','New Katherynbury','nihil','Triple','362.44','1986-06-29','0'),
 ('850','New Katherynbury','nihil','Triple','145.77','2007-10-10','0'),
 ('968','New Katherynbury','nihil','Triple','265.54','1999-10-29','0'),
-('766','New Katherynbury','nihil','Facility','431.57','1973-10-12','0'),
+
 ('744','New Katherynbury','nihil','Single','413.97','1971-12-29','0'),
 ('562','New Katherynbury','nihil','Single','271.70','1973-05-27','0'),
 ('699','New Katherynbury','nihil','Single','92.76','2010-04-24','0'),
 ('325','New Katherynbury','nihil','Double','227.34','1978-03-17','0'),
-('585','New Katherynbury','nihil','Facility','266.68','2002-11-01','0'),
+
 ('85','New Katherynbury','nihil','Triple','199.65','2010-01-15','0'),
 ('44','New Katherynbury','nihil','Double','37.40','1992-10-04','1'),
 ('974','New Katherynbury','nihil','Triple','257.29','1970-08-26','0'),
-('401','New Katherynbury','nihil','Facility','60.18','1986-04-16','0'),
+
 ('155','New Katherynbury','nihil','Single','369.28','2017-03-29','0'),
 ('74','New Katherynbury','nihil','Triple','137.90','1986-09-18','0'),
-('838','New Katherynbury','nihil','Facility','45.58','2015-11-29','0'),
-('592','New Katherynbury','nihil','Facility','125.96','2007-09-25','0'),
+
+
 ('424','New Katherynbury','nihil','Triple','250.49','1989-06-22','0'),
 ('384','New Katherynbury','nihil','Triple','197.25','2000-07-01','0'),
-('194','New Katherynbury','nihil','Facility','400.39','1988-12-30','0'),
+
 ('86','New Katherynbury','nihil','Single','70.54','1996-01-22','0'),
 ('577','New Katherynbury','nihil','Double','493.10','1993-08-29','0'),
 ('848','New Katherynbury','nihil','Single','272.62','1994-11-22','0'),
-('647','New Katherynbury','nihil','Facility','377.80','1978-06-19','0'),
+
 ('323','New Katherynbury','nihil','Triple','427.99','1989-07-01','0'),
 ('680','New Katherynbury','nihil','Double','77.20','1971-12-20','0'),
-('293','New Katherynbury','nihil','Facility','307.71','1994-04-26','0'),
+
 ('776','New Katherynbury','nihil','Single','273.84','2004-04-24','0'),
-('860','New Katherynbury','nihil','Facility','455.13','1979-01-21','0'),
+
 ('705','New Katherynbury','nihil','Single','473.24','1983-10-17','0'),
 ('621','New Katherynbury','nihil','Double','461.93','2017-07-11','1'),
 ('154','New Katherynbury','nihil','Single','365.67','2016-04-10','0'),
-('494','New Katherynbury','nihil','Facility','368.02','1977-01-16','0'),
+
 ('624','New Katherynbury','nihil','Triple','150.77','1992-04-08','1'),
 ('66','New Katherynbury','nihil','Single','64.57','2016-05-02','0'),
 ('936','New Katherynbury','nihil','Double','85.44','1977-04-07','0'),
 ('644','New Katherynbury','nihil','Double','180.76','2013-05-10','0'),
 ('144','New Katherynbury','nihil','Triple','223.03','1978-10-26','0'),
 ('964','New Katherynbury','nihil','Triple','454.02','1984-06-13','0'),
-('526','New Katherynbury','nihil','Facility','338.69','2007-10-17','0'),
+
 ('520','New Katherynbury','nihil','Triple','175.39','1977-05-20','0'),
 ('538','New Katherynbury','nihil','Triple','110.72','1974-01-02','0'),
-('589','New Katherynbury','nihil','Facility','203.81','1986-07-24','0'),
-('947','New Katherynbury','nihil','Facility','284.43','2012-12-13','0'),
+
+
 ('913','New Katherynbury','nihil','Single','95.13','2007-12-07','0'),
-('958','New Katherynbury','nihil','Facility','460.64','2008-09-15','0'),
+
 ('540','New Katherynbury','nihil','Triple','465.76','2006-07-21','0'),
 ('182','New Katherynbury','nihil','Single','71.80','1972-01-20','0'),
 ('661','New Katherynbury','nihil','Triple','24.85','1982-08-11','0'),
@@ -5202,41 +5197,41 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('503','New Katherynbury','nihil','Double','290.74','1973-01-12','1'),
 ('671','New Katherynbury','nihil','Triple','389.27','1976-04-26','0'),
 ('107','New Katherynbury','nihil','Triple','172.58','1976-01-17','0'),
-('438','New Katherynbury','nihil','Facility','109.78','1991-08-12','0'),
-('597','New Katherynbury','nihil','Facility','488.90','1979-03-11','0'),
+
+
 ('381','New Katherynbury','nihil','Single','343.89','2010-08-15','0'),
 ('197','New Katherynbury','nihil','Single','270.88','1985-12-21','0'),
 ('709','New Katherynbury','nihil','Double','373.16','2009-08-04','0'),
-('160','New Katherynbury','nihil','Facility','315.77','1985-02-02','0'),
+
 ('889','New Katherynbury','nihil','Double','56.39','2012-07-29','0'),
 ('42','New Katherynbury','nihil','Double','245.28','2007-12-16','0'),
 ('460','New Katherynbury','nihil','Single','435.22','2007-01-26','0'),
-('730','New Katherynbury','nihil','Facility','59.28','1998-01-17','0'),
+
 ('980','New Katherynbury','nihil','Single','346.65','1981-05-15','0'),
-('449','New Katherynbury','nihil','Facility','402.54','1993-07-03','0'),
+
 ('403','New Katherynbury','nihil','Triple','187.86','1995-11-15','0'),
 ('496','New Katherynbury','nihil','Single','496.72','1976-04-08','1'),
 ('179','New Katherynbury','nihil','Single','450.85','1990-08-25','0'),
 ('299','New Katherynbury','nihil','Triple','89.39','1987-12-21','0'),
-('533','New Katherynbury','nihil','Facility','390.68','1979-02-22','0'),
+
 ('355','New Katherynbury','nihil','Single','192.29','1988-02-07','0'),
 ('255','New Katherynbury','nihil','Double','49.32','1992-03-11','0'),
 ('292','New Katherynbury','nihil','Single','458.73','1996-02-09','0'),
-('163','New Katherynbury','nihil','Facility','144.93','1980-07-12','1'),
+
 ('719','New Katherynbury','nihil','Double','200.82','1993-09-13','0'),
 ('309','New Katherynbury','nihil','Single','121.31','2015-03-20','0'),
 ('653','New Katherynbury','nihil','Single','175.85','1970-10-01','0'),
 ('245','New Katherynbury','nihil','Double','41.19','2016-02-24','1'),
 ('57','New Katherynbury','nihil','Single','214.29','1996-07-19','1'),
 ('506','New Katherynbury','nihil','Double','189.34','1983-12-23','0'),
-('736','New Katherynbury','nihil','Facility','358.86','1972-01-20','0'),
-('822','New Katherynbury','nihil','Facility','436.35','2002-11-06','0'),
+
+
 ('697','New Katherynbury','nihil','Double','62.53','1972-08-27','0'),
-('268','New Katherynbury','nihil','Facility','243.94','1983-07-01','0'),
+
 ('100','New Katherynbury','nihil','Double','328.16','1970-04-02','0'),
 ('741','New Katherynbury','nihil','Single','345.42','1971-09-29','0'),
 ('283','New Katherynbury','nihil','Triple','496.01','2012-12-03','0'),
-('91','New Katherynbury','nihil','Facility','462.63','1972-08-14','0'),
+
 ('681','New Katherynbury','nihil','Double','189.92','1984-05-05','1'),
 ('567','New Katherynbury','nihil','Single','218.85','2005-12-03','0'),
 ('377','New Katherynbury','nihil','Single','164.31','2011-06-13','0'),
@@ -5246,7 +5241,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('942','New Katherynbury','nihil','Triple','204.12','2018-12-07','0'),
 ('351','New Katherynbury','nihil','Double','311.36','1972-11-17','0'),
 ('925','New Katherynbury','nihil','Triple','121.24','1990-12-21','0'),
-('288','New Katherynbury','nihil','Facility','77.86','2010-07-12','0'),
+
 ('291','New Katherynbury','nihil','Triple','231.47','2008-05-17','0'),
 ('244','New Katherynbury','nihil','Double','395.75','2015-05-16','0'),
 ('789','New Katherynbury','nihil','Double','143.74','1991-12-14','0'),
@@ -5256,10 +5251,10 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('60','New Katherynbury','nihil','Double','99.48','2002-11-15','0'),
 ('15','New Katherynbury','nihil','Triple','105.28','2006-12-07','0'),
 ('606','New Katherynbury','nihil','Double','476.32','2000-03-25','1'),
-('982','New Katherynbury','nihil','Facility','94.56','2007-10-13','0'),
+
 ('479','New Katherynbury','nihil','Double','148.47','2013-03-13','0'),
 ('493','New Katherynbury','nihil','Triple','163.72','1981-05-12','0'),
-('386','New Katherynbury','nihil','Facility','270.58','1975-06-13','0'),
+
 ('620','New Katherynbury','nihil','Double','54.24','1970-12-03','0'),
 ('212','New Katherynbury','nihil','Double','411.76','2007-09-26','0'),
 ('886','New Katherynbury','nihil','Triple','77.89','1999-06-29','0'),
@@ -5268,9 +5263,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('150','New Katherynbury','nihil','Triple','309.77','1994-10-08','0'),
 ('712','New Katherynbury','nihil','Single','414.14','1978-12-09','0'),
 ('630','New Katherynbury','nihil','Triple','327.23','1998-10-13','0'),
-('537','New Katherynbury','nihil','Facility','419.81','2018-12-14','0'),
+
 ('686','New Katherynbury','nihil','Single','353.60','1977-05-27','0'),
-('859','New Katherynbury','nihil','Facility','64.88','1977-08-25','0'),
+
 ('6','New Katherynbury','nihil','Double','45.51','2004-08-30','0'),
 ('199','New Katherynbury','nihil','Double','268.33','1970-03-02','0'),
 ('751','New Katherynbury','nihil','Single','137.71','1981-02-05','0'),
@@ -5280,7 +5275,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('801','New Katherynbury','nihil','Triple','464.23','1985-01-19','0'),
 ('372','New Katherynbury','nihil','Single','71.95','2008-06-01','0'),
 ('95','New Katherynbury','nihil','Triple','164.06','1992-05-29','0'),
-('707','New Katherynbury','nihil','Facility','328.16','1974-08-31','1'),
+
 ('51','New Katherynbury','nihil','Double','414.81','1989-11-10','0'),
 ('322','New Katherynbury','nihil','Single','445.09','1975-09-03','0'),
 ('1000','New Katherynbury','nihil','Double','166.35','2009-03-28','0'),
@@ -5296,8 +5291,8 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('333','New Katherynbury','nihil','Single','359.61','2013-09-21','0'),
 ('976','New Katherynbury','nihil','Single','403.58','2013-09-20','0'),
 ('966','New Katherynbury','nihil','Triple','37.43','2010-11-28','1'),
-('669','New Katherynbury','nihil','Facility','354.69','1991-09-16','0'),
-('946','New Katherynbury','nihil','Facility','258.24','1975-03-14','0'),
+
+
 ('738','New Katherynbury','nihil','Triple','302.59','2018-11-03','0'),
 ('643','New Katherynbury','nihil','Triple','266.25','2013-01-26','0'),
 ('791','New Katherynbury','nihil','Double','84.58','1984-08-05','0'),
@@ -5313,7 +5308,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('547','New Katherynbury','nihil','Triple','55.92','1977-03-25','0'),
 ('282','New Katherynbury','nihil','Single','213.70','1973-02-15','0'),
 ('749','New Katherynbury','nihil','Triple','487.14','2009-04-23','0'),
-('349','New Katherynbury','nihil','Facility','405.49','1976-12-15','0'),
+
 ('590','New Katherynbury','nihil','Double','220.19','1984-08-15','0'),
 ('264','New Katherynbury','nihil','Triple','495.93','1989-03-09','0'),
 ('258','New Katherynbury','nihil','Single','79.28','1978-12-06','1'),
@@ -5326,34 +5321,34 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('693','New Katherynbury','nihil','Double','147.15','1983-08-03','1'),
 ('174','New Katherynbury','nihil','Single','180.87','1972-06-04','0'),
 ('29','New Katherynbury','nihil','Single','11.83','1996-11-14','0'),
-('104','New Katherynbury','nihil','Facility','387.81','1999-09-18','0'),
+
 ('575','New Katherynbury','nihil','Triple','397.76','1999-08-14','0'),
 ('614','New Katherynbury','nihil','Single','293.09','1976-04-10','0'),
-('126','New Katherynbury','nihil','Facility','47.61','1971-12-11','0'),
-('688','New Katherynbury','nihil','Facility','373.44','1984-01-30','0'),
+
+
 ('710','New Katherynbury','nihil','Double','53.12','1972-12-03','0'),
 ('879','New Katherynbury','nihil','Single','50.50','1970-12-14','0'),
 ('618','New Katherynbury','nihil','Single','170.30','1987-03-07','0'),
 ('285','New Katherynbury','nihil','Single','107.69','2010-05-06','0'),
 ('243','New Katherynbury','nihil','Double','277.23','1997-07-11','0'),
 ('521','New Katherynbury','nihil','Triple','494.20','2017-08-25','0'),
-('834','New Katherynbury','nihil','Facility','204.26','1995-04-03','0'),
-('723','New Katherynbury','nihil','Facility','47.12','1979-07-04','0'),
+
+
 ('762','New Katherynbury','nihil','Double','425.91','2006-11-11','0'),
-('397','New Katherynbury','nihil','Facility','314.03','1992-10-13','0'),
+
 ('379','New Katherynbury','nihil','Single','164.64','2016-09-15','1'),
 ('250','New Katherynbury','nihil','Triple','315.09','1982-09-09','0'),
 ('467','New Katherynbury','nihil','Triple','380.86','1982-02-03','0'),
 ('740','New Katherynbury','nihil','Double','187.01','1987-12-31','0'),
 ('649','New Katherynbury','nihil','Single','216.57','1991-07-08','0'),
-('275','New Katherynbury','nihil','Facility','84.80','1995-06-05','0'),
+
 ('237','New Katherynbury','nihil','Single','44.05','2001-10-30','0'),
 ('198','New Katherynbury','nihil','Triple','148.85','1998-10-26','0'),
 ('423','New Katherynbury','nihil','Double','386.93','1987-08-07','0'),
-('876','New Katherynbury','nihil','Facility','457.63','2016-04-11','0'),
+
 ('105','New Katherynbury','nihil','Single','140.02','1978-10-11','0'),
 ('804','New Katherynbury','nihil','Single','320.54','2013-11-12','0'),
-('202','New Katherynbury','nihil','Facility','490.33','2015-07-07','0'),
+
 ('452','New Katherynbury','nihil','Single','179.68','1996-08-24','0'),
 ('308','New Katherynbury','nihil','Triple','139.50','2002-07-12','1'),
 ('975','New Katherynbury','nihil','Double','14.81','2012-06-09','0'),
@@ -5364,15 +5359,15 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('753','New Katherynbury','nihil','Double','127.96','1974-09-27','0'),
 ('232','New Katherynbury','nihil','Triple','439.48','1971-09-25','0'),
 ('849','New Katherynbury','nihil','Triple','25.43','1985-09-15','0'),
-('930','New Katherynbury','nihil','Facility','423.94','2007-11-02','0'),
+
 ('369','New Katherynbury','nihil','Triple','255.96','2001-12-27','0'),
 ('274','New Katherynbury','nihil','Single','85.98','1994-05-02','0'),
-('362','New Katherynbury','nihil','Facility','451.24','1991-06-29','0'),
+
 ('33','New Katherynbury','nihil','Single','141.73','2015-01-12','0'),
-('329','New Katherynbury','nihil','Facility','316.32','1972-07-16','0'),
+
 ('432','New Katherynbury','nihil','Double','273.60','2015-01-22','0'),
 ('931','New Katherynbury','nihil','Double','237.96','1992-07-02','0'),
-('279','New Katherynbury','nihil','Facility','237.51','1978-12-01','0'),
+
 ('19','New Katherynbury','nihil','Double','448.39','1973-12-19','0'),
 ('633','New Katherynbury','nihil','Triple','42.91','2013-08-16','0'),
 ('683','New Katherynbury','nihil','Single','353.49','1976-09-02','0'),
@@ -5381,7 +5376,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('236','New Katherynbury','nihil','Single','481.26','1981-03-05','0'),
 ('912','New Katherynbury','nihil','Single','366.28','2007-10-12','0'),
 ('382','New Katherynbury','nihil','Single','350.34','1995-03-20','1'),
-('420','New Katherynbury','nihil','Facility','339.35','1993-04-19','0'),
+
 ('890','New Katherynbury','nihil','Triple','145.64','1993-04-11','0'),
 ('658','New Katherynbury','nihil','Single','383.12','2008-09-14','0'),
 ('359','New Katherynbury','nihil','Single','395.70','2015-09-07','0'),
@@ -5396,10 +5391,10 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('905','New Katherynbury','nihil','Single','77.70','1977-10-09','1'),
 ('409','New Katherynbury','nihil','Triple','101.91','2005-01-26','0'),
 ('221','New Katherynbury','nihil','Double','351.91','1978-08-28','0'),
-('774','New Katherynbury','nihil','Facility','35.12','1989-09-09','0'),
+
 ('346','New Katherynbury','nihil','Double','472.65','1997-04-17','0'),
-('480','New Katherynbury','nihil','Facility','96.61','1974-06-14','0'),
-('62','New Katherynbury','nihil','Facility','117.77','1995-10-09','0'),
+
+
 ('265','New Katherynbury','nihil','Double','417.22','2008-01-13','0'),
 ('668','New Katherynbury','nihil','Double','44.15','1985-01-30','0'),
 ('98','New Katherynbury','nihil','Double','122.41','1979-12-10','0'),
@@ -5408,7 +5403,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('679','New Katherynbury','nihil','Triple','57.78','1999-09-11','1'),
 ('352','New Katherynbury','nihil','Single','219.98','1976-03-06','0'),
 ('468','New Katherynbury','nihil','Double','45.07','1989-08-29','0'),
-('435','New Katherynbury','nihil','Facility','356.04','2016-10-28','0'),
+
 ('960','New Katherynbury','nihil','Triple','404.25','2002-11-13','0'),
 ('298','New Katherynbury','nihil','Double','361.83','1992-11-11','0'),
 ('857','New Katherynbury','nihil','Single','261.28','1987-09-01','0'),
@@ -5417,46 +5412,46 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('290','New Katherynbury','nihil','Double','34.81','1989-11-17','0'),
 ('583','New Katherynbury','nihil','Single','19.86','1976-07-07','0'),
 ('280','New Katherynbury','nihil','Double','173.51','2004-10-29','0'),
-('392','New Katherynbury','nihil','Facility','287.72','1978-10-12','0'),
+
 ('353','New Katherynbury','nihil','Triple','216.35','2012-05-16','0'),
-('511','New Katherynbury','nihil','Facility','28.10','1993-02-21','0'),
+
 ('984','New Katherynbury','nihil','Single','314.23','2015-05-19','0'),
 ('963','New Katherynbury','nihil','Single','499.11','1990-01-03','0'),
 ('203','New Katherynbury','nihil','Double','197.43','1979-09-18','0'),
 ('472','New Katherynbury','nihil','Double','243.51','2013-09-12','1'),
 ('619','New Katherynbury','nihil','Double','393.88','1977-08-09','0'),
-('735','New Katherynbury','nihil','Facility','177.38','1991-02-05','0'),
-('220','New Katherynbury','nihil','Facility','403.72','2003-10-20','0'),
+
+
 ('410','New Katherynbury','nihil','Double','193.73','1978-06-27','0'),
 ('9','New Katherynbury','nihil','Double','135.05','2014-05-16','0'),
 ('892','New Katherynbury','nihil','Double','84.37','1987-06-26','0'),
 ('954','New Katherynbury','nihil','Single','216.56','1977-10-07','0'),
 ('900','New Katherynbury','nihil','Single','110.44','1993-01-09','0'),
 ('907','New Katherynbury','nihil','Double','383.00','2015-12-11','0'),
-('339','New Katherynbury','nihil','Facility','315.37','2006-09-27','0'),
+
 ('603','New Katherynbury','nihil','Triple','126.28','2002-04-10','1'),
 ('115','New Katherynbury','nihil','Triple','127.57','2000-06-13','0'),
 ('446','New Katherynbury','nihil','Triple','454.80','2017-01-19','1'),
 ('638','New Katherynbury','nihil','Single','76.75','1979-03-03','0'),
 ('573','New Katherynbury','nihil','Single','476.70','2006-04-26','0'),
 ('65','New Katherynbury','nihil','Double','485.78','1984-05-30','0'),
-('536','New Katherynbury','nihil','Facility','215.96','1989-05-31','0'),
+
 ('465','New Katherynbury','nihil','Triple','370.77','1991-01-18','1'),
 ('689','New Katherynbury','nihil','Double','47.17','1985-05-30','0'),
 ('128','New Katherynbury','nihil','Double','489.73','2010-03-14','0'),
 ('23','New Katherynbury','nihil','Triple','463.99','2002-01-26','0'),
 ('795','New Katherynbury','nihil','Single','75.62','1978-05-26','0'),
 ('408','New Katherynbury','nihil','Triple','356.05','1992-04-28','0'),
-('978','New Katherynbury','nihil','Facility','46.71','2000-03-31','0'),
+
 ('414','New Katherynbury','nihil','Triple','80.61','2004-04-22','0'),
-('266','New Katherynbury','nihil','Facility','375.16','2018-07-29','0'),
+
 ('87','New Katherynbury','nihil','Triple','33.10','1991-10-14','0'),
 ('781','New Katherynbury','nihil','Single','460.74','1986-07-07','0'),
 ('917','New Katherynbury','nihil','Single','224.73','1978-02-21','0'),
 ('366','New Katherynbury','nihil','Single','206.69','1977-12-25','0'),
 ('469','New Katherynbury','nihil','Triple','459.60','2015-04-16','0'),
 ('437','New Katherynbury','nihil','Double','335.47','1976-08-05','0'),
-('278','New Katherynbury','nihil','Facility','306.71','2016-07-18','0'),
+
 ('563','New Katherynbury','nihil','Double','336.86','2017-03-22','0'),
 ('78','New Katherynbury','nihil','Single','440.72','2008-06-16','1'),
 ('746','New Katherynbury','nihil','Double','374.70','1980-02-22','0'),
@@ -5466,35 +5461,35 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('554','New Katherynbury','nihil','Triple','233.47','2004-08-02','0'),
 ('147','New Katherynbury','nihil','Single','190.40','2006-12-24','0'),
 ('745','New Katherynbury','nihil','Triple','247.30','2010-06-02','0'),
-('610','New Katherynbury','nihil','Facility','483.42','1973-04-07','0'),
+
 ('111','New Katherynbury','nihil','Triple','231.92','1984-12-06','0'),
-('798','New Katherynbury','nihil','Facility','125.96','1993-04-04','0'),
+
 ('703','New Katherynbury','nihil','Triple','489.69','1983-01-21','0'),
-('564','New Katherynbury','nihil','Facility','306.46','2004-10-28','0'),
+
 ('854','New Katherynbury','nihil','Double','161.28','1981-08-12','1'),
-('224','New Katherynbury','nihil','Facility','215.68','1987-07-19','0'),
+
 ('380','New Katherynbury','nihil','Triple','238.14','1999-09-15','0'),
 ('50','New Katherynbury','nihil','Double','498.59','2000-05-08','0'),
-('667','New Katherynbury','nihil','Facility','130.73','2018-09-09','0'),
-('486','New Katherynbury','nihil','Facility','302.00','1990-09-19','0'),
+
+
 ('131','New Katherynbury','nihil','Single','198.67','1972-11-11','0'),
 ('230','New Katherynbury','nihil','Triple','371.53','2013-01-28','0'),
 ('808','New Katherynbury','nihil','Double','454.23','1980-05-30','0'),
 ('335','New Katherynbury','nihil','Double','272.48','2013-12-20','0'),
 ('313','New Katherynbury','nihil','Triple','34.74','1985-06-08','0'),
 ('611','New Katherynbury','nihil','Triple','61.19','2013-01-11','0'),
-('713','New Katherynbury','nihil','Facility','80.47','1978-05-08','0'),
-('910','New Katherynbury','nihil','Facility','469.80','2009-06-10','1'),
+
+
 ('305','New Katherynbury','nihil','Single','25.38','2011-10-28','0'),
 ('584','New Katherynbury','nihil','Triple','260.11','2018-11-04','0'),
 ('986','New Katherynbury','nihil','Triple','153.24','1977-04-13','0'),
 ('306','New Katherynbury','nihil','Triple','87.32','1994-08-23','0'),
-('783','New Katherynbury','nihil','Facility','10.68','2012-05-16','0'),
+
 ('609','New Katherynbury','nihil','Double','298.24','2006-11-27','0'),
 ('666','New Katherynbury','nihil','Triple','238.41','2014-02-18','0'),
 ('909','New Katherynbury','nihil','Single','243.65','1994-10-03','0'),
 ('785','New Katherynbury','nihil','Double','368.08','1989-01-29','0'),
-('841','New Katherynbury','nihil','Facility','407.25','2005-09-09','0'),('609','West Kevontown','qui','Facility','491.14','2017-06-19','0'),
+
 ('644','West Kevontown','qui','Triple','91.85','1995-01-07','0'),
 ('651','West Kevontown','qui','Triple','379.96','1986-10-11','0'),
 ('875','West Kevontown','qui','Triple','149.20','1972-09-07','0'),
@@ -5504,74 +5499,73 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('99','West Kevontown','qui','Single','442.39','2009-01-03','0'),
 ('25','West Kevontown','qui','Double','440.69','2018-07-17','1'),
 ('375','West Kevontown','qui','Single','391.02','2003-01-29','0'),
-('690','West Kevontown','qui','Facility','471.06','1987-08-29','0'),
+
 ('90','West Kevontown','qui','Single','134.80','1995-06-03','0'),
 ('390','West Kevontown','qui','Double','115.97','1984-10-01','1'),
-('561','West Kevontown','qui','Facility','295.14','1989-09-11','0'),
+
 ('934','West Kevontown','qui','Triple','23.14','1973-01-24','0'),
 ('134','West Kevontown','qui','Double','328.56','2001-12-10','0'),
 ('822','West Kevontown','qui','Single','221.43','1971-07-12','0'),
-('250','West Kevontown','qui','Facility','166.31','1998-06-21','0'),
-('104','West Kevontown','qui','Facility','288.98','1995-09-20','0'),
+
+
 ('270','West Kevontown','qui','Triple','266.08','1999-09-15','0'),
 ('197','West Kevontown','qui','Single','468.28','1985-06-15','0'),
 ('701','West Kevontown','qui','Double','336.92','1999-08-02','0'),
 ('975','West Kevontown','qui','Triple','286.41','1978-05-22','0'),
 ('998','West Kevontown','qui','Triple','216.08','1991-05-11','0'),
-('650','West Kevontown','qui','Facility','173.94','1995-07-26','0'),
+
 ('370','West Kevontown','qui','Single','412.34','2012-09-11','0'),
-('510','West Kevontown','qui','Facility','210.09','1990-09-05','0'),
+
 ('971','West Kevontown','qui','Triple','208.41','2001-05-29','0'),
-('432','West Kevontown','qui','Facility','411.94','2008-03-30','0'),
-('168','West Kevontown','qui','Facility','186.47','1972-04-18','0'),
+
 ('62','West Kevontown','qui','Single','395.45','1981-01-29','0'),
 ('796','West Kevontown','qui','Single','47.03','1992-04-27','0'),
-('142','West Kevontown','qui','Facility','38.05','1988-02-15','0'),
+
 ('76','West Kevontown','qui','Triple','94.93','2013-02-07','0'),
 ('158','West Kevontown','qui','Double','220.36','2011-11-09','0'),
 ('809','West Kevontown','qui','Double','377.98','2012-06-22','1'),
 ('978','West Kevontown','qui','Double','389.30','1981-12-11','0'),
 ('263','West Kevontown','qui','Double','219.67','1990-08-06','0'),
-('549','West Kevontown','qui','Facility','404.22','1972-11-30','0'),
+
 ('503','West Kevontown','qui','Triple','43.90','1985-07-20','0'),
 ('227','West Kevontown','qui','Single','427.11','1992-07-31','0'),
 ('635','West Kevontown','qui','Double','72.54','1991-10-01','0'),
-('30','West Kevontown','qui','Facility','108.88','1985-05-30','0'),
-('528','West Kevontown','qui','Facility','182.85','2014-05-18','0'),
-('724','West Kevontown','qui','Facility','38.79','2016-04-21','0'),
+
+
+
 ('715','West Kevontown','qui','Triple','127.00','2005-05-02','0'),
 ('65','West Kevontown','qui','Double','350.55','1998-06-14','0'),
 ('349','West Kevontown','qui','Triple','381.23','1976-09-19','0'),
 ('272','West Kevontown','qui','Triple','438.55','1978-07-08','1'),
 ('391','West Kevontown','qui','Triple','121.95','1996-08-11','0'),
 ('107','West Kevontown','qui','Triple','300.46','1989-11-19','0'),
-('48','West Kevontown','qui','Facility','227.41','2005-06-05','0'),
+
 ('942','West Kevontown','qui','Double','497.70','1993-09-01','0'),
 ('94','West Kevontown','qui','Triple','497.37','1995-09-15','0'),
 ('111','West Kevontown','qui','Triple','71.59','2018-11-27','0'),
 ('470','West Kevontown','qui','Double','136.45','1981-07-14','0'),
 ('883','West Kevontown','qui','Triple','205.99','1986-09-23','0'),
 ('767','West Kevontown','qui','Double','48.62','1977-02-17','0'),
-('963','West Kevontown','qui','Facility','370.66','1996-07-21','0'),
+
 ('740','West Kevontown','qui','Triple','177.22','1998-02-23','0'),
-('681','West Kevontown','qui','Facility','164.53','1973-05-01','0'),
+
 ('241','West Kevontown','qui','Double','181.23','2014-09-15','0'),
-('13','West Kevontown','qui','Facility','82.22','1975-05-13','0'),
+
 ('935','West Kevontown','qui','Triple','372.78','1993-12-21','0'),
 ('152','West Kevontown','qui','Single','45.35','2011-04-23','0'),
 ('794','West Kevontown','qui','Double','60.42','2002-08-09','0'),
 ('908','West Kevontown','qui','Single','103.86','2008-10-10','0'),
-('141','West Kevontown','qui','Facility','308.30','1974-05-24','0'),
+
 ('787','West Kevontown','qui','Double','310.20','1991-09-05','0'),
 ('706','West Kevontown','qui','Double','377.96','1991-04-04','0'),
-('509','West Kevontown','qui','Facility','358.35','1977-05-14','0'),
+
 ('340','West Kevontown','qui','Triple','257.49','2017-10-24','0'),
 ('909','West Kevontown','qui','Triple','392.89','1986-12-27','1'),
 ('504','West Kevontown','qui','Single','101.96','1994-02-14','0'),
 ('74','West Kevontown','qui','Double','70.04','2013-12-15','0'),
-('428','West Kevontown','qui','Facility','245.27','1988-07-20','0'),
+
 ('83','West Kevontown','qui','Triple','259.36','1998-12-14','0'),
-('986','West Kevontown','qui','Facility','82.59','2008-11-13','0'),
+
 ('402','West Kevontown','qui','Double','198.01','1981-05-19','0'),
 ('303','West Kevontown','qui','Double','498.58','1980-04-30','0'),
 ('638','West Kevontown','qui','Triple','16.22','1992-01-18','0'),
@@ -5584,10 +5578,10 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('367','West Kevontown','qui','Double','156.55','1980-05-22','0'),
 ('171','West Kevontown','qui','Double','413.09','1982-08-07','0'),
 ('899','West Kevontown','qui','Single','12.89','2013-02-07','0'),
-('238','West Kevontown','qui','Facility','234.68','2017-02-10','0'),
+
 ('780','West Kevontown','qui','Single','99.00','2003-04-29','0'),
 ('392','West Kevontown','qui','Double','425.03','1973-06-09','0'),
-('451','West Kevontown','qui','Facility','49.76','1979-08-23','0'),
+
 ('567','West Kevontown','qui','Triple','213.39','1985-06-13','0'),
 ('572','West Kevontown','qui','Triple','349.06','1978-06-23','0'),
 ('751','West Kevontown','qui','Triple','362.22','2001-03-18','0'),
@@ -5595,108 +5589,108 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('801','West Kevontown','qui','Double','499.12','1979-05-10','1'),
 ('542','West Kevontown','qui','Double','279.01','2006-01-01','0'),
 ('527','West Kevontown','qui','Triple','483.13','1988-07-07','0'),
-('979','West Kevontown','qui','Facility','174.20','2006-04-19','0'),
+
 ('363','West Kevontown','qui','Double','406.95','1993-12-16','0'),
-('840','West Kevontown','qui','Facility','100.27','2014-12-17','0'),
+
 ('300','West Kevontown','qui','Triple','429.69','2014-06-27','0'),
-('343','West Kevontown','qui','Facility','346.38','1999-07-01','0'),
+
 ('507','West Kevontown','qui','Double','12.91','2012-08-29','0'),
 ('855','West Kevontown','qui','Double','439.53','1994-04-04','0'),
 ('126','West Kevontown','qui','Triple','424.63','1982-08-10','0'),
 ('495','West Kevontown','qui','Single','493.06','1979-11-13','0'),
 ('210','West Kevontown','qui','Single','31.58','2004-07-07','0'),
-('626','West Kevontown','qui','Facility','466.56','1992-10-02','0'),
+
 ('82','West Kevontown','qui','Single','134.68','2006-11-23','0'),
 ('866','West Kevontown','qui','Triple','286.22','2015-11-02','0'),
 ('812','West Kevontown','qui','Single','294.13','2014-11-06','1'),
 ('948','West Kevontown','qui','Double','135.66','1970-06-16','0'),
 ('53','West Kevontown','qui','Single','432.79','2012-09-01','0'),
 ('682','West Kevontown','qui','Double','486.51','1981-11-26','0'),
-('786','West Kevontown','qui','Facility','410.21','2004-04-11','0'),
+
 ('209','West Kevontown','qui','Triple','23.56','2009-07-03','0'),
 ('678','West Kevontown','qui','Single','279.90','1975-11-26','0'),
-('233','West Kevontown','qui','Facility','210.96','1983-05-05','0'),
-('829','West Kevontown','qui','Facility','415.20','2015-01-02','0'),
+
+
 ('798','West Kevontown','qui','Triple','232.76','1998-05-04','0'),
 ('673','West Kevontown','qui','Triple','101.32','2015-04-11','0'),
 ('195','West Kevontown','qui','Double','272.98','1973-09-27','0'),
 ('731','West Kevontown','qui','Single','15.94','1984-10-31','0'),
 ('944','West Kevontown','qui','Triple','488.15','1995-05-27','0'),
 ('952','West Kevontown','qui','Double','339.02','1999-12-29','1'),
-('494','West Kevontown','qui','Facility','281.01','1980-12-30','0'),
+
 ('235','West Kevontown','qui','Single','189.22','1988-02-14','1'),
 ('93','West Kevontown','qui','Double','238.78','1983-06-01','0'),
 ('17','West Kevontown','qui','Triple','116.93','1992-07-14','1'),
 ('18','West Kevontown','qui','Double','56.04','2000-11-10','1'),
 ('102','West Kevontown','qui','Triple','372.88','1989-08-02','0'),
 ('949','West Kevontown','qui','Single','393.29','2005-07-02','0'),
-('927','West Kevontown','qui','Facility','382.55','1983-12-17','0'),
+
 ('33','West Kevontown','qui','Triple','110.43','2003-10-02','0'),
 ('702','West Kevontown','qui','Triple','342.78','2014-04-27','0'),
 ('386','West Kevontown','qui','Single','447.27','1974-07-23','0'),
-('324','West Kevontown','qui','Facility','149.71','2016-04-23','0'),
+
 ('407','West Kevontown','qui','Double','462.74','2011-03-04','0'),
 ('96','West Kevontown','qui','Double','402.04','1981-08-29','0'),
-('119','West Kevontown','qui','Facility','267.59','1999-04-13','0'),
-('14','West Kevontown','qui','Facility','332.47','1985-03-14','0'),
+
+
 ('101','West Kevontown','qui','Single','108.28','2006-12-17','0'),
 ('403','West Kevontown','qui','Double','299.65','2016-01-01','0'),
 ('271','West Kevontown','qui','Single','441.77','1974-06-02','0'),
 ('122','West Kevontown','qui','Triple','164.77','1989-07-11','0'),
 ('357','West Kevontown','qui','Single','62.77','2011-01-03','0'),
 ('376','West Kevontown','qui','Double','498.75','2006-04-25','0'),
-('674','West Kevontown','qui','Facility','85.98','1994-03-17','1'),
+
 ('865','West Kevontown','qui','Double','159.08','2017-11-20','0'),
-('519','West Kevontown','qui','Facility','265.56','2000-08-26','0'),
-('992','West Kevontown','qui','Facility','424.55','1979-08-20','0'),
+
+
 ('710','West Kevontown','qui','Single','475.67','1992-02-03','0'),
 ('666','West Kevontown','qui','Triple','307.11','1975-03-08','0'),
-('711','West Kevontown','qui','Facility','467.45','1987-05-30','1'),
+
 ('254','West Kevontown','qui','Double','431.56','1973-01-17','0'),
 ('97','West Kevontown','qui','Triple','137.46','1978-07-08','0'),
 ('281','West Kevontown','qui','Single','53.31','1970-04-24','0'),
 ('382','West Kevontown','qui','Triple','87.12','1972-09-17','0'),
 ('700','West Kevontown','qui','Single','422.12','2008-11-18','0'),
 ('616','West Kevontown','qui','Double','364.81','1987-06-28','1'),
-('132','West Kevontown','qui','Facility','477.00','1972-10-14','0'),
-('338','West Kevontown','qui','Facility','97.62','1991-04-04','0'),
+
+
 ('677','West Kevontown','qui','Single','12.25','1997-02-13','0'),
-('49','West Kevontown','qui','Facility','113.75','1998-07-13','0'),
+
 ('827','West Kevontown','qui','Single','256.73','1994-06-22','0'),
 ('416','West Kevontown','qui','Single','162.73','1979-01-19','1'),
 ('155','West Kevontown','qui','Double','408.47','2007-03-19','0'),
 ('409','West Kevontown','qui','Single','185.10','1998-06-25','0'),
 ('736','West Kevontown','qui','Triple','332.73','1978-02-15','0'),
-('313','West Kevontown','qui','Facility','172.11','2012-04-29','0'),
+
 ('990','West Kevontown','qui','Single','388.01','2015-07-11','1'),
-('577','West Kevontown','qui','Facility','376.25','1986-11-17','0'),
-('460','West Kevontown','qui','Facility','272.47','1977-09-19','0'),
+
+
 ('722','West Kevontown','qui','Triple','347.00','1994-02-03','0'),
 ('332','West Kevontown','qui','Triple','115.64','2002-09-22','0'),
 ('991','West Kevontown','qui','Single','257.86','1981-08-30','0'),
 ('1000','West Kevontown','qui','Single','363.14','1986-06-05','0'),
 ('430','West Kevontown','qui','Double','223.42','2016-03-21','0'),
-('12','West Kevontown','qui','Facility','184.33','2012-12-02','0'),
+
 ('161','West Kevontown','qui','Double','29.22','2016-02-17','0'),
 ('42','West Kevontown','qui','Double','432.21','1998-06-09','0'),
-('910','West Kevontown','qui','Facility','93.44','1975-06-19','0'),
-('253','West Kevontown','qui','Facility','434.98','2003-09-18','0'),
+
+
 ('475','West Kevontown','qui','Double','430.70','1970-06-27','0'),
 ('178','West Kevontown','qui','Double','256.69','1985-11-16','0'),
 ('16','West Kevontown','qui','Triple','363.64','2010-12-04','0'),
 ('61','West Kevontown','qui','Single','264.63','1990-07-22','0'),
 ('611','West Kevontown','qui','Single','18.71','1988-09-27','0'),
 ('446','West Kevontown','qui','Triple','249.00','1984-02-09','0'),
-('381','West Kevontown','qui','Facility','277.32','2010-01-12','0'),
+
 ('587','West Kevontown','qui','Double','475.74','2012-04-23','0'),
 ('905','West Kevontown','qui','Double','252.25','1991-06-03','0'),
 ('306','West Kevontown','qui','Triple','423.05','2001-07-19','0'),
 ('294','West Kevontown','qui','Single','30.10','1986-12-20','0'),
 ('581','West Kevontown','qui','Single','106.16','1989-06-11','0'),
 ('366','West Kevontown','qui','Single','246.16','1996-06-11','1'),
-('730','West Kevontown','qui','Facility','450.73','1983-11-26','0'),
-('488','West Kevontown','qui','Facility','80.34','1975-02-07','0'),
-('806','West Kevontown','qui','Facility','179.65','2016-04-30','0'),
+
+
+
 ('224','West Kevontown','qui','Triple','252.55','2004-11-20','0'),
 ('194','West Kevontown','qui','Double','152.34','1980-09-24','1'),
 ('106','West Kevontown','qui','Triple','400.48','1975-04-06','0'),
@@ -5709,18 +5703,18 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('810','West Kevontown','qui','Triple','298.22','1987-04-12','0'),
 ('544','West Kevontown','qui','Triple','89.03','2009-08-21','0'),
 ('159','West Kevontown','qui','Single','245.49','2007-08-23','0'),
-('772','West Kevontown','qui','Facility','110.23','1982-07-02','0'),
+
 ('114','West Kevontown','qui','Double','487.22','2008-10-12','0'),
 ('930','West Kevontown','qui','Single','163.74','2009-03-08','1'),
-('192','West Kevontown','qui','Facility','414.48','1970-06-08','0'),
+
 ('643','West Kevontown','qui','Single','49.60','2004-11-11','0'),
 ('461','West Kevontown','qui','Single','282.74','1981-02-16','0'),
 ('309','West Kevontown','qui','Double','280.45','2001-08-01','0'),
 ('404','West Kevontown','qui','Triple','449.44','2011-06-13','0'),
 ('720','West Kevontown','qui','Double','28.44','2000-12-23','0'),
 ('606','West Kevontown','qui','Double','450.16','1989-10-25','0'),
-('246','West Kevontown','qui','Facility','353.68','1993-03-12','0'),
-('867','West Kevontown','qui','Facility','203.07','1978-04-09','0'),
+
+
 ('29','West Kevontown','qui','Triple','330.92','2004-05-17','0'),
 ('768','West Kevontown','qui','Double','232.29','2017-11-04','0'),
 ('760','West Kevontown','qui','Single','460.94','1973-09-03','0'),
@@ -5733,36 +5727,36 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('193','West Kevontown','qui','Triple','114.87','2001-10-31','0'),
 ('923','West Kevontown','qui','Single','34.48','2009-05-20','0'),
 ('105','West Kevontown','qui','Triple','362.27','1973-05-05','1'),
-('445','West Kevontown','qui','Facility','330.51','1992-10-05','0'),
-('467','West Kevontown','qui','Facility','322.10','1995-01-29','0'),
+
+
 ('981','West Kevontown','qui','Single','342.88','2004-04-15','0'),
 ('88','West Kevontown','qui','Double','373.43','2012-04-26','0'),
 ('482','West Kevontown','qui','Triple','442.99','1988-04-06','0'),
 ('713','West Kevontown','qui','Triple','97.82','2004-11-21','0'),
 ('636','West Kevontown','qui','Double','216.96','1974-01-16','0'),
 ('591','West Kevontown','qui','Triple','347.92','1971-04-09','0'),
-('196','West Kevontown','qui','Facility','157.61','1977-05-20','0'),
-('32','West Kevontown','qui','Facility','381.66','1996-02-08','0'),
+
+
 ('604','West Kevontown','qui','Double','135.28','1992-02-04','0'),
-('778','West Kevontown','qui','Facility','440.53','2009-06-19','0'),
+
 ('345','West Kevontown','qui','Triple','333.96','2012-07-30','0'),
-('665','West Kevontown','qui','Facility','244.99','2000-08-27','0'),
+
 ('967','West Kevontown','qui','Triple','49.06','1994-01-20','0'),
 ('321','West Kevontown','qui','Double','363.21','2005-10-06','0'),
-('442','West Kevontown','qui','Facility','380.02','1973-11-02','0'),
+
 ('384','West Kevontown','qui','Single','460.27','1986-04-24','0'),
 ('505','West Kevontown','qui','Double','20.58','1993-10-10','1'),
-('400','West Kevontown','qui','Facility','101.56','1999-07-12','0'),
-('127','West Kevontown','qui','Facility','357.51','2011-04-02','0'),
+
+
 ('27','West Kevontown','qui','Single','17.89','2008-06-09','0'),
 ('251','West Kevontown','qui','Single','454.76','1990-02-16','0'),
 ('28','West Kevontown','qui','Single','262.59','1998-07-24','0'),
 ('600','West Kevontown','qui','Double','197.98','1980-07-28','0'),
 ('490','West Kevontown','qui','Single','332.14','2006-03-22','0'),
-('906','West Kevontown','qui','Facility','296.85','2003-06-18','0'),
+
 ('280','West Kevontown','qui','Double','349.29','2001-06-10','0'),
-('708','West Kevontown','qui','Facility','349.82','2018-01-22','0'),
-('804','West Kevontown','qui','Facility','52.12','1979-07-12','0'),
+
+
 ('218','West Kevontown','qui','Double','403.98','2012-06-03','0'),
 ('607','West Kevontown','qui','Double','171.20','2010-06-04','0'),
 ('371','West Kevontown','qui','Double','308.77','1992-05-06','0'),
@@ -5783,7 +5777,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('805','West Kevontown','qui','Single','17.68','1972-07-21','0'),
 ('314','West Kevontown','qui','Double','310.26','1975-03-11','0'),
 ('823','West Kevontown','qui','Single','78.94','1976-05-27','0'),
-('58','West Kevontown','qui','Facility','407.07','1980-04-26','0'),
+
 ('688','West Kevontown','qui','Double','138.07','1971-01-20','1'),
 ('962','West Kevontown','qui','Single','120.89','2003-07-06','0'),
 ('797','West Kevontown','qui','Single','266.95','2009-08-27','0'),
@@ -5793,13 +5787,13 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('244','West Kevontown','qui','Single','184.33','1980-01-09','0'),
 ('330','West Kevontown','qui','Single','53.16','1976-11-18','0'),
 ('380','West Kevontown','qui','Triple','144.68','2008-03-23','0'),
-('832','West Kevontown','qui','Facility','372.53','2011-11-28','0'),
-('999','West Kevontown','qui','Facility','378.99','2004-12-21','1'),
+
+
 ('421','West Kevontown','qui','Single','330.53','1985-10-27','0'),
 ('484','West Kevontown','qui','Double','40.61','1976-11-28','0'),
 ('980','West Kevontown','qui','Single','488.68','2009-07-23','1'),
 ('307','West Kevontown','qui','Triple','348.00','1997-04-14','1'),
-('6','West Kevontown','qui','Facility','63.87','2001-04-09','0'),
+
 ('538','West Kevontown','qui','Single','95.74','2006-08-13','0'),
 ('531','West Kevontown','qui','Triple','411.53','1999-02-01','0'),
 ('646','West Kevontown','qui','Single','495.79','1994-11-21','0'),
@@ -5817,19 +5811,19 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('40','West Kevontown','qui','Single','17.46','1983-07-12','0'),
 ('582','West Kevontown','qui','Triple','398.05','1998-12-27','0'),
 ('147','West Kevontown','qui','Triple','145.26','1975-07-05','0'),
-('515','West Kevontown','qui','Facility','161.15','1980-02-13','0'),
+
 ('418','West Kevontown','qui','Single','192.66','1977-12-21','0'),
 ('95','West Kevontown','qui','Single','400.20','1999-01-08','0'),
 ('257','West Kevontown','qui','Double','96.43','1991-06-03','0'),
 ('755','West Kevontown','qui','Triple','158.93','1971-11-15','0'),
-('491','West Kevontown','qui','Facility','335.68','2018-11-21','0'),
+
 ('723','West Kevontown','qui','Single','165.10','1981-06-08','0'),
 ('762','West Kevontown','qui','Single','20.60','2011-09-13','0'),
 ('781','West Kevontown','qui','Double','294.57','1970-08-17','0'),
 ('120','West Kevontown','qui','Triple','17.53','1971-09-19','0'),
 ('373','West Kevontown','qui','Triple','380.55','2003-06-21','1'),
-('717','West Kevontown','qui','Facility','53.20','2015-04-14','0'),
-('84','West Kevontown','qui','Facility','427.71','1985-05-18','0'),
+
+
 ('256','West Kevontown','qui','Triple','33.89','2010-05-02','0'),
 ('385','West Kevontown','qui','Single','37.52','1992-07-11','0'),
 ('900','West Kevontown','qui','Double','143.29','2010-10-31','1'),
@@ -5841,29 +5835,29 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('597','West Kevontown','qui','Triple','35.39','1996-08-01','0'),
 ('441','West Kevontown','qui','Triple','329.70','1973-05-11','0'),
 ('471','West Kevontown','qui','Single','293.90','1999-03-11','0'),
-('941','West Kevontown','qui','Facility','291.31','1980-01-25','0'),
+
 ('299','West Kevontown','qui','Triple','339.79','1983-01-24','0'),
 ('328','West Kevontown','qui','Double','168.98','2004-07-16','0'),
 ('389','West Kevontown','qui','Single','441.55','1999-02-06','0'),
 ('47','West Kevontown','qui','Triple','169.14','2007-08-20','0'),
 ('59','West Kevontown','qui','Triple','13.47','1992-06-27','0'),
-('861','West Kevontown','qui','Facility','357.89','1988-11-05','0'),
+
 ('336','West Kevontown','qui','Single','40.41','2003-09-23','0'),
 ('556','West Kevontown','qui','Single','98.95','1976-08-21','0'),
 ('473','West Kevontown','qui','Single','74.35','1981-06-20','0'),
-('763','West Kevontown','qui','Facility','444.86','1971-05-17','0'),
-('337','West Kevontown','qui','Facility','302.52','1991-03-08','0'),
+
+
 ('70','West Kevontown','qui','Single','69.82','2011-01-07','0'),
-('627','West Kevontown','qui','Facility','94.20','1980-04-11','0'),
+
 ('220','West Kevontown','qui','Triple','270.22','2001-08-26','1'),
-('792','West Kevontown','qui','Facility','355.88','2017-05-19','0'),
+
 ('37','West Kevontown','qui','Triple','205.52','1974-12-13','0'),
 ('911','West Kevontown','qui','Single','274.13','1994-06-04','0'),
 ('24','West Kevontown','qui','Double','186.15','2013-03-30','0'),
 ('543','West Kevontown','qui','Triple','203.25','1978-04-23','0'),
 ('359','West Kevontown','qui','Single','20.53','1974-09-25','0'),
 ('260','West Kevontown','qui','Triple','277.09','1988-02-27','0'),
-('115','West Kevontown','qui','Facility','171.87','2001-01-03','0'),
+
 ('894','West Kevontown','qui','Single','228.86','2013-05-25','0'),
 ('951','West Kevontown','qui','Single','54.58','1984-05-16','1'),
 ('712','West Kevontown','qui','Single','135.09','1992-03-21','0'),
@@ -5871,27 +5865,27 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('571','West Kevontown','qui','Double','122.49','1984-04-13','0'),
 ('249','West Kevontown','qui','Triple','475.59','2009-12-25','0'),
 ('378','West Kevontown','qui','Single','144.85','1980-09-25','0'),
-('183','West Kevontown','qui','Facility','92.99','1998-06-16','1'),
+
 ('469','West Kevontown','qui','Single','157.22','2008-10-01','0'),
 ('15','West Kevontown','qui','Single','485.76','1977-02-10','0'),
-('953','West Kevontown','qui','Facility','308.71','1986-07-16','0'),
+
 ('63','West Kevontown','qui','Triple','255.23','2012-03-18','0'),
 ('72','West Kevontown','qui','Single','451.80','1977-05-28','1'),
 ('684','West Kevontown','qui','Triple','84.75','1989-10-11','0'),
 ('625','West Kevontown','qui','Double','132.13','2002-01-15','0'),
 ('886','West Kevontown','qui','Triple','379.93','2011-09-28','0'),
 ('586','West Kevontown','qui','Triple','491.30','1992-03-15','0'),
-('228','West Kevontown','qui','Facility','158.50','2004-10-20','0'),
+
 ('258','West Kevontown','qui','Single','319.21','2015-07-25','0'),
 ('511','West Kevontown','qui','Double','383.71','1976-02-12','0'),
-('825','West Kevontown','qui','Facility','87.21','1993-09-18','0'),
+
 ('816','West Kevontown','qui','Single','327.53','1981-09-14','0'),
 ('732','West Kevontown','qui','Single','208.04','1977-08-27','0'),
 ('11','West Kevontown','qui','Triple','226.35','1976-10-10','0'),
-('393','West Kevontown','qui','Facility','91.08','1973-03-01','0'),
+
 ('862','West Kevontown','qui','Single','456.10','1995-07-07','1'),
 ('698','West Kevontown','qui','Single','72.63','2018-07-09','0'),
-('915','West Kevontown','qui','Facility','251.04','1976-05-26','0'),
+
 ('933','West Kevontown','qui','Double','459.97','1980-03-06','0'),
 ('750','West Kevontown','qui','Triple','79.37','2013-10-23','0'),
 ('619','West Kevontown','qui','Double','462.60','2015-10-12','0'),
@@ -5899,48 +5893,48 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('353','West Kevontown','qui','Double','370.97','1975-03-28','0'),
 ('187','West Kevontown','qui','Triple','186.72','1978-01-24','0'),
 ('295','West Kevontown','qui','Single','255.75','1989-03-12','0'),
-('20','West Kevontown','qui','Facility','82.89','2018-06-12','1'),
-('754','West Kevontown','qui','Facility','249.73','1990-01-15','0'),
+
+
 ('870','West Kevontown','qui','Single','429.58','2015-12-05','0'),
 ('113','West Kevontown','qui','Double','208.58','1975-11-26','0'),
 ('377','West Kevontown','qui','Triple','217.43','1971-03-21','1'),
 ('705','West Kevontown','qui','Single','391.51','1998-06-27','0'),
-('912','West Kevontown','qui','Facility','393.69','1988-03-29','0'),
+
 ('617','West Kevontown','qui','Triple','288.88','1993-02-09','0'),
 ('744','West Kevontown','qui','Single','496.73','1988-05-26','1'),
 ('372','West Kevontown','qui','Single','192.70','1991-02-18','0'),
 ('217','West Kevontown','qui','Triple','146.92','2015-05-26','0'),
 ('302','West Kevontown','qui','Triple','435.59','2002-06-29','0'),
-('560','West Kevontown','qui','Facility','284.40','2012-07-06','0'),
+
 ('517','West Kevontown','qui','Triple','288.90','1980-07-02','0'),
 ('174','West Kevontown','qui','Single','398.93','1987-05-20','0'),
-('157','West Kevontown','qui','Facility','292.00','2015-04-23','0'),
+
 ('43','West Kevontown','qui','Double','83.81','1992-11-29','0'),
-('310','West Kevontown','qui','Facility','75.61','1975-10-22','0'),
+
 ('7','West Kevontown','qui','Single','201.57','2005-04-09','0'),
 ('320','West Kevontown','qui','Double','390.42','2017-12-26','1'),
-('221','West Kevontown','qui','Facility','192.45','1980-08-10','1'),
+
 ('697','West Kevontown','qui','Triple','39.58','1975-01-11','1'),
 ('632','West Kevontown','qui','Single','262.32','2000-04-24','0'),
 ('885','West Kevontown','qui','Double','481.11','1976-10-04','0'),
-('433','West Kevontown','qui','Facility','429.85','1998-11-26','0'),
+
 ('267','West Kevontown','qui','Double','462.76','1995-11-26','0'),
 ('138','West Kevontown','qui','Single','51.43','1993-10-27','0'),
 ('994','West Kevontown','qui','Double','387.51','2006-06-18','0'),
-('268','West Kevontown','qui','Facility','17.79','1977-12-06','0'),
-('64','West Kevontown','qui','Facility','427.57','2006-09-15','0'),
+
+
 ('31','West Kevontown','qui','Triple','47.35','2000-10-05','0'),
 ('522','West Kevontown','qui','Triple','367.56','1994-11-13','0'),
 ('583','West Kevontown','qui','Triple','117.27','2008-12-05','0'),
 ('417','West Kevontown','qui','Double','91.96','1984-04-01','1'),
-('558','West Kevontown','qui','Facility','158.88','2006-05-18','0'),
+
 ('913','West Kevontown','qui','Single','225.31','2001-04-24','0'),
 ('285','West Kevontown','qui','Triple','160.97','1992-09-02','0'),
 ('144','West Kevontown','qui','Double','381.40','1991-08-09','0'),
 ('914','West Kevontown','qui','Triple','152.15','2002-09-13','0'),
-('189','West Kevontown','qui','Facility','403.68','1981-11-27','0'),
-('746','West Kevontown','qui','Facility','274.68','1996-01-27','0'),
-('601','West Kevontown','qui','Facility','205.79','2016-05-03','0'),
+
+
+
 ('852','West Kevontown','qui','Double','57.01','1999-09-29','0'),
 ('926','West Kevontown','qui','Single','465.50','1981-07-11','1'),
 ('502','West Kevontown','qui','Triple','438.69','1975-09-21','0'),
@@ -5955,7 +5949,7 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('92','West Kevontown','qui','Triple','307.27','1994-09-09','0'),
 ('248','West Kevontown','qui','Single','160.68','1988-08-17','1'),
 ('110','West Kevontown','qui','Single','150.52','1975-07-19','1'),
-('429','West Kevontown','qui','Facility','18.12','1991-08-14','1'),
+
 ('689','West Kevontown','qui','Double','187.46','1984-03-13','0'),
 ('654','West Kevontown','qui','Double','393.27','2014-01-24','0'),
 ('833','West Kevontown','qui','Double','350.36','1970-05-08','0'),
@@ -5966,9 +5960,9 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('788','West Kevontown','qui','Single','424.23','1986-02-19','0'),
 ('573','West Kevontown','qui','Triple','319.21','1985-08-28','0'),
 ('414','West Kevontown','qui','Triple','212.23','1998-11-28','0'),
-('223','West Kevontown','qui','Facility','293.38','1973-12-16','0'),
-('301','West Kevontown','qui','Facility','260.06','1989-04-17','0'),
-('10','West Kevontown','qui','Facility','337.75','2004-10-21','0'),
+
+
+
 ('881','West Kevontown','qui','Single','145.13','2004-01-09','0'),
 ('856','West Kevontown','qui','Double','43.23','2014-02-28','0'),
 ('847','West Kevontown','qui','Triple','11.72','1976-09-06','0'),
@@ -5977,21 +5971,29 @@ INSERT INTO Room (Number,HotelBranch, HotelName, Type, Price, checkedOut, isDele
 ('69','West Kevontown','qui','Single','169.65','1991-04-28','0'),
 ('683','West Kevontown','qui','Single','75.98','1984-01-17','0'),
 ('898','West Kevontown','qui','Single','72.17','2004-04-08','0'),
-('738','West Kevontown','qui','Facility','231.72','1972-04-18','0'),
+
 ('652','West Kevontown','qui','Double','441.57','1998-05-17','1'),
 ('413','West Kevontown','qui','Triple','38.98','1997-07-26','0'),
 ('41','West Kevontown','qui','Single','128.95','2002-10-09','0'),
-('67','West Kevontown','qui','Facility','99.64','2011-01-31','1'),
-('525','West Kevontown','qui','Facility','105.34','1991-06-09','0'),
+
+
 ('974','West Kevontown','qui','Triple','496.86','2005-12-27','0'),
-('554','West Kevontown','qui','Facility','183.35','1975-12-26','0'),
+
 ('264','West Kevontown','qui','Single','262.23','1998-06-25','0'),
 ('346','West Kevontown','qui','Double','499.90','1973-11-03','0'),
-('181','West Kevontown','qui','Facility','121.39','2004-06-28','0'),
+
 ('207','West Kevontown','qui','Triple','469.53','1976-06-12','0'),
 ('987','West Kevontown','qui','Double','432.47','1983-01-22','0'),
 ('203','West Kevontown','qui','Triple','218.16','1995-04-12','1'),
 ('3','West Kevontown','qui','Double','371.54','1996-10-03','1'),
 ('485','West Kevontown','qui','Double','394.47','1970-09-24','0'),
-('148','West Kevontown','qui','Double','389.00','1995-10-28','0');
+('148','West Kevontown','qui','Double','389.00','1995-10-28','0'),
+('0','East Santos','delectus','Facility','265.27','1995-08-02','1'),
+('0','Jamaalview','ea','Facility','111.40','1985-07-05','0'),
+('0','Garnetport','optio','Facility','217.19','1983-02-21','0'),
+('0','South Mittie','quos','Facility','146.68','1999-06-13','0'),
+('0','Zulaufchester','fugiat','Facility','55.57','2015-06-16','0'),
+('0','New Katherynbury','nihil','Facility','425.67','2016-05-02','0'),
+('0','West Kevontown','qui','Facility','411.94','2008-03-30','0')
+
 `;

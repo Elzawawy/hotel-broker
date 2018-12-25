@@ -8,7 +8,6 @@ module.exports = function() {
   });
 
   conn.query(seedQuery, function(err, result, fields) {
-    console.log(result);
     CheckForError(err, result, "User Seed");
   });
 };
