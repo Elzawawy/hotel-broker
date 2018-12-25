@@ -2,7 +2,7 @@ module.exports = `CREATE TABLE Room (
     Number INT NOT NULL,
     HotelBranch varchar(255) NOT NULL,
     HotelName varchar(255) NOT NULL,
-    Type varchar(255) NOT NULL,
+    Type ENUM('Single','Double','Triple') NOT NULL,
     Price DECIMAL(4,2) NOT NULL,
     checkedOut date DEFAULT NULL,
     isDeleted boolean DEFAULT 0 NOT NULL,
