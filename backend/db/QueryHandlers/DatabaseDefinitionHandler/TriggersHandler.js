@@ -1,6 +1,6 @@
 exports.BeforeInsertHotelTrig = function() {
   // query to create before insert on hotel trigger.
-  conn.query(databaseDefinitionQueries.trigs.RoleBeforeInsertTrigger, function(
+  conn.query(databaseDefinitionQueries.trigs.HotelBeforeInsert, function(
     err,
     result
   ) {
@@ -10,7 +10,7 @@ exports.BeforeInsertHotelTrig = function() {
 
 exports.BeforeUpdateHotelTrig = function() {
   // query to create before update on hotel trigger.
-  conn.query(databaseDefinitionQueries.trigs.RoleBeforeUpdateTrigger, function(
+  conn.query(databaseDefinitionQueries.trigs.HotelBeforeUpdate, function(
     err,
     result
   ) {
@@ -19,8 +19,8 @@ exports.BeforeUpdateHotelTrig = function() {
 };
 
 exports.BeforeInsertResTrig = function() {
-   // query to create before insert on reservation trigger.
-   conn.query(databaseDefinitionQueries.trigs.TypeBeforeInsertTrigger, function(
+  // query to create before insert on reservation trigger.
+  conn.query(databaseDefinitionQueries.trigs.ReservationBeforeInsert, function(
     err,
     result
   ) {
@@ -30,32 +30,20 @@ exports.BeforeInsertResTrig = function() {
 
 exports.BeforeUpdateResTrig = function() {
   // query to create before insert on reservation trigger.
-  conn.query(databaseDefinitionQueries.trigs.TypeBeforeUpdateTrigger, function(
-   err,
-   result
- ) {
-   CheckForError(err, result, "Before Update on Reservation Trigger ");
- });
+  conn.query(databaseDefinitionQueries.trigs.ReservationBeforeUpdate, function(
+    err,
+    result
+  ) {
+    CheckForError(err, result, "Before Update on Reservation Trigger ");
+  });
 };
 
 exports.BeforeInsertRoomTrig = function() {
   // query to create before insert on reservation trigger.
-  conn.query(databaseDefinitionQueries.trigs.checkedOutBeforeInsertTrigger, function(
-   err,
-   result
- ) {
-   CheckForError(err, result, "Before Insert on Room Trigger ");
- });
+  conn.query(databaseDefinitionQueries.trigs.RoomBeforeInsert, function(
+    err,
+    result
+  ) {
+    CheckForError(err, result, "Before Insert on Room Trigger ");
+  });
 };
-
-exports.BeforeUpdateRoomTrig = function() {
-  // query to create before insert on reservation trigger.
-  conn.query(databaseDefinitionQueries.trigs.checkedOutBeforeUpdateTrigger, function(
-   err,
-   result
- ) {
-   CheckForError(err, result, "Before Update on Room Trigger ");
- });
-};
-
-

@@ -6,7 +6,6 @@ INSERT INTO Reservation (CustomerUser,HotelName,HotelBranch,RoomNumber,StartDate
 ('alexanne14','delectus','East Santos','340','2017-07-05','2018-10-06','1','1','0'),
 ('armando.koepp','delectus','East Santos','597','2017-12-20','2018-09-22','1','1','1'),
 ('annie42','delectus','East Santos','932','2017-07-31','2018-04-27','1','1','0'),
-('addison.lebsack','delectus','East Santos','0','2017-08-04','2018-09-12','1','1','0'),
 ('becker.rodrigo','delectus','East Santos','119','2017-08-17','2018-11-11','1','1','0'),
 ('ahane','delectus','East Santos','908','2017-11-06','2018-01-14','1','0','0'),
 ('bernadette.beier','delectus','East Santos','903','2017-10-13','2018-12-28','0','1','1'),

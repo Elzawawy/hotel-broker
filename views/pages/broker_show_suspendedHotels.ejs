@@ -40,7 +40,7 @@
                 <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
                 <p class="card-text">Hotel Owner: <%=hotels[i].OwnerUser%></p>
                 <form method="post" action="/broker/unsuspendHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
-                    <button type="submit" class="btn btn-primary">Unsuspend</button>
+                    <button type="submit" class="btn btn-primary" style="width:100px">Activate</button>
                 </form>
             </div>
         </li>

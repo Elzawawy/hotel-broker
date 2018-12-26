@@ -1,1 +1,1 @@
-module.exports = `INSERT INTO Room SET ?`;
+exports.addRoom = `INSERT INTO Room SET ?`;

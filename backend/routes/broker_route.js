@@ -8,7 +8,7 @@ function loadBrokerPage(req,res){
         res.redirect("/login");
     }
     else{
-        res.render("pages/broker");
+        res.render("pages/broker",{role: req.session.role});
     }
 }
 /*-------------------------------------------*/
@@ -18,7 +18,7 @@ router.get("/showHotels",loadAllHotels);
 function loadAllHotelsCB(req,res,result){
     let hotels = JSON.parse(result);
     console.log(hotels);
-    res.render("pages/broker_show_hotels",{hotels: hotels});
+    res.render("pages/broker_show_hotels",{hotels: hotels,role: req.session.role});
 }
 function loadAllHotels(req,res){
     query.hotelQueriesHandler.hotelSelect.showBrokerHotels(req,res,req.session.username,loadAllHotelsCB);
@@ -30,7 +30,7 @@ router.get("/showSuspendedHotels",loadAllSuspendedHotels);
 function loadAllSuspendedHotelsCB(req,res,result){
     let hotels = JSON.parse(result);
     console.log(hotels);
-    res.render("pages/broker_show_suspendedHotels",{hotels: hotels});
+    res.render("pages/broker_show_suspendedHotels",{hotels: hotels,role : req.session.role});
 }
 function loadAllSuspendedHotels(req,res){
     query.hotelQueriesHandler.hotelSelect.showSuspendedHotels(req,res,req.session.username,loadAllSuspendedHotelsCB);
@@ -65,7 +65,7 @@ router.get("/showClassAUsers",loadClassAUsers);
 function loadClassAUsersCB(req,res,result){
     let classAUsers = JSON.parse(result);
     console.log("LoadClassAUsers");
-    res.render("pages/broker_show_classA",{classAUsers: classAUsers});
+    res.render("pages/broker_show_classA",{classAUsers: classAUsers,role : req.session.role});
 }
 function loadClassAUsers(req,res){
     query.userQueries.userSelect.retrieveClassAList(req,res,loadClassAUsersCB);
@@ -78,7 +78,7 @@ function loadAllUsersCB(req,res,result){
     let users = JSON.parse(result);
     console.log("User CB");
     console.log(users);
-    res.render("pages/broker_show_allUsers",{users: users});
+    res.render("pages/broker_show_allUsers",{users: users,role: req.session.role});
 }
 function loadAllUsers(req,res){
     query.userQueries.userSelect.retrieveUserList(req,res,loadAllUsersCB);
@@ -91,7 +91,7 @@ function loadSuspendedUsersCB(req,res,result){
     let users = JSON.parse(result);
     console.log("User CB");
     console.log(users);
-    res.render("pages/broker_show_suspendedUsers",{users: users});
+    res.render("pages/broker_show_suspendedUsers",{users: users,role: req.session.role});
 }
 function loadSuspendedUsers(req,res){
     query.userQueries.userSelect.retrieveBlackList(req,res,loadSuspendedUsersCB);
@@ -125,7 +125,7 @@ router.get("/showHotelRequests",showHotelRequests);
 function showHotelRequestsCB(req,res,result){
     let hotelRequests = JSON.parse(result);
     console.log("Hotel Requests CALLBACK");
-    res.render("pages/broker_show_hotelRequests",{hotels: hotelRequests});
+    res.render("pages/broker_show_hotelRequests",{hotels: hotelRequests,role: req.session.role});
 }
 
 function showHotelRequests(req,res){

@@ -18,5 +18,19 @@ exports.checkReservation = function() {
   });
 };
 
+exports.updateCheckOut = function() {
+  // query to create check_role procedure.
+  conn.query(databaseDefinitionQueries.proceeds.updateRoomCheckOutDate, function(
+    err,
+    result
+  ) {
+    CheckForError(err, result, "update_checkedOut Procedure");
+  });
+};
+
+
+
+
+
 
 
