@@ -4,15 +4,10 @@ query = require("../db/QueryHandlers");
 //getting router
 const router = require("express").Router();
 
-function browseHotelCB(req,res,result){
-    let hotels = JSON.parse(result);
-    res.render("pages/browse_hotels",{role: req.session.role,hotels: hotels});
-}
 router.get("/", function(req, res) {
     if (req.session  && req.session.username) {
         console.log("user already logged in");
-        query.hotelQueriesHandler.hotelSelect.GetAllHotels(req,res,browseHotelCB);
-        // res.render("pages/browse_hotels",{role:req.session.role,hotels});
+        res.redirect("/browse_hotels");
     }
     else{
         console.log("not logged in");
@@ -20,7 +15,6 @@ router.get("/", function(req, res) {
     }
 
 });
-
 // requiring routes
 const login = require("./login_route");
 const register = require("./register_route");
