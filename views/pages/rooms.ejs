@@ -10,7 +10,21 @@
 </head>
 
 <body>
-    <% include ../partials/nav.ejs%>
+    <div>
+        <% if (role==="Owner"){%>
+            <div>
+                <% include ../partials/owner_nav.ejs%>
+            </div>
+            <%}else if(role==="Broker"){%>
+                <div>
+                    <% include ../partials/broker_nav.ejs%>
+                </div>
+                <%}else if(role==="Customer"){%>
+                    <div>
+                        <%include ../partials/customer_nav.ejs%>
+                    </div>
+                    <%}%>
+    </div>
     <div style="margin-top:50px">
         <h1>Rooms</h1>
         <div class="row" style="margin-left:15% ">

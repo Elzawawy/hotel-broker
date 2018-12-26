@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <% include ../partials/nav.ejs %>
+    <div>
+      <% if (role==="Owner"){%>
+      <div><% include ../partials/owner_nav.ejs%></div>
+      <%}else if(role==="Broker"){%>
+      <div><% include ../partials/broker_nav.ejs%></div>
+      <%}else if(role==="Customer"){%>
+      <div><%include ../partials/customer_nav.ejs%></div>
+      <%}%>
+    </div>
 
     <div>
       <div><button type="submit" id="addHotel">Add New Hotel</button></div>

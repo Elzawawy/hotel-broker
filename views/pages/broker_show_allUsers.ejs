@@ -5,6 +5,21 @@
     <title>All Users</title>
 </head>
 <body>
+    <div>
+        <% if (role==="Owner"){%>
+            <div>
+                <% include ../partials/owner_nav.ejs%>
+            </div>
+            <%}else if(role==="Broker"){%>
+                <div>
+                    <% include ../partials/broker_nav.ejs%>
+                </div>
+                <%}else if(role==="Customer"){%>
+                    <div>
+                        <%include ../partials/customer_nav.ejs%>
+                    </div>
+                    <%}%>
+    </div>
 <div>
     <%for(var i=0 ; i<users.length ; i++){%>
     <p>-Username:<%=users[i].Username%></p>
