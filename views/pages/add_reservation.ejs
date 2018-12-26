@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div>
+      <% if (role==="Owner"){%>
+      <div><% include ../partials/owner_nav.ejs%></div>
+      <%}else if(role==="Broker"){%>
+      <div><% include ../partials/broker_nav.ejs%></div>
+      <%}else if(role==="Customer"){%>
+      <div><%include ../partials/customer_nav.ejs%></div>
+      <%}%>
+    </div>
+    <div style="margin-top:55px">
+      <h2>Register</h2>
+      <form
+        method="post"
+        action="/register"
+        name="register_form"
+        class="form-group"
+        style="margin:5%"
+      >
+        <div class="input-group mb-3">
+          <label for="name" class="col-sm-2 col-form-label">start Date</label>
+          <input
+            type="date"
+            name="name"
+            class="form-control"
+            placeholder="Name"
+            aria-label="Name"
+            aria-describedby="basic-addon1"
+            id="name"
+            required
+          />
+        </div>
+        <div class="input-group mb-3">
+          <label for="username" class="col-sm-2 col-form-label">end Date</label>
+          <input
+            type="date"
+            class="form-control"
+            name="username"
+            placeholder="Username"
+            aria-label="Username"
+            aria-describedby="basic-addon3"
+            id="username"
+            required
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
