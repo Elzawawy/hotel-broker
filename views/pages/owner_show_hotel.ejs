@@ -15,6 +15,9 @@
 </div>
 <div style="margin-top: 55px;">
     <h2>Rooms</h2>
+    <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/addRoom">
+        <button type="submit">Add Room</button>
+    </form>
     <ul class="list-group" style="width: 98%">
         <% for(var i=0; i<rooms.length ; i++){%>
         <li class="list-group-item" >
@@ -24,7 +27,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Type: <%=rooms[i].Type%></h5>
-                    <p class="card-text">Price: <%=rooms[i].Price%></p>
+                    <p class="card-text">Price: <%=rooms[i].Price%>$</p>
                     <p class="card-text">Status: <%=rooms[i].isBooked%></p>
                 </div>
             </div>
