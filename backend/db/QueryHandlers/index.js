@@ -10,8 +10,8 @@ conn = require("../connect")();
 
 exports.hotelQueriesHandler = require("./HotelTable");
 exports.userQueries = require("./UserTable");
-exports.resQueries = require("./ReservationTable"); 
-
+exports.roomQueriesHandler = require("./RoomTable");
+exports.resQueries = require("./RatesRelationTable");
 //Export Another alternative for Database and Tables Creation through one fucntion call.
 exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.databaseCreate(dbName);
@@ -23,4 +23,9 @@ exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.proceeds.checkRole();
   databaseDefinitionHandler.trigs.BeforeInsertHotelTrig();
   databaseDefinitionHandler.trigs.BeforeUpdateHotelTrig();
+  databaseDefinitionHandler.proceeds.checkReservation();
+  databaseDefinitionHandler.trigs.BeforeInsertResTrig();
+  databaseDefinitionHandler.trigs.BeforeUpdateResTrig();
+  databaseDefinitionHandler.trigs.BeforeUpdateRoomTrig();
+  databaseDefinitionHandler.trigs.BeforeInsertRoomTrig();
 };

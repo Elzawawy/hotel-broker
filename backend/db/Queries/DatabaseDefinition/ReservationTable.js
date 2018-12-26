@@ -17,3 +17,4 @@ module.exports = `CREATE TABLE Reservation(
     CONSTRAINT FK_USER_RES  FOREIGN KEY (CustomerUser) REFERENCES User(Username),
     CONSTRAINT FK_HOTEL_RES FOREIGN KEY (HotelName,HotelBranch) REFERENCES Hotel(Name,Branch)
 );`;
+//(CustomerUser,HotelName,HotelBranch,RoomNumber,StartDate,EndDate,isChecked_in ,isApproved ,isDeleted)

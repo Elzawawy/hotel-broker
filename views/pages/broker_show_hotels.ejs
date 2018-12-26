@@ -11,6 +11,7 @@
 
   <body>
     <div>
+<<<<<<< HEAD
       <% if (role==="Owner"){%>
         <div>
           <% include ../partials/owner_nav.ejs%>
@@ -26,6 +27,8 @@
             <%}%>
     </div>
     <div class="row" style="margin-top: 10%;">
+
+      <h2>Show hotels</h2>
       <ul class="list-group" style="width: 98%">
         <% for(var i=0; i<hotels.length ; i++){%>
         <li class="list-group-item" >
@@ -34,11 +37,11 @@
             <h3><%=hotels[i].Name%></h3>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Branch:<%=hotels[i].Branch%></h5>
-                <p class="card-text">Hotel Location:<%=hotels[i].Location%></p>
-            <p class="card-text">Hotel Branch:<%=hotels[i].OwnerUser%></p>
+              <h5 class="card-title">Branch: <%=hotels[i].Branch%></h5>
+                <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
+            <p class="card-text">Hotel Owner: <%=hotels[i].OwnerUser%></p>
             <form method="post" action="/broker/suspendHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
-              <button type="submit" class="btn btn-primary">suspend</button>
+              <button type="submit" class="btn btn-primary">Suspend</button>
             </form>
           </div>
           </li>

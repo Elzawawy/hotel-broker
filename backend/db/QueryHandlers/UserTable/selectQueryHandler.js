@@ -68,3 +68,14 @@ exports.retrieveClassAList = function(req, res, callback) {
     else callback(req, res, JSON.stringify(result));
   });
 };
+
+//Params is and callback function to process code. No more Params needed!
+//Returns a list of all users that should be black listed for the option in hand of a broker.
+exports.retrieveToBeBlackList  = function(req,res,callback){
+  conn.query(userQueries.userSelectQueries.retrieveToBeBlackList,params,function(err,result,fields)
+  {
+    console.log(JSON.stringify(result));
+    if (err) return null;
+    else callback(req, res, JSON.stringify(result));
+  });
+};

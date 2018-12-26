@@ -1,3 +1,3 @@
-exports.resInsertQuery = require("./insertQueries");
-exports.resSelectQueries = require("./selectQueries");
-exports.resUpdateQueries = require("./updateQueries");
+exports.roomInsert = require("./insertQueries");
+exports.roomSelect = require("./selectQueries");
+exports.roomUpdate = require("./updateQueries");

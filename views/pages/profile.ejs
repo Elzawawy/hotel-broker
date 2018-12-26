@@ -46,9 +46,18 @@
             <button type="submit">Admin Page</button>
           </form>
           <%}%>
+          <%if(user.Role === "Owner"){%>
+            <form method="get" action="/owner">
+              <button type="submit">Owner Page</button>
+            </form>
+          <%}%>
         </div>
       </div>
-      <%if(user.Role ==="Customer"){%>
+      <%if(user.Role === "Broker"){%>
+      <form method="get" action="/broker" style="margin-left: 20px">
+        <button type="submit" class="btn btn-dark">Admin Page</button>
+      </form>
+      <%}%> <%if(user.Role ==="Customer"){%>
       <form method="get" action="" style="margin-left: 20px">
         <button type="submit" class="btn btn-dark">Upgrade to owner??</button>
       </form>

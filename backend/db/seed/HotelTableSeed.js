@@ -1,20 +1,11 @@
-module.exports = `INSERT INTO Hotel (Name, Branch, Location,BrokerUser, OwnerUser,isSuspended,isPremium,isApproved,isDeleted) VALUES ('sed','Stromanstad','894 Goldner Divide\nRathborough, CO 12549','louie.schneider','murazik.dayana','0','1','1','0'),
-('commodi','Arturoville','9982 Elbert Ridges Suite 969\nLake Celestinebury, MN 95036','graham38','novella.ohara','0','1','1','0'),
+module.exports = `INSERT INTO Hotel (Name, Branch, Location,BrokerUser, OwnerUser,isSuspended,isPremium,isApproved,isDeleted) VALUES 
 ('ea','Jamaalview','54220 Kozey Circles\nEast Daphneymouth, NV 36940','avis06','cale30','0','1','1','0'),
-('velit','Generalborough','626 Brown Heights\nMetzland, SC 24971-9476','louie.schneider','scottie96','0','1','1','0'),
 ('delectus','East Santos','943 Koepp Shore Suite 032\nEast Hollieton, GA 44461-2331','avis06','cale30','0','1','1','0'),
 ('nihil','New Katherynbury','75294 Elvie Divide\nGorczanymouth, SD 69440-4372','louie.schneider','gerald51','1','0','1','0'),
 ('optio','Garnetport','075 Dena Ridge\nWest Arielshire, SD 44657-9563','graham38','cale30','0','1','1','0'),
-('saepe','South Willyberg','595 Kuhlman Gateway Apt. 716\nTatyanaland, MT 62155','avis06','madelynn.wunsch','0','1','1','0'),
-('aliquam','Sallieside','416 Feest Roads Apt. 356\nLuettgenchester, OH 56995','avis06','pmacejkovic','1','0','1','0'),
-('officiis','South Santino','077 Beahan View\nFrederickville, NY 06149-8499','avis06','murazik.dayana','0','1','1','0'),
 ('fugiat','Zulaufchester','32945 Fadel Corner Apt. 263\nHalvorsonville, NY 04194','louie.schneider','ebraun','1','0','1','0'),
-('ratione','West Shanel','3383 Harris Square\nLake Germainefort, IL 95712-5287','graham38','zpfannerstill','0','1','1','0'),
-('ullam','Gertrudeport','1878 Henriette Gardens\nNorth Justusmouth, WI 85260-0651','graham38','zpfannerstill','0','0','1','0'),
-('inventore','Lake Dianna','12270 Satterfield Underpass\nLake Heidiport, MD 11410','louie.schneider','scottie96','0','0','1','0'),
 ('qui','West Kevontown','3939 Breitenberg Dale Apt. 022\nEast Tad, CO 76163-2404','graham38','gerson.yost','0','0','1','0'),
-('vero','West Gwendolyn','598 Mayert Locks\nPort Darioton, MO 38142','avis06','scottie96','0','0','1','0'),
-('provident','East Websterland','77106 Ivah Union\nRippinstad, ND 13427-1871','louie.schneider','kurtis.hackett','0','0','0','0'),
+('vero','West Gwendolyn','598 Mayert Locks\nPort Darioton, MO 38142','avis06','scottie96','0','0','0','0'),
 ('repellendus','Blockshire','09635 Casey Landing\nParisianborough, ID 79641-9170','louie.schneider','wintheiser.kayden','0','1','0','0'),
 ('ut','Port Noemie','3601 Luther Roads\nVaughnstad, AK 15744','graham38','gerson.yost','0','0','0','0'),
-('quos','South Mittie','4381 OConnell Mill Apt. 040\nKlockoborough, MA 57876','avis06','cale30','0','0','0','0'); ;`;
+('quos','South Mittie','4381 OConnell Mill Apt. 040\nKlockoborough, MA 57876','avis06','cale30','0','0','1','0');`;

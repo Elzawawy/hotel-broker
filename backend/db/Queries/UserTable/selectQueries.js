@@ -11,9 +11,18 @@ exports.retrieveBlackList = "SELECT Username,Name FROM User WHERE isBlackListed 
 exports.retrieveUserList = "SELECT Username,Name FROM User WHERE isBlacklisted = 0 AND NOT Role='Broker'";
 
 //String Query to retrieve a list of all classA users in system.
-exports.retrieveClassAList = "SELECT Username,Name FROM User \
-                              JOIN (SELECT CustomerUser, count(*) as c \
-                              FROM RequestsRelation  \
-                              GROUP BY CustomerUser \
-                              HAVING c > 5) as interTable \
-                              WHERE Username = CustomerUser";
+exports.retrieveClassAList = `SELECT Username,Name FROM User 
+                              JOIN (SELECT CustomerUser, count(*) as c 
+                              FROM Reservation  
+                              GROUP BY CustomerUser 
+                              HAVING c > 5) as interTable 
+                              WHERE Username = CustomerUser`;
+
+exports.retrieveToBeBlackList = `SELECT Username,Name FROM User
+                                JOIN Reservation
+                                WHERE Username = CustomerUser
+                                AND StartDate <= CURRENT_TIMESTAMP
+                                AND isChecked_in = 0`;
+
+
+

@@ -26,7 +26,7 @@ const checkout = require("./checkOut_route");
 const hotelRequests = require("./hotelReservation_route");
 const hotel = require("./hotel");
 const broker = require("./broker_route");
-
+const owner = require("./owner_route");
 // Exporting Binded pages
 module.exports = function routesBinder(app) {
   app.use("/", router);
@@ -40,4 +40,5 @@ module.exports = function routesBinder(app) {
   hotelRequests(app);
   hotel(app);
   broker(app);
+  owner(app);
 };
