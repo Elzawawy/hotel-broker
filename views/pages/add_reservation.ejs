@@ -63,7 +63,7 @@
             type="radio"
             name="inlineRadioOptions"
             id="single"
-            value="single"
+            value="Single"
             onclick="javascript:getValue();"
             checked
           />
@@ -75,7 +75,7 @@
             type="radio"
             name="inlineRadioOptions"
             id="double"
-            value="double"
+            value="Double"
             onclick="javascript:getValue();"
           />
           <label class="form-check-label" for="inlineRadio2">Double</label>
@@ -86,7 +86,7 @@
             type="radio"
             name="inlineRadioOptions"
             id="triple"
-            value="triple"
+            value="Triple"
             onclick="javascript:getValue();"
           />
           <label class="form-check-label" for="inlineRadio3">Triple</label>
@@ -97,11 +97,11 @@
           </label>
           <div class="col-sm-10">
             <input
-              type="txt"
+              type="text"
               name="roomType"
               class="form-control"
               id="roomType"
-              value="single"
+              value="Single"
               readonly
             />
           </div>
@@ -115,13 +115,13 @@
   <script>
     function getValue() {
       if (document.getElementById("single").checked) {
-        document.getElementById("roomType").value = "single";
+        document.getElementById("roomType").value = "Single";
       }
       if (document.getElementById("double").checked) {
-        document.getElementById("roomType").value = "double";
+        document.getElementById("roomType").value = "Double";
       }
       if (document.getElementById("triple").checked) {
-        document.getElementById("roomType").value = "triple";
+        document.getElementById("roomType").value = "Triple";
       }
     }
   </script>

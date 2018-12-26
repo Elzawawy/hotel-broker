@@ -24,7 +24,7 @@ function loadBookRoomPage(req,res){
 router.post("/:hotelName/:hotelBranch",BookRoomPage);
 function BookRoomPageCB(req,res){
     console.log("Hotels");
-    res.redirect("/browse_Hotels");
+    res.redirect("/browse_hotels");
 }
 function BookRoomPage(req,res){
     let params = {
@@ -36,7 +36,7 @@ function BookRoomPage(req,res){
         Type: req.body.roomType
     };
     console.log(params);
-    query.resQueries.resInsert.InsertReservation(params,BookRoomPageCB);
+    query.resQueries.resInsert.InsertReservation(req,res,params,BookRoomPageCB);
 }
 /*---------------------------------------------------*/
 module.exports = function(app) {

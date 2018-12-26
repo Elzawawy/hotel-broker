@@ -1,4 +1,4 @@
-exports.InsertReservation = function (params, callback) {
+exports.InsertReservation = function (req,res,params, callback) {
 
   paramsSelect = [params.HotelName,
   params.HotelBranch,
@@ -8,27 +8,32 @@ exports.InsertReservation = function (params, callback) {
   params.HotelName,
   params.HotelBranch,
   params.Type];
-  
-  let roomNumber = {};
+  console.log("PARAMSS");
+  console.log(paramsSelect);
+
   console.log("First Query");
   console.log(params);
-  params = conn.query(roomSelectQueries.getFreeRooms, paramsSelect, function (err, result, fields) {
-    console.log(fields);
-    roomNumber=JSON.parse(JSON.stringify(result));
+  conn.query(roomSelectQueries.getFreeRooms, paramsSelect, function (err, result, fields) {
+    console.log("HELLO FROM HERE");
+      let roomNumber = {};
+      console.log(JSON.parse(JSON.stringify(result)));
+    roomNumber=JSON.parse(JSON.stringify(result))[0].Number;
+      console.log(JSON.parse(JSON.stringify(result))[0].Number);
+      let Insertparams = {
+          HotelName: params.HotelName,
+          HotelBranch: params.HotelBranch,
+          StartDate: params.StartDate,
+          EndDate: params.EndDate,
+          CustomerUser: params.CustomerUser,
+          RoomNumber: roomNumber
+      };
+      // query to insert into User table.
+      conn.query(resQueries.resInsertQuery, Insertparams, function (err, result, fields) {
+          CheckForError(err, result, "Reservation table insert");
+          console.log(fields);
+          callback(req,res,result);
+      });
   });
-  cosnole.log(roomNumber);
-let Insertparams = {
-    HotelName: params.HotelName,
-    HotelBranch: params.HotelBranch,
-    StartDate: params.StartDate,
-    EndDate: params.EndDate,
-    CustomerUser: params.CustomerUser,
-    RoomNumber: roomNumber.Number
-};
-  // query to insert into User table.
-  conn.query(resQueries.resInsertQuery, Insertparams, function (err, result, fields) {
-    CheckForError(err, result, "Reservation table insert");
-    console.log(fields);
-    callback(result);
-  });
+  console.log(roomNumber);
+
 };

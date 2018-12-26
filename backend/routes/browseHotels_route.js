@@ -2,6 +2,7 @@ const router = require('express').Router();
 
 router.get('/',getAllHotels);
 
+
 function browseHotelCB(req,res,result){
     let hotels = JSON.parse(result);
     res.render("pages/browse_hotels",{role: req.session.role,hotels: hotels});
