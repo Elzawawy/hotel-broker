@@ -4,4 +4,7 @@ exports.retrieveUserResList = `SELECT Reservation.*,Room.Price,Room.Type
                                WHERE CustomerUser = ? AND 
                                RoomNumber = Number`;
 
-exports.retrieveHotelResList = `SELECT Reservation`;
+exports.retrieveHotelResList = `SELECT *
+                                FROM Reservation
+                                WHERE HotelName = ?
+                                AND HotelBranch = ?`;

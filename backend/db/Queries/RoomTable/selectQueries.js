@@ -4,8 +4,8 @@ exports.getAllHotelRooms = `SELECT Number,Type,Price,IF(checkedOut > CURRENT_TIM
 
 //query that returns free rooms only in a specific hotel.
 //fi moshkla hena en law room mat7gztsh abl keda msh htzhr. 
-exports.getFreeRooms = `SELECT Number,price FROM Room LEFT OUTER JOIN Reservation 
-                        WHERE Number = RoomNumber 
+exports.getFreeRooms = `SELECT Number,price FROM Room LEFT JOIN Reservation 
+                        ON Number = RoomNumber 
                         AND Room.HotelName = Reservation.HotelName 
                         AND Room.HotelBranch = Reservation.HotelBranch 
                         AND Room.HotelName = ? 
@@ -14,4 +14,5 @@ exports.getFreeRooms = `SELECT Number,price FROM Room LEFT OUTER JOIN Reservatio
                         AND Reservation.StartDate >= ?
                         AND Room.isDeleted = 0
                         AND Reservation.isDeleted = 0
+                        AND Room.Number > 0
                         LIMIT 1`;

@@ -7,3 +7,13 @@ exports.retrieveUserResList = function (params,callback) {
         else callback(result);
     });
 };
+
+//retrieveHotelResList() method should be called to get a reservations list (curret and previous) of an Hotel. 
+//params should be in the form ['HotelName','HotelBranch'] and returns a list of results !
+exports.retrieveHotelResList = function(params,callback){
+    //query to retrieve Username if username and password exists, otherwise returns NULL
+    conn.query(resQueries.resSelectQueries.retrieveHotelResList, params, function (err, result, fields) {
+        if(err) console.log(err);
+        else callback(result);
+    });
+};
