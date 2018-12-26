@@ -48,7 +48,10 @@
           <div class="card-body">
             <h5 class="card-title">Branch: <%=hotels[i].Branch%></h5>
             <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
-          </div> 
+          </div>
+          <form method="get" action="/reservations/:hotelName/:hotelBranch">
+            <button type="submit">Book</button>
+          </form>
       </div>
       <%}%>
         <%if(hotels[i].isPremium===0){%>
@@ -60,8 +63,7 @@
             <h5 class="card-title">Branch: <%=hotels[i].Branch%></h5>
             <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
           </div>
-          </div>
-        <%}%>  
+        <%}%>
     </li>
     <%}%>
   </ul>
