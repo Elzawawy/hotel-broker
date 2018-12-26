@@ -23,4 +23,9 @@ exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.proceeds.checkRole();
   databaseDefinitionHandler.trigs.BeforeInsertHotelTrig();
   databaseDefinitionHandler.trigs.BeforeUpdateHotelTrig();
+  databaseDefinitionHandler.proceeds.checkReservation();
+  databaseDefinitionHandler.trigs.BeforeInsertResTrig();
+  databaseDefinitionHandler.trigs.BeforeUpdateResTrig();
+  databaseDefinitionHandler.trigs.BeforeUpdateRoomTrig();
+  databaseDefinitionHandler.trigs.BeforeInsertRoomTrig();
 };

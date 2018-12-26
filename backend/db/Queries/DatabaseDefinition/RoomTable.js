@@ -4,7 +4,7 @@ module.exports = `CREATE TABLE Room (
     HotelName varchar(255) NOT NULL,
     Type varchar(255) NOT NULL,
     Price DECIMAL(5,2) NOT NULL,
-    checkedOut date DEFAULT CURRENT_TIMESTAMP,
+    checkedOut date DEFAULT NULL,
     isDeleted boolean DEFAULT 0 NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
