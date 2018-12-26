@@ -25,37 +25,34 @@
     </div>
   <%}%>
 </div>
-<div class="row" style="margin-top: 10%;">
+<div style="margin-top: 55px;">
 
   <h2>Hotels</h2>
   <ul class="list-group" style="width: 98%">
     <% for(var i=0; i<hotels.length ; i++){%>
     <li class="list-group-item" >
+      <%if(hotels[i].isPremium===1){%>
       <div class="card text-white bg-dark m-2 col-sm-6" style="max-width: 99%;">
-          <%if(hotels[i].isPremium===1){%>
-
           <div class="card-header">
-          <h3><%=hotels[i].Name%></h3>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Branch: <%=hotels[i].Branch%></h5>
-          <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
-        </div>
-          <%}%>
+            <h3><a href="/owner/<%=hotels[i].Name%>/<%=hotels[i].Branch%>"><%=hotels[i].Name%></a></h3>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Branch: <%=hotels[i].Branch%></h5>
+            <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
+          </div> 
       </div>
-        <div class="card text-white bg-dark m-2 col-sm-6" style="max-width: 99%;">
-            <%if(hotels[i].isPremium===0){%>
-
-            <div class="card-header">
-                <h3><%=hotels[i].Name%></h3>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Branch: <%=hotels[i].Branch%></h5>
-                <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
-            </div>
-            <%}%>
-        </div>
-
+      <%}%>
+        <%if(hotels[i].isPremium===0){%>
+          <div class="card text-white bg-dark m-2 col-sm-6" style="max-width: 99%;"></div>
+          <div class="card-header">
+            <h3><a href="/owner/<%=hotels[i].Name%>/<%=hotels[i].Branch%>"><%=hotels[i].Name%></a></h3>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Branch: <%=hotels[i].Branch%></h5>
+            <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
+          </div>
+          </div>
+        <%}%>  
     </li>
     <%}%>
   </ul>
