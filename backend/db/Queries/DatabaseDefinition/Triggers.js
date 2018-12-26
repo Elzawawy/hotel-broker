@@ -1,34 +1,36 @@
-exports.RoleBeforeInsertTrigger = `CREATE TRIGGER hotel_before_insert BEFORE INSERT ON Hotel 
+exports.HotelBeforeInsert = `CREATE TRIGGER hotel_before_insert BEFORE INSERT ON Hotel 
                                    FOR EACH ROW 
                                    BEGIN 
                                    CALL check_role (NEW.OwnerUser,NEW.BrokerUser); 
                                    END;`;
 
-exports.RoleBeforeUpdateTrigger = `CREATE TRIGGER hotel_before_update BEFORE UPDATE ON Hotel 
+exports.HotelBeforeUpdate = `CREATE TRIGGER hotel_before_update BEFORE UPDATE ON Hotel 
                                    FOR EACH ROW 
                                    BEGIN 
                                    CALL check_role (NEW.OwnerUser,NEW.BrokerUser); 
                                    END;`;
 
-exports.TypeBeforeInsertTrigger = `CREATE TRIGGER reservation_before_insert BEFORE INSERT ON Reservation
+exports.ReservationBeforeInsert = `CREATE TRIGGER reservation_before_insert BEFORE INSERT ON Reservation
                                   FOR EACH ROW 
                                   BEGIN
                                   CALL check_reservation_type(NEW.RoomNumber, NEW.HotelName, NEW.HotelBranch);
+                                  CALL update_checkedOut(NEW.HotelName, NEW.HotelBranch, NEW.RoomNumber, NEW.isChecked_in, NEW.EndDate);
                                   END;`;
 
-exports.TypeBeforeUpdateTrigger = `CREATE TRIGGER reservation_before_update BEFORE UPDATE ON Reservation
+exports.ReservationBeforeUpdate = `CREATE TRIGGER reservation_before_update BEFORE UPDATE ON Reservation
                                   FOR EACH ROW 
                                   BEGIN
                                   CALL check_reservation_type(NEW.RoomNumber, NEW.HotelName, NEW.HotelBranch);
+                                  CALL update_checkedOut(NEW.HotelName, NEW.HotelBranch, NEW.RoomNumber, NEW.isChecked_in, NEW.EndDate);
                                   END;`;
 
-exports.checkedOutBeforeInsertTrigger = `CREATE TRIGGER room_before_insert BEFORE INSERT ON Room
+exports.RoomBeforeInsert = `CREATE TRIGGER room_before_insert BEFORE INSERT ON Room
                                         FOR EACH ROW 
                                         BEGIN
                                         SET NEW.checkedOut = CURRENT_DATE;
                                         END;`;
 
-exports.checkedOutBeforeUpdateTrigger =`CREATE TRIGGER room_before_update BEFORE UPDATE ON Room
+exports.RoomBeforeUpdate = `CREATE TRIGGER room_before_update BEFORE UPDATE ON Room
                                         FOR EACH ROW 
                                         BEGIN
                                         SET NEW.checkedOut = CURRENT_DATE;

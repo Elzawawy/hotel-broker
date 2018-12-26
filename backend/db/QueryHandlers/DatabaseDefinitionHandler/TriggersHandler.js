@@ -1,6 +1,6 @@
 exports.BeforeInsertHotelTrig = function() {
   // query to create before insert on hotel trigger.
-  conn.query(databaseDefinitionQueries.trigs.RoleBeforeInsertTrigger, function(
+  conn.query(databaseDefinitionQueries.trigs.HotelBeforeInsert, function(
     err,
     result
   ) {
@@ -10,7 +10,7 @@ exports.BeforeInsertHotelTrig = function() {
 
 exports.BeforeUpdateHotelTrig = function() {
   // query to create before update on hotel trigger.
-  conn.query(databaseDefinitionQueries.trigs.RoleBeforeUpdateTrigger, function(
+  conn.query(databaseDefinitionQueries.trigs.HotelBeforeUpdate, function(
     err,
     result
   ) {
@@ -20,7 +20,7 @@ exports.BeforeUpdateHotelTrig = function() {
 
 exports.BeforeInsertResTrig = function() {
    // query to create before insert on reservation trigger.
-   conn.query(databaseDefinitionQueries.trigs.TypeBeforeInsertTrigger, function(
+   conn.query(databaseDefinitionQueries.trigs.ReservationBeforeInsert, function(
     err,
     result
   ) {
@@ -30,7 +30,7 @@ exports.BeforeInsertResTrig = function() {
 
 exports.BeforeUpdateResTrig = function() {
   // query to create before insert on reservation trigger.
-  conn.query(databaseDefinitionQueries.trigs.TypeBeforeUpdateTrigger, function(
+  conn.query(databaseDefinitionQueries.trigs.ReservationBeforeUpdate, function(
    err,
    result
  ) {
@@ -40,7 +40,7 @@ exports.BeforeUpdateResTrig = function() {
 
 exports.BeforeInsertRoomTrig = function() {
   // query to create before insert on reservation trigger.
-  conn.query(databaseDefinitionQueries.trigs.checkedOutBeforeInsertTrigger, function(
+  conn.query(databaseDefinitionQueries.trigs.RoomBeforeInsert, function(
    err,
    result
  ) {
@@ -50,7 +50,7 @@ exports.BeforeInsertRoomTrig = function() {
 
 exports.BeforeUpdateRoomTrig = function() {
   // query to create before insert on reservation trigger.
-  conn.query(databaseDefinitionQueries.trigs.checkedOutBeforeUpdateTrigger, function(
+  conn.query(databaseDefinitionQueries.trigs.RoomBeforeUpdate, function(
    err,
    result
  ) {
