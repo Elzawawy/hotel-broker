@@ -28,6 +28,12 @@
 <div style="margin-top: 55px; overflow-x: hidden">
     <h2 style="margin-left:10px">Rooms</h2>
     <div class="btn-group" style="margin-left:80%">
+        <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/owed">
+            <button type="submit" class="btn btn-dark" style="width:100px">Reservation Requests</button>
+        </form>
+        <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/reservationRequests">
+            <button type="submit" class="btn btn-dark" style="width:100px">Reservation Requests</button>
+        </form>
     <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/addRoom">
         <button type="submit" class="btn btn-dark" style="width:100px">Add Room</button>
     </form>

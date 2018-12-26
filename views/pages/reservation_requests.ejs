@@ -29,17 +29,18 @@
         <div class="list-group">
             <% for(var i=0; i<reservations.length ;i++){ %>
                 <a class="list-group-item list-group-item-action list-group-item-dark">
-                    <div id="<%reservations.id%>">
+                    <div id="<%reservations.ID%>">
                         <h3>Reservation</h3>
                         <div>
-                            <p><%=reservations[i].roomnumber%></p>
-                            <p><%=reservations[i].hotelbranch%></p>
+                            <p><%=reservations[i].RoomNumber%></p>
+                            <p><%=reservations[i].HotelBranch%></p>
+                            <p><%=reservations[i].CustomerUser%></p>
                         </div>
                         <div class="btn-group" role="group" aria-label="Basic example">
-                        <form   method="post" name="Approve" action="<%=reservations[i].hotelbranch%>/<%=reservations[i].id%>/approve">
+                        <form   method="post" name="Approve" action="/owner/<%=reservations[i].HotelName%>/<%=reservations[i].HotelBranch%>/reservationRequests/<%=reservations[i].ID%>/accept">
                             <button type="submit" type="button" class="btn btn-success">Approve</button>
                         </form>
-                        <form method="post" name="Deny" action="<%=reservations[i].hotelbranch%>/<%=reservations[i].id%>/deny">
+                        <form method="post" name="Deny" action="/owner/<%=reservations[i].HotelName%>/<%=reservations[i].HotelBranch%>/reservationRequests/<%=reservations[i].ID%>/deny">
                             <button type="submit" type="button" class="btn btn-danger">Deny</button>
                         </form>
                         </div>
