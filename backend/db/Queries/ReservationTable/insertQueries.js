@@ -1,1 +1,1 @@
-module.exports = `INSERT INTO User SET ?`;
+module.exports = `INSERT INTO Reservation SET ?`;

@@ -171,11 +171,13 @@ function editHotel(req, res) {
 router.get("/:hotelName/:hotelBranch/reservationRequests",loadReservationRequestsPage);
 function loadReservationRequestsPageCB(req,res,result){
     let reservations = JSON.parse(result);
+    console.log(reservations);
     res.render("pages/reservation_requests",{reservations: reservations,role:req.session.role});
 }
 
 function loadReservationRequestsPage(req,res){
     let params = [req.params.hotelName,req.params.hotelBranch];
+    console.log(params);
     query.resQueries.resSelect.retrieveHotelResList(req,res,params,loadReservationRequestsPageCB);
 }
 /*-------------------------------------------------------*/

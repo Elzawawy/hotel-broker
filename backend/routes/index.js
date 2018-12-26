@@ -21,6 +21,7 @@ const register = require("./register_route");
 const browseHotels = require("./browseHotels_route");
 const users = require("./user_route");
 const rooms = require("./room_route");
+const reservations = require("./reservation_route");
 const checkin = require("./checkIn_route");
 const checkout = require("./checkOut_route");
 const hotelRequests = require("./hotelReservation_route");
@@ -39,4 +40,5 @@ module.exports = function routesBinder(app) {
   hotelRequests(app);
   broker(app);
   owner(app);
+  reservations(app);
 };

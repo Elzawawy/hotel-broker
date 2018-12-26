@@ -29,7 +29,7 @@
         <div class="list-group">
             <% for(var i=0; i<reservations.length ;i++){ %>
                 <a class="list-group-item list-group-item-action list-group-item-dark">
-                    <div id="<%reservations.ID%>">
+                    <div id="<%=reservations[i].ID%>">
                         <h3>Reservation</h3>
                         <div>
                             <p><%=reservations[i].RoomNumber%></p>

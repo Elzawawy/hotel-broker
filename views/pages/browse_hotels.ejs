@@ -49,7 +49,7 @@
             <h5 class="card-title">Branch: <%=hotels[i].Branch%></h5>
             <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
           </div>
-          <form method="get" action="/reservations/:hotelName/:hotelBranch">
+          <form method="get" action="/reservations/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
             <button type="submit">Book</button>
           </form>
       </div>
@@ -63,6 +63,9 @@
             <h5 class="card-title">Branch: <%=hotels[i].Branch%></h5>
             <p class="card-text">Hotel Location: <%=hotels[i].Location%></p>
           </div>
+        <form method="get" action="/reservations/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">
+            <button type="submit">Book</button>
+        </form>
         <%}%>
     </li>
     <%}%>

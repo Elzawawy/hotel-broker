@@ -16,12 +16,14 @@ function cancelReservation(req, res) {
 router.get("/:hotelName/:hotelBranch",loadBookRoomPage);
 
 function loadBookRoomPage(req,res){
-    res.render("pages/add_reservation",{role: req.session.role});
+    res.render("pages/add_reservation",{hotelName:req.params.hotelName,hotelBranch:req.params.hotelBranch,
+        role: req.session.role});
 }
 /*---------------------------------------------------*/
 /*---------------Book Room Page-----------------*/
 router.post("/:hotelName/:hotelBranch",BookRoomPage);
 function BookRoomPageCB(req,res){
+    console.log("Hotels");
     res.redirect("/browse_Hotels");
 }
 function BookRoomPage(req,res){
@@ -33,7 +35,8 @@ function BookRoomPage(req,res){
         EndDate: req.body.endDate,
         Type: req.body.roomType
     };
-    query.resQueries.resInsert.InsertReservation(params,BookRoomPage);
+    console.log(params);
+    query.resQueries.resInsert.InsertReservation(params,BookRoomPageCB);
 }
 /*---------------------------------------------------*/
 module.exports = function(app) {
