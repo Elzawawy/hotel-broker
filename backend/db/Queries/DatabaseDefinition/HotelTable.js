@@ -5,6 +5,7 @@ module.exports = `CREATE TABLE Hotel (
     Images LONGBLOB DEFAULT NULL,
     BrokerUser varchar(255) DEFAULT NULL,
     OwnerUser varchar(255) NOT NULL,
+    Stars INT NOT NULL DEFAULT 0,
     Owed Decimal(6,2) NOT NULL DEFAULT 0,
     isSuspended boolean DEFAULT 0 NOT NULL,
     isPremium boolean DEFAULT 0 NOT NULL,

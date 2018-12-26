@@ -18,6 +18,7 @@ exports.retrieveClassAList = `SELECT Username,Name FROM User
                               HAVING c > 5) as interTable 
                               WHERE Username = CustomerUser`;
 
+//
 exports.retrieveToBeBlackList = `SELECT Username,Name FROM User
                                 JOIN Reservation
                                 WHERE Username = CustomerUser

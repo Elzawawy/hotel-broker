@@ -8,14 +8,24 @@ exports.InsertReservation = function (params, callback) {
   params.HotelName,
   params.HotelBranch,
   params.Type];
+  
   let roomNumber = {};
+
   params = conn.query(roomSelectQueries.getFreeRooms, paramsSelect, function (err, result, fields) {
     console.log(fields);
     roomNumber=JSON.parse(JSON.stringify(result));
   });
-paramsSelect.RoomNumber = roomNumber.Number;
+
+let Insertparams = {
+  HotelName : params.HotelName,
+  HotelBranch : params.HotelBranch,
+  StartDate  : params.StartDate,
+  EndDate : params.EndDate,
+  CustomerUser : params.CustomerUser,
+  RoomNumber : roomNumber.Number
+}
   // query to insert into User table.
-  conn.query(resQueries.resInsertQuery, paramsSelect, function (err, result, fields) {
+  conn.query(resQueries.resInsertQuery, Insertparams, function (err, result, fields) {
     CheckForError(err, result, "Reservation table insert");
     console.log(fields);
     callback(result);
