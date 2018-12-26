@@ -7,4 +7,4 @@ exports.retrieveUserResList = `SELECT Reservation.*,Room.Price,Room.Type
 exports.retrieveHotelResList = `SELECT *
                                 FROM Reservation
                                 WHERE HotelName = ?
-                                AND HotelBranch = ?`;
+                                AND HotelBranch = ? AND isDeleted=0 AND isApproved=0`;

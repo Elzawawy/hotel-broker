@@ -49,7 +49,7 @@ function showOwnerHotelRooms(req, res) {
 router.get("/:hotelName/:hotelBranch/owed", showOwnerHotelTotalOwed);
 function showOwnerHotelOwedCB(req, res, result) {
   let owed = JSON.parse(result);
-  res.status(200).send(owed);
+  res.render("pages/owner_owed",{owed: owed});
 }
 function showOwnerHotelTotalOwed(req, res) {
   let params = [
@@ -166,6 +166,43 @@ function editHotel(req, res) {
     editHotelCB
   );
 }
+
+/*------------Show Reservation Requests------------------*/
+router.get("/:hotelName/:hotelBranch/reservationRequests",loadReservationRequestsPage);
+function loadReservationRequestsPageCB(req,res,result){
+    let reservations = JSON.parse(result);
+    res.render("pages/reservation_requests",{reservations: reservations,role:req.session.role});
+}
+
+function loadReservationRequestsPage(req,res){
+    let params = [req.params.hotelName,req.params.hotelBranch];
+    query.resQueries.resSelect.retrieveHotelResList(req,res,params,loadReservationRequestsPageCB);
+}
+/*-------------------------------------------------------*/
+
+/*-----------Accept Reservation-------------------------*/
+router.post("/:hotelName/:hotelBranch/reservationRequests/:resID/accept",acceptReservation);
+function acceptReservationCB(req,res){
+    res.redirect("/owner/"+req.params.hotelName+"/"+req.params.hotelBranch+"/reservationRequests");
+}
+
+function acceptReservation(req,res){
+    query.resQueries.resUpdate.ApproveReservation(req,res,req.params.resID,acceptReservationCB)
+}
+/*------------------------------------------------------*/
+
+/*-----------Deny Reservation---------------------------*/
+router.post("/:hotelName/:hotelBranch/reservationRequests/:resID/deny",denyReservation);
+function denyReservationCB(req,res){
+    res.redirect("/owner/"+req.params.hotelName+"/"+req.params.hotelBranch+"/reservationRequests");
+}
+
+function denyReservation(req,res){
+    query.resQueries.resUpdate.DenyReservation(req,res,req.params.resID,denyReservationCB)
+}
+/*------------------------------------------------------*/
+
+
 module.exports = function(app) {
   app.use("/owner", router);
 };
