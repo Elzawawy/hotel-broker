@@ -76,8 +76,11 @@ function addHotel(req,res){
         Branch: req.body.hotelBranch,
         Location: req.body.hotelLocation,
         OwnerUser: req.session.username,
-        isPremium: req.body.Premium
+        isPremium: 0
     };
+    if(req.body.Premium === "yes"){
+        params.isPremium = 1;
+    }
     console.log("Add Hotel");
     query.hotelQueriesHandler.hotelInsert.AddHotel(req,res,params,addHotelCB);
 }
