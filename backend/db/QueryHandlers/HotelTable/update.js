@@ -64,7 +64,7 @@ exports.AssignHotelToBroker = function (params){
 
 //This Function allows the edit of a specific Hotel's info. 
 //Params is in the form of ['Name','Branch']. 
-exports.EditHotelInfo = function(params){
+exports.EditHotelInfo = function(req,res,params,callback){
     conn.query(hotelQueries.hotelUpdate.editHotelInfo,params,function(
         err,
         result,
@@ -72,5 +72,9 @@ exports.EditHotelInfo = function(params){
     {
         console.log(params);
         if(err) return null;
+        else{
+            console.log("Hotel Updated");
+            callback(req,res,params);
+        }
     });
-} 
+};

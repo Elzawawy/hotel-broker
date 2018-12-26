@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><%=rooms[0].HotelBranch%> Branch</title>
+    <title><%=hotelBranch%> Branch</title>
     <meta charset="UTF-8" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,6 +17,10 @@
     <h2>Rooms</h2>
     <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/addRoom">
         <button type="submit">Add Room</button>
+    </form>
+    <br/>
+    <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/editHotel">
+        <button type="submit">Edit Hotel</button>
     </form>
     <ul class="list-group" style="width: 98%">
         <% for(var i=0; i<rooms.length ; i++){%>
