@@ -35,10 +35,11 @@
             <%}%>
     </div>
 
-<div class="row" style="margin-top: 10%;">
-  <ul class="list-group" style="width: 98%">
-      <form method="get" action="/owner/addHotel">
-          <button type="submit">Add Hotel</button>
+<div style="margin-top: 55px;">
+  <h2 style="margin-left:10px">My  Hotels</h2>
+  <ul class="list-group" style="width: 98%; margin-left: 1%">
+      <form method="get" action="/owner/addHotel" style="margin-left:93%">
+          <button type="submit" class="btn btn-dark">Add Hotel</button>
       </form>
     <% for(var i=0; i<hotels.length ; i++){%>
     <li class="list-group-item" >
