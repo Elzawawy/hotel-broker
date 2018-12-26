@@ -7,6 +7,10 @@ function getOwnerHotelsCB(req,res,result){
     res.render("pages/owner_show_hotels",{hotels: hotels,role: req.session.role});
 }
 function getOwnerHotels(req, res) {
+    if(req.session.role !== "Owner"){
+        console.log("Not Owner");
+        res.redirect("/profile");
+    }
     let params = req.session.username;
     console.log(params);
     console.log("OWNER HOTELS");
@@ -79,6 +83,43 @@ function addHotel(req,res){
 }
 /*-------------------------------------------------------*/
 
+/*-------------Load Edit Hotel Page Route----------------*/
+router.get("/:hotelName/:hotelBranch/editHotel",loadEditHotelPage);
+function loadEditHotelPage(req,res){
+    res.render("pages/owner_editHotel",{hotelName:req.params.hotelName,hotelBranch:req.params.hotelBranch,
+        role: req.session.role
+    });
+}
+/*-------------------------------------------------------*/
+
+/*------------Edit Hotel Route---------------------------*/
+router.post("/:hotelName/:hotelBranch/editHotel",editHotel);
+function editHotelCB(req,res,params){
+    let hotelName = params[0].Name;
+    let hotelBranch = params[0].Branch;
+    console.log("Edit Hotel Call Back");
+    res.redirect("/owner/"+hotelName+"/"+hotelBranch);
+}
+
+function editHotel(req,res){
+    let hotelInfo = {
+    };
+
+    if(req.body.hotelName !== ""){
+        hotelInfo.Name = req.body.hotelName;
+    }
+
+    if(req.body.hotelBranch !== ""){
+        hotelInfo.Branch = req.body.hotelBranch;
+    }
+
+    if(req.body.hotelLocation !== ""){
+        hotelInfo.Location = req.body.hotelLocation;
+    }
+    console.log("Updating Hotel");
+    let params = [hotelInfo,req.params.hotelName,req.params.hotelBranch];
+    query.hotelQueriesHandler.hotelUpdate.EditHotelInfo(req,res,params,editHotelCB);
+}
 module.exports = function(app) {
   app.use("/owner", router);
 };
