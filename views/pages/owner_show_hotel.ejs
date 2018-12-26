@@ -27,13 +27,14 @@
 </div>
 <div style="margin-top: 55px; overflow-x: hidden">
     <h2 style="margin-left:10px">Rooms</h2>
-    <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/addRoom"style="margin-left:90%">
-        <button type="submit" class="btn btn-dark" >Add Room</button>
+    <div class="btn-group" style="margin-left:80%">
+    <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/addRoom">
+        <button type="submit" class="btn btn-dark" style="width:100px">Add Room</button>
     </form>
-    <br/>
     <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/editHotel">
-        <button type="submit">Edit Hotel</button>
+        <button type="submit" class="btn btn-dark" style="margin-left:5px; width:100px">Edit Hotel</button>
     </form>
+    </div>
     <ul class="list-group" style="width: 98%">
     <div class="row" style="margin-left:15%;">
         <% for(var i=0; i<rooms.length ; i++){%>
