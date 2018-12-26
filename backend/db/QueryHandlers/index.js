@@ -5,7 +5,7 @@
 //Component 4 : Connection Object.
 CheckForError = require("./Helpers/ErrorHelper");
 let databaseDefinitionHandler = require("./DatabaseDefinitionHandler");
-
+let seedHandler = require("./Helpers/seeder");
 conn = require("../connect")();
 
 exports.hotelQueriesHandler = require("./HotelTable");
@@ -21,6 +21,7 @@ exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.createRatesRelationTable();
   databaseDefinitionHandler.createReservationTable();
   databaseDefinitionHandler.proceeds.checkRole();
+
   databaseDefinitionHandler.trigs.BeforeInsertHotelTrig();
   databaseDefinitionHandler.trigs.BeforeUpdateHotelTrig();
   databaseDefinitionHandler.proceeds.checkReservation();
@@ -28,4 +29,5 @@ exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.trigs.BeforeUpdateResTrig();
   databaseDefinitionHandler.trigs.BeforeUpdateRoomTrig();
   databaseDefinitionHandler.trigs.BeforeInsertRoomTrig();
+  seedHandler();
 };

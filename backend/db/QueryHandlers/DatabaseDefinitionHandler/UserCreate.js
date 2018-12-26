@@ -1,14 +1,8 @@
-const seedQuery = require("../../seed/UserTableSeed");
-
 //File Respoible for User Table Creation.
 module.exports = function() {
   //query to create user table
   conn.query(databaseDefinitionQueries.userCreate, function(err, result) {
     CheckForError(err, result, "User Table");
-  });
-
-  conn.query(seedQuery, function(err, result, fields) {
-    CheckForError(err, result, "User Seed");
   });
 };
 
