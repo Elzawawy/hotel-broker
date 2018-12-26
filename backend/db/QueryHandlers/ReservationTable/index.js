@@ -1,3 +1,4 @@
+const roomSelectQueries = require("../../Queries/RoomTable/selectQueries")
 const resQueries = require("../../Queries/ReservationTable");
 
 exports.resInsert = require("./insertQueryHandler");
