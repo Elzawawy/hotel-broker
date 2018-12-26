@@ -17,15 +17,15 @@ function getOwnerHotels(req, res) {
 /*-----------Show Owner's Hotel--------------*/
 router.get("/:hotelName/:hotelBranch",showOwnerHotel);
 function showOwnerHotelCB(req,res,result){
-    let hotel = JSON.parse(result);
-    res.render()
+    let rooms = JSON.parse(result);
+    res.render("pages/owner_show_hotel",{rooms: rooms});
 }
-
 
 function showOwnerHotel(req,res){
-    let params = [req.session.username,req.params.hotelName,req.params.hotelBranch];
-    query.hotelQueriesHandler.hotelSelect.GetHotelInfo(req,res,params,showOwnerHotelCB);
+    let params = [req.params.hotelName,req.params.hotelBranch];
+    query.roomQueriesHandler.roomSelect.GetAllRooms(req,res,params,showOwnerHotelCB);
 }
+/*-------------------------------------------*/
 module.exports = function(app) {
   app.use("/owner", router);
 };
