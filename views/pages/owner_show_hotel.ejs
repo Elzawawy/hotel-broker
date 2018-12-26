@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title><=%hotel.Branch%> Branch</title>
-    </head>
+<head>
+    <title><%=rooms[0].HotelBranch%> Branch</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous" />
+</head>
 
-    <body>
-        <h4></h4>
-    </body>
+<body>
+<div>
+    <% include ../partials/nav.ejs %>
+</div>
+<div style="margin-top: 55px;">
+    <h2>Rooms</h2>
+    <form method="get" action="/owner/<%=hotelName%>/<%=hotelBranch%>/addRoom">
+        <button type="submit">Add Room</button>
+    </form>
+    <ul class="list-group" style="width: 98%">
+        <% for(var i=0; i<rooms.length ; i++){%>
+        <li class="list-group-item" >
+            <div class="card text-white bg-dark m-2 col-sm-6" style="max-width: 99%;">
+                <div class="card-header">
+                    <h3><%=rooms[i].Number%></h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Type: <%=rooms[i].Type%></h5>
+                    <p class="card-text">Price: <%=rooms[i].Price%>$</p>
+                    <p class="card-text">Status: <%=rooms[i].isBooked%></p>
+                </div>
+            </div>
+        </li>
+        <%}%>
+    </ul>
+</div>
+</body>
 </html>

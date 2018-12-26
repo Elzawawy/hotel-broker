@@ -25,7 +25,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Branch:<%=hotels[i].Branch%></h5>
                     <p class="card-text">Hotel Location:<%=hotels[i].Location%></p>
-                    <p class="card-text">Hotel Branch:<%=hotels[i].OwnerUser%></p>
+                    <p class="card-text">Hotel Owner:<%=hotels[i].OwnerUser%></p>
                     <div class="btn-group" role="group" aria-label="Basic example">
 
                     <form method="post" action="/broker/approveHotel/<%=hotels[i].Name%>/<%=hotels[i].Branch%>">

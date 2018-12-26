@@ -24,7 +24,7 @@ function loadProfilePage(req,res){
 /*--------Load Edit Profile Page Route------------*/
 router.get("/edit_profile",loadEditProfilePage);
 function loadEditProfilePage(req,res){
-    res.render("pages/edit_profile");
+    res.render("pages/edit_profile",{role : req.session.role});
 }
 /*------------------------------------------------*/
 

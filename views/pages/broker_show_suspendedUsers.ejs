@@ -5,7 +5,22 @@
     <title>All Users</title>
 </head>
 <body>
-<% include ../partials/nav.ejs %>
+<<<<<<< HEAD
+    <div>
+        <% if (role==="Owner"){%>
+            <div>
+                <% include ../partials/owner_nav.ejs%>
+            </div>
+            <%}else if(role==="Broker"){%>
+                <div>
+                    <% include ../partials/broker_nav.ejs%>
+                </div>
+                <%}else if(role==="Customer"){%>
+                    <div>
+                        <%include ../partials/customer_nav.ejs%>
+                    </div>
+                    <%}%>
+    </div>
 
 <div style="margin-top: 55px;">
     <h2>Show Suspended Users</h2>
@@ -25,6 +40,7 @@
         </li>
         <%}%>
     </ul>
+>>>>>>> e2a1adbd085c05b7d0b86c9d48d34bbe695bc03b
 </div>
 </body>
 </html>

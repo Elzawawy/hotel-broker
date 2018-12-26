@@ -7,7 +7,15 @@
   </head>
 
   <body>
-    <% include ../partials/nav.ejs %>
+    <div>
+      <% if (role==="Owner"){%>
+      <div><% include ../partials/owner_nav.ejs%></div>
+      <%}else if(role==="Broker"){%>
+      <div><% include ../partials/broker_nav.ejs%></div>
+      <%}else if(role==="Customer"){%>
+      <div><%include ../partials/customer_nav.ejs%></div>
+      <%}%>
+    </div>
     <div>
       <h2>Add New Hotel</h2>
       <form method="post" name="add_hotel_form">

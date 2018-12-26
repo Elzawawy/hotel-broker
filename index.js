@@ -26,7 +26,7 @@ app.use(bodyParser.json()); // Parse to json object
 app.use(
   session({
     cookieName: "session",
-    secret: "TKRv0IJs=HYqrvagQ#&!F!%V]Ww/4KiVs$s,<<MX",
+    secret: "secret",
     duration: 30 * 60 * 1000,
     activeDuration: 5 * 60 * 1000
   })

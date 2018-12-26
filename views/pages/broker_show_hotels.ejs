@@ -11,9 +11,23 @@
 
   <body>
     <div>
-    <% include ../partials/nav.ejs %>
+<<<<<<< HEAD
+      <% if (role==="Owner"){%>
+        <div>
+          <% include ../partials/owner_nav.ejs%>
+        </div>
+        <%}else if(role==="Broker"){%>
+          <div>
+            <% include ../partials/broker_nav.ejs%>
+          </div>
+          <%}else if(role==="Customer"){%>
+            <div>
+              <%include ../partials/customer_nav.ejs%>
+            </div>
+            <%}%>
     </div>
-    <div style="margin-top: 55px;">
+    <div class="row" style="margin-top: 10%;">
+
       <h2>Show hotels</h2>
       <ul class="list-group" style="width: 98%">
         <% for(var i=0; i<hotels.length ; i++){%>
