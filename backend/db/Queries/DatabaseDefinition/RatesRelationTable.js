@@ -1,6 +1,5 @@
 module.exports = `CREATE TABLE RatesRelation(
     Rating float NOT NULL DEFAULT 0,
-    Comment varchar(255) DEFAULT NULL,
     HotelName varchar(255) NOT NULL,
     HotelBranch varchar(255) NOT NULL,
     CustomerUser varchar(255) NOT NULL,

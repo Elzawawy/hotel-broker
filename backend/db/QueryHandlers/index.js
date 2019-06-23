@@ -12,8 +12,6 @@ exports.hotelQueriesHandler = require("./HotelTable");
 exports.userQueries = require("./UserTable");
 exports.roomQueriesHandler = require("./RoomTable");
 exports.resQueries = require("./ReservationTable");
-exports.ratesQueries = require("./RatesRelationTable");
-
 //Export Another alternative for Database and Tables Creation through one fucntion call.
 exports.databaseSetup = function(dbName) {
   databaseDefinitionHandler.databaseCreate(dbName);
