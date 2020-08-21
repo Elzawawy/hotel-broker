@@ -9,6 +9,8 @@ During planning phase, we assumed that a Broker can own a hotel or reserve a hot
 
 We have built the ER-Diagram by breaking everything down to its core meaning in the physical world and doing our best to fit it with its useful data in our miniworld.  The ER/Relational and normalization figures were created via [google’s tool draw.io](https://www.draw.io/).
 
+---
+
 ## Database Design
 This is a database course final project, so obviously the database design is the most important aspect of the project. Three steps are included here, we start by showing our ER-Diagram or the conceptual modeling. We then move to the relational model converting it from the ERD and finally we normalize it several levels to reach the normalized relational model we implement.
 
@@ -21,6 +23,7 @@ This is a database course final project, so obviously the database design is the
 ### Step 3: Normalization of Relational Model
 <p align='center'><img src='docs/images/NormalizedRelationModel.png'/></p>
 
+---
 
 ## Web Application Implementation
 
@@ -58,5 +61,9 @@ Next, we list the file structure of the application for convience:
     │   └── CSS  
     └── partials  
         └── CSS  
+
+Lastly, we mention that we have built wire-frames for the whole website design taht we worked on and it can be found in [this folder](docs/wire-frames/).
+
+---
 
 <h3 align='center'>Made with :heart:</h3>
