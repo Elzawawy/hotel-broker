@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-flow: column;
   align-content: center;
-  background-image: url("../../../docs/media/home_background.jpg");
+  background-image: url("../../static/home_background.jpg");
 }
 input.btn {
   background: #4f7dbd;
