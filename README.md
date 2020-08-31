@@ -64,6 +64,14 @@ Next, we list the file structure of the application for convience:
 
 Lastly, we mention that we have built wire-frames for the whole website design taht we worked on and it can be found in [this folder](docs/wire-frames/).
 
+## Team Acknowledgments
+
+- Amr Elzawawy [@Elzawawy](https://github.com/Elzawawy)
+- Amr Ramadan   [@amramdan](https://github.com/amramadan)
+- Ismail Elyamany [@IsmailElYamany](https://github.com/IsmailElYamany)
+- Rami Khafagi [@ramikhafagi96](https://github.com/ramikhafagi96)
+- Mohamed Tarek [@mohamedtaarek](https://github.com/mohamedtaarek)
+
 ---
 
 <h3 align='center'>Made with :heart:</h3>
